@@ -1,36 +1,24 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "8.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "spaceninja.com",
+	"version": "10.0.0",
+	"description": "",
+	"author": "Scott Vandehey",
+	"license": "UNLICENSED",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
-		"start": "npx @11ty/eleventy --serve --quiet",
-		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
-		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+		"start": "yarn watch",
+		"build": "run-p build:*",
+		"build:content": "eleventy",
+		"build:css": "sass src:dist",
+		"watch": "run-p watch:*",
+		"watch:content": "eleventy --serve --quiet",
+		"watch:css": "sass --watch src:dist",
+		"lint": "run-s lint:css lint:prettier",
+		"lint:check": "run-s lint:*:check",
+		"lint:css": "stylelint --fix '**/*.{css,scss}'",
+		"lint:css:check": "stylelint '**/*.{css,scss}'",
+		"lint:prettier": "prettier . --write",
+		"lint:prettier:check": "prettier . --check"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
-	},
-	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
-	},
-	"license": "MIT",
-	"engines": {
-		"node": ">=14"
-	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
-	},
-	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
-	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.0",
@@ -39,6 +27,12 @@
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"luxon": "^3.3.0",
-		"markdown-it-anchor": "^8.6.7"
+		"markdown-it-anchor": "^8.6.7",
+		"npm-run-all": "^4.1.5",
+		"prettier": "^3.0.3",
+		"sass": "^1.66.1",
+		"stylelint": "^15.10.3",
+		"stylelint-config-prettier": "^9.0.5",
+		"stylelint-config-spaceninja": "^13.0.1"
 	}
 }
