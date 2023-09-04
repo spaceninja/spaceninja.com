@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+    <link rel="stylesheet" href="/style.css">
+    {% if prism %}<link rel="stylesheet" href="/prism.css">{% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    {% block head %}{% endblock %}
+	</head>
+  <body class="{{ body_class }}">
+		<a href="#app-main" class="visually-hidden">Skip to main content</a>
+		<header class="app-header">
+      <div class="app-header__branding">
+        <a href="/" class="app-header__logo">{{ metadata.title }}</a>
+      </div>
+			<nav class="app-header__nav">
+				<ul class="app-header__nav-list list--inline">
+				{%- for entry in collections.all | eleventyNavigation %}
+          <li class="app-header__nav-item">
+            <a
+              href="{{ entry.url }}"
+              class="app-header__nav-link"
+              {% if entry.url == page.url %} aria-current="page"{% endif %}>
+              {{ entry.title }}
+            </a>
+          </li>
+				{%- endfor %}
+				</ul>
+			</nav>
+		</header>
+		<main id="app-main {{ main_class }}">
+      <div class="app-main__content">
+		  	{{ content | safe }}
+      </div>
+		</main>
+    <footer class="app-footer">
+      <div class="app-footer__content">
+        <p class="app-footer__copyright">© {% year %} {{ metadata.author.name }}</p>
+      </div>
+    </footer>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+{% if posts.length > 1 %}
+<li>
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+  <small><span class="post-count">({{ posts.length }} posts)</span></small>
+</li>
+{% else %}
+  {% set orphan_count = orphan_count + 1 %}
+{% endif %}

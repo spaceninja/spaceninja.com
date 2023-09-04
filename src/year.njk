@@ -1,0 +1,12 @@
+---
+pagination:
+  data: collections.postsByYear
+  size: 1
+  alias: year
+permalink: /blog/{{ year }}/
+layout: layouts/page.njk
+eleventyComputed:
+  title: "Posts from the Year {{ year }}"
+---
+{% set postList = collections.postsByYear[ year ] %}
+{% include "post-list.njk" %}

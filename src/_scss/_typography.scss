@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+
+  @media screen and (width >= 48em) {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: ui-sans-serif, sans-serif;
+  line-height: 1.5;
+}
+
+pre,
+code {
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+code {
+  color: #f92aad;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: ui-rounded, system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 1000;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+em,
+i {
+  em,
+  i {
+    font-style: normal;
+  }
+}
+
+sup {
+  bottom: 0.33em;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.33em;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.list--inline {
+  display: block;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+
+  li {
+    display: inline;
+
+    + li {
+      &::before {
+        content: ', ';
+      }
+    }
+  }
+}

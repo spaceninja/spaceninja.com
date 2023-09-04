@@ -1,0 +1,28 @@
+---js
+{
+  pagination: {
+    data: 'collections',
+    size: 1,
+		before: function(paginationData, fullData) {
+			// Filter out orphan tags and fake tags
+			return paginationData.filter(tag => {
+				return !["blog", "all"].includes(tag)
+					&& fullData.collections[tag].length > 1;
+			});
+		},
+    alias: 'tag',
+    filter: ['all', 'blog'],
+  },
+  layout: 'layouts/page.njk',
+  eleventyComputed: {
+    title: "Posts tagged “{{ tag }}”",
+  },
+  date: '2022-10-05',
+  permalink: "/tags/{{ tag | slugify }}/",
+  eleventyExcludeFromCollections: true,
+}
+---
+{% set postList = collections[ tag ] | reverse %}
+{% include "post-list.njk" %}
+
+<p>See <a href="/tags/">all tags</a>.</p>
