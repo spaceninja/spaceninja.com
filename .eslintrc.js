@@ -2,11 +2,10 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es2023: true,
   },
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
   },
   extends: ['eslint:recommended', 'prettier'],
   rules: {

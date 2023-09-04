@@ -6,10 +6,10 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginTimeToRead = require('eleventy-plugin-time-to-read');
 
-const pluginImages = require('./eleventy.config.images.js');
-const collections = require('./eleventy.collections.js');
-const filters = require('./eleventy.filters.js');
-const shortcodes = require('./eleventy.shortcodes.js');
+const pluginImages = require('./_11ty/images.js');
+const collections = require('./_11ty/collections.js');
+const filters = require('./_11ty/filters.js');
+const shortcodes = require('./_11ty/shortcodes.js');
 
 /**
  * Based on Eleventy Base Blog v8
