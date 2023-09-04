@@ -1,45 +1,16 @@
 ---
 layout: layouts/page.njk
-eleventyNavigation:
-  key: Home
-  order: 1
-numberOfLatestPostsToShow: 3
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.postsByRecent
+  size: 10
+  alias: postList
+permalink: "{% if pagination.pageNumber > 0 %}blog/{{ pagination.pageNumber + 1 }}{% endif %}/"
 ---
-<p>{{ metadata.description }}</p>
+{% include "partials/post-list.njk" %}
 
-<h2>Most Used Tags</h2>
-
-<ol class="post-list">
-{% for tag, posts in collections.postsByTag %}
-  {% if posts.length > 25 %}
-    {% include "tag-list-item.njk" %}
-  {% endif %}
-{% endfor %}
-</ol>
-
-<p>
-  More tags can be found on the <a href="/tags/">tags page</a>.
-</p>
-
-
-{% set postsCount = collections.blog | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
-
-{% set postList = collections.blog | head(-1 * numberOfLatestPostsToShow) %}
-{% set postListCounter = postsCount %}
-{% include "post-list.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+{%- set totalPages = pagination.pages|length -%}
+{%- set currentPage = pagination.pageNumber + 1 -%}
+{%- set previousHref = pagination.href.previous -%}
+{%- set nextHref = pagination.href.next -%}
+{% include "partials/pagination.njk" %}

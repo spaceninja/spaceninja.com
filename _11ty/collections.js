@@ -1,6 +1,8 @@
-const { DateTime } = require('luxon');
-
 const collections = {
+  postsByRecent: (collectionApi) => {
+    return collectionApi.getFilteredByTag('blog').reverse();
+  },
+
   // Posts by tag
   // @see https://lea.verou.me/blog/2023/11ty-indices/#dynamic-postsbytag-collection
   postsByTag: (collectionApi) => {
@@ -18,20 +20,6 @@ const collections = {
       Object.entries(tags).sort((a, b) => b[1].length - a[1].length),
     );
     return tags;
-  },
-
-  // Posts by month
-  postsByMonth: (collectionApi) => {
-    const posts = collectionApi.getFilteredByTag('blog').reverse();
-    const months = {};
-    for (let post of posts) {
-      let key = DateTime.fromJSDate(post.date, {
-        zone: 'utc',
-      }).toFormat('yyyy-LL'); // YYYY-MM
-      months[key] ??= [];
-      months[key].push(post);
-    }
-    return months;
   },
 
   // Posts by year

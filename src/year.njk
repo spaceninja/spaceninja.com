@@ -9,4 +9,4 @@ eleventyComputed:
   title: "Posts from the Year {{ year }}"
 ---
 {% set postList = collections.postsByYear[ year ] %}
-{% include "post-list.njk" %}
+{% include "partials/post-list.njk" %}

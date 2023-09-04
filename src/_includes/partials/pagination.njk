@@ -1,0 +1,32 @@
+{% if totalPages > 1 %}
+  <nav class="pagination">
+    <ul>
+      <li class="links previous">
+        {% if previousHref %}
+          <a href="{{ previousHref }}">
+            <span class="arrow" aria-hidden="true">←</span>
+            Newer<span class="visually-hidden"> articles</span>
+          </a>
+        {% else %}
+          <span class="inactive-link">
+            <span class="arrow" aria-hidden="true">←</span>
+            Newer<span class="visually-hidden"> articles</span>
+          </span>
+        {% endif %}
+      </li>
+      <li class="links next">
+      {% if nextHref %}
+        <a href="{{ nextHref }}">
+          Older<span class="visually-hidden"> articles</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      {% else %}
+        <span class="inactive-link">
+          Older<span class="visually-hidden"> articles</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </span>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+{% endif %}
