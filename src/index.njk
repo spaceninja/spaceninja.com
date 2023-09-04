@@ -26,8 +26,8 @@ numberOfLatestPostsToShow: 3
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
-{% set postslist = collections.blog | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
+{% set postList = collections.blog | head(-1 * numberOfLatestPostsToShow) %}
+{% set postListCounter = postsCount %}
 {% include "post-list.njk" %}
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
