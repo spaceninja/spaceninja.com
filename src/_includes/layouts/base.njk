@@ -9,8 +9,7 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
     <link rel="stylesheet" href="/style.css">
     {% if prism %}<link rel="stylesheet" href="/prism.css">{% endif %}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2" as="font" type="font/woff2" crossorigin>
     {% block head %}{% endblock %}
 	</head>
   <body class="{{ body_class }}">
