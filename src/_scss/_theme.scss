@@ -6,8 +6,8 @@
   --color-link: #34d;
   --color-link-underline: #{rgba(#34d, 0.25)};
   --color-link-visited: #692dd1;
-  --rainbow-gradient: linear-gradient(67deg, #00e8ff, #ff00f7);
-  --rainbow-gradient-alt: linear-gradient(67deg, #ff00d8, #fffd00);
+  --rainbow-gradient: linear-gradient(67deg, magenta, deepskyblue);
+  --rainbow-gradient-alt: linear-gradient(67deg, darkorange, magenta);
 
   // --rainbow-gradient: linear-gradient(
   //   -90deg,
@@ -27,8 +27,8 @@
     --color-link: #bb86fc;
     --color-link-underline: #{rgba(#bb86fc, 0.5)};
     --color-link-visited: #8f95ff;
-    --rainbow-gradient: linear-gradient(67deg, #ff00d8, #fffd00);
-    --rainbow-gradient-alt: linear-gradient(67deg, #00e8ff, #ff00f7);
+    --rainbow-gradient: linear-gradient(67deg, hotpink, gold);
+    --rainbow-gradient-alt: linear-gradient(67deg, lightskyblue, hotpink);
   }
 }
 
@@ -59,23 +59,25 @@ a {
   }
 }
 
-// stylelint-disable property-no-vendor-prefix
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  -moz-background-clip: text;
+  // stylelint-disable-next-line property-no-vendor-prefix
   -webkit-background-clip: text;
-  background-image: var(--rainbow-gradient, currentcolor);
+  background-clip: text;
+  background-color: var(--color-fg);
+  background-image: var(--rainbow-gradient);
   background-repeat: repeat;
   background-size: 100%;
-  // filter: drop-shadow(0 0 2rem #000);
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
-// stylelint-enable property-no-vendor-prefix
+
+h1 {
+  background-image: var(--rainbow-gradient);
+}
 
 h2,
 h3,

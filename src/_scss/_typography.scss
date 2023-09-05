@@ -71,6 +71,7 @@ h1 {
   font-variation-settings: 'opsz' 48;
   line-height: 0.85;
   margin-block-start: 0;
+  padding-bottom: 0.1em; // prevent clipping from reduced line-height
 
   @media screen and (width >= 32em) {
     font-size: 4em;
