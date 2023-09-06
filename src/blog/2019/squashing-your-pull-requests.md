@@ -12,7 +12,7 @@ tags:
   - git
 excerpt: Most pull requests should squash down to a single commit with a well-written message explaining why a change is happening.
 canonical: https://cloudfour.com/thinks/squashing-your-pull-requests/
-feature_image: /images/feature/git-branches.jpg
+feature_image: /images/squash-your-pull-requests/git-branches.jpg
 feature_source: https://unsplash.com/photos/842ofHC6MaI
 feature_credit: Yancy Min
 ---

@@ -10,7 +10,9 @@ tags:
   - modular
   - css
 excerpt: Modular CSS is a collection of principles for writing code that is performant and maintainable at scale.
-feature_image: /images/what-is-modular-css/legos.png
+feature_image: /images/what-is-modular-css/legos.jpg
+feature_source: https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md
+feature_credit: BEM Method
 ---
 
 Modular CSS is a collection of principles for writing code that is performant and maintainable at scale. It originated with developers at Yahoo and Yandex as a way to address the challenges of maintaining a large codebase. Some of the guidelines were controversial when introduced, but have since come to be recognized as best practices.
@@ -93,7 +95,7 @@ You’ve got a logo, a search bar, navigation, a photo list, a secondary nav, a 
 
 Modular CSS is bottom-up thinking. It asks you to start with the reusable building blocks that your entire site is constructed from.
 
-![Image of workers building with Lego bricks](/images/what-is-modular-css/legos.png)image: [BEM Method](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md)
+![Image of workers building with Lego bricks](/images/what-is-modular-css/legos.jpg)image: [BEM Method](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md)
 
 Does that remind you of anything? It should! The Lego analogy is used by almost everyone who writes about Modular CSS for a good reason. The idea of building a UI out of standardized, easy-to-understand blocks that behave predictably regardless of context is a great concept.
 

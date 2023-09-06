@@ -9,7 +9,8 @@ tags:
   - productivity
 excerpt: Comic book artist Wally Wood’s “22 Panels That Always Work” is a legendary bit of productivity hacking. How can you reduce “noodling” in your work?
 canonical: https://cloudfour.com/thinks/22-panels-that-always-work-wally-woods-legendary-productivity-hack/
-feature_image: /images/wally-wood/wallywood22panel1350.jpg
+feature_image: /images/wally-wood/wally-wood-22-panels-crop.jpg
+feature_credit: © Wallace Wood Properties
 ---
 
 [Wally Wood](https://en.wikipedia.org/wiki/Wally_Wood) was an astonishingly talented and prolific artist during the [Silver Age of comic books](https://en.wikipedia.org/wiki/Silver_Age_of_Comic_Books). He got his start professionally as a teenager in the late 1940s, drawing for EC Comic’s _Weird Science_ and _Weird Fantasy_. In 1952 he contributed to the very first issues of _MAD Magazine_, and in 1964, he moved on to Marvel Comics.
@@ -26,7 +27,7 @@ He would sometimes give his assistants sheets with examples of layouts that “[
 
 The message was a simple one: We’re not being paid enough to spin our tires. Here’s a constrained set of proven ideas. When you get stuck, pick one and move on.
 
-![](/images/wally-wood/wally-wood-22-panels-crop.jpg)Scan of the original paste-up of the 22 panels. © Wallace Wood Properties
+![](/images/wally-wood/wallywood22panel1600)Cleaned up scan of the original paste-up of the 22 panels. © Wallace Wood Properties
 
 The “22 panels” we know today were assembled by one of Wood’s assistants, [Larry Hama](https://en.wikipedia.org/wiki/Larry_Hama): “When I was starting out as an editor at Marvel, I found myself in the position of having to coach fledgling artists on the basics of visual storytelling, and it occurred to me that the reminder sheets Woody made would help in that regard.”
 
