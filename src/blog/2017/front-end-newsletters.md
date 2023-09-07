@@ -8,7 +8,7 @@ tags:
   - reviews
   - css
   - newsletters
-feature_image: /images/feature/newspaper.jpg
+feature_image: feature/newspaper.jpg
 feature_source: https://unsplash.com/photos/_Zua2hyvTBk
 feature_credit: Roman Kraft
 ---

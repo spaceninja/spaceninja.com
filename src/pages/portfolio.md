@@ -18,21 +18,17 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
-{% image "mandalorian-poster.jpg", "Hey Mando", 'eager' %}
+{% image "feature/mandalorian-poster.jpg", "Hey Mando", 'eager' %}
 
-{% image "example.jpg", "A smaller image that shouldn't upscale", 'lazy', '50vw' %}
+{% image "superscript-subscript/example.jpg", "A smaller image that shouldn't upscale", 'lazy', '50vw' %}
 
-{% image "axis-both.svg", "Example SVG", 'lazy', nil, 'svg' %}
+{% image "what-is-flexbox/axis-both.svg", "Example SVG", 'lazy', nil, 'svg' %}
 
-{% image "ancillary-justice.jpg", "Ancillary Justice" %}
+{% image "books/ancillary-justice.jpg", "Ancillary Justice" %}
 
-{% image "thrawn.jpg", "Thrawn" %}
+{% image "books/thrawn.jpg", "Thrawn" %}
 
 {% image "portfolio/tempest-showcase.png", "Tempest CMS" %}
-
-{% image "portfolio/mltshp-showcase.png", "MLTSHP" %}
-
-![Tempest CMS](/images/portfolio/tempest-showcase.png)
 
 ## Tempest CMS
 
@@ -40,7 +36,7 @@ Starting in 2015, I signed on with [Say Media](https://www.saymedia.com/) to wor
 
 ---
 
-![MLTSHP](/images/portfolio/mltshp-showcase.png)
+{% image "portfolio/mltshp-showcase.png" "MLTSHP" %}
 
 ## MLTSHP
 
@@ -48,7 +44,7 @@ In early 2017 I joined a team that was working to save the image sharing communi
 
 ---
 
-[![FridayFrontEnd.com](/images/portfolio/fridayfrontend-browser.png)](https://fridayfrontend.com/)
+[{% image "portfolio/fridayfrontend-browser.png" "FridayFrontEnd.com" %}](https://fridayfrontend.com/)
 
 ## Friday Front-End
 
@@ -56,7 +52,7 @@ I started an [email newsletter](https://fridayfrontend.com/) and [twitter accoun
 
 ---
 
-[![Better Job in Tech book cover](/images/portfolio/better-job-book-cover.png)](https://www.amazon.com/dp/B01M0VOE6O)
+[{% image "portfolio/better-job-book-cover.png" "Better Job in Tech book cover" %}](https://www.amazon.com/dp/B01M0VOE6O)
 
 ## How to Find a Better Job in Tech
 
@@ -64,7 +60,7 @@ In 2016, I self-published an e-book about [finding a better job in the tech indu
 
 ---
 
-[![PuppetLabs.com](/images/portfolio/puppetlabs-showcase.png)](http://puppetlabs.com/)
+[{% image "portfolio/puppetlabs-showcase.png" "PuppetLabs.com" %}](http://puppetlabs.com/)
 
 ## PuppetLabs.com
 
@@ -72,7 +68,7 @@ In 2013 I joined the marketing team at [Puppet Labs](http://puppetlabs.com/), wi
 
 ---
 
-[![SaraRyan.com](/images/portfolio/sararyan-showcase.png)](http://sararyan.com/)
+[{% image "portfolio/sararyan-showcase.png" "SaraRyan.com" %}](http://sararyan.com/)
 
 ## SaraRyan.com
 
@@ -80,7 +76,7 @@ Local Portland novelist [Sara Ryan](http://sararyan.com/) contacted me in 2012 t
 
 ---
 
-[![CityEats.com](/images/portfolio/cityeats-showcase.png)](http://cityeats.com/)
+[{% image "portfolio/cityeats-showcase.png" "CityEats.com" %}](http://cityeats.com/)
 
 ## CityEats.com
 

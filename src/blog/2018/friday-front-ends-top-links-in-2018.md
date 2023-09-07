@@ -8,14 +8,14 @@ tags:
   - javascript
   - css
 excerpt: In 2018, Friday Front-End shared a curated list of five articles and one video every week. Here are the links that were most popular.
-feature_image: /images/ff-top-ten-2018/2018-fireworks.jpg
+feature_image: ff-top-ten-2018/2018-fireworks.jpg
 feature_source: https://unsplash.com/photos/NczMOp6fiag
 feature_credit: Steven VanDesande Jr
 ---
 
 In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list of five articles and one video every week. Here are the links that were most popular:
 
-[![screenshot of code](/images/ff-top-ten-2018/unused-css-2.png)](https://css-tricks.com/heres-the-thing-about-unused-css-tools/)
+[{% image "ff-top-ten-2018/unused-css.png" "screenshot of code" %}](https://css-tricks.com/heres-the-thing-about-unused-css-tools/)
 
 ## 10: [Here’s the thing about “unused CSS” tools](https://css-tricks.com/heres-the-thing-about-unused-css-tools/)
 
@@ -23,7 +23,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![screenshot of debugger in browser devtools](/images/ff-top-ten-2018/debug.png)](https://medium.com/datadriveninvestor/stopping-using-console-log-and-start-using-your-browsers-debugger-62bc893d93ff)
+[{% image "ff-top-ten-2018/debug.png" "screenshot of debugger in browser devtools" %}](https://medium.com/datadriveninvestor/stopping-using-console-log-and-start-using-your-browsers-debugger-62bc893d93ff)
 
 ## 9: [How to stop using console.log() and start using your browser’s debugger](https://medium.com/datadriveninvestor/stopping-using-console-log-and-start-using-your-browsers-debugger-62bc893d93ff)
 
@@ -31,7 +31,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![photo of laptop with code editor open](/images/ff-top-ten-2018/accessible-javascript.jpg)](https://medium.com/dailyjs/4-javascript-techniques-for-building-accessible-web-interfaces-348f820c157f)
+[{% image "ff-top-ten-2018/accessible-javascript.jpg" "photo of laptop with code editor open" %}](https://medium.com/dailyjs/4-javascript-techniques-for-building-accessible-web-interfaces-348f820c157f)
 
 ## 8: [How to Write Accessible JavaScript](https://medium.com/dailyjs/4-javascript-techniques-for-building-accessible-web-interfaces-348f820c157f)
 
@@ -39,7 +39,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![screenshot of fancy grid layout](/images/ff-top-ten-2018/layouts-of-tomorrow.jpg)](https://mxb.at/blog/layouts-of-tomorrow/)
+[{% image "ff-top-ten-2018/layouts-of-tomorrow.jpg" "screenshot of fancy grid layout" %}](https://mxb.at/blog/layouts-of-tomorrow/)
 
 ## 7: [The Layouts of Tomorrow](https://mxb.at/blog/layouts-of-tomorrow/)
 
@@ -47,7 +47,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![layered textured background of planets with the tagline 'CSS Backgrounds: The Future is Now!'](/images/ff-top-ten-2018/css-backgrounds.jpg)](https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a)
+[{% image "ff-top-ten-2018/css-backgrounds.jpg" "layered textured background of planets with the tagline 'CSS Backgrounds: The Future is Now!'" %}](https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a)
 
 ## 6: [Advanced effects with CSS background blend modes](https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a)
 
@@ -55,7 +55,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![illustration of lego blocks](/images/ff-top-ten-2018/web-components.png)](https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/)
+[{% image "ff-top-ten-2018/web-components.png" "illustration of lego blocks" %}](https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/)
 
 ## 5: [Web Components in 2018](https://www.sitepen.com/blog/2018/07/06/web-components-in-2018/)
 
@@ -63,7 +63,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![Cartoon talking dinosaur saying: Moving pixels around in CSS was hard enough! Now I'm told it's cool to use non-semantic class names, inline CSS in HTML, and even write CSS styles in JavaScript! INSERT FAMILY GUY CSS GIF HERE](/images/ff-top-ten-2018/css-for-dinos.png)](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+[{% image "ff-top-ten-2018/css-for-dinos.png" "Cartoon talking dinosaur saying: Moving pixels around in CSS was hard enough! Now I'm told it's cool to use non-semantic class names, inline CSS in HTML, and even write CSS styles in JavaScript! INSERT FAMILY GUY CSS GIF HERE" %}](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 
 ## 4: [Modern CSS Explained For Dinosaurs](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 
@@ -71,7 +71,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![title card reading: JS + if…else, if…else if, switch](/images/ff-top-ten-2018/js-conditionals.png)](https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript)
+[{% image "ff-top-ten-2018/js-conditionals.png" "title card reading: JS + if…else, if…else if, switch" %}](https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript)
 
 ## 3: [5 Tips to Write Better Conditionals in JavaScript](https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript)
 
@@ -79,7 +79,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![illustration of a complex CSS grid layout](/images/ff-top-ten-2018/css-grid.png)](https://medium.freecodecamp.org/css-grid-the-beginners-guide-45998e6f6b8)
+[{% image "ff-top-ten-2018/css-grid.png" "illustration of a complex CSS grid layout" %}](https://medium.freecodecamp.org/css-grid-the-beginners-guide-45998e6f6b8)
 
 ## 2: [CSS Grid — The Beginner’s Guide](https://medium.freecodecamp.org/css-grid-the-beginners-guide-45998e6f6b8)
 
@@ -87,7 +87,7 @@ In 2018, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 
 ---
 
-[![screenshot of CSS code](/images/ff-top-ten-2018/ufocss.jpg)](https://medium.com/openmindonline/how-i-organize-css-in-large-projects-using-ufocss-part-2-68786ff41749)
+[{% image "ff-top-ten-2018/ufocss.jpg" "screenshot of CSS code" %}](https://medium.com/openmindonline/how-i-organize-css-in-large-projects-using-ufocss-part-2-68786ff41749)
 
 ## 1: [How I organize CSS in large projects using UFOCSS: Naming Convention](https://medium.com/openmindonline/how-i-organize-css-in-large-projects-using-ufocss-part-2-68786ff41749)
 

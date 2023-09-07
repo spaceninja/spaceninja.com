@@ -12,7 +12,7 @@ tags:
   - process
 excerpt: If your daily standup meeting has turned into “justify your salary” time, something’s gone wrong.
 canonical: https://cloudfour.com/thinks/whats-the-point-of-standup-meetings/
-feature_image: /images/feature/scrum.jpg
+feature_image: feature/scrum.jpg
 feature_source: https://unsplash.com/photos/cK2UBBg4JI4
 feature_credit: Quino Al
 ---

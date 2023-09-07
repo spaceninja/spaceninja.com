@@ -6,18 +6,18 @@ date_updated: 2018-12-27T19:11:39.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2017.jpg
+feature_image: books/feature/books-2017.jpg
 feature_source: https://unsplash.com/photos/6ywyo2qtaZ8
 feature_credit: Eugenio Mazzone
 ---
 
 [I read 28 books in 2017](https://www.goodreads.com/user_challenges/8351170). These are the ones I would happily recommend. Not a ton of new books to recommend this year, because I also was finishing reading the _Harry Potter_ series with my daughter, and re-reading [_The Lies of Locke Lamora_ series](/blog/2018/books-i-love-the-gentleman-bastards-series/), which I’ve recommended elsewhere. Ironically, all three books I’m recommending here are the first of a trilogy. I know that can seem overwhelming, but I loved these books, and the series they each begin.
 
-![](/images/books/binti.jpg)
+{% image "books/binti.jpg" "" %}
 
-![](/images/books/fifth-season.jpg)
+{% image "books/fifth-season.jpg" "" %}
 
-![](/images/books/borderline.jpg)
+{% image "books/borderline.jpg" "" %}
 
 ## _Binti_, by Nnedi Okorafor
 

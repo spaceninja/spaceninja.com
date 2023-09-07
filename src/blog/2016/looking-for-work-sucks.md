@@ -9,7 +9,7 @@ tags:
   - job hunting
   - jobs
   - tech
-feature_image: /images/feature/looking-for-work-sucks.jpg
+feature_image: feature/looking-for-work-sucks.jpg
 feature_source: https://www.flickr.com/photos/wocintechchat/25677271842/
 feature_credit: Women of Color in Tech
 ---

@@ -13,7 +13,7 @@ tags:
   - javascript
 excerpt: On a recent client project, we built a form that submitted to a third-party registration service. Easy-peasy, right? What followed was a comical series of incidents that served as an excellent lesson in defensive API handling.
 canonical: https://cloudfour.com/thinks/defensive-api-handling/
-feature_image: /images/feature/cone.png
+feature_image: feature/cone.png
 ---
 
 On a recent client project, we had a form that submitted to a third-party registration service. They sent us some documentation for the API, and we built the form. Easy-peasy, right? What followed was a comical series of incidents that served as an excellent lesson in defensive API handling.

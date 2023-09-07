@@ -10,7 +10,7 @@ tags:
   - responsive
 excerpt: 'The responsive images spec is fantastic and covers a lot of use cases, but most of the time you’ll only need one: resolution switching using the `srcset` and `sizes` attributes.'
 canonical: https://cloudfour.com/thinks/responsive-images-the-simple-way/
-feature_image: /images/responsive-images/summary.png
+feature_image: responsive-images/summary.png
 ---
 
 The responsive images spec is fantastic and covers [a lot of use cases](http://usecases.responsiveimages.org/), but in my experience, most of the time you’ll only need to understand one of them: Serving a different sized copy of the same image depending on the user’s viewport width. We call this **resolution switching**, and you can accomplish it using the `srcset` and `sizes` attributes.
@@ -34,7 +34,7 @@ Oh, and don’t worry about browser support! Not only do these attributes have [
 
 The `srcset` attribute provides the browser with a set of sources to choose from, and what size each of those sources is.
 
-![Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it contains image URLs and the widths of those images, and that the browser picks the best source from the set, including retina.](/images/responsive-images/srcset.png)
+{% image "responsive-images/srcset.png" "Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it contains image URLs and the widths of those images, and that the browser picks the best source from the set, including retina." %}
 
 It’s a comma-separated list of URLs paired with widths. Each item in the list looks like this: “`image.jpg 1000w`,” which tells the browser that the file `image.jpg` is 1000 pixels wide.
 
@@ -54,7 +54,7 @@ The `srcset` attribute is all well and good, but when the browser is reading you
 
 That’s where the `sizes` attribute comes in. It’s how we give the browser a hint about how the image will be rendered once CSS is applied.
 
-![Labeled screenshot of responsive image code example, showing the sizes attribute, pointing out that it contains media queries describing the width of the window, and the width of the image when that condition matches. The last item has no media query and is the default width when no condition matches. The browser users the first condition that matches.](/images/responsive-images/sizes.png)
+{% image "responsive-images/sizes.png" "Labeled screenshot of responsive image code example, showing the sizes attribute, pointing out that it contains media queries describing the width of the window, and the width of the image when that condition matches. The last item has no media query and is the default width when no condition matches. The browser users the first condition that matches." %}
 
 The `sizes` attribute is a comma-separated list of media conditions[^1] paired with widths. Each item in the list looks like this: “`(min-width: 1023px) 780px`,” which would tell the browser that when the viewport is 1023 pixels wide (or wider), the image will be exactly 780 pixels wide.
 
@@ -105,7 +105,7 @@ This is a great question! If you provide too many assets, you’re wasting your 
 
 If you’re dealing with a single image and can provide custom markup for that image, you can use the [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/) from Cloudinary. It will automatically examine your image and decide what the optimal set of assets is to provide the best balance between file size and resolution. Then it will not only generate the files, but it will also produce the `srcset` and `sizes` attributes for you.
 
-![Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it includes a standard list of sizes, ranging from 320 to 2560px wide.](/images/responsive-images/standard-array.png)
+{% image "responsive-images/standard-array.png" "Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it includes a standard list of sizes, ranging from 320 to 2560px wide." %}
 
 If you’re working in a CMS or web app where you don’t know the exact image that will be displayed in a slot, then I recommend picking a standard array of image sizes. In the past, I’ve used `320w`, `640w`, `960w`, `1280w`, `1920w`, and `2560w` because they're round numbers that follow a logical progression (multiples of 320). This set covers sizes from mobile to full-bleed desktop.
 

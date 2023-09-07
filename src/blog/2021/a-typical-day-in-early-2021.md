@@ -9,7 +9,7 @@ tags:
   - routine
   - pandemic
 excerpt: I thought it’d be interesting to show people what it’s like to work from home with kids who are also doing school from home.
-feature_image: /images/scott/IMG_0394.jpg
+feature_image: scott/IMG_0394.jpg
 ---
 
 I debated several times during the start of the pandemic whether I should blog about what a typical day looks like in my household. On the one hand, I felt very unrepresented by all the Twitter and news articles I read about people with lots of free time due to the pandemic. Naturally, what they meant was “young people without kids.”

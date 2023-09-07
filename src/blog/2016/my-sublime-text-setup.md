@@ -7,7 +7,7 @@ tags:
   - editors
   - sublime text
   - howto
-feature_image: /images/feature/sublime-text.png
+feature_image: feature/sublime-text.png
 ---
 
 I've put a bit of work into customizing my Sublime Text setup. It's mostly [based on a set of tips](http://wesbos.github.io/Sublime-Text-Power-User-Talk/) from Wes Bos, who literally [wrote the book](https://sublimetextbook.com/) on becoming a Sublime Text power user.

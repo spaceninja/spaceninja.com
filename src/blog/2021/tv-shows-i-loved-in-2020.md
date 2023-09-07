@@ -7,7 +7,7 @@ tags:
   - reviews
   - television
 excerpt: 2020 sucked, but at least there were some good shows to distract us, from the Mandalorian, to Letterkenny, to What We Do In The Shadows
-feature_image: /images/feature/mandalorian-poster.jpg
+feature_image: feature/mandalorian-poster.jpg
 ---
 
 Someone asked for some television recommendations recently, and this is the list I gave them.

@@ -8,7 +8,7 @@ tags:
   - ratings
   - movies
   - howto
-feature_image: /images/feature/popcorn.jpg
+feature_image: feature/popcorn.jpg
 feature_source: https://unsplash.com/photos/ny-lHmsHYHk
 feature_credit: Georgia Vagim
 ---
@@ -36,9 +36,9 @@ Once you install the extension, go to the [My Activity](https://www.netflix.com/
 When you start the process, the script will repeatedl scroll the browser window to the bottom of the page until all your movies have loaded. Then it converts your ratings to tab-separated values, displayed in a textbox. It’ll look like this:
 
 ```csv
-ID  Title Rating Date
-80025919  Mad Max: Fury Road  5 6/3/15
-20557937  The Matrix  5 11/8/04
+ID	Title	Rating	Date
+80025919	Mad Max: Fury Road	5	6/3/15
+20557937	The Matrix	5	11/8/04
 ```
 
 When the script has finished, you’ll want to copy the contents of that textbox to a new file, which you can name `netflix-ratings.csv`.
@@ -129,7 +129,7 @@ At this point, copy your `netflix-ratings.php` file into the project directory, 
 
 Now you should be able to type `php runme.php` at the command line and see the script run. If your ratings array is broken somehow, it’ll let you know, but hopefully, you’ll start seeing output like this:
 
-```bash
+```shell
 Searching for The Good Place
 Submitting rating for {"title":"The Good Place","rating":"5.0"} tt4955642
 Submitted rating for The Good Place

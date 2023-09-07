@@ -12,7 +12,7 @@ tags:
   - images
 excerpt: Timber’s resize filters don’t play nicely with the Cloudinary WordPress plugin. We added our own custom image optimizer function that check if an image is served from Cloudinary or WordPress and use the appropriate resize method.
 canonical: https://cloudfour.com/thinks/how-to-resize-cloudinary-images-in-wordpress-timber-templates/
-feature_image: /images/feature/wp-timber-cloudinary.png
+feature_image: feature/wp-timber-cloudinary.png
 ---
 
 We recently enabled the [Cloudinary WordPress plugin](https://cloudinary.com/documentation/wordpress_integration) for a client site. It modifies the way WordPress handles media by automatically syncing your images and serving them from Cloudinary with [optimizations](https://cloudinary.com/documentation/image_optimization). For images in blog posts, it works out of the box. However, our client’s site has a lot of custom templates, almost all of which use [Timber](https://upstatement.com/timber/) filters to [resize images](https://timber.github.io/docs/guides/cookbook-images/#arbitrary-resizing-of-images) and [convert to JPG format](https://timber.github.io/docs/guides/cookbook-images/#converting-images), like so:

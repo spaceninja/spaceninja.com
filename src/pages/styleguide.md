@@ -31,7 +31,7 @@ Want to link to a source? No problem. If you paste in url, like http://ghost.org
 
 Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:
 
-![The Ghost Logo](http://tryghost.org/ghost.png)
+![A Cat](https://source.unsplash.com/800x450/daily?cats)
 
 Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:
 
@@ -257,7 +257,7 @@ And many more!
 Figures are usually used to refer to images:
 
 <figure>
-  <img alt='' src='http://lorempixel.com/1280/720/abstract/?r'>
+  <img alt='' src='https://source.unsplash.com/800x450/daily?dogs'>
   <figcaption>
     <h4>Figure Heading</h4>
     <p>This is a placeholder image, with supporting caption.</p>

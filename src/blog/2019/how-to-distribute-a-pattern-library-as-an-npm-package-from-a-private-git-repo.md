@@ -15,7 +15,7 @@ tags:
   - build
   - npm
 canonical: https://cloudfour.com/thinks/how-to-distribute-a-pattern-library-as-an-npm-package-from-a-private-git-repo/
-feature_image: /images/feature/npm-keyboard.jpg
+feature_image: feature/npm-keyboard.jpg
 feature_source: https://unsplash.com/photos/oZMUrWFHOB4
 feature_credit: Paul Esch-Laurent
 ---

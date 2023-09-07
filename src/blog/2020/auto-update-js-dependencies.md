@@ -11,7 +11,7 @@ tags:
   - npm
 excerpt: One frustrating aspect of the modern JavaScript ecosystem is keeping all your dependencies up to date. Thankfully, there are automated tools that can handle this thankless task for you.
 canonical: https://cloudfour.com/thinks/auto-update-js-dependencies/
-feature_image: /images/feature/renovate-me.jpg
+feature_image: feature/renovate-me.jpg
 feature_source: https://unsplash.com/photos/FQmwJSK0vB8
 feature_credit: Mark de Jong
 ---

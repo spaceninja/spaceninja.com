@@ -10,7 +10,7 @@ tags:
   - modular
   - css
 excerpt: Modular CSS is a collection of principles for writing code that is performant and maintainable at scale.
-feature_image: /images/what-is-modular-css/legos.jpg
+feature_image: what-is-modular-css/legos.jpg
 feature_source: https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md
 feature_credit: BEM Method
 ---
@@ -35,7 +35,7 @@ _(Pssst: If you feel overwhelmed by the length of this post, you might prefer to
 
 The primary problem that Modular CSS was created to solve is that CSS at scale is tricky. I love [this quote](https://twitter.com/necolas/status/360170108028600320) from [Nicholas Gallagher](https://twitter.com/necolas):
 
-![“Replace ‘can you build this?’ with ‘can you maintain this without losing your minds?’” —Nicolas Gallagher](/images/what-is-modular-css/necolas-1.jpg)quote: [Nicholas Gallagher](https://twitter.com/necolas/status/360170108028600320), photo: [dotCSS](https://www.youtube.com/watch?v=L8w3v9m6G04)
+{% image "what-is-modular-css/necolas-1.jpg" "“Replace ‘can you build this?’ with ‘can you maintain this without losing your minds?’” —Nicolas Gallagher" %}quote: [Nicholas Gallagher](https://twitter.com/necolas/status/360170108028600320), photo: [dotCSS](https://www.youtube.com/watch?v=L8w3v9m6G04)
 
 That gets to the heart of the problem with CSS at scale. Writing code isn’t the challenge. Doing so in a way that isn’t going to cripple you with technical debt over time is.
 
@@ -75,19 +75,19 @@ It reminds me of one of my favorite CSS jokes:
 
 So how do we solve these problems? The answer lies in the concept of _modularity_, but what does that even mean? Let’s start with this quote from [Harry Roberts](https://twitter.com/csswizardry) about the [separation of concerns](https://cssguidelin.es/#the-separation-of-concerns):
 
-![“Code which adheres to the separation of concerns can be much more confidently modified, edited, extended, and maintained because we know how far its responsibilities reach. We know that modifying layout, for example, will only ever modify layout—nothing else.” —Harry Roberts](/images/what-is-modular-css/csswizardry.jpg)quote: [Harry Roberts](https://cssguidelin.es/#the-separation-of-concerns), photo: [CSSwizardry.com](https://csswizardry.com/)
+{% image "what-is-modular-css/csswizardry.jpg" "“Code which adheres to the separation of concerns can be much more confidently modified, edited, extended, and maintained because we know how far its responsibilities reach. We know that modifying layout, for example, will only ever modify layout—nothing else.” —Harry Roberts" %}quote: [Harry Roberts](https://cssguidelin.es/#the-separation-of-concerns), photo: [CSSwizardry.com](https://csswizardry.com/)
 
 This is a common programming practice that many CSS developers aren’t familiar with. The idea is to make sure that the thing you’re writing isn’t going to do more than it was written to do unexpectedly.
 
 Let me give you an example of the way I used to work before I learned about Modular CSS. I would get a comp like this from my designer:
 
-![Illustration of a design comp for a bookstore website](/images/what-is-modular-css/bookstore-comp.gif)image: [Yandex](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/yandex-frontend-dev/yandex-frontend-dev.en.md)
+{% image "what-is-modular-css/bookstore-comp.gif" "Illustration of a design comp for a bookstore website" %}image: [Yandex](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/yandex-frontend-dev/yandex-frontend-dev.en.md)
 
 I would think “Okay, I’m looking at a bookstore page. I’ve got a few widgets in a sidebar. I’ve got lists of what I assume are book covers over on the right side. I’ve got a featured book review, and I’ve got a couple more reviews below that.”
 
 I was thinking of the page as a complete unit, and of the smaller pieces as belonging to the page. That approach is top-down thinking and results in code that’s full of one-offs and special bits that only live a single page. It’s not conducive to writing reusable code.
 
-![Illustration of a design comp for a bookstore with the components highlighted](/images/what-is-modular-css/components.jpg)image: [Yandex](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/yandex-frontend-dev/yandex-frontend-dev.en.md)
+{% image "what-is-modular-css/components.jpg" "Illustration of a design comp for a bookstore with the components highlighted" %}image: [Yandex](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/yandex-frontend-dev/yandex-frontend-dev.en.md)
 
 What Modular CSS asks you to do is step back, and instead of thinking about this at the page level, look at the fact that your page is made up of small chunks of discrete content. This isn’t a page. This is a collection of pieces.
 
@@ -95,17 +95,17 @@ You’ve got a logo, a search bar, navigation, a photo list, a secondary nav, a 
 
 Modular CSS is bottom-up thinking. It asks you to start with the reusable building blocks that your entire site is constructed from.
 
-![Image of workers building with Lego bricks](/images/what-is-modular-css/legos.jpg)image: [BEM Method](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md)
+{% image "what-is-modular-css/legos.jpg" "Image of workers building with Lego bricks" %}image: [BEM Method](https://github.com/bem-site/bem-method/blob/bem-info-data/articles/19-bem-principles/19-bem-principles.ru.md)
 
 Does that remind you of anything? It should! The Lego analogy is used by almost everyone who writes about Modular CSS for a good reason. The idea of building a UI out of standardized, easy-to-understand blocks that behave predictably regardless of context is a great concept.
 
 One of the most famous examples of this type of block is the “media object,” defined by [Nicole Sullivan](https://twitter.com/stubbornella). She argued that this object is one of the smallest discrete pieces of content that you’re going to find on any site.
 
-![An example of the media object](/images/what-is-modular-css/media-blocks.jpg)
+{% image "what-is-modular-css/media-blocks.jpg" "An example of the media object" %}
 
 It combines a fixed width image to one side of flexible width content. You can see this everywhere. She produced a case study, called “[The Media Object Saves Hundreds of Lines of Code](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/),” that talked about applying this pattern to large-scale sites. One of her biggest examples was Facebook:
 
-![The media object highlighted in red on the facebook homepage](/images/what-is-modular-css/facebook-image-block.png)image: [Nicole Sullivan](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)
+{% image "what-is-modular-css/facebook-image-block.png" "The media object highlighted in red on the facebook homepage" %}image: [Nicole Sullivan](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)
 
 Here she’s highlighted all the media objects in a Facebook stream. There’s a profile in the upper left, the navigation elements on the right side, every post in the feed, and even the ads. Sometimes they’re nested within each other. Although they’re used for different purposes, they all share the same underlying pattern: fixed width image, flexible width text.
 
@@ -121,7 +121,7 @@ Object-Oriented CSS, or [OOCSS](https://github.com/stubbornella/oocss/wiki), was
 
 \*_ For those of you who are going “Yahoo? Really?” You need to understand that their front-end team was doing some really cutting-edge stuff with the [YUI library](https://yuilibrary.com/) at the time. In 2009, Yahoo was not a dead-end tech company._
 
-![“a CSS ‘object’ is a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site.” —Nicole Sullivan](/images/what-is-modular-css/stubbornella.jpg)quote: [Nicole Sullivan](https://github.com/stubbornella/oocss/wiki), photo: [John Morrison](https://www.flickr.com/photos/localcelebrity/6025913421/)
+{% image "what-is-modular-css/stubbornella.jpg" "“a CSS ‘object’ is a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site.” —Nicole Sullivan" %}quote: [Nicole Sullivan](https://github.com/stubbornella/oocss/wiki), photo: [John Morrison](https://www.flickr.com/photos/localcelebrity/6025913421/)
 
 That’s the roots of Modular CSS, right there, as she defined it back in 2009. Beyond that, OOCSS can be boiled down to a few core principles:
 
@@ -159,7 +159,7 @@ They came up with a very similar set of operating principles for how to write co
 
 Here’s how [Varya Stepanova](https://twitter.com/varya_en), one of the lead front-enders that worked on BEM, described it:
 
-![“BEM is a way to modularize development of web pages. By breaking your web interface into components… you can have your interface divided into independent parts, each one with its own development cycle.” —Varya Stepanova](/images/what-is-modular-css/varya.jpg)quote: [Varya Stepanova](https://www.youtube.com/watch?v=ya7QsFUfn3U), photo: [ScotlandJS](https://www.youtube.com/watch?v=gWzYMJjtx-Y)
+{% image "what-is-modular-css/varya.jpg" "“BEM is a way to modularize development of web pages. By breaking your web interface into components… you can have your interface divided into independent parts, each one with its own development cycle.” —Varya Stepanova" %}quote: [Varya Stepanova](https://www.youtube.com/watch?v=ya7QsFUfn3U), photo: [ScotlandJS](https://www.youtube.com/watch?v=gWzYMJjtx-Y)
 
 BEM is made up of three parts:
 
@@ -194,23 +194,23 @@ That looks a little complicated, so let me break it down a bit:
 
 This is getting a bit abstract, so let’s have an example:
 
-![Example of .minifig to indicate a lego minifig](/images/what-is-modular-css/minifig-1.png)
+{% image "what-is-modular-css/minifig-1.png" "Example of .minifig to indicate a lego minifig" %}
 
 Here we have a standard Lego minifig. It’s a blue astronaut. We’ll identify it with the block class `.minifig`.
 
-![Example of .minifig module with child elements such as .minifig__head and .minifig__legs](/images/what-is-modular-css/minifig-2.png)
+{% image "what-is-modular-css/minifig-2.png" "Example of .minifig module with child elements such as .minifig__head and .minifig__legs" %}
 
 You can see that the `.minifig` block is made up of smaller elements such as `.minifig__head` and `.minifig__legs`. Now let’s add a modifier:
 
-![Example of .minifig--red module modifier, turning the minifig red](/images/what-is-modular-css/minifig-3.png)
+{% image "what-is-modular-css/minifig-3.png" "Example of .minifig--red module modifier, turning the minifig red" %}
 
 By adding the `.minifig--red` modifier we’ve created a red version of our standard blue astronaut.
 
-![Example of a .minifig--yellow-new module modifier, turning the minifig yellow](/images/what-is-modular-css/minifig-4.png)
+{% image "what-is-modular-css/minifig-4.png" "Example of a .minifig--yellow-new module modifier, turning the minifig yellow" %}
 
 Alternatively, we can use the `.minifig--yellow-new` modifier to change our astronaut to the new-style yellow uniform.
 
-![Example of a .minifig--batman module modifier making a drastic change in the appearance of the minifig](/images/what-is-modular-css/minifig-5.png)
+{% image "what-is-modular-css/minifig-5.png" "Example of a .minifig--batman module modifier making a drastic change in the appearance of the minifig" %}
 
 You can make more dramatic changes in the same way. By using the `.minifig--batman` modifier, we’ve changed the appearance of every part of the minifig with just a single class.
 
@@ -239,7 +239,7 @@ As a rule, if a selector will work without being nested then do not nest it. The
 
 The final framework we’re going to discuss is [SMACSS](https://smacss.com/), which stands for Scalable & Modular Architecture for CSS. It was created by [Jonathan Snook](https://twitter.com/snookca) in 2011. He also worked at Yahoo, writing CSS for Yahoo Mail.
 
-![“At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.” —Jonathan Snook](/images/what-is-modular-css//snookca.jpg)quote: [Jonathan Snook](https://smacss.com/book/categorizing), photo: [Elida Arrizza](https://www.flickr.com/photos/elidr/10864268273/)
+{% image "what-is-modular-css//snookca.jpg" "“At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.” —Jonathan Snook" %}quote: [Jonathan Snook](https://smacss.com/book/categorizing), photo: [Elida Arrizza](https://www.flickr.com/photos/elidr/10864268273/)
 
 The key concept that he added, building on OOCSS and BEM, was that different **categories** of components need to be handled differently.
 
@@ -372,4 +372,4 @@ Or to put it another way, **Modular CSS is predictable, maintainable, and perfor
 
 Now we can revisit that old joke, and make a slight change:
 
-![Two CSS properties walk into a bar. Everything is fine, thanks to modular code and proper namespacing.](/images/what-is-modular-css//updated-tweet.png)
+{% image "what-is-modular-css//updated-tweet.png" "Two CSS properties walk into a bar. Everything is fine, thanks to modular code and proper namespacing." %}

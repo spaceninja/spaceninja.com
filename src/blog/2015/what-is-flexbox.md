@@ -8,7 +8,7 @@ tags:
   - web development
   - flexbox
   - css
-feature_image: /images/what-is-flexbox/flexbox-cover.jpg
+feature_image: what-is-flexbox/flexbox-cover.jpg
 ---
 
 #### _An elegant layout method for a more civilized age._
@@ -46,7 +46,7 @@ In a nutshell: Flexbox and Grid were created explicitly to replace float and tab
 
 You may have heard there are three Flexbox specifications. (Which makes me think of this scene from Star Trek:)
 
-![Picard shouting "There are four lights!"](/images/what-is-flexbox/there-are-4-lights.png)
+{% image "what-is-flexbox/there-are-4-lights.png" "Picard shouting “There are four lights!”" %}
 
 Don’t let that scare you away. Yes, there are three versions of the spec, but only one of them really matters:
 
@@ -60,16 +60,16 @@ Note: Each spec used a different keyword for the `display` property, which means
 
 ## Flexbox Layouts Go in One Direction
 
-![Flexbox = One Direction?](/images/what-is-flexbox/flex-onedirection.gif)
+{% image "what-is-flexbox/flex-onedirection.gif" "Flexbox = One Direction?" %}
 
 Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or column. Let’s talk about what that means:
 
-![Flexbox container and item diagram](/images/what-is-flexbox/flex-intro.svg)
+{% image "what-is-flexbox/flex-intro.svg" "Flexbox container and item diagram" %}
 <small>Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)</small>
 
 A Flexbox layout consists of a **flex container** that holds **flex items**. The flex container can be laid out horizontally or vertically. This is referred to as the **main axis**.
 
-![Flexbox main and cross axis diagram](/images/what-is-flexbox/axis-both.svg)
+{% image "what-is-flexbox/axis-both.svg" "Flexbox main and cross axis diagram" %}
 <small>Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)</small>
 
 The direct children of a flex container are laid out along the main axis. These children can “flex” their sizes, growing to fill unused space in the container, or shrinking to avoid overflowing.
@@ -106,15 +106,15 @@ That’s quite a bit of logic for a single line of CSS! You can change any of th
 
 As of August 2015, browser support is excellent! The current Flexbox spec is fully supported in all modern browsers, including mobile, IE11 and Edge.
 
-![Browser Support: Chrome 21+, Opera 12.1+, Firefox 22+, Safari 6.1+, IE 10+](/images/what-is-flexbox/browsers.png)
+{% image "what-is-flexbox/browsers.png" "Browser Support: Chrome 21+, Opera 12.1+, Firefox 22+, Safari 6.1+, IE 10+" %}
 
-[![CanIUse Support Chart showing flexbox is supported in all modern browsers](/images/what-is-flexbox/can-i-use.png)](http://caniuse.com/#feat=flexbox)
+[{% image "what-is-flexbox/can-i-use.png" "CanIUse Support Chart showing flexbox is supported in all modern browsers" %}](http://caniuse.com/#feat=flexbox)
 
 IE10 also supports Flexbox, but uses the tweener spec (`display:flexbox`).
 
 ### What About Older IE Versions?
 
-![I have some ideas](/images/what-is-flexbox/disaster-girl.jpg)
+{% image "what-is-flexbox/disaster-girl.jpg" "I have some ideas" %}
 
 _I have some ideas_
 

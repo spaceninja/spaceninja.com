@@ -7,7 +7,7 @@ tags:
   - trust
   - design
   - web development
-feature_image: /images/feature/mac-glasses.jpg
+feature_image: feature/mac-glasses.jpg
 feature_source: https://unsplash.com/photos/YoadQb46v6k
 feature_credit: Medium Rare
 ---

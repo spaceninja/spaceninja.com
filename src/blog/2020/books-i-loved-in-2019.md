@@ -6,7 +6,7 @@ date_updated: 2020-01-28T16:28:40.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2019
+feature_image: books/feature/books-2019.jpg
 feature_source: https://unsplash.com/photos/D4YrzSwyIEc
 feature_credit: Jason Leung
 ---
@@ -15,11 +15,11 @@ Once a year, I like to look back over my reading history and write a brief recom
 
 So, in 2019 I read [25 books](https://www.goodreads.com/user_challenges/15025289). These were my favorites:
 
-![](/images/books/thrawn.jpg)
+{% image "books/thrawn.jpg" "" %}
 
-![](/images/books/collapsing-empire.jpg)
+{% image "books/collapsing-empire.jpg" "" %}
 
-![](/images/books/tea-master-detective.jpg)
+{% image "books/tea-master-detective.jpg" "" %}
 
 ## _Star Wars: Thrawn_, by Timothy Zahn
 
@@ -43,27 +43,28 @@ This is a reimagining of Sherlock Holmes, where Sherlock is an abrasive drug-add
 
 It’s from the author’s Xuya series, an alternate history exploring what would happen if China discovered the Americas before Europe. But aside from sharing the setting, this novella is stand-alone. I loved it, and if you enjoy new spins on Sherlock Holmes, you’ll dig it too.
 
-![](/images/books/planetfall.jpg)
+{% image "books/planetfall.jpg" "" %}
 
-![](/images/books/expanse4.jpg)
+{% image "books/expanse4.jpg" "" %}
 
-![](/images/books/expanse5.jpg)
+{% image "books/expanse5.jpg" "" %}
 
 ## The _Planetfall_ series, by Emma Newman
 
 I devoured all four books in a row, so I’m having trouble not thinking of it as a single story. In a nutshell, they cover the aftermath of a particular incident from four wildly different perspectives: First, a woman grieving the loss of her best friend while trying to keep a secret from the colony they established on a new planet. Second, an indentured detective investigating the murder of a charismatic cult leader. Third, a geologist struggling with the needs of her family back on Earth as she takes a job on Mars. And the fourth I won’t mention because it’s a spoiler.
 
 I found the series when io9 posted an excerpt (the whole first chapter, actually) from the third book:
-[
+
+<a href="https://io9.gizmodo.com/a-space-traveler-uncovers-an-impossible-mystery-in-the-1823250042">
 
 A Space Traveler Uncovers an Impossible Mystery in the Thrilling First Chapter of Emma Newman’s Before Mars
 
 A geologist whose art has captured the imagination of a space-obsessed multibillionaire accepts a new a gig on Mars, partially as a way to escape the postpartum depression that’s been plaguing her back on Earth. But as soon as she arrives, she makes a shocking discovery—and suddenly she’s surrounded…
 
-![](https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_200,q_80,w_200/eh1hvjxamru5z6aobgwc.png)io9The A.V. Club
+io9 The A.V. Club
 
-![](https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/sa9wouueeppwiuf16uac.jpg)
-](https://io9.gizmodo.com/a-space-traveler-uncovers-an-impossible-mystery-in-the-1823250042)
+</a>
+
 I can’t recommend this series strongly enough. Go read that chapter and if you dig the vibe, you’re going to have a very good time reading these books.
 
 ## _The Expanse_, books 4 & 5, by James S.A. Corey

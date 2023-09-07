@@ -9,7 +9,7 @@ tags:
   - programming
   - jobs
   - job hunting
-feature_image: /images/feature/growth.jpg
+feature_image: feature/growth.jpg
 feature_source: https://unsplash.com/photos/1n8zqoqFUGc
 feature_credit: Maarten van den Heuvel
 ---

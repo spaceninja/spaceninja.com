@@ -16,6 +16,10 @@ prism: true
   <p>It will take {{ content | timeToRead }} to read this</p>
 </header>
 
+{% if feature_image %}
+{% image feature_image, "", 'eager' %}
+{% endif %}
+
 {{ content | safe }}
 
 <footer>

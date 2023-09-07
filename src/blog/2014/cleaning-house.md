@@ -7,7 +7,7 @@ tags:
   - starting over
   - writing
   - philosophy
-feature_image: /images/feature/journal.jpg
+feature_image: feature/journal.jpg
 feature_source: https://unsplash.com/photos/3ym6i13Y9LU
 feature_credit: Mike Tinnion
 ---

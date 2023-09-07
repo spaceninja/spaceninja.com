@@ -7,7 +7,7 @@ tags:
   - refactoring
   - web development
   - css
-feature_image: /images/feature/verbosity.jpg
+feature_image: feature/verbosity.jpg
 ---
 
 Recently I was refactoring some CSS, and I found something like this code snippet:

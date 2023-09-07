@@ -10,7 +10,7 @@ tags:
   - npm
 excerpt: What’s typically involved in an npm version release? How can you determine the release process for an existing project? Can project maintainers do anything to make it easier for new contributors?
 canonical: https://cloudfour.com/thinks/how-to-publish-an-updated-version-of-an-npm-package/
-feature_image: /images/feature/terminal.jpg
+feature_image: feature/terminal.jpg
 feature_source: https://unsplash.com/photos/eygpU6KfOBk
 feature_credit: Pankaj Patel
 ---

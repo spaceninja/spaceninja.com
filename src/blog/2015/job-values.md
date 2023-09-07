@@ -9,7 +9,7 @@ tags:
   - culture fit
   - hiring
   - work culture
-feature_image: /images/feature/teamwork-all-in.jpg
+feature_image: feature/teamwork-all-in.jpg
 feature_source: https://www.rawpixel.com/image/414125/people-stacking-hands
 feature_credit: rawpixel
 ---

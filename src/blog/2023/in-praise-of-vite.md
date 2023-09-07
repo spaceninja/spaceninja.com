@@ -10,7 +10,7 @@ tags:
   - development
 excerpt: The single best feature of Vite, as far as I’m concerned, is its simplicity. Compared to the nightmare of configuring WebPack and Babel? Vite is delightfully easy to use.
 canonical: https://cloudfour.com/thinks/in-praise-of-vite/
-feature_image: /images/feature/unicorn-hearts-vite.png
+feature_image: feature/unicorn-hearts-vite.png
 ---
 
 I consider myself a fairly capable developer. I even enjoy working with the infrastructure that powers our projects. I love setting up our design tokens, preprocessors, linters, and other tools that help us write better code. That said, there’s one thing that causes me to break into a sweat: configuring complex build tools like Webpack and Babel.

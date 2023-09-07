@@ -11,7 +11,7 @@ tags:
   - git
 excerpt: If you’ve ever had to review a PR where the only code change is adding a wrapper element, you’ll be familiar with the pain of reviewing what appears to be a massive change but is actually trivial.
 canonical: https://cloudfour.com/thinks/quick-tip-how-to-hide-whitespace-changes-in-git-diffs/
-feature_image: /images/hide-whitespace/hide-whitespace.jpg
+feature_image: hide-whitespace/hide-whitespace.jpg
 ---
 
 If you’ve ever had to review a pull request where the only code change is adding or removing a wrapper element, you’ll be familiar with the pain of reviewing what appears to be a massive change but is actually trivial.
@@ -24,7 +24,7 @@ Most Git hosting services support the ability to hide whitespace changes by addi
 
 You can [hide whitespace changes for GitHub diffs](https://github.blog/2011-10-21-github-secrets/) in two ways. First, click the gear icon near the top of the page and check the “Hide whitespace changes” option.
 
-![Screenshot of the GitHub UI, showing the "hide whitespace changes" option.](/images/hide-whitespace/github-whitespace.png)
+{% image "hide-whitespace/github-whitespace.png" "Screenshot of the GitHub UI, showing the “hide whitespace changes” option." %}
 
 Or, you can add `?w=1` to the URL.
 
@@ -32,7 +32,7 @@ Or, you can add `?w=1` to the URL.
 
 You can [hide whitespace changes for GitLab diffs](https://docs.gitlab.com/ee/user/project/merge_requests/reviewing_and_managing_merge_requests.html#ignore-whitespace-changes-in-merge-request-diff-view) in two ways. First, click the “Hide whitespace changes” button near the top of the page.
 
-![Screenshot of the GitLab UI, showing the "hide whitespace changes" button.](/images/hide-whitespace/gitlab-whitespace.png)
+{% image "hide-whitespace/gitlab-whitespace.png" "Screenshot of the GitLab UI, showing the “hide whitespace changes” button." %}
 
 Or, you can add `?w=1` to the URL.
 

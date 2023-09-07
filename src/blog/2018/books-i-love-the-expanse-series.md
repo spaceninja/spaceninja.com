@@ -8,7 +8,7 @@ tags:
   - scifi
   - books
 excerpt: Set in a near future where we’ve settled the solar system, but simmering tension between Earth, Mars, and the Asteroid Belt could boil over into war at any moment, and a cosmic wild card threatens to destroy everything.
-feature_image: /images/books/feature/expanse-cover.jpg
+feature_image: books/feature/expanse-cover.jpg
 ---
 
 The Expanse series, by James S.A. Corey, is set in a near future where we’ve settled the solar system, but simmering tension between Earth, Mars, and the Asteroid Belt could boil over into war at any moment. Add to this volatile mix a cosmic wild card that threatens to destroy everything, and you’ve got the recipe for some of the best hard sci-fi I’ve ever read.
@@ -17,11 +17,11 @@ Earth is rich in resources but overpopulated and struggling with environmental c
 
 I’m fascinated by the complex dynamics described by these books, and how entirely plausible it feels. There are natural echoes of our own colonial history here in the relationship between Earth and her former colony, as well as in how they both treat the chaotic wild west of the Belt.
 
-![](/images/books/expanse1.jpg)
+{% image "books/expanse1.jpg" "" %}
 
-![](/images/books/expanse2.jpg)
+{% image "books/expanse2.jpg" "" %}
 
-![](/images/books/expanse3.jpg)
+{% image "books/expanse3.jpg" "" %}
 
 All the technology feels like a natural near-term evolution of our own. Nothing feels magical or mysterious. This is a setting where people’s lives depend on technology, from the top-of-the-line Martian warships to Belter rock-hoppers, held together with duct tape and chewing gum.
 
@@ -31,11 +31,11 @@ Our view into this setting is James Holden and his crew. Holden is an Earther wi
 
 Because of their complicated backgrounds, none of them exhibit the kind of nationalism or patriotism that science fiction sometimes relies on. Alex comes closest, being fiercely proud of Mars, but more in a “you can take the boy out of Texas” sense. Holden actually gets annoyed when everyone assumes his loyalties are to Earth. They’ve all found themselves in the middle of nowhere, with complicated reasons for leaving home.
 
-![](/images/books/expanse4.jpg)
+{% image "books/expanse4.jpg" "" %}
 
-![](/images/books/expanse5.jpg)
+{% image "books/expanse5.jpg" "" %}
 
-![](/images/books/expanse6.jpg)
+{% image "books/expanse6.jpg" "" %}
 
 Holden is always getting in over his head. His first reaction to corporate secrets or political maneuvering that puts regular people’s lives in danger is shock and outrage. He reacts with his gut, which often puts himself and his crew in danger. Whenever he tries to Captain Kirk a situation it blows up in his face and he’s forced to scramble to protect everyone.
 

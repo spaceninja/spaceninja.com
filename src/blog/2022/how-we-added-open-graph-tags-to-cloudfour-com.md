@@ -11,7 +11,7 @@ tags:
   - development
 excerpt: When plugins to add OG tags failed us, we decided to roll our own! This post demystifies open graph tags (which are just HTML meta elements, after all) and shows how we handle them.
 canonical: https://cloudfour.com/thinks/how-we-added-open-graph-tags-to-cloudfour-com/
-feature_image: /images/feature/fallback-code.png
+feature_image: feature/fallback-code.png
 ---
 
 During our [2022 redesign](https://cloudfour.com/thinks/2022-update/), Tyler noticed that our OG (Open Graph) tags weren’t working quite right. We had been using [Jetpack](https://jetpack.com/support/social/) to add these, but for reasons that weren’t clear to us, that stopped working in late 2020. In the interim, we tried a few alternative plugins, but none of them worked quite the way we wanted.

@@ -8,7 +8,7 @@ tags:
   - email
   - dns
 excerpt: When I switched my blog to a hosted Ghost Pro plan, I ran into some difficulty getting the proper DNS configuration. I'm not a networking guru, so I figured there might be others who could benefit from what I learned.
-feature_image: /images/feature/ghost-logo.png
+feature_image: feature/ghost-logo.png
 ---
 
 **💡 Update: August, 2021** — This post is seven years old at this point, and I can no longer vouch for the information. I'll leave it up in case it's helpful, but if you have difficulties, I encourage you to reach out to the Ghost support team, who are very helpful.

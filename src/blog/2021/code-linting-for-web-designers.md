@@ -12,7 +12,7 @@ tags:
   - frontend
 excerpt: You may have heard that you should be “linting” your code. What does that mean? Why would you want to do it?
 canonical: https://cloudfour.com/thinks/code-linting-for-web-designers/
-feature_image: /images/code-linting/linting-cover.png
+feature_image: code-linting/linting-cover.png
 ---
 
 ## What are linters?
@@ -29,7 +29,7 @@ There are two main reasons to use a linter: To save yourself trouble by avoiding
 
 Everyone makes mistakes when they’re coding. It’s easy to use the wrong type of bracket, forget a semicolon, or misspell something. Checking your code for these types of errors is the kind of thing that computers excel at. Rather than reviewing your code line by line for common syntax errors, you can tell a computer what types of errors to look for.
 
-![A silly chart showing that humans excel at creative tasks while robots excel at boring tasks.](/images/code-linting/robots.png)Image credit: [Robots Must Suffer](http://slides.com/ai/linters) by [Andrey Sitnik](https://twitter.com/sitnikcode)
+{% image "code-linting/robots.png" "A silly chart showing that humans excel at creative tasks while robots excel at boring tasks." %}Image credit: [Robots Must Suffer](http://slides.com/ai/linters) by [Andrey Sitnik](https://twitter.com/sitnikcode)
 
 Another great use of linters is to help every member of your team write code in the same style. The inconsistency that results when one team member indents with tabs and another with spaces, or when one person sorts CSS rules by type and another alphabetically, can be very frustrating.
 
@@ -67,7 +67,7 @@ There are several options, depending on how much control you have over your deve
 
 At the most basic level, you can install a linter into your editor. Most linters have [plugins for VS Code and other editors](https://stylelint.io/user-guide/integrations/editor). By installing the plugin, your editor will know to read your config file and will highlight lint errors directly in your editor. If you add a lint config file to your project, then anyone with the linter installed in their editor will benefit from the shared set of rules.
 
-![Screenshot of a code editor showing lint errors.](/images/code-linting/lint-errors.png)
+{% image "code-linting/lint-errors.png" "Screenshot of a code editor showing lint errors." %}
 
 The next level involves installing the linter directly in your project. Explaining how to install and configure specific linters is beyond the scope of this article. For more details, see the installation instructions for the particular linter you want to use.
 

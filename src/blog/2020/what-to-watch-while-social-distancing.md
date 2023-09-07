@@ -8,7 +8,7 @@ tags:
   - netflix
   - television
 excerpt: A friend of mine recently asked "What's good on Netflix right now? What are y'all watching?"
-feature_image: /images/feature/netflix.jpg
+feature_image: feature/netflix.jpg
 feature_source: https://unsplash.com/photos/GrzoKN1aqSg
 feature_credit: Thibault Penin
 ---

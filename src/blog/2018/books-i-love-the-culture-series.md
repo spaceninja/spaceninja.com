@@ -8,7 +8,7 @@ tags:
   - reviews
   - books
 excerpt: The Culture is a post-scarcity socialist utopia. Banks described them as “hippy commies with hyper-weapons and a deep distrust of both Marketolatry and Greedism.”
-feature_image: /images/books/feature/culture-cover.jpg
+feature_image: books/feature/culture-cover.jpg
 ---
 
 When I recommend Iain M. Banks’ Culture series to new readers, I struggle to describe it. The novels are non-sequential, and with rare exceptions, don’t share characters. As a result, it’s easier to describe the shared universe the stories are set in: a post-scarcity socialist utopia. I often describe it as a vision of the Federation from Star Trek that more profoundly describes a world where replicators have eliminated the need to work.
@@ -18,11 +18,11 @@ When I recommend Iain M. Banks’ Culture series to new readers, I struggle to d
 
 While it’s true that the Culture as a whole is composed of hedonistic gender-swapping drug users who highly value personal freedom, they are also generally well-adjusted people living long lives of privilege. And that doesn’t make for good reading. As a result, most of the books deal with an organization called Contact, and more specifically, a secretive branch of Contact called Special Circumstances.
 
-![](/images/books/culture1.jpg)
+{% image "books/culture1.jpg" "" %}
 
-![](/images/books/culture2.jpg)
+{% image "books/culture2.jpg" "" %}
 
-![](/images/books/culture3.jpg)
+{% image "books/culture3.jpg" "" %}
 
 > Contact is the part of the Culture concerned with discovering, cataloguing, investigating, evaluating and—if thought prudent—interacting with other civilisations.
 > Iain M. Banks, [A Few Notes on the Culture](http://www.vavatch.co.uk/books/banks/cultnote.htm)
@@ -34,11 +34,11 @@ Contact can be seen as broadly analogous to Starfleet. They operate large space 
 
 Special Circumstances, on the other hand, can be considered a sort of special forces or black ops unit within Contact. They deal with morally ambiguous situations like covertly steering a less-advanced civilization towards behaviors the Culture approves of. In other words, Special Circumstances is the _complete opposite_ of Starfleet’s Prime Directive.
 
-![](/images/books/culture5.jpg)
+{% image "books/culture5.jpg" "" %}
 
-![](/images/books/culture6.jpg)
+{% image "books/culture6.jpg" "" %}
 
-![](/images/books/culture7.jpg)
+{% image "books/culture7.jpg" "" %}
 
 This is where most of the novels go play: the interaction between the Culture and others. None of them are alike, but they’re all broadly concerned with the borders and fringes of the Culture.
 
@@ -46,11 +46,11 @@ _Consider Phlebas_ is told from the point of view of someone outside the Culture
 
 In fact, the secretive nature of Special Circumstances and the different points of view Banks writes from has led to speculation that some of his [other](http://www.tombell.net/?p=273)[books](https://mssv.net/2009/09/26/notes-on-iain-banks-transition/) may secretly be part of the Culture series!
 
-![](/images/books/culture8.jpg)
+{% image "books/culture8.jpg" "" %}
 
-![](/images/books/culture9.jpg)
+{% image "books/culture9.jpg" "" %}
 
-![](/images/books/culture10.jpg)
+{% image "books/culture10.jpg" "" %}
 
 You can read the books in any order, but if you’re unsure where to start, I’d recommend _Consider Phlebas_ or _Player of Games_. Both are approachable and fun, and neither expect you to know anything about the Culture series going in.
 

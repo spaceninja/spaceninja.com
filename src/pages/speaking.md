@@ -147,8 +147,8 @@ We will be introducing some of the new elements, such as Article, Section, and V
 
 ### Headshots
 
-![avatar512](/images/scott/avatar512.png)
+{% image "scott/avatar512.png" "avatar512" %}
 
-![IMG_2191](/images/scott/IMG_2191.jpg)
+{% image "scott/IMG_2191.jpg" "IMG_2191" %}
 
-![IMG_3763](/images/scott/IMG_3763.jpg)
+{% image "scott/IMG_3763.jpg" "IMG_3763" %}

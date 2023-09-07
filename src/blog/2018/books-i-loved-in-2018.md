@@ -6,18 +6,18 @@ date_updated: 2018-12-27T20:10:10.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2018.jpg
+feature_image: books/feature/books-2018.jpg
 feature_source: https://unsplash.com/photos/2JIvboGLeho
 feature_credit: Susan Q Yin
 ---
 
 [I read 25 books this year](https://www.goodreads.com/user_challenges/10213246). Many were good, but the following three series stood heads and tails above everything else. I devoured them all and enjoyed every word. It’s not often I find series that I’m happy to recommend without any caveats or “if you like this sort of thing” hedging. These are just plain fun books, and I think you’d enjoy them.
 
-![](/images/books/river-of-teeth.jpg)
+{% image "books/river-of-teeth.jpg" "" %}
 
-![](/images/books/murderbot-all-systems-red.jpg)
+{% image "books/murderbot-all-systems-red.jpg" "" %}
 
-![](/images/books/voidwitch.jpg)
+{% image "books/voidwitch.jpg" "" %}
 
 ## _River of Teeth_, by Sarah Gailey
 

@@ -8,7 +8,7 @@ tags:
   - compromise
   - metaphor
   - work culture
-feature_image: /images/feature/green-door.jpg
+feature_image: feature/green-door.jpg
 ---
 
 “Hey! I heard you got a new door. How is it?”

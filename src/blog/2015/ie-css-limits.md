@@ -7,7 +7,7 @@ tags:
   - web development
   - internet explorer
   - css
-feature_image: /images/feature/bliss.jpg
+feature_image: feature/bliss.jpg
 ---
 
 Internet Explorer has a number of limits in the way it loads CSS, which can cause some of your styles not to be applied if you unknowingly exceed them.

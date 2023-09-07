@@ -7,7 +7,7 @@ tags:
   - css
   - web development
 original: http://metaltoad.com/blog/scott
-feature_image: /images/font-face-faux-styles/type-drawer.jpg
+feature_image: font-face-faux-styles/type-drawer.jpg
 feature_source: https://unsplash.com/photos/zFz3jThypsA
 feature_credit: Fabien Barral
 ---
@@ -28,7 +28,7 @@ The problem, as you can see in this screenshot, is that if you only load one fon
 
 <figure>
 
-![Comparing the browser's faux italic and bold styles to the true fonts](/images/font-face-faux-styles/problem.png)
+{% image "font-face-faux-styles/problem.png" "Comparing the browser's faux italic and bold styles to the true fonts" %}
 
 <figcaption>Figure A: Comparison of faux browser styles and true typefaces</figcaption>
 </figure>
@@ -99,7 +99,7 @@ However, doing that actually results in what you see here, where the browser sti
 
 <figure>
 
-![Double-italic and bold styles](/images/font-face-faux-styles/worst.png)
+{% image "font-face-faux-styles/worst.png" "Double-italic and bold styles" %}
 
 <figcaption>Figure B: Faux browser styles applied on top of proper italic and bold fonts</figcaption>
 </figure>
@@ -129,7 +129,7 @@ And it seems to work perfectly! Your custom bold and italic fonts are loaded pro
 
 <figure>
 
-![Fallback font with no bold or italics](/images/font-face-faux-styles/wrong.png)
+{% image "font-face-faux-styles/wrong.png" "Fallback font with no bold or italics" %}
 
 <figcaption>Figure C: No bold or italic styles if custom font fails to load</figcaption>
 </figure>
@@ -188,7 +188,7 @@ Then all you need to do is apply that single `font-family` to your target, and a
 
 <figure>
 
-![correct fonts, with fallback styles](/images/font-face-faux-styles/right.png)
+{% image "font-face-faux-styles/right.png" "correct fonts, with fallback styles" %}
 
 <figcaption>Figure D: Properly defined italic and bold fonts with fallback styles</figcaption>
 </figure>
@@ -199,7 +199,7 @@ You can see a live example of these problems and the final solution on the [demo
 
 <figure>
 
-![Comparing font-face rendering between Mac and Win XP](/images/font-face-faux-styles/font_face_comparison.png)
+{% image "font-face-faux-styles/font_face_comparison.png" "Comparing font-face rendering between Mac and Win XP" %}
 
 <figcaption>Figure E: Comparison of @font-face on Macintosh and Windows XP</figcaption>
 </figure>

@@ -7,7 +7,7 @@ tags:
   - programming
   - quotes
 excerpt: “If you put in the wrong figures, will the right answers come out?” …I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
-feature_image: /images/feature/code-abstract.jpg
+feature_image: feature/code-abstract.jpg
 feature_source: https://unsplash.com/photos/_yMciiStJyY
 feature_credit: Maik Jonietz
 ---

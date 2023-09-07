@@ -6,18 +6,18 @@ date_updated: 2018-12-18T17:56:18.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2015.jpg
+feature_image: books/feature/books-2015.jpg
 feature_source: https://unsplash.com/photos/PyUXxFrYweY
 feature_credit: Alfons Morales
 ---
 
 I have a terrible memory about books I’ve read. Often, all I can tell you is that I’m a fan of an author or a particular book, but not any details about it, or why I liked it. In 2015 I switched to reading entirely on the Kindle. One benefit of that switch is that I now have a record of what books I read and when. So I decided to start writing short reviews of my favorite books each year, mostly as a reminder to myself in the future. Here are three standouts that I read in 2015.
 
-![](/images/books/seveneves.jpg)
+{% image "books/seveneves.jpg" "" %}
 
-![](/images/books/martian.jpg)
+{% image "books/martian.jpg" "" %}
 
-![](/images/books/readyplayerone.jpg)
+{% image "books/readyplayerone.jpg" "" %}
 
 ## _The Martian_, by Andy Weir
 

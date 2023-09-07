@@ -6,18 +6,18 @@ date_updated: 2021-02-17T22:29:37.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2020.jpg
+feature_image: books/feature/books-2020.jpg
 feature_source: https://unsplash.com/photos/eeSdJfLfx1A
 feature_credit: Ed Robertson
 ---
 
 Once a year, I review the books I read and write a brief post recommending my favorites. 2020 was a brutal, horrible year, and I had almost no mental bandwidth for reading, but I did read three books that I absolutely loved.
 
-![](/images/books/gideon.jpg)
+{% image "books/gideon.jpg" "" %}
 
-![](/images/books/harrow.jpg)
+{% image "books/harrow.jpg" "" %}
 
-![](/images/books/murderbot-network-effect.jpg)
+{% image "books/murderbot-network-effect.jpg" "" %}
 
 ## _Gideon the Ninth_, by Tamsyn Muir
 

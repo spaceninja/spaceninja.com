@@ -6,18 +6,18 @@ date_updated: 2018-12-18T18:00:36.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2016.jpg
+feature_image: books/feature/books-2016.jpg
 feature_source: https://unsplash.com/photos/W_ZYCEUapF0
 feature_credit: Darwin Vegher
 ---
 
 Growing up, my dad was a voracious reader. Our house was always filled with piles of dog-eared science fiction and fantasy novels. Even before I was old enough to start reading them myself, I found them fascinating. I remember vividly being on time-out once and studying the designs on the spines of his books. I don’t read nearly as much as he did, but I still try to read as much as I can. Here are some of the best books I read in 2016.
 
-![](/images/books/rook.jpg)
+{% image "books/rook.jpg" "" %}
 
-![](/images/books/annihilation.jpg)
+{% image "books/annihilation.jpg" "" %}
 
-![](/images/books/ancillary-justice.jpg)
+{% image "books/ancillary-justice.jpg" "" %}
 
 ## _The Rook_, by Daniel O’Malley
 
@@ -41,11 +41,11 @@ This book was recommended to me primarily because of the author’s interesting 
 
 That was great, and I’m glad I read the book for it, but I’m happy to report that the story is also excellent. Breq, the main character, is an “ancillary,” a drone body normally controlled by a starship. In fact, a ship will usually control dozens of these bodies, and the ships with their ancillaries are used to control an empire. Long story short, Breq’s ship got on the wrong side of the Emperor, and was destroyed. Using the one surviving body it has, she swears to kill the Emperor.
 
-![](/images/books/normal.jpg)
+{% image "books/normal.jpg" "" %}
 
-![](/images/books/girl-with-all-the-gifts.jpg)
+{% image "books/girl-with-all-the-gifts.jpg" "" %}
 
-![](/images/books/redshirts.jpg)
+{% image "books/redshirts.jpg" "" %}
 
 ## _Normal_, by Warren Ellis
 

@@ -6,7 +6,7 @@ date_updated: 2022-08-21T04:12:06.000Z
 tags:
   - reviews
   - books
-feature_image: /images/books/feature/books-2021.jpg
+feature_image: books/feature/books-2021.jpg
 feature_source: https://unsplash.com/photos/Skcr6X_aLjU
 feature_credit: Sara
 ---
@@ -19,11 +19,11 @@ He was into it, especially once I told him that after we read the book we could 
 
 For my purposes, I read several books that I really loved:‌
 
-![](/images/books/termination-shock.jpg)
+{% image "books/termination-shock.jpg" "" %}
 
-![](/images/books/antimemetics-division.jpg)
+{% image "books/antimemetics-division.jpg" "" %}
 
-![](/images/books/fugitive-telemetry.jpg)
+{% image "books/fugitive-telemetry.jpg" "" %}
 
 ## [_Termination Shock_](https://www.goodreads.com/book/show/58984366-termination-shock) by Neal Stephenson
 
@@ -47,11 +47,11 @@ This being the sixth book in the excellent _Murderbot_ series (and second full-l
 
 It’s a detective story starring Murderbot, with all the acerbic snark you’d expect, and it absolutely delivers on every level. (Side note, I really need to make a “Books I Love” post about Murderbot, it’s easily in my top 5 favorite series of all time.)
 
-![](/images/books/hail-mary.jpg)
+{% image "books/hail-mary.jpg" "" %}
 
-![](/images/books/ufos.jpg)
+{% image "books/ufos.jpg" "" %}
 
-![](/images/books/in-plain-sight.jpg)
+{% image "books/in-plain-sight.jpg" "" %}
 
 ## [_Project Hail Mary_](https://www.goodreads.com/book/show/54906250-project-hail-mary) by Andy Weir
 

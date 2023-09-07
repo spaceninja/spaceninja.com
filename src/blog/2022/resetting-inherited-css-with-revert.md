@@ -10,7 +10,7 @@ tags:
   - inherit
   - css
 canonical: https://cloudfour.com/thinks/resetting-inherited-css-with-revert/
-feature_image: /images/feature/robot-replace-code.png
+feature_image: feature/robot-replace-code.png
 ---
 
 For a recent project, we needed to take a small web application and embed it inside a client’s existing site. Typically, this means inheriting the site’s styles. However, in this case, the client wanted this app to follow a new design system that hadn’t been applied to the site yet.

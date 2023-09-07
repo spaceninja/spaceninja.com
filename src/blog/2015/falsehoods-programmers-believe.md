@@ -7,7 +7,7 @@ tags:
   - time
   - myths
   - programming
-feature_image: /images/feature/falsehoods.jpg
+feature_image: feature/falsehoods.jpg
 ---
 
 I'm in love with these lists of "Falsehoods Programmers Believe About _X_." In case you haven't had pleasure, I've collected all the ones I know of here. If I missed any, let me know!
