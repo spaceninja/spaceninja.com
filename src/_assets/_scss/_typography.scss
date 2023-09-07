@@ -11,15 +11,18 @@
 :root {
   --system-fonts: ui-sans-serif, system-ui, sans-serif;
   --mono-fonts: ui-monospace, consolas, monospace;
+  --body-weight: 400;
   --heading-weight: 800;
 
   @media (prefers-color-scheme: dark) {
+    --body-weight: 300;
     --heading-weight: 800;
   }
 }
 
 html {
   font-size: 16px;
+  font-weight: var(--body-weight);
 
   @media screen and (width >= 48em) {
     font-size: 18px;

@@ -18,6 +18,20 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
+{% image "mandalorian-poster.jpg", "Hey Mando", 'eager' %}
+
+{% image "example.jpg", "A smaller image that shouldn't upscale", 'lazy', '50vw' %}
+
+{% image "axis-both.svg", "Example SVG", 'lazy', nil, 'svg' %}
+
+{% image "ancillary-justice.jpg", "Ancillary Justice" %}
+
+{% image "thrawn.jpg", "Thrawn" %}
+
+{% image "portfolio/tempest-showcase.png", "Tempest CMS" %}
+
+{% image "portfolio/mltshp-showcase.png", "MLTSHP" %}
+
 ![Tempest CMS](/images/portfolio/tempest-showcase.png)
 
 ## Tempest CMS

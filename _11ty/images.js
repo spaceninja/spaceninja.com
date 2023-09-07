@@ -2,33 +2,39 @@ const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
 
 module.exports = (eleventyConfig) => {
-  function relativeToInputPath(inputPath, relativeFilePath) {
-    let split = inputPath.split('/');
-    split.pop();
-
-    return path.resolve(split.join(path.sep), relativeFilePath);
+  function imageAssetPath(relativeFilePath) {
+    const imageAssetsPath = path.join(
+      eleventyConfig.dir.input,
+      '_assets',
+      '_images',
+    );
+    return path.resolve(imageAssetsPath, relativeFilePath);
   }
 
   // Eleventy Image shortcode
   // https://www.11ty.dev/docs/plugins/image/
   eleventyConfig.addAsyncShortcode(
     'image',
-    async function imageShortcode(src, alt, widths, sizes) {
-      // Full list of formats here: https://www.11ty.dev/docs/plugins/image/#output-formats
-      // Warning: Avif can be resource-intensive so take care!
-      let formats = ['avif', 'webp', 'auto'];
-      let file = relativeToInputPath(this.page.inputPath, src);
+    async function imageShortcode(
+      src,
+      alt,
+      loading = 'lazy',
+      sizes = '100vw',
+      formats = ['webp'],
+      widths = [768, 1024, 1280, 1600],
+    ) {
+      let file = imageAssetPath(src);
       let metadata = await eleventyImage(file, {
-        widths: widths || ['auto'],
+        widths,
         formats,
-        outputDir: path.join(eleventyConfig.dir.output, 'img'), // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
+        outputDir: path.join(eleventyConfig.dir.output, 'images'),
+        urlPath: '/images/',
+        svgShortCircuit: true,
       });
-
-      // TODO loading=eager and fetchpriority=high
       let imageAttributes = {
         alt,
         sizes,
-        loading: 'lazy',
+        loading,
         decoding: 'async',
       };
       return eleventyImage.generateHTML(metadata, imageAttributes);
