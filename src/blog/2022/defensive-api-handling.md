@@ -1,6 +1,5 @@
 ---
 title: Defensive API Handling
-slug: defensive-api-handling
 date: 2022-05-31T16:07:22.000Z
 date_updated: 2022-05-31T16:07:22.000Z
 tags:

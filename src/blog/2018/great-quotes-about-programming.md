@@ -1,6 +1,5 @@
 ---
 title: Great Programming Quotes
-slug: great-quotes-about-programming
 date: 2018-09-04T03:07:13.000Z
 date_updated: 2018-09-18T05:12:28.000Z
 tags:

@@ -1,6 +1,5 @@
 ---
 title: A Typical Day in Early 2021
-slug: a-typical-day-in-early-2021
 date: 2021-02-12T23:43:55.000Z
 date_updated: 2021-02-12T23:43:55.000Z
 tags:

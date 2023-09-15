@@ -1,6 +1,5 @@
 ---
 title: Cleaning House
-slug: cleaning-house
 date: 2014-02-25T02:12:33.000Z
 date_updated: 2018-09-18T05:04:25.000Z
 tags:

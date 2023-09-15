@@ -1,6 +1,5 @@
 ---
 title: Do Siegel’s Seven Deadly Sins Hold Up?
-slug: do-siegels-seven-deadly-sins-hold-up
 date: 2018-09-07T04:36:47.000Z
 date_updated: 2018-09-18T05:12:57.000Z
 tags:

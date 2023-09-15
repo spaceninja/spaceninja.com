@@ -1,6 +1,5 @@
 ---
 title: Finding Your Door
-slug: finding-your-door
 date: 2015-04-15T20:28:16.000Z
 date_updated: 2018-09-18T05:10:16.000Z
 tags:

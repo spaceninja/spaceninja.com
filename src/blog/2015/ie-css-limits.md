@@ -1,6 +1,5 @@
 ---
 title: The Many Exciting CSS Limits of Internet Explorer
-slug: ie-css-limits
 date: 2015-03-31T22:15:00.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 tags:

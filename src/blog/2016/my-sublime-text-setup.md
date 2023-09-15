@@ -1,6 +1,5 @@
 ---
 title: My Sublime Text Setup
-slug: my-sublime-text-setup
 date: 2016-09-20T23:18:31.000Z
 date_updated: 2018-09-18T05:07:03.000Z
 tags:

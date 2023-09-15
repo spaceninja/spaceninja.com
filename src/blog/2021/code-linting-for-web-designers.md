@@ -1,6 +1,5 @@
 ---
 title: Code Linting for Web Designers
-slug: code-linting-for-web-designers
 date: 2021-07-01T23:49:05.000Z
 date_updated: 2021-07-01T23:49:05.000Z
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Mac VoiceOver Testing the Simple Way
-slug: mac-voiceover-testing-the-simple-way
 date: 2022-08-22T17:58:22.000Z
 date_updated: 2022-08-22T18:00:23.000Z
 tags:

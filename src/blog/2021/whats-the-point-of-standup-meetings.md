@@ -1,6 +1,5 @@
 ---
 title: What's the Point of Standup Meetings?
-slug: whats-the-point-of-standup-meetings
 date: 2021-06-02T16:23:31.000Z
 date_updated: 2021-06-02T16:23:31.000Z
 tags:

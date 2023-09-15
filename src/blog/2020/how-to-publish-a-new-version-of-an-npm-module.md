@@ -1,6 +1,5 @@
 ---
 title: How to Publish an Updated Version of an npm Package
-slug: how-to-publish-a-new-version-of-an-npm-module
 date: 2020-02-10T21:42:34.000Z
 date_updated: 2020-02-10T21:42:34.000Z
 tags:

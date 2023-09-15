@@ -1,6 +1,5 @@
 ---
 title: Books I Loved in 2021
-slug: books-i-loved-in-2021
 date: 2022-08-19T22:16:18.000Z
 date_updated: 2022-08-21T04:12:06.000Z
 tags:

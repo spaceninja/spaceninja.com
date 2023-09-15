@@ -1,6 +1,5 @@
 ---
 title: 'Books I Love: The Culture Series'
-slug: books-i-love-the-culture-series
 date: 2018-09-08T04:54:02.000Z
 date_updated: 2018-09-08T15:42:03.000Z
 tags:

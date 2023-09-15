@@ -1,6 +1,5 @@
 ---
 title: Falsehoods Programmers Believe
-slug: falsehoods-programmers-believe
 date: 2015-12-08T00:33:51.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 tags:

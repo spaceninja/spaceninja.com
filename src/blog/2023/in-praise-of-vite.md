@@ -1,6 +1,5 @@
 ---
 title: In Praise of Vite
-slug: in-praise-of-vite
 date: 2023-03-28T15:35:06.000Z
 date_updated: 2023-03-28T15:35:06.000Z
 tags:

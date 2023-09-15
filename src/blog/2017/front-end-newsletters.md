@@ -1,6 +1,5 @@
 ---
 title: Front-End Newsletters
-slug: front-end-newsletters
 date: 2017-05-10T16:42:16.000Z
 date_updated: 2018-12-30T22:20:07.000Z
 tags:

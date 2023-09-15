@@ -1,6 +1,5 @@
 ---
 title: What to Watch while Social Distancing
-slug: what-to-watch-while-social-distancing
 date: 2020-03-15T21:39:59.000Z
 date_updated: 2020-03-15T23:10:38.000Z
 tags:

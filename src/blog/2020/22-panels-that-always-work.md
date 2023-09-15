@@ -1,6 +1,5 @@
 ---
 title: '22 Panels That Always Work: Wally Wood’s Legendary Productivity Hack'
-slug: 22-panels-that-always-work
 date: 2020-01-14T17:02:33.000Z
 date_updated: 2020-05-26T18:28:23.000Z
 tags:

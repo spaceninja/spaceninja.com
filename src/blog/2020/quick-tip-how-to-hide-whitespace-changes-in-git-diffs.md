@@ -1,6 +1,5 @@
 ---
 title: 'Quick Tip: How to Hide Whitespace Changes in Git Diffs'
-slug: quick-tip-how-to-hide-whitespace-changes-in-git-diffs
 date: 2020-04-20T21:31:25.000Z
 date_updated: 2020-04-20T21:31:25.000Z
 tags:

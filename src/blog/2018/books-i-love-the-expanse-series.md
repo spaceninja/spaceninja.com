@@ -1,6 +1,5 @@
 ---
 title: 'Books I Love: The Expanse Series'
-slug: books-i-love-the-expanse-series
 date: 2018-09-16T18:51:40.000Z
 date_updated: 2018-09-17T00:57:09.000Z
 tags:

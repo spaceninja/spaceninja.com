@@ -1,6 +1,5 @@
 ---
 title: What is Modular CSS?
-slug: what-is-modular-css
 date: 2018-09-18T05:28:12.000Z
 date_updated: 2018-11-13T22:27:42.000Z
 tags:

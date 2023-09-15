@@ -1,6 +1,5 @@
 ---
 title: Books I Loved in 2015
-slug: books-i-loved-in-2015
 date: 2015-12-11T01:14:00.000Z
 date_updated: 2018-12-18T17:56:18.000Z
 tags:

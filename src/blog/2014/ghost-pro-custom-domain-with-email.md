@@ -1,6 +1,5 @@
 ---
 title: How to use Ghost Pro with a custom domain and keep your email
-slug: ghost-pro-custom-domain-with-email
 date: 2014-05-02T15:38:09.000Z
 date_updated: 2022-02-16T16:17:40.000Z
 tags:

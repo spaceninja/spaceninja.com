@@ -1,6 +1,5 @@
 ---
 title: Pointing and Shouting Your Way to Better Code
-slug: pointing-and-shouting-your-way-to-better-code
 date: 2017-04-01T08:00:00.000Z
 date_updated: 2018-09-18T05:11:20.000Z
 tags:

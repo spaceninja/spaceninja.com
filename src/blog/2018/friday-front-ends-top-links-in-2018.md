@@ -1,6 +1,5 @@
 ---
 title: Friday Front-End’s Top Links in 2018
-slug: friday-front-ends-top-links-in-2018
 date: 2018-12-30T22:21:50.000Z
 date_updated: 2018-12-30T22:35:15.000Z
 tags:

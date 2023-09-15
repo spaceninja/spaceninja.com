@@ -1,6 +1,5 @@
 ---
 title: Books I Loved in 2017
-slug: books-i-loved-in-2017
 date: 2017-12-27T19:11:00.000Z
 date_updated: 2018-12-27T19:11:39.000Z
 tags:

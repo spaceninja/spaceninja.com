@@ -1,6 +1,5 @@
 ---
 title: Trust Your Designer, But Review Their Code
-slug: trust-your-designer-but-review-their-code
 date: 2015-01-30T22:46:17.000Z
 date_updated: 2018-09-18T05:05:13.000Z
 tags:

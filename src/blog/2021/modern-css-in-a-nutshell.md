@@ -1,6 +1,5 @@
 ---
 title: Modern CSS in a Nutshell
-slug: modern-css-in-a-nutshell
 date: 2021-11-23T17:30:30.000Z
 date_updated: 2021-11-23T17:30:30.000Z
 tags:

@@ -1,6 +1,5 @@
 ---
 title: The Power of CSS Blend Modes
-slug: the-power-of-css-blend-modes
 date: 2022-09-13T17:07:54.000Z
 date_updated: 2022-09-16T21:42:16.000Z
 tags:

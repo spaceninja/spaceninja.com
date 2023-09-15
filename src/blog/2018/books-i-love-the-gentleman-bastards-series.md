@@ -1,6 +1,5 @@
 ---
 title: 'Books I Love: The Gentleman Bastards Series'
-slug: books-i-love-the-gentleman-bastards-series
 date: 2018-09-12T04:11:06.000Z
 date_updated: 2018-09-17T00:53:21.000Z
 tags:

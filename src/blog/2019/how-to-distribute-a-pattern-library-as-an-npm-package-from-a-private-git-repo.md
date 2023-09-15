@@ -1,6 +1,5 @@
 ---
 title: How to Distribute a Pattern Library as an npm Package from a Private Git Repo
-slug: how-to-distribute-a-pattern-library-as-an-npm-package-from-a-private-git-repo
 date: 2019-04-15T17:00:00.000Z
 date_updated: 2019-04-28T19:58:02.000Z
 tags:

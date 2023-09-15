@@ -1,6 +1,5 @@
 ---
 title: React-ing to Change
-slug: year-of-growth
 date: 2019-08-16T23:53:45.000Z
 date_updated: 2019-08-17T00:03:54.000Z
 tags:

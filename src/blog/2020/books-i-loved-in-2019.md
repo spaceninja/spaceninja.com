@@ -1,6 +1,5 @@
 ---
 title: Books I Loved in 2019
-slug: books-i-loved-in-2019
 date: 2020-01-28T16:26:00.000Z
 date_updated: 2020-01-28T16:28:40.000Z
 tags:

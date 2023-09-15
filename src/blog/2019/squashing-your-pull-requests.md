@@ -1,6 +1,5 @@
 ---
 title: Squashing Your Pull Requests
-slug: squashing-your-pull-requests
 date: 2019-10-30T16:39:30.000Z
 date_updated: 2019-11-11T17:59:19.000Z
 tags:

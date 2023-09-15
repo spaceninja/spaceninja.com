@@ -1,6 +1,5 @@
 ---
 title: How to Automatically Update Your JavaScript Dependencies
-slug: auto-update-js-dependencies
 date: 2020-02-01T22:25:39.000Z
 date_updated: 2020-02-10T21:43:22.000Z
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Highly Customizable Background Gradients
-slug: highly-customizable-background-gradients
 date: 2022-10-18T16:13:35.000Z
 date_updated: 2022-10-18T16:13:35.000Z
 tags:

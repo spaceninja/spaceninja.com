@@ -1,6 +1,5 @@
 ---
 title: What I value in a job
-slug: job-values
 date: 2015-05-04T16:02:00.000Z
 date_updated: 2018-09-18T05:10:25.000Z
 tags:

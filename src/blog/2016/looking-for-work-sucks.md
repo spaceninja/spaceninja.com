@@ -1,6 +1,5 @@
 ---
 title: Looking for Work SUCKS
-slug: looking-for-work-sucks
 date: 2016-09-27T15:25:04.000Z
 date_updated: 2018-09-18T05:09:55.000Z
 tags:

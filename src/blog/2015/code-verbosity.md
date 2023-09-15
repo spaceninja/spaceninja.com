@@ -1,6 +1,5 @@
 ---
 title: Code Verbosity
-slug: code-verbosity
 date: 2015-12-16T23:49:00.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 tags:

@@ -1,6 +1,5 @@
 ---
 title: TV Shows I Loved in 2020
-slug: tv-shows-i-loved-in-2020
 date: 2021-02-14T04:01:05.000Z
 date_updated: 2021-02-17T21:48:12.000Z
 tags:

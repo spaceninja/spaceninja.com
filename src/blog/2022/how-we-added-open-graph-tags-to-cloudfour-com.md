@@ -1,6 +1,5 @@
 ---
 title: How We Added Open Graph Tags to CloudFour.com
-slug: how-we-added-open-graph-tags-to-cloudfour-com
 date: 2022-12-13T17:40:25.000Z
 date_updated: 2022-12-13T17:40:25.000Z
 tags:

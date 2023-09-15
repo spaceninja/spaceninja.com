@@ -1,6 +1,5 @@
 ---
 title: What IS Flexbox?
-slug: what-is-flexbox
 date: 2015-08-24T22:07:04.000Z
 date_updated: 2018-09-18T05:05:48.000Z
 tags:

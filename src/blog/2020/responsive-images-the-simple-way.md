@@ -1,6 +1,5 @@
 ---
 title: Responsive Images the Simple Way
-slug: responsive-images-the-simple-way
 date: 2020-04-02T17:56:27.000Z
 date_updated: 2020-04-02T17:56:27.000Z
 tags:

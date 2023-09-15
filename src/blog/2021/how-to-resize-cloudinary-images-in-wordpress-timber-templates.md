@@ -1,6 +1,5 @@
 ---
 title: How to Resize Cloudinary Images in WordPress Timber Templates
-slug: how-to-resize-cloudinary-images-in-wordpress-timber-templates
 date: 2021-09-20T16:31:43.000Z
 date_updated: 2021-09-20T16:31:43.000Z
 tags:

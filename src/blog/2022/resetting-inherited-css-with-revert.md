@@ -1,6 +1,5 @@
 ---
 title: Resetting Inherited CSS with “Revert”
-slug: resetting-inherited-css-with-revert
 date: 2022-03-23T16:53:29.000Z
 date_updated: 2022-03-23T16:53:29.000Z
 tags:

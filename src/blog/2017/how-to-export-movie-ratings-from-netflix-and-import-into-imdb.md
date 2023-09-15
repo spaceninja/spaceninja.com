@@ -1,6 +1,5 @@
 ---
 title: How to Export Movie Ratings from Netflix and Import into IMDb
-slug: how-to-export-movie-ratings-from-netflix-and-import-into-imdb
 date: 2017-11-16T17:24:55.000Z
 date_updated: 2018-09-18T05:12:00.000Z
 tags:

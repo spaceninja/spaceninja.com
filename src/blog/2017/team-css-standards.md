@@ -1,6 +1,5 @@
 ---
 title: How to Define CSS Standards for a Team
-slug: team-css-standards
 date: 2017-02-02T01:00:00.000Z
 date_updated: 2018-12-11T00:22:30.000Z
 tags:
