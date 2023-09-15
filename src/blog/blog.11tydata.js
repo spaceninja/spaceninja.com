@@ -1,4 +1,4 @@
 module.exports = {
   tags: ['blog'],
-  layout: 'layouts/post.njk',
+  layout: 'layouts/post.liquid',
 };

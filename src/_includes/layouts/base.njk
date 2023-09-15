@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/style.css">
     {% if prism %}<link rel="stylesheet" href="/prism.css">{% endif %}
     <link rel="preload" href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2" as="font" type="font/woff2" crossorigin>
-    {% block head %}{% endblock %}
 	</head>
   <body class="{{ body_class }}">
 		<a href="#app-main" class="visually-hidden">Skip to main content</a>
@@ -33,7 +32,7 @@
 				</ul>
 			</nav>
 		</header>
-		<main id="app-main {{ main_class }}">
+		<main id="app-main" class="{{ main_class }}">
       <div class="app-main__content">
 		  	{{ content | safe }}
       </div>

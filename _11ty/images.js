@@ -20,22 +20,24 @@ module.exports = (eleventyConfig) => {
       alt,
       loading = 'lazy',
       sizes = '100vw',
-      formats = ['webp'],
-      widths = [768, 1024, 1280, 1600],
+      classList = '',
+      formats = 'webp',
+      widths = '768,1024,1280,1600',
     ) {
       let file = imageAssetPath(src);
       let metadata = await eleventyImage(file, {
-        widths,
-        formats,
+        formats: formats.split(','),
         outputDir: path.join(eleventyConfig.dir.output, 'images'),
-        urlPath: '/images/',
         svgShortCircuit: true,
+        urlPath: '/images/',
+        widths: widths.split(','),
       });
       let imageAttributes = {
         alt,
-        sizes,
-        loading,
+        class: classList,
         decoding: 'async',
+        loading,
+        sizes,
       };
       return eleventyImage.generateHTML(metadata, imageAttributes);
     },

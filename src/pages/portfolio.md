@@ -20,9 +20,25 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 {% image "feature/mandalorian-poster.jpg", "Hey Mando", 'eager' %}
 
-{% image "superscript-subscript/example.jpg", "A smaller image that shouldn't upscale", 'lazy', '50vw' %}
+{% include "partials/image.njk"
+  src: "feature/mandalorian-poster.jpg"
+  alt: "Hey Mando"
+  formats: "avif,webp"
+  sizes: "50vw"
+  classList: "testing TESTING"
+%}
 
-{% image "what-is-flexbox/axis-both.svg", "Example SVG", 'lazy', nil, 'svg' %}
+{% include "partials/image.njk"
+  src: "superscript-subscript/example.jpg"
+  alt: "A smaller image that shouldn't upscale"
+  widths: "150,300,450,768"
+%}
+
+{% include "partials/image.njk"
+  src: "what-is-flexbox/axis-both.svg"
+  alt: "Example SVG"
+  formats: "svg"
+%}
 
 {% image "books/ancillary-justice.jpg", "Ancillary Justice" %}
 

@@ -1,6 +1,9 @@
 const { DateTime } = require('luxon');
 
 const filters = {
+  // Filter to parse a string as JSON
+  fromJson: JSON.parse,
+
   // Date formatting (human readable)
   // @see https://moment.github.io/luxon/#/formatting?id=table-of-tokens
   readableDate: (dateObj, format, zone) => {

@@ -17,23 +17,28 @@ prism: true
 </header>
 
 {% if feature_image %}
-{% image feature_image, "", 'eager' %}
+  {% include "partials/image.njk"
+    src: feature_image
+    alt: ""
+    loading: "eager"
+    classList: "feature-image"
+  %}
 {% endif %}
 
-{{ content | safe }}
+{{ content }}
 
 <footer>
-  {% if tags | filterTagList | length %}
+  {% if tags | filterTagList | size %}
   <div>
     <h3>Tags</h3>
     <ul class="list--inline">
       {%- for tag in tags | filterTagList | sort -%}
         <li>
-        {%- if collections[tag].length > 1 -%}
+        {%- if collections[tag].size > 1 -%}
           <a
             class="tag"
             href="/tags/{{ tag | slugify }}/"
-            title="{{ collections[tag].length }} posts with this tag"
+            title="{{ collections[tag].size }} posts with this tag"
           >{{ tag }}</a>
         {%- else -%}
           <span
@@ -47,8 +52,8 @@ prism: true
   </div>
   {% endif %}
   {%- if collections.blog %}
-  {%- set previousPost = collections.blog | getPreviousCollectionItem %}
-  {%- set nextPost = collections.blog | getNextCollectionItem %}
+  {%- assign previousPost = collections.blog | getPreviousCollectionItem %}
+  {%- assign nextPost = collections.blog | getNextCollectionItem %}
   {%- if nextPost or previousPost %}
   <ul class="links-nextprev">
     {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
