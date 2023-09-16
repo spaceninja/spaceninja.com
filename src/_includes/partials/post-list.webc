@@ -1,0 +1,19 @@
+<ol class="post-list">
+  <li webc:for="post of posts">
+    <a :href="post.url" class="post-list__link">
+      <template
+        webc:if="post.data.title"
+        @text="post.data.title"
+        webc:nokeep
+      ></template>
+      <code webc:else @text="post.url"></code>
+    </a>
+    <small>
+      <time
+        class="post-list__date"
+        :datetime="htmlDateString(post.date)"
+        @text="readableDate(post.date)"
+      ></time>
+    </small>
+  </li>
+</ol>

@@ -6,23 +6,25 @@
 		before: function(paginationData, fullData) {
 			// Filter out orphan tags and fake tags
 			return paginationData.filter(tag => {
-				return !["blog", "all"].includes(tag)
+				return !["blog", "all", "page", "postsByRecent"].includes(tag)
 					&& fullData.collections[tag].length > 1;
 			});
 		},
     alias: 'tag',
-    filter: ['all', 'blog'],
   },
   layout: 'layouts/page.webc',
   eleventyComputed: {
-    title: "Posts tagged “{{ tag }}”",
+    title: (data) => {
+      return `Posts tagged “${ data.tag }”`;
+    },
   },
-  date: '2022-10-05',
-  permalink: "/tags/{{ tag | slugify }}/",
+  permalink: (data) => {
+    return `tags/${data.tag}/`;
+  },
   eleventyExcludeFromCollections: true,
 }
 ---
-{% set postList = collections[ tag ] | reverse %}
-{% include "partials/post-list.njk" %}
+
+<post-list :posts="collections[ tag ].reverse()"></post-list>
 
 <p>See <a href="/tags/">all tags</a>.</p>
