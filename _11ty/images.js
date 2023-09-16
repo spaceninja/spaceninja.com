@@ -36,6 +36,17 @@ module.exports = (eleventyConfig) => {
     },
   );
 
+  eleventyConfig.addFilter('feedImage', async (src) => {
+    let file = imgPath(src);
+    let metadata = await eleventyImage(file, {
+      formats: ['webp'],
+      outputDir: path.join(eleventyConfig.dir.output, 'images'),
+      urlPath: '/images/',
+      widths: [1600],
+    });
+    return metadata.webp[0].url;
+  });
+
   // Image plugin
   eleventyConfig.addPlugin(eleventyImagePlugin, {
     // Set global default options

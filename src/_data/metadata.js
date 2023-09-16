@@ -2,6 +2,7 @@ module.exports = {
   title: 'Space Ninja',
   url: 'https://spaceninja.com/',
   language: 'en',
+  icon: '/images/spaceninja.png',
   description:
     'Scott Vandehey: front-end architect & CSS specialist. Curator for Friday Front-End & CSS Basics. Author of “How to Find a Better Job in Tech.”',
   author: {
