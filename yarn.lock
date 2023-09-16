@@ -76,7 +76,7 @@
   dependencies:
     prismjs "^1.29.0"
 
-"@11ty/eleventy-plugin-webc@^0.11.1":
+"@11ty/eleventy-plugin-webc@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-webc/-/eleventy-plugin-webc-0.11.1.tgz#e285ad880c26d2f170e342c69d8bd60d782265a3"
   integrity sha512-VzpcTU3oFjn79mzvla8YB+lRZttDToEBwsJTsMQmMj2msG7ECB1QyHdHZE7FWwvJvuLmV9BTKZoRxuyM7i1YYg==
