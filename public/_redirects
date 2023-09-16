@@ -1,0 +1,5 @@
+# Redirect old feed
+/feed /feed/feed.xml
+
+# Redirect from Ghost blog URLs
+/:year/:month/:date/:slug /blog/:year/:slug
