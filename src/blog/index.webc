@@ -1,0 +1,7 @@
+---
+layout: layouts/page.webc
+title: Archives
+eleventyExcludeFromCollections: true,
+---
+
+<post-list :posts="collections.postsByRecent"></post-list>

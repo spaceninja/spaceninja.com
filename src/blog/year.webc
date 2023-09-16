@@ -1,0 +1,21 @@
+---js
+{
+  pagination: {
+    data: 'collections.postsByYear',
+    size: 1,
+    alias: 'selectedYear',
+  },
+  layout: 'layouts/page.webc',
+  eleventyComputed: {
+    title: (data) => {
+      return `Posts from ${ data.selectedYear }`;
+    },
+  },
+  permalink: (data) => {
+    return `blog/${data.selectedYear}/`;
+  },
+  eleventyExcludeFromCollections: true,
+}
+---
+
+<post-list :posts="collections.postsByYear[ selectedYear ]"></post-list>
