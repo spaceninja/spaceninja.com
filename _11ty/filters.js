@@ -1,8 +1,15 @@
+const path = require('path');
 const { DateTime } = require('luxon');
 
 const filters = {
   // Filter to parse a string as JSON
   fromJson: JSON.parse,
+
+  // Given a relative image file page, return the full path
+  imgPath: (relativeFilePath) => {
+    const imageAssetsPath = path.join('src', '_assets', '_images');
+    return path.resolve(imageAssetsPath, relativeFilePath);
+  },
 
   // Date formatting (human readable)
   // @see https://moment.github.io/luxon/#/formatting?id=table-of-tokens

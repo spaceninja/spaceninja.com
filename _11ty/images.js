@@ -1,18 +1,9 @@
 const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
-const eleventyWebcPlugin = require('@11ty/eleventy-plugin-webc');
 const { eleventyImagePlugin } = require('@11ty/eleventy-img');
+const { imgPath } = require('./filters');
 
 module.exports = (eleventyConfig) => {
-  function imageAssetPath(relativeFilePath) {
-    const imageAssetsPath = path.join(
-      eleventyConfig.dir.input,
-      '_assets',
-      '_images',
-    );
-    return path.resolve(imageAssetsPath, relativeFilePath);
-  }
-
   // Eleventy Image shortcode
   // https://www.11ty.dev/docs/plugins/image/
   eleventyConfig.addAsyncShortcode(
@@ -26,7 +17,7 @@ module.exports = (eleventyConfig) => {
       formats = 'webp',
       widths = '768,1024,1280,1600',
     ) {
-      let file = imageAssetPath(src);
+      let file = imgPath(src);
       let metadata = await eleventyImage(file, {
         formats: formats.split(','),
         outputDir: path.join(eleventyConfig.dir.output, 'images'),

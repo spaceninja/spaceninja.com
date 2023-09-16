@@ -24,7 +24,7 @@ prism: true
   <img
     webc:if="feature_image"
     webc:is="eleventy-image"
-    :src="`src/_assets/_images/${feature_image}`"
+    :src="imgPath(feature_image)"
     alt=""
     loading="eager"
     class="feature-image"

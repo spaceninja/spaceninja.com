@@ -9,13 +9,13 @@ eleventyNavigation:
 <img
   webc:is="eleventy-image"
   :width="[100, 200]"
-  src="src/_assets/_images/feature/mandalorian-poster.jpg"
+  :src="imgPath('feature/mandalorian-poster.jpg')"
   alt="Hey Mando"
 />
 <img
   webc:is="eleventy-image"
   :formats="['avif', 'webp']"
-  src="src/_assets/_images/feature/mandalorian-poster.jpg"
+  :src="imgPath('feature/mandalorian-poster.jpg')"
   alt="Hey Mando"
 />
 
