@@ -121,5 +121,3 @@ The guideline we’ve been following is to make a major point release of a proje
 ## Congratulations!
 
 You’ve solved a time-consuming problem with automation! Go get yourself a treat as you watch the dependency update PRs roll in!
-
-**Note:** This was originally posted on [my work blog](https://cloudfour.com/thinks/auto-update-js-dependencies/), and I'm re-posting it here for archival purposes.

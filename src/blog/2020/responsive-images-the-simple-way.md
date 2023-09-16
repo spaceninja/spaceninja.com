@@ -202,5 +202,3 @@ There’s a lot more power available if you need to do more complicated things s
 - [The Anatomy of Responsive Images](https://jakearchibald.com/2015/anatomy-of-responsive-images/), by Jake Archibald
 
 <small><strong>Note:</strong> the featured image at the top of this article is based on a <a href="https://twitter.com/csswizardry/status/836960832789565440">tweet by Harry Roberts</a>.</small>
-
-<small><strong>Note:</strong> This was originally posted on <a href="https://cloudfour.com/thinks/responsive-images-the-simple-way/">my work blog</a>, and I'm re-posting it here for archival purposes.</small>

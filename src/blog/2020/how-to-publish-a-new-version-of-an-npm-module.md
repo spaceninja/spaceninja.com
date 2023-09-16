@@ -243,5 +243,3 @@ In the end, the best release process is the one that suits your team.
 - [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
 - [Learn how to develop and publish an npm package](https://auth0.com/blog/developing-npm-packages/)
 - [How to test your new NPM module without publishing it every 5 minutes](https://medium.com/@the1mills/how-to-test-your-npm-module-without-publishing-it-every-5-minutes-1c4cb4b369be)
-
-<small><strong>Note:</strong> This was originally posted on <a href="https://cloudfour.com/thinks/how-to-publish-an-updated-version-of-an-npm-pack">my work blog</a>, and I'm re-posting it here for archival purposes.</small>

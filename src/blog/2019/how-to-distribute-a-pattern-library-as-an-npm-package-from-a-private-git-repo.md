@@ -238,5 +238,3 @@ If a public Git repo is a non-starter, then consider paying for a private packag
 But if you can’t do that, then it’s good to know that you can serve your npm package from a private Git repo. Just be prepared to jump through a lot of hoops to make it happen.
 
 If you think I’ve missed something, or if there’s a better way to accomplish what I’ve described, please let me know! I’d love to make this process simpler.
-
-<small><strong>Note:</strong> This was originally posted on <a href="https://cloudfour.com/thinks/how-to-distribute-a-pattern-library-as-an-npm-package-from-a-private-git-repo/">my work blog</a>, and I'm re-posting it here for archival purposes.</small>

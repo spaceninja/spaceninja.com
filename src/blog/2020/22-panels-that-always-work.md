@@ -42,5 +42,3 @@ The “22 panels” became legendary in the comics industry, with [many](https:/
 As a developer, I think of Wally Wood all the time. Not every bit of code needs to be precious. When I create a template or abstract a pattern into a component, I’m avoiding writing the same code twice. When I add a linter, I get to spend less time thinking about code formatting. When I write tests, I’m reducing time spent confirming everything works.
 
 How can you reduce “noodling” in your work?
-
-**Note:** This was originally posted on [my work blog](https://cloudfour.com/thinks/22-panels-that-always-work-wally-woods-legendary-productivity-hack/), and I'm re-posting it here for archival purposes.

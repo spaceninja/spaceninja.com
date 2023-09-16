@@ -102,5 +102,3 @@ That comment tells Stylelint to disable the “No `!important`” rule on the ne
 ## Conclusion
 
 A few years ago, I was working as a CSS developer, and at the time I never considered that linters might be useful to me. I knew my programmer coworkers used linters, but it didn’t seem relevant to HTML and CSS. What opened my eyes was reading [Lint your CSS with Stylelint](https://css-tricks.com/stylelint/) on CSS-Tricks. It introduced me to the concept of letting a computer do the boring work of enforcing standards and avoiding syntax problems. I created a Stylelint config for my team, and I’ve never looked back. Nowadays, I can’t imagine doing my job without a good linter backing me up.
-
-<small><strong>Note:</strong> This was originally posted on <a href="https://cloudfour.com/thinks/code-linting-for-web-designers/">my work blog</a>, and I'm re-posting it here for archival purposes.</small>

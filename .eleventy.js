@@ -48,6 +48,7 @@ module.exports = function (eleventyConfig) {
   // Community Plugins
   eleventyConfig.addPlugin(pluginTimeToRead, {
     speed: '238 words per minute',
+    style: 'short',
   });
 
   // Customize Markdown library settings:

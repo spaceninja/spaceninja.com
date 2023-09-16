@@ -6,33 +6,46 @@ prism: true
 <article>
   <header>
     <h1 @text="title"></h1>
-
-    <p>
-      Posted on
-      <time
-        :datetime="htmlDateString(page.date)"
-        @text="readableDate(page.date)"
-      >
-      </time>
-    </p>
-    <p>
-      It will take
-      <template @text="timeToRead(content)" webc:nokeep></template> to read this
-    </p>
+    <ul>
+      <li>
+        <time
+          :datetime="htmlDateString(page.date)"
+          @text="readableDate(page.date)"
+        >
+        </time>
+      </li>
+      <li @text="`${timeToRead(content)} read`"></li>
+    </ul>
   </header>
 
-  <img
-    webc:if="feature_image"
-    webc:is="eleventy-image"
-    :src="imgPath(feature_image)"
-    alt=""
-    loading="eager"
-    class="feature-image"
-  />
+  <figure>
+    <img
+      webc:if="feature_image"
+      webc:is="eleventy-image"
+      :src="imgPath(feature_image)"
+      alt=""
+      loading="eager"
+      class="feature-image"
+    />
+    <figcaption webc:if="feature_credit">
+      Image credit:
+      <a
+        webc:if="feature_source"
+        :href="feature_source"
+        @text="feature_credit"
+      ></a>
+      <template webc:else @text="feature_credit" webc:nokeep></template>
+    </figcaption>
+  </figure>
 
   <template @raw="content" webc:nokeep></template>
 
   <footer>
+    <div webc:if="canonical">
+      <strong>Note:</strong> This was originally posted on
+      <a :href="canonical">my work blog</a>, and I'm re-posting it here for
+      archival purposes.
+    </div>
     <div webc:if="filterTagList(tags).length">
       <h3>Tags</h3>
       <ul class="list--inline">

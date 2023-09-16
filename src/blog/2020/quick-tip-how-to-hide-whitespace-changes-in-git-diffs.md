@@ -38,5 +38,3 @@ Or, you can add `?w=1` to the URL.
 ## Bitbucket
 
 You can [hide whitespace changes for Bitbucket diffs](https://bitbucket.org/blog/new-year-new-features#:~:text=Ignore%20whitespace%20in%20diffs%20via%20URL) by adding `?w=1` to the URL.
-
-**Note:** This was originally posted on [my work blog](https://cloudfour.com/thinks/quick-tip-how-to-hide-whitespace-changes-in-git-diffs/), and I'm re-posting it here for archival purposes.

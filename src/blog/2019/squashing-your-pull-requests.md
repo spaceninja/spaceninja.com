@@ -93,5 +93,3 @@ In conclusion, as a rule of thumb, most pull requests should squash down to a si
 - [Squash All Commits Related to a Single Issue into a Single Commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
 - [A Beginner’s Guide to Squashing Commits with Git Rebase](https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec)
 - [GitHub: Configuring commit squashing for pull requests](https://help.github.com/en/articles/configuring-commit-squashing-for-pull-requests)
-
-**Note:** This was originally posted on [my work blog](https://cloudfour.com/thinks/squashing-your-pull-requests/), and I'm re-posting it here for archival purposes.

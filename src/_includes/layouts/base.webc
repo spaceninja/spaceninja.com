@@ -26,6 +26,7 @@
       type="font/woff2"
       crossorigin
     />
+    <link webc:if="canonical" rel="canonical" :href="canonical" />
   </head>
   <body :class="body_class ?? ''">
     <a href="#app-main" class="visually-hidden">Skip to main content</a>
@@ -58,6 +59,27 @@
           class="app-footer__copyright"
           @text="`© ${new Date().getFullYear()} ${metadata.author.name}`"
         ></p>
+        <ul class="social">
+          <li>
+            <a rel="me" href="https://twitter.com/spaceninja">Twitter</a>
+          </li>
+          <li>
+            <a rel="me" href="https://bsky.app/profile/spaceninja.com"
+              >Bluesky</a
+            >
+          </li>
+          <li>
+            <a rel="me" href="https://mastodon.cloud/@spaceninja">Mastodon</a>
+          </li>
+          <li>
+            <a rel="me" href="https://github.com/spaceninja">GitHub</a>
+          </li>
+          <li>
+            <a rel="me" href="https://codepen.io/spaceninja/">CodePen</a>
+          </li>
+          <li><a href="/feed/feed.xml">Feed</a></li>
+          <li><a href="/feed/feed.json">Feed (JSON)</a></li>
+        </ul>
       </div>
     </footer>
   </body>

@@ -27,8 +27,12 @@
     --color-link: #bb86fc;
     --color-link-underline: #{rgba(#bb86fc, 0.5)};
     --color-link-visited: #8f95ff;
-    --rainbow-gradient: linear-gradient(67deg, hotpink, gold);
-    --rainbow-gradient-alt: linear-gradient(67deg, lightskyblue, hotpink);
+    --rainbow-gradient: radial-gradient(circle at top right, gold, hotpink);
+    --rainbow-gradient-alt: radial-gradient(
+      circle at top right,
+      hotpink,
+      lightskyblue
+    );
   }
 }
 

@@ -11,6 +11,7 @@ tags:
 excerpt: Learning VoiceOver can feel overwhelming, so I’m here to give you a simple, repeatable process you can follow to make testing with VoiceOver as easy as possible.
 canonical: https://cloudfour.com/thinks/mac-voiceover-testing-the-simple-way/
 feature_image: feature/voiceover-testing.jpg
+feature_credit: Paul Hebert
 ---
 
 <aside>
