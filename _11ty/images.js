@@ -1,5 +1,7 @@
 const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
+const eleventyWebcPlugin = require('@11ty/eleventy-plugin-webc');
+const { eleventyImagePlugin } = require('@11ty/eleventy-img');
 
 module.exports = (eleventyConfig) => {
   function imageAssetPath(relativeFilePath) {
@@ -42,4 +44,20 @@ module.exports = (eleventyConfig) => {
       return eleventyImage.generateHTML(metadata, imageAttributes);
     },
   );
+
+  // Image plugin
+  eleventyConfig.addPlugin(eleventyImagePlugin, {
+    // Set global default options
+    formats: ['webp'],
+    outputDir: path.join(eleventyConfig.dir.output, 'images'),
+    svgShortCircuit: true,
+    urlPath: '/images/',
+    widths: [768, 1024, 1280, 1600],
+
+    defaultAttributes: {
+      loading: 'lazy',
+      decoding: 'async',
+      sizes: '100vw',
+    },
+  });
 };

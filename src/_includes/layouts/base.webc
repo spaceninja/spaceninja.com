@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title @text="title ?? metadata.title"></title>
+    <meta name="description" :content="description ?? metadata.description" />
+    <link
+      rel="alternate"
+      href="/feed/feed.xml"
+      type="application/atom+xml"
+      :title="metadata.title"
+    />
+    <link
+      rel="alternate"
+      href="/feed/feed.json"
+      type="application/json"
+      :title="metadata.title"
+    />
+    <link webc:keep rel="stylesheet" href="/style.css" />
+    <link webc:if="prism" webc:keep rel="stylesheet" href="/prism.css" />
+    <link
+      rel="preload"
+      href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body :class="body_class ?? ''">
+    <a href="#app-main" class="visually-hidden">Skip to main content</a>
+    <header class="app-header">
+      <div class="app-header__branding">
+        <a href="/" class="app-header__logo" @text="metadata.title"></a>
+      </div>
+      <nav class="app-header__nav">
+        <ul class="app-header__nav-list list--inline">
+          <!-- display: inline -->
+          <li
+            webc:for="entry of eleventyNavigation(collections.all)"
+            class="app-header__nav-item"
+            ><a
+              :href="entry.url"
+              class="app-header__nav-link"
+              :aria-current="entry.url == page.url ? 'page' : null"
+              @text="entry.title"
+            ></a
+          ></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="app-main" :class="main_class ?? ''">
+      <div class="app-main__content" @raw="content"></div>
+    </main>
+    <footer class="app-footer">
+      <div class="app-footer__content">
+        <p
+          class="app-footer__copyright"
+          @text="`© ${new Date().getFullYear()} ${metadata.author.name}`"
+        ></p>
+      </div>
+    </footer>
+  </body>
+</html>

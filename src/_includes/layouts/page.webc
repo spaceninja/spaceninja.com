@@ -1,0 +1,6 @@
+---
+layout: layouts/base.webc
+---
+
+<h1 @text="title ?? metadata.title"></h1>
+<template @raw="content" webc:nokeep></template>

@@ -5,6 +5,7 @@ const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginTimeToRead = require('eleventy-plugin-time-to-read');
+const pluginWebc = require('@11ty/eleventy-plugin-webc');
 
 const pluginImages = require('./_11ty/images.js');
 const collections = require('./_11ty/collections.js');
@@ -39,6 +40,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight, {
     preAttributes: { tabindex: 0 },
+  });
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: ['npm:@11ty/eleventy-img/*.webc'],
   });
 
   // Community Plugins

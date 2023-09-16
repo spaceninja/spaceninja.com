@@ -1,0 +1,30 @@
+---
+title: Image Test
+permalink: images/
+eleventyNavigation:
+  key: Images
+  order: 7
+---
+
+<img
+  webc:is="eleventy-image"
+  :width="[100, 200]"
+  src="src/_assets/_images/feature/mandalorian-poster.jpg"
+  alt="Hey Mando"
+/>
+<img
+  webc:is="eleventy-image"
+  :formats="['avif', 'webp']"
+  src="src/_assets/_images/feature/mandalorian-poster.jpg"
+  alt="Hey Mando"
+/>
+
+{% image "feature/mandalorian-poster.jpg", "Hey Mando", 'eager' %} {% include
+"partials/image.njk" src: "feature/mandalorian-poster.jpg" alt: "Hey Mando"
+formats: "avif,webp" sizes: "50vw" classList: "testing TESTING" %} {% include
+"partials/image.njk" src: "superscript-subscript/example.jpg" alt: "A smaller
+image that shouldn't upscale" widths: "150,300,450,768" %} {% include
+"partials/image.njk" src: "what-is-flexbox/axis-both.svg" alt: "Example SVG"
+formats: "svg" %} {% image "books/ancillary-justice.jpg", "Ancillary Justice" %}
+{% image "books/thrawn.jpg", "Thrawn" %} {% image
+"portfolio/tempest-showcase.png", "Tempest CMS" %}

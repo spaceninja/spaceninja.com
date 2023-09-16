@@ -1,4 +1,4 @@
 module.exports = {
   tags: ['blog'],
-  layout: 'layouts/post.liquid',
+  layout: 'layouts/post.webc',
 };

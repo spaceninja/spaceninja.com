@@ -1,0 +1,99 @@
+---
+layout: layouts/base.webc
+prism: true
+---
+
+<article>
+  <header>
+    <h1 @text="title"></h1>
+
+    <p>
+      Posted on
+      <time
+        :datetime="htmlDateString(page.date)"
+        @text="readableDate(page.date)"
+      >
+      </time>
+    </p>
+    <p>
+      It will take
+      <template @text="timeToRead(content)" webc:nokeep></template> to read this
+    </p>
+  </header>
+
+  <img
+    webc:if="feature_image"
+    webc:is="eleventy-image"
+    :src="`src/_assets/_images/${feature_image}`"
+    alt=""
+    loading="eager"
+    class="feature-image"
+  />
+
+  <template @raw="content" webc:nokeep></template>
+
+  <footer>
+    <div webc:if="filterTagList(tags).length">
+      <h3>Tags</h3>
+      <ul class="list--inline">
+        <!-- display:inline -->
+        <li webc:for="(key, tag) in filterTagList(tags).sort()"
+          ><a
+            webc:if="$data.collections[tag].length > 1"
+            class="tag"
+            :href="`/tags/${slugify(tag)}/`"
+            :title="`${$data.collections[tag].length} posts with this tag`"
+            @text="tag"
+          ></a
+          ><span
+            webc:else
+            class="tag orphan"
+            title="Only one post with this tag"
+            @text="tag"
+          ></span
+        ></li>
+      </ul>
+    </div>
+    <!---
+      This *should* work, but there's a bug in the webc plugin:
+      @see https://github.com/11ty/eleventy-plugin-webc/issues/76
+    <script webc:setup>
+      const previousPost = getPreviousCollectionItem(
+        $data.collections.blog,
+        page,
+      );
+      const nextPost = getNextCollectionItem($data.collections.blog, page);
+    </script>
+    <ul class="links-nextprev">
+      <li webc:if="previousPost">
+        Previous:
+        <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+      </li>
+      <li webc:if="nextPost">
+        Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+      </li>
+    </ul>
+    --->
+    <template webc:type="11ty" 11ty:type="liquid">
+      <!-- prettier-ignore -->
+      {%- if collections.blog -%}
+        {%- assign previousPost = collections.blog | getPreviousCollectionItem -%}
+        {%- assign nextPost = collections.blog | getNextCollectionItem -%}
+        {%- if nextPost or previousPost -%}
+      <ul class="links-nextprev">
+        {%- if previousPost -%}
+        <li>
+          Previous:
+          <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+        </li>
+        {%- endif -%} {%- if nextPost %}
+        <li>
+          Next:
+          <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        </li>
+        {%- endif -%}
+      </ul>
+      {%- endif -%} {%- endif %}
+    </template>
+  </footer>
+</article>

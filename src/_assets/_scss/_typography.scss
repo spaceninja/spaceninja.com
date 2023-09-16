@@ -153,10 +153,12 @@ sub {
   li {
     display: inline;
 
-    + li {
-      &::before {
-        content: ', ';
-      }
+    &::after {
+      content: ', ';
+    }
+
+    &:last-child::after {
+      content: none;
     }
   }
 }
