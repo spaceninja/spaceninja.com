@@ -42,7 +42,10 @@ module.exports = function (eleventyConfig) {
     preAttributes: { tabindex: 0 },
   });
   eleventyConfig.addPlugin(pluginWebc, {
-    components: ['npm:@11ty/eleventy-img/*.webc'],
+    components: [
+      'src/_includes/partials/*.webc',
+      'npm:@11ty/eleventy-img/*.webc',
+    ],
   });
 
   // Community Plugins
