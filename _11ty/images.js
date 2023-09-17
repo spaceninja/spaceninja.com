@@ -2,6 +2,7 @@ const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
 const { eleventyImagePlugin } = require('@11ty/eleventy-img');
 const { imgPath } = require('./filters');
+const siteMetadata = require('../src/_data/metadata');
 
 module.exports = (eleventyConfig) => {
   // Eleventy Image shortcode
@@ -18,7 +19,7 @@ module.exports = (eleventyConfig) => {
       widths = '768,1024,1280,1600',
     ) {
       let file = imgPath(src);
-      let metadata = await eleventyImage(file, {
+      let imageMetadata = await eleventyImage(file, {
         formats: formats.split(','),
         outputDir: path.join(eleventyConfig.dir.output, 'images'),
         svgShortCircuit: true,
@@ -32,19 +33,19 @@ module.exports = (eleventyConfig) => {
         loading,
         sizes,
       };
-      return eleventyImage.generateHTML(metadata, imageAttributes);
+      return eleventyImage.generateHTML(imageMetadata, imageAttributes);
     },
   );
 
   eleventyConfig.addFilter('feedImage', async (src) => {
     let file = imgPath(src);
-    let metadata = await eleventyImage(file, {
+    let imageMetadata = await eleventyImage(file, {
       formats: ['webp'],
       outputDir: path.join(eleventyConfig.dir.output, 'images'),
       urlPath: '/images/',
       widths: [1600],
     });
-    return `https://spaceninja.com${metadata.webp[0].url}`;
+    return `${siteMetadata.url.slice(0, -1)}${imageMetadata.webp[0].url}`;
   });
 
   // Image plugin

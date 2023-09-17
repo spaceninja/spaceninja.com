@@ -33,7 +33,7 @@ eleventyExcludeFromCollections: true,
     {%- endfor %}
 		<content type="html">
       {%- if post.data.feature_image %}
-      &lt;img alt=&quot;&quot; src=&quot;{{ post.data.feature_image | feedImage | htmlBaseUrl(metadata.url) }}&quot;&gt;
+      &lt;img alt=&quot;&quot; src=&quot;{{ post.data.feature_image | feedImage }}&quot;&gt;
       {%- endif %}
       {{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}
     </content>
