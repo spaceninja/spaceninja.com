@@ -2,6 +2,7 @@
 layout: layouts/page.webc
 title: Archives
 eleventyExcludeFromCollections: true,
+og_type: website,
 ---
 
 <post-list :posts="collections.postsByRecent"></post-list>

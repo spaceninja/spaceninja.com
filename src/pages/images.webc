@@ -1,9 +1,6 @@
 ---
 title: Image Test
 permalink: images/
-eleventyNavigation:
-  key: Images
-  order: 7
 ---
 
 <img

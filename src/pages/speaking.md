@@ -3,6 +3,7 @@ title: Speaking
 permalink: speaking/
 date: 2016-09-08T00:44:26.000Z
 date_updated: 2021-05-24T20:09:41.000Z
+description: I present at conferences on topics related to CSS development and architecture.
 eleventyNavigation:
   key: Speaking
   order: 2

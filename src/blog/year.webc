@@ -15,6 +15,7 @@
     return `blog/${data.selectedYear}/`;
   },
   eleventyExcludeFromCollections: true,
+  og_type: 'website',
 }
 ---
 

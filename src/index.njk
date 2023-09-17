@@ -7,6 +7,8 @@ pagination:
   alias: postList
 permalink: "{% if pagination.pageNumber > 0 %}blog/{{ pagination.pageNumber + 1 }}{% endif %}/"
 ---
+<p>{{ metadata.description }}</p>
+
 {% include "partials/post-list.njk" %}
 
 {%- set totalPages = pagination.pages|length -%}

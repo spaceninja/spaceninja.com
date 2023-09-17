@@ -15,5 +15,6 @@
         @text="readableDate(post.date)"
       ></time>
     </small>
+    <p @text="post.data.excerpt ?? createExcerpt(post.content)"></p>
   </li>
 </ol>

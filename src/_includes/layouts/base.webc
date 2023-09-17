@@ -39,14 +39,23 @@
       :content="canonical ?? htmlBaseUrl(page.url, metadata.url)"
     />
     <meta property="og:site_name" :content="metadata.title" />
-    <meta name="description" :content="description ?? metadata.description" />
+    <meta
+      name="description"
+      :content="og_type === 'article'
+        ? excerpt ?? createExcerpt(collections.blog.find(p => p.page.url === page.url)?.content)
+        : description ?? metadata.description"
+    />
     <meta
       property="og:description"
-      :content="description ?? metadata.description"
+      :content="og_type === 'article'
+        ? excerpt ?? createExcerpt(collections.blog.find(p => p.page.url === page.url)?.content)
+        : description ?? metadata.description"
     />
     <meta
       property="twitter:description"
-      :content="description ?? metadata.description"
+      :content="og_type === 'article'
+        ? excerpt ?? createExcerpt(collections.blog.find(p => p.page.url === page.url)?.content)
+        : description ?? metadata.description"
     />
     <meta
       webc:if="og_type === 'article'"

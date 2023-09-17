@@ -5,6 +5,17 @@ const filters = {
   // Filter to parse a string as JSON
   fromJson: JSON.parse,
 
+  // Generates an excerpt from a post's content
+  // This filter expects the full post content, post-processing, which it will
+  // strip HTML tags from and then limit to about the first 200 characters.
+  // The function backtracks to the space prior to the 200th character to
+  // prevent splitting words.
+  // @see https://11ty.rocks/eleventyjs/content/#excerpt-filter
+  createExcerpt: (post) => {
+    const content = post.replace(/(<([^>]+)>)/gi, '');
+    return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
+  },
+
   // Given a relative image file page, return the full path
   imgPath: (relativeFilePath) => {
     const imageAssetsPath = path.join('src', '_assets', '_images');

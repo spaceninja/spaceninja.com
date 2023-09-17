@@ -11,4 +11,5 @@
 - [x] add canonical blurb
 - [x] add footer social links and feed links
 - [x] add redirects for old post and feed URLs
-- [ ] add excerpt and default excerpt support
+- [x] add excerpt and default excerpt support
+- [ ] convert social links to data file

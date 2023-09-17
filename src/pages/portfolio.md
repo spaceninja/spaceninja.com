@@ -3,6 +3,7 @@ title: Scott Vandehey’s Portfolio
 permalink: portfolio/
 date: 2014-07-07T15:45:32.000Z
 date_updated: 2023-08-16T03:22:15.000Z
+description: Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 20 years experience building scalable user interfaces.
 eleventyNavigation:
   key: Portfolio
   order: 1
