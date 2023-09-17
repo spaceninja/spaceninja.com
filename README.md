@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] add og tags
+- [x] add og tags
 - [x] add featured images
 - [x] add image credit for featured images
 - [x] ensure featured images have standard crop
@@ -11,3 +11,4 @@
 - [x] add canonical blurb
 - [x] add footer social links and feed links
 - [x] add redirects for old post and feed URLs
+- [ ] add excerpt and default excerpt support
