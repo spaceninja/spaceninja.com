@@ -41,7 +41,7 @@ module.exports = (eleventyConfig) => {
     let metadata = await eleventyImage(file, {
       formats: ['webp'],
       outputDir: path.join(eleventyConfig.dir.output, 'images'),
-      urlPath: '/images/',
+      urlPath: 'https://spaceninja.com/images/',
       widths: [1600],
     });
     return metadata.webp[0].url;
