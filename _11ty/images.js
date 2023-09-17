@@ -44,7 +44,7 @@ module.exports = (eleventyConfig) => {
       urlPath: '/images/',
       widths: [1600],
     });
-    return metadata.webp[0].url;
+    return `https://spaceninja.com${metadata.webp[0].url}`;
   });
 
   // Image plugin
