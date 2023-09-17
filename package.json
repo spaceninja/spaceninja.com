@@ -12,14 +12,16 @@
     "watch": "run-p watch:*",
     "watch:content": "eleventy --serve --quiet",
     "watch:css": "sass --watch src:dist",
-    "lint": "run-s lint:js lint:css lint:prettier",
+    "lint": "run-s lint:js lint:css lint:prettier lint:webc",
     "lint:check": "run-s lint:*:check",
     "lint:js": "eslint . --fix",
     "lint:js:check": "eslint .",
-    "lint:css": "stylelint --fix '**/*.{css,scss}'",
-    "lint:css:check": "stylelint '**/*.{css,scss}'",
+    "lint:css": "stylelint --fix '**/*.scss'",
+    "lint:css:check": "stylelint '**/*.scss'",
     "lint:prettier": "prettier . --write",
-    "lint:prettier:check": "prettier . --check"
+    "lint:prettier:check": "prettier . --check",
+    "lint:webc": "prettier '**/*.webc' --write",
+    "lint:webc:check": "prettier '**/*.webc' --check"
   },
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
