@@ -11,7 +11,7 @@ permalink: images/
 />
 <img
   webc:is="eleventy-image"
-  :formats="['avif', 'webp']"
+  :formats="['jpeg', 'webp']"
   :src="imgPath('feature/mandalorian-poster.jpg')"
   alt="Hey Mando"
 />

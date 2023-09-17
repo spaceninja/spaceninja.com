@@ -24,7 +24,7 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 {% include "partials/image.njk"
   src: "feature/mandalorian-poster.jpg"
   alt: "Hey Mando"
-  formats: "avif,webp"
+  formats: "webp,jpeg"
   sizes: "50vw"
   classList: "testing TESTING"
 %}
