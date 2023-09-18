@@ -1,0 +1,52 @@
+.app-footer {
+  font-family: 'Bricolage Grotesque', var(--system-fonts);
+  font-size: clamp(0.75em, 5vw, 1.25em);
+  font-stretch: 75%;
+  padding: 1em;
+  text-align: center;
+}
+
+.app-footer__copyright {
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: var(--color-fg);
+  background-image: var(--rainbow-gradient);
+  background-repeat: repeat;
+  background-size: 100%;
+  color: transparent;
+  margin: 0;
+}
+
+.app-footer__social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-footer__social-item {
+  display: inline;
+
+  & + & {
+    margin-left: 0.5em;
+  }
+}
+
+.app-footer__social-link {
+  background-attachment: fixed;
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: var(--color-fg);
+  background-image: var(--rainbow-gradient-alt);
+  background-repeat: repeat;
+  background-size: 100%;
+  color: transparent;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background-image: var(--rainbow-gradient);
+    text-decoration: underline;
+  }
+}

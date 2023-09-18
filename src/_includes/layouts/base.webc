@@ -94,7 +94,7 @@
         <a href="/" class="app-header__logo" @text="metadata.title"></a>
       </div>
       <nav class="app-header__nav">
-        <ul class="app-header__nav-list list--inline">
+        <ul class="app-header__nav-list">
           <!-- display: inline -->
           <li
             webc:for="entry of eleventyNavigation(collections.all)"
@@ -118,26 +118,53 @@
           class="app-footer__copyright"
           @text="`© ${new Date().getFullYear()} ${metadata.author.name}`"
         ></p>
-        <ul class="social">
-          <li>
-            <a rel="me" href="https://twitter.com/spaceninja">Twitter</a>
+        <ul class="app-footer__social">
+          <li class="app-footer__social-item">
+            <a
+              class="app-footer__social-link"
+              rel="me"
+              href="https://twitter.com/spaceninja"
+              >Twitter</a
+            >
           </li>
-          <li>
-            <a rel="me" href="https://bsky.app/profile/spaceninja.com"
+          <li class="app-footer__social-item">
+            <a
+              class="app-footer__social-link"
+              rel="me"
+              href="https://bsky.app/profile/spaceninja.com"
               >Bluesky</a
             >
           </li>
-          <li>
-            <a rel="me" href="https://mastodon.cloud/@spaceninja">Mastodon</a>
+          <li class="app-footer__social-item">
+            <a
+              class="app-footer__social-link"
+              rel="me"
+              href="https://mastodon.cloud/@spaceninja"
+              >Mastodon</a
+            >
           </li>
-          <li>
-            <a rel="me" href="https://github.com/spaceninja">GitHub</a>
+          <li class="app-footer__social-item">
+            <a
+              class="app-footer__social-link"
+              rel="me"
+              href="https://github.com/spaceninja"
+              >GitHub</a
+            >
           </li>
-          <li>
-            <a rel="me" href="https://codepen.io/spaceninja/">CodePen</a>
+          <li class="app-footer__social-item">
+            <a
+              class="app-footer__social-link"
+              rel="me"
+              href="https://codepen.io/spaceninja/"
+              >CodePen</a
+            >
           </li>
-          <li><a href="/feed/feed.xml">Feed</a></li>
-          <li><a href="/feed/feed.json">Feed (JSON)</a></li>
+          <li class="app-footer__social-item">
+            <a class="app-footer__social-link" href="/feed/feed.xml">Feed</a>
+          </li>
+          <li class="app-footer__social-item">
+            <a class="app-footer__social-link" href="/feed/feed.json">JSON</a>
+          </li>
         </ul>
       </div>
     </footer>

@@ -31,7 +31,7 @@ html {
 
 body {
   font-family: var(--system-fonts);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 pre,
@@ -75,6 +75,7 @@ h1 {
   line-height: 0.85;
   margin-block-start: 0;
   padding-bottom: 0.1em; // prevent clipping from reduced line-height
+  text-align: center;
 
   @media screen and (width >= 32em) {
     font-size: 4em;
