@@ -9,6 +9,9 @@
   --color-link: #34d;
   --color-link-underline: #{rgba(#34d, 0.25)};
   --color-link-visited: #692dd1;
+  --color-code: rgba(202 2 129 / 94%);
+  --color-bg-kbd: rgba(0 0 0 / 5%);
+  --color-border-kbd: rgba(0 0 0 / 20%);
   --rainbow-gradient: linear-gradient(67deg, magenta, deepskyblue);
   --rainbow-gradient-alt: linear-gradient(67deg, darkorange, magenta);
 
@@ -31,6 +34,9 @@
     --color-link: #bb86fc;
     --color-link-underline: #{rgba(#bb86fc, 0.5)};
     --color-link-visited: #8f95ff;
+    --color-code: rgba(202 2 129 / 94%);
+    --color-bg-kbd: rgba(255 255 255 / 5%);
+    --color-border-kbd: rgba(255 255 255 / 20%);
     --rainbow-gradient: radial-gradient(circle at top right, gold, hotpink);
     --rainbow-gradient-alt: radial-gradient(
       circle at top right,
@@ -104,6 +110,22 @@ blockquote {
 hr {
   border: 0;
   border-top: 1px solid var(--color-border);
+}
+
+code {
+  color: var(--color-code);
+}
+
+kbd {
+  background: var(--color-bg-kbd);
+  background-clip: padding-box;
+  border: 0.0625em solid var(--color-border-kbd);
+  border-radius: 0.25em;
+  box-shadow: 0 0.125em 0 0 var(--color-border-kbd);
+  display: inline-block;
+  min-width: 1.5em;
+  padding-inline: 0.25em;
+  text-align: center;
 }
 
 .post-list {
