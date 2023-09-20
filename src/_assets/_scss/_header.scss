@@ -27,6 +27,7 @@
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 1;
+  margin-inline-end: -0.1em; // counteract letter-spacing on final letter
   opacity: 0.9;
   text-decoration: none;
   text-transform: uppercase;
@@ -36,10 +37,10 @@
 .app-header__nav {
   background: var(--color-overlay);
   font-family: 'Bricolage Grotesque', var(--system-fonts);
-  font-size: clamp(0.75em, 5vw, 4em);
+  font-size: clamp(0.75em, 4.5vw, 3.25em);
   font-stretch: 75%;
   line-height: 1;
-  padding: 0.25em 0;
+  padding: 0.25em;
 }
 
 .app-header__nav-list {

@@ -3,17 +3,14 @@
  */
 
 img {
+  display: block;
   height: auto;
+  margin-inline: auto;
   max-width: 100%;
 }
 
 figure {
   margin: 1em 0;
-
-  img {
-    display: block;
-    margin-inline: auto;
-  }
 }
 
 figcaption {

@@ -15,7 +15,7 @@ feature_image: feature/ghost-logo.png
 **Update: July 16, 2014** -- John with Ghost just emailed me:
 
 > I just wanted to let you know that [CloudFlare now supports root level CNAMEs](https://support.cloudflare.com/hc/en-us/articles/200169056-CNAME-Flattening-RFC-compliant-support-for-CNAME-at-the-root) on their free service _and_ email deliverability is unaffected!
-
+>
 > Maybe now your parents can email you again?
 
 I switched from DNSimple to CloudFlare, and it works perfectly. Now my setup looks like this:
@@ -238,14 +238,15 @@ For most people, that setup should work just fine. It's a common pattern in use 
 They could receive email from me just fine, and I could receive email from everyone else. But if they tried to email me, it would bounce with the following error:
 
 > CNAME lookup failed temporarily. (#4.4.3)
+>
 > I'm not going to try again; this message has been in the queue too long.
 
 When I emailed my DNS provider about this, they explained that the problem is almost certainly with my parent's email provider — [Juno.com](http://juno.com) — and there wasn't much we could do to fix the issue.
 
 > As far as I can tell, the DNS configuration is fine and should work well. As for the specific bounces from Juno, it's possible that they're using a version of qmail that is buggy. I found [this thread](https://productforums.google.com/forum/#!topic/apps/mIGTQVZiFxo) which has an explanation in it, as well as [another bit of information](http://www.lifewithqmail.org/lwq.html#dns-problem) on the issue.
-
+>
 > Sorry, I'm not sure if there's much else I can offer. Given the number of customers that use the ALIAS and MX record together, I find it really hard to believe that the issue is something that is affecting a broad number of customers.
-
+>
 > I can't think of anything else we could do at this point, aside from contacting Juno directly and asking them if they have a solution (and politely suggesting they upgrade their mail systems).
 
 So, in the end, that's where I left it. My `www` subdomain redirects to `spaceninja.com`, which is an `ALIAS` record to my Ghost blog, and my `MX` records are pointed to google. Everything is working perfectly — except I can't get email from my parents on my Spaceninja email. Now if I can just convince them to abandon Juno, everything will be perfect!

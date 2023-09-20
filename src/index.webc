@@ -1,27 +1,5 @@
----js
-{
-  layout: 'layouts/page.webc',
-  eleventyExcludeFromCollections: true,
-  pagination: {
-    data: 'collections.postsByRecent',
-    size: 10,
-    alias: 'postList',
-  },
-  permalink: (data) => {
-    return data.pagination.pageNumber > 0
-      ? `blog/${data.pagination.pageNumber + 1}/`
-      : undefined;
-  },
-}
+---
+layout: layouts/page.webc
 ---
 
-<p webc:if="!pagination.pageNumber" @text="metadata.description"></p>
-
-<post-list :posts="postList"></post-list>
-
-<post-list-pagination
-  :total-pages="pagination.pages.length"
-  :current-page="pagination.pageNumber + 1"
-  :previous-href="pagination.href.previous"
-  :next-href="pagination.href.next"
-></post-list-pagination>
+<p @text="metadata.description"></p>

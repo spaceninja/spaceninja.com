@@ -37,7 +37,7 @@ As I was writing this, I realized I didn’t actually know what motivated the cr
 >
 > My goal in doing Flexbox and later Grid was to replace all the crazy float/table/inline-block/etc hacks that I’d had to master as a webdev. All that crap was (a) stupid, (b) hard to remember, and (c) limited in a million annoying ways, so I wanted to make a few well-done layout modules that solved the same problems in simple, easy-to-use, and complete ways.
 >
-> <small>[Tab Atkins Jr.](http://www.xanthir.com/blog/), author of the Flexbox and Grid specs</small>
+> <footer><a href="http://www.xanthir.com/blog/">Tab Atkins Jr.</a>, author of the <cite>Flexbox</cite> and <cite>Grid</cite> specs</footer>
 
 In a nutshell: Flexbox and Grid were created explicitly to replace float and table layout hacks.
 

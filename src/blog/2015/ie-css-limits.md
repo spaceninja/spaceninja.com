@@ -40,13 +40,13 @@ I put this post together because I couldn't find a single definitive reference o
 Eric Law (former IE program manager) [explains the source of the limits](http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/10164546.aspx):
 
 > Internally, all software must decide how much storage space to allocate for a given variable, and all storage space is inherently limited by the memory and disk available.
-
+>
 > In the case of IE, the data storage chosen was a 32bit integer [to identify, sort, and apply the cascading rules], which provides high-performance. ...The integer’s 32bits are split into five fields: four sheetIDs of 5 bits each, and one 12bit ruleID. The 5 bit sheetIDs results in the 31 @import limit, and the 12 bit ruleID results in the 4095 rules-per-sheet limitation.
-
+>
 > While these limits are entirely sufficient for most sites, there are some sites (particularly when using frameworks and controls) that can encounter the limits, requiring workarounds.
-
+>
 > In IE10, the allocation of the bits in that 32bit integer was adjusted to better meet the needs of real-world pages, and in practice, we'd never seen a page which did not work with the new allocation pattern.
-
+>
 > My guess is that other browsers are either using a 64bit integer, which has an increased memory and CPU cost, or they had a smarter allocation of bits within a 32bit store—like IE10's—to start with.
 
 ####Tools:

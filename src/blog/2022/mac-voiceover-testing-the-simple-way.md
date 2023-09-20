@@ -28,7 +28,11 @@ This quick testing strategy won’t cover every detail of accessibility testing,
 
 We resolved as a team to make VoiceOver testing a standard part of reviewing PRs. Following this process made that a possibility for me, and I hope it might help your team do the same.
 
-> Note: In this document you’ll see me refer to the VoiceOver modifier, using the VO abbreviation. By default, the VoiceOver modifier is pressing the <kbd>Control</kbd> and <kbd>Option</kbd> keys at the same time. [VoiceOver keyboard commands](https://support.apple.com/guide/voiceover-guide/navigation-commands-cpvokys04/8/web/10.13) are a combination of the VoiceOver modifier and another key. For example, <kbd>VO</kbd>+<kbd>F8</kbd> opens the VoiceOver Utility.
+<aside>
+
+Note: In this document you’ll see me refer to the VoiceOver modifier, using the VO abbreviation. By default, the VoiceOver modifier is pressing the <kbd>Control</kbd> and <kbd>Option</kbd> keys at the same time. [VoiceOver keyboard commands](https://support.apple.com/guide/voiceover-guide/navigation-commands-cpvokys04/8/web/10.13) are a combination of the VoiceOver modifier and another key. For example, <kbd>VO</kbd>+<kbd>F8</kbd> opens the VoiceOver Utility.
+
+</aside>
 
 ## Enable VoiceOver
 

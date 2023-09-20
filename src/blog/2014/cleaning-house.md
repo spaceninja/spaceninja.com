@@ -14,7 +14,8 @@ feature_credit: Mike Tinnion
 When I started blogging 15 years ago, one of the things that drew me to it was the idea of speaking to an audience. The concept of “democratizing” publishing so that anyone could put their writing in front of the world was very appealing.
 
 > “I used to always think I had to have a reason to record my observations of the day, or even my emotions, but now I think simply being alive is more than enough reason.”
-> <small>Douglas Copeland, <cite>Microserfs</cite></small>
+>
+> <footer>Douglas Copeland, <cite>Microserfs</cite></footer>
 
 Over the years I pivoted from oversharing about my personal life to an intense focus on technical content. I tried to split the difference, and felt that each side was distracting from the other. My posting schedule also vacillated wildly, at times writing prolifically and then leaving the blog to lie fallow for months at a time.
 

@@ -88,7 +88,11 @@ There is one gotcha, which is that the browser default for things like `color` a
 
 As a result, we went for the more aggressive `all:initial` on our app’s wrapper. The difference between the two is nicely summarized on MDN:
 
-> **Note:** The [`revert`](https://developer.mozilla.org/en-US/docs/Web/CSS/revert) keyword is different from and should not be confused with [`initial`](https://developer.mozilla.org/en-US/docs/Web/CSS/initial), which uses the [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value) defined on a per-property basis by the CSS specifications. In contrast, user-agent stylesheets set default values on the basis of CSS selectors. For example, the  initial value for the `display`  property is `inline`, whereas a normal user-agent stylesheet sets the default `display` value of `<div>`s to `block`, of `<table>`s to `table`, etc.
+<aside>
+
+**Note:** The [`revert`](https://developer.mozilla.org/en-US/docs/Web/CSS/revert) keyword is different from and should not be confused with [`initial`](https://developer.mozilla.org/en-US/docs/Web/CSS/initial), which uses the [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value) defined on a per-property basis by the CSS specifications. In contrast, user-agent stylesheets set default values on the basis of CSS selectors. For example, the  initial value for the `display`  property is `inline`, whereas a normal user-agent stylesheet sets the default `display` value of `<div>`s to `block`, of `<table>`s to `table`, etc.
+
+</aside>
 
 By setting our app’s wrapper to `initial`, we were effectively removing all styles that would have been inherited, and allowing our app to move on in a clean state.
 

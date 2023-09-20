@@ -49,7 +49,7 @@ Here’s an example from the [CSS Guidelines](https://cssguidelin.es/#naming-con
 </div>
 ```
 
-> How are the classes `box` and `profile` related to each other? How are the classes `profile` and `avatar` related to each other? Are they related at all? Should you be using `pro-user` alongside `bio`? Will the classes `image` and `profile` live in the same part of the CSS? Can you use `avatar` anywhere else?
+How are the classes `box` and `profile` related to each other? How are the classes `profile` and `avatar` related to each other? Are they related at all? Should you be using `pro-user` alongside `bio`? Will the classes `image` and `profile` live in the same part of the CSS? Can you use `avatar` anywhere else?
 
 There’s no way to answer those questions from here. You have to do a bunch of detective work in the CSS.
 
@@ -68,7 +68,8 @@ It reminds me of one of my favorite CSS jokes:
 > Two CSS properties walk into a bar.
 >
 > A barstool in a completely different bar falls over.
-> &mdash; @thomasfuchs@mastodon.social (@thomasfuchs) [July 28, 2014](https://twitter.com/thomasfuchs/status/493790680397803521?ref_src=twsrc%5Etfw)
+>
+> <footer>Thomas Fuchs (@thomasfuchs) <a href="https://twitter.com/thomasfuchs/status/493790680397803521">July 28, 2014</a></footer>
 
 ## What is Modularity?
 
@@ -330,10 +331,11 @@ Another thing that Modular CSS newbies tend to get concerned about is conflicts 
 
 The answer is that ideally, modules shouldn’t overlap much. In this example, the `l-card` module is concerned with layout, while the `m-author-profile` module is concerned with styling. You might see `l-card` set width and margins, while `m-author-profile` applies a background color and font.
 
-> Your daily reminders that components aren&#39;t about reuse, they&#39;re about isolation.
+> Your daily reminders that components aren’t about reuse, they’re about isolation.
 >
 > Reuse is a useful emergent property of isolation.
-> &mdash; Trek Glowacki (@trek) [August 10, 2016](https://twitter.com/trek/status/763388260634669057?ref_src=twsrc%5Etfw)
+>
+> <footer>Trek Glowacki (@trek) <a href="https://twitter.com/trek/status/763388260634669057">August 10, 2016</a></footer>
 
 One way to test that your modules are properly isolated and don’t conflict is to load them in a random order. You may be able to configure your build system to shuffle the module stylesheets at build time. If you start seeing bugs, you’ll know that you’ve got CSS that expects to be loaded in a specific order.
 

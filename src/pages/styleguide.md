@@ -280,6 +280,7 @@ Here, a part of a poem is marked up using figure:
 Let's keep it simple. Be sure to style the citation.
 
 > Good afternoon, gentlemen. I am a _HAL 9000_ computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you'd like to hear it I can sing it for you.
-> <small><cite>[HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>, 2000: A Space Odyssey</small>
+>
+> <footer><cite>[HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>, 2000: A Space Odyssey</footer>
 
 And here's a bit of trailing text.

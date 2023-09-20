@@ -21,11 +21,6 @@ The system is simple and tends to look silly to Westerners, but it has been demo
 
 It works on the principle of associating vocal calls with a physical motion to reinforce the mental action of confirming the task is complete. For example, a train driver will physically point to the speedometer and say out loud "speed check, 80." Staff checking that the station is free of obstructions will sweep their arm to physically gesture the full length of the platform before verbally announcing it's clear.
 
-<figure>
-<img src=feature/pointing-and-calling.jpg" alt="Pointing and calling requires co-action and co-reaction among the operator's brain, eyes, hands, mouth, and ears.">
-<figcaption><i><small>Photo credit: <a href="//commons.wikimedia.org/wiki/User:SoHome" title="User:SoHome">SoHome Jacaranda Lilau</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10632684">Link</a></small></i></figcaption>
-</figure>
-
 Pointing and calling requires a person to coordinate the action between their brain, eyes, hands, mouth and ears. It also helps prevent carelessness when performing the same task repeatedly, when a worker's attention might otherwise wander.
 
 Which brings us to software development. How many times have you sat in a meeting, listening to the same admonishment from an engineering manager about code quality? Perhaps you have a strict pull request and code review process. Maybe the code reviewers are held accountable for code that ships under their approval along with the person who wrote it. Perhaps your team even engages in some good-natured [public shaming](http://codingwithempathy.com/2017/01/10/rituals-of-shaming-in-the-software-industry/) for developers who break the build.

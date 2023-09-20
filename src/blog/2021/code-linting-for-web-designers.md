@@ -18,7 +18,9 @@ feature_image: code-linting/linting-cover.png
 
 Similar to how Kleenex became the generic term for facial tissue and Xerox became the generic term for photocopies, Lint is a generic term that started from a specific one. The original [Lint](https://www.unix.com/man-page/FreeBSD/1/lint/) was a Unix utility to check C code for problems.
 
-> The term “lint” was derived from the name of the tiny bits of fiber and fluff shed by clothing, as the command should act like a dryer machine lint trap, detecting small errors with big effects. — [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)
+> The term “lint” was derived from the name of the tiny bits of fiber and fluff shed by clothing, as the command should act like a dryer machine lint trap, detecting small errors with big effects.
+>
+> <footer>Wikipedia: <cite><a href="https://en.wikipedia.org/wiki/Lint_(software)">Lint (software)</a></cite></footer>
 
 Today, we use the term “linters” for a class of tools that check code for common bugs and stylistic errors. Most linters are highly configurable so they can enforce the standards of your organization.
 
