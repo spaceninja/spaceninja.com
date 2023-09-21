@@ -16,3 +16,16 @@
 - [ ] convert header pic to webp
 - [ ] add proper `sizes` attribute
 - [ ] use readable image file names
+- [ ] feature image layout
+- [ ] post image layout
+- [ ] figure layout
+- [ ] post header styles
+- [ ] post footer styles
+- [ ] post navigation styles
+- [ ] post list styles
+- [ ] change theme colors to rgba
+- [ ] add table styles (see ghost post)
+- [ ] blockquote styles
+- [ ] headings with links
+- [ ] "books I love" layout
+- [ ] "books I love" goodreads links

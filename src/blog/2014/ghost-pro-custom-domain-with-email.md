@@ -10,7 +10,13 @@ excerpt: When I switched my blog to a hosted Ghost Pro plan, I ran into some dif
 feature_image: feature/ghost-logo.png
 ---
 
+<aside>
+
 **💡 Update: August, 2021** — This post is seven years old at this point, and I can no longer vouch for the information. I'll leave it up in case it's helpful, but if you have difficulties, I encourage you to reach out to the Ghost support team, who are very helpful.
+
+</aside>
+
+<div class="aside">
 
 **Update: July 16, 2014** -- John with Ghost just emailed me:
 
@@ -45,13 +51,13 @@ I switched from DNSimple to CloudFlare, and it works perfectly. Now my setup loo
 
 <small>\* Cloudflare doesn't seem to have <code>URL</code> or <code>FORWARD</code> records, so I've just added another <code>CNAME</code> for my <code>www</code> subdomain, which seems to be working fine.</small>
 
----
+</div>
 
 When I switched my blog to a [hosted Ghost Pro](https://ghost.org/pricing/) plan, I ran into some difficulty getting the proper DNS configuration. I'm not a <s>smart man</s> networking guru, so I figured there might be others who could benefit from what I learned.
 
 <small>If you're not interested in all the DNS-101 stuff in this post, you can just [skip to the solution](#alias-provider).</small>
 
-### What's so complicated?
+## What's so complicated?
 
 A traditional DNS setup would involve an `A` record for your domain, which points to your hosting provider's IP address, and a series of `MX` records which point to your email provider. You can have `A` and `MX` records for the same domain name, like so:
 
@@ -77,7 +83,7 @@ A traditional DNS setup would involve an `A` record for your domain, which point
 
 When requests come in for your domain name, they get filtered by what type of traffic they are. Email gets sent to your `MX` records, and requests for web pages get sent to your `A` record.
 
-#### What About www?
+### What About www?
 
 The part of your domain after the `www` is called the "root" or "apex" domain. The `www` part is a subdomain, and is defined as a separate DNS record.
 
@@ -133,7 +139,7 @@ If you wanted to redirect all visitors on `www.example.com` to `example.com` ins
 </tr>
 </table>
 
-#### How does cloud hosting make this more complex?
+### How does cloud hosting make this more complex?
 
 Cloud hosting providers — like Heroku, AWS, or Ghost Pro — don't allow you to point `A` records at an IP address on their servers, because they want the ability to [change your IP addresses for security or performance reasons](https://devcenter.heroku.com/articles/apex-domains). For this reason, cloud hosting providers tell you to create a `CNAME` record pointing to their server, like so:
 
@@ -167,7 +173,7 @@ To get around this, there are two options:
 1. Subdomain Redirection
 2. Use a DNS provider that supports `CNAME`-like functionality at the root domain
 
-### Subdomain Redirection
+## Subdomain Redirection
 
 This is pretty simple: You move the `CNAME` record from your root domain to the `www` subdomain and then forward all visitors to the subdomain, like so:
 
@@ -196,7 +202,7 @@ This is pretty simple: You move the `CNAME` record from your root domain to the 
 
 This avoids the `CNAME` conflict on your root domain, but the disadvantage to this approach is it forces all visitors to your site onto the rather pointless `www` subdomain. Personally, I found this distasteful, and went for option 2:
 
-### Use a DNS provider that supports CNAME-like functionality at the root domain
+## Use a DNS provider that supports CNAME-like functionality at the root domain
 
 Some DNS providers have a way to get `CNAME`-like functionality for the root domain using a custom record type. Some examples include:
 
@@ -231,7 +237,7 @@ For each provider, the setup is similar — you set the `ALIAS` or `ANAME` recor
 </tr>
 </table>
 
-#### There's one small catch
+### There's one small catch
 
 For most people, that setup should work just fine. It's a common pattern in use on many sites around the world. However, when I set that up for my domain, all of a sudden my parents couldn't send any email to me.
 
@@ -253,8 +259,8 @@ So, in the end, that's where I left it. My `www` subdomain redirects to `spaceni
 
 Did I get anything wrong? Feel free to [chat with me on Twitter](http://twitter.com/spaceninja)!
 
-<aside>
+<div class="aside">
 
 I'm incredibly grateful to John and Hannah at Ghost who helped me get this all set up. One resource I found particularly helpful was [this reference article about custom domains on Heroku](https://devcenter.heroku.com/articles/custom-domains#root-domain) which applies equally to Ghost Pro.
 
-</aside>
+</div>

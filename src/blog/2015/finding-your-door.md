@@ -10,6 +10,17 @@ tags:
 feature_image: feature/green-door.jpg
 ---
 
+<style>
+  .prose-conversation p {
+    margin: 0 0 0.25em;
+    text-indent: 2em;
+  }
+  .prose-conversation p:first-of-type {
+    text-indent: 0;
+  }
+</style>
+<div class="prose-conversation">
+
 “Hey! I heard you got a new door. How is it?”
 
 “Oh, it’s pretty good. When my last door broke unexpectedly, I had to find a new door pretty quick, and I worried I may have made the decision too quickly. I like the color and the doorknob, but it’s just a little too short for me. I have to stoop slightly every time I walk through it, and sometimes I scrape my elbow on the latch.”
@@ -45,3 +56,5 @@ feature_image: feature/green-door.jpg
 “Good luck.”
 
 “Thanks.”
+
+</div>

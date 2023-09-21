@@ -29,6 +29,26 @@ main {
   width: 1px;
 }
 
+aside,
+.aside {
+  margin: 1em -1em;
+  padding: 1em;
+
+  @media screen and (width >= 42em) {
+    border-radius: 0.25em;
+    margin-inline: -2em;
+    padding-inline: 2em;
+  }
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
 .heading {
   position: relative;
 }
