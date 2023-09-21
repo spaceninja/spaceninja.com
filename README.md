@@ -16,8 +16,8 @@
 - [ ] convert header pic to webp
 - [ ] add proper `sizes` attribute
 - [ ] use readable image file names
-- [ ] feature image layout
-- [ ] post image layout
+- [ ] feature image wide layout
+- [ ] post image wide layout
 - [ ] figure layout
 - [ ] post header styles
 - [ ] post footer styles
@@ -26,6 +26,13 @@
 - [ ] change theme colors to rgba
 - [ ] add table styles (see ghost post)
 - [ ] blockquote styles
-- [ ] headings with links
+- [ ] headings with links (see ff top links 2018 post)
+- [ ] headings with code (see publishing npm post)
 - [ ] "books I love" layout
 - [ ] "books I love" goodreads links
+- [ ] hr styles (see ff top links 2018 post)
+- [ ] floated image styles (see wally wood post)
+- [ ] footnote support (see scrum post)
+- [ ] add background color to `code` (see smashingmag.com)
+- [ ] adjust spacing around `aside`
+- [ ] make iframe embeds bump out a bit (see blend modes and expanse)

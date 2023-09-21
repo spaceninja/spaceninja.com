@@ -24,7 +24,11 @@ Similarly, IMDb does not offer any way to import movie ratings. Strangely, they 
 
 Thankfully, there is a way to get the job done if you’re comfortable with a bit of PHP code and command-line work.
 
-_Disclaimer: this sort of process is inherently brittle. Netflix or IMDb could change something at any time that breaks these tools, and there’s nothing anyone can do about it. This is meant as a document of what worked for me, not bulletproof instructions for everyone. I can’t act as tech support. Follow these instructions at your own risk, etc. Good luck!_
+<aside>
+
+Disclaimer: this sort of process is inherently brittle. Netflix or IMDb could change something at any time that breaks these tools, and there’s nothing anyone can do about it. This is meant as a document of what worked for me, not bulletproof instructions for everyone. I can’t act as tech support. Follow these instructions at your own risk, etc. Good luck!
+
+</aside>
 
 ## Export Your Ratings from Netflix
 
@@ -64,13 +68,13 @@ return [
 
 I had good luck using Sublime Text, but you can use any text editor that supports regex-based search and replace. Different editors handle this differently, but try searching for:
 
-```
+```js
 (.*?)\t(.*?)\t(.*?)\t(.*?)\n
 ```
 
 and replace with:
 
-```
+```js
 [\n\t"title" => "$2",\n\t"rating" => "$3"\n],\n
 ```
 

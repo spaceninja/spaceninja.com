@@ -52,17 +52,9 @@ It’s from the author’s Xuya series, an alternate history exploring what woul
 
 I devoured all four books in a row, so I’m having trouble not thinking of it as a single story. In a nutshell, they cover the aftermath of a particular incident from four wildly different perspectives: First, a woman grieving the loss of her best friend while trying to keep a secret from the colony they established on a new planet. Second, an indentured detective investigating the murder of a charismatic cult leader. Third, a geologist struggling with the needs of her family back on Earth as she takes a job on Mars. And the fourth I won’t mention because it’s a spoiler.
 
-I found the series when io9 posted an excerpt (the whole first chapter, actually) from the third book:
+I found the series when io9 posted an excerpt ([the whole first chapter](https://io9.gizmodo.com/a-space-traveler-uncovers-an-impossible-mystery-in-the-1823250042), actually) from the third book:
 
-<a href="https://io9.gizmodo.com/a-space-traveler-uncovers-an-impossible-mystery-in-the-1823250042">
-
-A Space Traveler Uncovers an Impossible Mystery in the Thrilling First Chapter of Emma Newman’s Before Mars
-
-A geologist whose art has captured the imagination of a space-obsessed multibillionaire accepts a new a gig on Mars, partially as a way to escape the postpartum depression that’s been plaguing her back on Earth. But as soon as she arrives, she makes a shocking discovery—and suddenly she’s surrounded…
-
-io9 The A.V. Club
-
-</a>
+> A geologist whose art has captured the imagination of a space-obsessed multibillionaire accepts a new a gig on Mars, partially as a way to escape the postpartum depression that’s been plaguing her back on Earth. But as soon as she arrives, she makes a shocking discovery—and suddenly she’s surrounded by strangers she can’t trust in a space colony that’s millions and millions of miles away from home.
 
 I can’t recommend this series strongly enough. Go read that chapter and if you dig the vibe, you’re going to have a very good time reading these books.
 

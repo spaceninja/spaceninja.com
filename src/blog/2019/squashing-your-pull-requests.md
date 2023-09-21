@@ -28,13 +28,31 @@ There’s often a handful of incremental commits reflecting the original work th
 
 Now, you’ve got three options for how to merge it: You can make a merge commit, you can rebase and merge, or you can squash and merge. All three are useful in different circumstances. Let’s review:
 
-{% image "squash-your-pull-requests/github-merge-options.png" "" %}Screenshot of the GitHub merge options: create a merge commit, squash and merge, or rebase and merge.
+<figure>
+
+{% image "squash-your-pull-requests/github-merge-options.png" "" %}
+
+<figcaption>
+
+Screenshot of the GitHub merge options: create a merge commit, squash and merge, or rebase and merge.
+
+</figcaption>
+</figure>
 
 ## Merge Commit
 
 Making a merge commit is the default option in GitHub. When you choose this option, your commit history will be retained exactly. Your commits will be interwoven with any other commits made on the parent branch. Then a new commit will be added at the very end, with a message like “Merge pull request from feature branch.”
 
-{% image "squash-your-pull-requests/merge.png" "" %}Screenshot of Git history showing a large group of pull request commits, followed by a commit that happened on master before the pull request was merged, followed by a merge commit.
+<figure>
+
+{% image "squash-your-pull-requests/merge.png" "" %}
+
+<figcaption>
+
+Screenshot of Git history showing a large group of pull request commits, followed by a commit that happened on master before the pull request was merged, followed by a merge commit.
+
+</figcaption>
+</figure>
 
 Note that all your messy incremental commits are still there. And even if your branch only contained a single commit, there will still be a merge commit added.
 
@@ -52,7 +70,16 @@ When you make a branch from master, the parent of your branch is the current com
 
 When you _rebase_ your branch, what you’re doing is changing the parent commit your branch was based on to be the most recent commit on master. Then when you merge your feature branch, it sees that your commits all come after what’s on master, so it just adds them to the chain.
 
-{% image "squash-your-pull-requests/rebase.png" "" %}Screenshot of Git history showing a commit that happened on master before the pull request was merged, followed by a large group of pull request commits.
+<figure>
+
+{% image "squash-your-pull-requests/rebase.png" "" %}
+
+<figcaption>
+
+Screenshot of Git history showing a commit that happened on master before the pull request was merged, followed by a large group of pull request commits.
+
+</figcaption>
+</figure>
 
 However, as with the merge commit option, all your messy incremental commits are retained. It’s just that instead of being scattered through history, they’ll all come in a batch at the end.
 
@@ -68,7 +95,16 @@ If you use the command line, you have the option of only squashing some of the c
 
 For our purposes — a developer merging a short-lived feature branch that no one else is depending on — squashing all the commits like this is ideal.
 
-{% image "squash-your-pull-requests/squash.png" "" %}Screenshot of Git history showing a commit that happened on master before the pull request was merged, followed by a single squashed commit for the entire pull request.
+<figure>
+
+{% image "squash-your-pull-requests/squash.png" "" %}
+
+<figcaption>
+
+Screenshot of Git history showing a commit that happened on master before the pull request was merged, followed by a single squashed commit for the entire pull request.
+
+</figcaption>
+</figure>
 
 It gives us a nice clean commit history with a single commit representing all the work that happened on the feature branch. There are no annoying merge commits. There’s no pointless incremental `lint fix` commits. Just one commit with a useful commit message.
 

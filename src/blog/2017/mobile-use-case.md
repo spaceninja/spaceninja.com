@@ -31,7 +31,11 @@ And that’s just analyzing overall traffic. It gets more dramatic when you cons
 
 [{% image "mobile-use-case/download.png" "Chart showing mobile-only internet usage nearly doubling across all income brackets from 2013 to 2015" %}](https://www.ntia.doc.gov/blog/2016/evolving-technologies-change-nature-internet-use)
 
-<figcaption><small>Use of Mobile Internet Service Alone to Go Online at Home by Family Income, 2013-2015, NTIA</small></figcaption>
+<figcaption>
+
+Use of Mobile Internet Service Alone to Go Online at Home by Family Income, 2013-2015, NTIA
+
+</figcaption>
 </figure>
 
 The global trend is clear. Check your analytics. Even if your mobile users don’t currently outnumber your desktop users, they will soon.

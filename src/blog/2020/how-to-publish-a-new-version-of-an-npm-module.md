@@ -60,25 +60,25 @@ Here is my understanding of the steps that are most commonly expected to be run 
 
 The following steps are optional, but could save you a lot of trouble having to publish a bug fix after a bad release.
 
-```
+```shell
 git pull
 ```
 
 Check that you’re working on the `master` branch (or the branch you publish from), and ensure you’re not missing any commits from the repo.
 
-```
+```shell
 git status
 ```
 
 Confirm that you’ve got a clean working directory. You don’t want to see any uncommitted changes.
 
-```
+```shell
 npm ci
 ```
 
 The `ci` command will run a clean install of your Node modules, so you can validate that the versions you specify install cleanly.
 
-```
+```shell
 npm test
 ```
 
@@ -90,7 +90,7 @@ If you have tests or linters, run them now, to make sure you don’t have any re
 
 If your package includes any resources that need to be compiled, now’s the time to run your build steps.
 
-```
+```shell
 npm run build
 ```
 
@@ -112,7 +112,7 @@ The easiest way to update your version number is to use the handy [`npm version`
 
 You’ll need to tell npm what type of release this is by specifying a valid [semantic versioning](https://semver.org/) type, such as `major`, `minor`, or `patch`. Then npm will update the appropriate part of your version number:
 
-```
+```shell
 npm version minor
 ```
 
@@ -130,7 +130,7 @@ For example, you could run the safety checks mentioned above in a `preversion` s
 
 Finally, once you’re confident this version is ready to release, you can [publish the updated package to npm](https://docs.npmjs.com/cli/publish).
 
-```
+```shell
 npm publish
 ```
 
@@ -140,13 +140,13 @@ The `publish` command will add the updated package to the npm registry.
 
 You’ll also want to make sure your changes are promoted to the Git repo.
 
-```
+```shell
 git push
 ```
 
 Unfortunately, the `push` command doesn’t send tags. To push the new tag you made, you’ll need to run the `push` command again with the `--tags` flag:
 
-```
+```shell
 git push --tags
 ```
 

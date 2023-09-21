@@ -40,12 +40,15 @@ prism: true
 
   <template @raw="content" webc:nokeep></template>
 
-  <footer>
-    <div webc:if="canonical">
+  <aside webc:if="canonical">
+    <p>
       <strong>Note:</strong> This was originally posted on
       <a :href="canonical">my work blog</a>, and I'm re-posting it here for
       archival purposes.
-    </div>
+    </p>
+  </aside>
+
+  <footer>
     <div webc:if="filterTagList(tags).length">
       <h3>Tags</h3>
       <ul class="list--inline">

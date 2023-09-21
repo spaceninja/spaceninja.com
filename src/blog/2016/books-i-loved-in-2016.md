@@ -26,7 +26,9 @@ This book has one of the strongest opening chapters I’ve ever read. ([You can 
 
 ## _Annihilation_, by Jeff Vandermeer
 
-(Edit, 2018) Confession time. I didn’t like this book at all the first time I read it. I felt like I got suckered in by one of those best-of book lists. I read it quickly, left an annoyed 2-star rating, and moved on. In 2018 the movie came out, and the trailer looked great, but I didn’t go see it because I didn’t like the book. Then I read [this twitter thread](https://twitter.com/will_wagner/status/1000764258349666304), which convinced me to give the movie a chance.
+<s>Lots of other reviews compared this to the first season of <i>Lost</i>, and I think that's accurate. There's a compelling sense of paranormal mystery, but ultimately no satisfying answers.</s>
+
+**Edit, 2018:** Confession time. I didn’t like this book at all the first time I read it. I felt like I got suckered in by one of those best-of book lists. I read it quickly, left an annoyed 2-star rating, and moved on. In 2018 the movie came out, and the trailer looked great, but I didn’t go see it because I didn’t like the book. Then I read [this twitter thread](https://twitter.com/will_wagner/status/1000764258349666304), which convinced me to give the movie a chance.
 
 Well, I loved it. I immediately re-read the book, and this time I couldn’t get enough. I think there are two reasons I appreciated it more the second time around. First, some books are really served by having some visuals to help your mind hook into the characters. During my re-read, I had a much easier time picturing the characters and environment, because I had the visuals from the movie (which is gorgeous).
 

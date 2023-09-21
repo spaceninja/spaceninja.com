@@ -106,6 +106,8 @@ This might happen if there’s no server error, but something with the request w
 
 We can handle this situation by adding another safety check to our code. If we find either of these properties in the response, we can throw an error.
 
+<figure>
+
 ```javascript
 const registrationV4 = async (userObject) => {
   // use a try...catch to handle any errors that might occur
@@ -134,7 +136,12 @@ const registrationV4 = async (userObject) => {
 };
 ```
 
-_Note: Don’t assume your API sends the same properties. Check what it sends when there’s an error, and update this check to match!_
+<figcaption>
+
+Note: Don’t assume your API sends the same properties. Check what it sends when there’s an error, and update this check to match!
+
+</figcaption>
+</figure>
 
 In this case, our API documentation told us that it will either return an `error` property, which contains a string, or it will return an `errors` array. I don’t know the structure of the `errors` array, so I’m JSON encoding it since `Error()` expects to be passed a string.
 
@@ -143,6 +150,8 @@ In this case, our API documentation told us that it will either return an `error
 Now, there’s just one final situation that we’re going to check for. Sometimes we get a successful response, and it doesn’t contain an error, but it also doesn’t contain what we’re expecting. For example, an endpoint meant to update a single record could easily be misconfigured to return multiple records, which would be terrible for security and performance.
 
 As a result, it makes sense to check if the response contains the properties we were expecting.
+
+<figure>
 
 ```javascript
 const registrationV5 = async (userObject) => {
@@ -176,7 +185,12 @@ const registrationV5 = async (userObject) => {
 };
 ```
 
-_Note: The `json.count` and `json.results` properties are just examples. You should replace them with properties that your API returns._
+<figcaption>
+
+Note: The `json.count` and `json.results` properties are just examples. You should replace them with properties that your API returns.
+
+</figcaption>
+</figure>
 
 ## Conclusion
 

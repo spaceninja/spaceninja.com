@@ -67,7 +67,11 @@ Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or col
 
 {% image "what-is-flexbox/flex-intro.svg" "Flexbox container and item diagram" %}
 
-<figcaption>Image credit: <a href="http://jonibologna.com/flexbox-cheatsheet/">Flexbox Cheatsheet</a></figcaption>
+<figcaption>
+
+Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
+
+</figcaption>
 </figure>
 
 A Flexbox layout consists of a **flex container** that holds **flex items**. The flex container can be laid out horizontally or vertically. This is referred to as the **main axis**.
@@ -76,7 +80,11 @@ A Flexbox layout consists of a **flex container** that holds **flex items**. The
 
 {% image "what-is-flexbox/axis-both.svg" "Flexbox main and cross axis diagram" %}
 
-<figcaption>Image credit: <a href="http://jonibologna.com/flexbox-cheatsheet/">Flexbox Cheatsheet</a></figcaption>
+<figcaption>
+
+Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
+
+</figcaption>
 </figure>
 
 The direct children of a flex container are laid out along the main axis. These children can “flex” their sizes, growing to fill unused space in the container, or shrinking to avoid overflowing.
@@ -125,7 +133,11 @@ IE10 also supports Flexbox, but uses the tweener spec (`display:flexbox`).
 
 {% image "what-is-flexbox/disaster-girl.jpg" "I have some ideas" %}
 
-<figcaption>I have some ideas</figcaption>
+<figcaption>
+
+I have some ideas
+
+</figcaption>
 </figure>
 
 Best-case scenario? If you don’t mind the non-Flexbox browsers getting a different layout, then you don’t need to do _anything_. This is called **graceful degradation** and is certainly the easiest approach.

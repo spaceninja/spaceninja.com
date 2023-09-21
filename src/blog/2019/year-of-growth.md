@@ -17,7 +17,7 @@ Exactly one year ago today, I was laid off. At the time I was working for Say Me
 
 I was caught in the first round of layoffs related to the merger. Over the next year, I watched successive rounds of layoffs and departures reduce the Portland office to a single employee. The _schadenfreude_ of watching the company that ditched me falling to pieces would have been more enjoyable if I hadn’t remained unemployed for the following four months.
 
-(Taking that long to find a job was a bit awkward, seeing as how I wrote a book called “[How to Find a Better Job in the Tech Industry](https://www.amazon.com/dp/B01M0VOE6O).” Though to be fair to myself, one of the first points in the book is to avoid quitting your job before you have a new one lined up.)
+Taking that long to find a job was a bit awkward, seeing as how I wrote a book called “[How to Find a Better Job in the Tech Industry](https://www.amazon.com/dp/B01M0VOE6O).” Though to be fair to myself, one of the first points in the book is to avoid quitting your job before you have a new one lined up.
 
 During that time we drained our savings, cashed out my retirement fund, borrowed money from family, and came within weeks of being forced to move back in with my parents because we couldn’t afford rent.
 
