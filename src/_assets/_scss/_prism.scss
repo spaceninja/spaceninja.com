@@ -1,3 +1,5 @@
+@use 'mixins';
+
 /*
  * Synthwave '84 Theme originally by Robb Owen [@Robb0wen] for Visual Studio Code
  * Demo: https://marc.dev/demo/prism-synthwave84
@@ -26,9 +28,11 @@ pre[class*='language-'] {
 
 /* Code blocks */
 pre[class*='language-'] {
-  margin: 1em -1em;
+  @include mixins.layout-wide;
+  @include mixins.padding-wide;
+  margin-block: 1.5em;
   overflow: auto;
-  padding: 1em;
+  padding-block: 1em;
 }
 
 :not(pre) > code[class*='language-'],

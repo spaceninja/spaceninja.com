@@ -28,13 +28,15 @@ prism: true
       class="feature-image"
     />
     <figcaption webc:if="feature_credit">
-      Image credit:
-      <a
-        webc:if="feature_source"
-        :href="feature_source"
-        @text="feature_credit"
-      ></a>
-      <template webc:else @text="feature_credit" webc:nokeep></template>
+      <p>
+        Image credit:
+        <a
+          webc:if="feature_source"
+          :href="feature_source"
+          @text="feature_credit"
+        ></a>
+        <template webc:else @text="feature_credit" webc:nokeep></template>
+      </p>
     </figcaption>
   </figure>
 

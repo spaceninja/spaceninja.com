@@ -45,7 +45,11 @@ In a nutshell: Flexbox and Grid were created explicitly to replace float and tab
 
 You may have heard there are three Flexbox specifications. (Which makes me think of this scene from Star Trek:)
 
+<figure>
+
 {% image "what-is-flexbox/there-are-4-lights.png" "Picard shouting “There are four lights!”" %}
+
+</figure>
 
 Don’t let that scare you away. Yes, there are three versions of the spec, but only one of them really matters:
 
@@ -59,7 +63,11 @@ Note: Each spec used a different keyword for the `display` property, which means
 
 ## Flexbox Layouts Go in One Direction
 
+<figure>
+
 {% image "what-is-flexbox/flex-onedirection.gif" "Flexbox = One Direction?" %}
+
+</figure>
 
 Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or column. Let’s talk about what that means:
 

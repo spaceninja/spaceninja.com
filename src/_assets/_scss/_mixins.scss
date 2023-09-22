@@ -1,0 +1,39 @@
+@mixin layout-wide() {
+  margin-inline: -1em;
+
+  @media screen and (width >= 42em) {
+    margin-inline: -2em;
+  }
+}
+
+@mixin padding-wide() {
+  padding-inline: 1em;
+
+  @media screen and (width >= 42em) {
+    padding-inline: 2em;
+  }
+}
+
+@mixin max-width-wide() {
+  max-width: calc(100% + 2em);
+
+  @media screen and (width >= 42em) {
+    max-width: calc(100% + 4em);
+  }
+}
+
+@mixin width-wide() {
+  width: calc(100% + 2em);
+
+  @media screen and (width >= 42em) {
+    width: calc(100% + 4em);
+  }
+}
+
+@mixin width-wide-important() {
+  width: calc(100% + 2em) !important;
+
+  @media screen and (width >= 42em) {
+    width: calc(100% + 4em) !important;
+  }
+}

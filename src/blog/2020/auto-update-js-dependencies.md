@@ -59,7 +59,11 @@ Copy and paste the [following code](https://github.com/renovatebot/renovate/issu
 
 When you’re done, there should be a nice green badge at the top of your repo’s landing page, just like this one:
 
+<figure>
+
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
+
+</figure>
 
 ## 4. Update Your Continuous Integration Configuration (Optional)
 

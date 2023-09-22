@@ -13,12 +13,12 @@
 - [x] add redirects for old post and feed URLs
 - [x] add excerpt and default excerpt support
 - [ ] convert social links to data file
-- [ ] convert header pic to webp
+- [ ] convert banner pic to webp
 - [ ] add proper `sizes` attribute
 - [ ] use readable image file names
-- [ ] feature image wide layout
-- [ ] post image wide layout
-- [ ] figure layout
+- [x] feature image wide layout
+- [x] post image wide layout
+- [x] figure layout
 - [ ] post header styles
 - [ ] post footer styles
 - [ ] post navigation styles
@@ -34,5 +34,5 @@
 - [ ] floated image styles (see wally wood post)
 - [ ] footnote support (see scrum post)
 - [ ] add background color to `code` (see smashingmag.com)
-- [ ] adjust spacing around `aside`
-- [ ] make iframe embeds bump out a bit (see blend modes and expanse)
+- [x] adjust spacing around `aside`
+- [x] make iframe embeds bump out a bit (see blend modes and expanse)

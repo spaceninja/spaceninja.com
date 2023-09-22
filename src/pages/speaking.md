@@ -148,7 +148,11 @@ We will be introducing some of the new elements, such as Article, Section, and V
 
 ### Headshots
 
+<figure>
+
 {% image "scott/avatar512.png" "avatar512" %}
+
+</figure>
 
 {% image "scott/IMG_2191.jpg" "IMG_2191" %}
 

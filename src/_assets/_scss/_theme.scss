@@ -60,6 +60,7 @@ body {
 aside,
 .aside {
   background: var(--color-bg-alt);
+  border-radius: 0.25em;
 }
 
 a {
@@ -133,6 +134,20 @@ kbd {
   min-width: 1.5em;
   padding-inline: 0.25em;
   text-align: center;
+}
+
+figcaption {
+  color: var(--color-subtle);
+
+  // stylelint-disable-next-line no-descending-specificity
+  a {
+    color: var(--color-subtle);
+
+    &:hover,
+    &:focus {
+      color: var(--color-fg);
+    }
+  }
 }
 
 .post-list {

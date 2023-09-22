@@ -1,3 +1,5 @@
+@use 'mixins';
+
 html {
   box-sizing: border-box;
 }
@@ -31,14 +33,10 @@ main {
 
 aside,
 .aside {
-  margin: 1em -1em;
-  padding: 1em;
-
-  @media screen and (width >= 42em) {
-    border-radius: 0.25em;
-    margin-inline: -2em;
-    padding-inline: 2em;
-  }
+  @include mixins.layout-wide;
+  @include mixins.padding-wide;
+  margin-block: 1.5em;
+  padding-block: 1em;
 
   > :first-child {
     margin-top: 0;
