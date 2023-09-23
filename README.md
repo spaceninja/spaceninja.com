@@ -14,7 +14,7 @@
 - [x] add redirects for old post and feed URLs
 - [x] add excerpt and default excerpt support
 - [x] convert social links to data file
-- [ ] use readable image file names
+- [x] use readable image file names
 - [x] footnote support (see scrum post)
 - [x] make sure posts without updated_date don't break
 - [ ] use lite-youtube embed

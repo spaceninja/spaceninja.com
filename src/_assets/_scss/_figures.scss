@@ -16,6 +16,10 @@ img {
   @include mixins.max-width-wide;
   height: auto;
 
+  &[src$='.svg'] {
+    width: 100%;
+  }
+
   // stylelint-disable-next-line selector-no-qualifying-type
   &.align--center {
     margin-inline: auto;

@@ -21,7 +21,7 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 {% image "feature/mandalorian-poster.jpg", "Hey Mando", 'eager' %}
 
-{% include "partials/image.njk"
+{% include "partials/image.liquid"
   src: "feature/mandalorian-poster.jpg"
   alt: "Hey Mando"
   formats: "webp,jpeg"
@@ -29,13 +29,13 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
   classList: "testing TESTING"
 %}
 
-{% include "partials/image.njk"
+{% include "partials/image.liquid"
   src: "superscript-subscript/example.jpg"
   alt: "A smaller image that shouldn't upscale"
   widths: "150,300,450,768"
 %}
 
-{% include "partials/image.njk"
+{% include "partials/image.liquid"
   src: "what-is-flexbox/axis-both.svg"
   alt: "Example SVG"
   formats: "svg"

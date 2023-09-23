@@ -73,7 +73,11 @@ Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or col
 
 <figure>
 
-{% image "what-is-flexbox/flex-intro.svg" "Flexbox container and item diagram" %}
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/flex-intro.svg"
+  alt: "flex-intro"
+  formats: "svg"
+%}
 
 <figcaption>
 
@@ -86,7 +90,11 @@ A Flexbox layout consists of a **flex container** that holds **flex items**. The
 
 <figure>
 
-{% image "what-is-flexbox/axis-both.svg" "Flexbox main and cross axis diagram" %}
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/axis-both.svg"
+  alt: "Flexbox main and cross axis diagram"
+  formats: "svg"
+%}
 
 <figcaption>
 
