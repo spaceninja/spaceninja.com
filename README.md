@@ -36,3 +36,6 @@
 - [ ] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`
 - [x] make iframe embeds bump out a bit (see blend modes and expanse)
+- [ ] make sure posts without updated_date don't break
+- [ ] display "last updated" in post meta
+- [ ] use lite-youtube embed
