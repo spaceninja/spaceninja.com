@@ -23,6 +23,7 @@ const options = {
 
 module.exports = (eleventyConfig) => {
   // Image Shortcode
+  // For use in liquid and nunjucks templates
   // {% image "cat.jpg", "photo of my tabby cat" %}
   eleventyConfig.addAsyncShortcode(
     'image',
@@ -70,10 +71,10 @@ module.exports = (eleventyConfig) => {
     return `${siteMetadata.url.slice(0, -1)}${imageMetadata.webp[0].url}`;
   });
 
-  // WebC Component
+  // Image Component
+  // For use in WebC templates
   // <img webc:is="eleventy-image" src="cat.jpg" alt="photo of my tabby cat">
   eleventyConfig.addPlugin(eleventyImagePlugin, {
-    // Set global default options
     filenameFormat: options.filenameFormat,
     formats: options.formats,
     outputDir: path.join(eleventyConfig.dir.output, options.outputDir),
