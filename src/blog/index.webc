@@ -16,8 +16,6 @@
 }
 ---
 
-<p webc:if="!pagination.pageNumber" @text="metadata.description"></p>
-
 <post-list :posts="postList"></post-list>
 
 <post-list-pagination

@@ -1,0 +1,9 @@
+---js
+{
+  layout: 'layouts/page.webc',
+  eleventyExcludeFromCollections: true,
+  og_type: 'website',
+}
+---
+
+<post-list :posts="collections.postsByRecent"></post-list>

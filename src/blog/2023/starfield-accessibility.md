@@ -1,7 +1,6 @@
 ---
 title: Starfield’s Accessibility Problems
 date: 2023-09-19
-date_updated: 2023-09-19
 tags:
   - accessibility
   - games

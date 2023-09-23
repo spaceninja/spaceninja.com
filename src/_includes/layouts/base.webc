@@ -119,51 +119,20 @@
           @text="`© ${new Date().getFullYear()} ${metadata.author.name}`"
         ></p>
         <ul class="app-footer__social">
-          <li class="app-footer__social-item">
+          <li webc:for="link of social" class="app-footer__social-item">
             <a
               class="app-footer__social-link"
               rel="me"
-              href="https://twitter.com/spaceninja"
-              >Twitter</a
-            >
+              :href="link.url"
+              @text="link.name"
+            ></a>
           </li>
-          <li class="app-footer__social-item">
+          <li webc:for="link of feeds" class="app-footer__social-item">
             <a
               class="app-footer__social-link"
-              rel="me"
-              href="https://bsky.app/profile/spaceninja.com"
-              >Bluesky</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://mastodon.cloud/@spaceninja"
-              >Mastodon</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://github.com/spaceninja"
-              >GitHub</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://codepen.io/spaceninja/"
-              >CodePen</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a class="app-footer__social-link" href="/feed/feed.xml">Feed</a>
-          </li>
-          <li class="app-footer__social-item">
-            <a class="app-footer__social-link" href="/feed/feed.json">JSON</a>
+              :href="link.url"
+              @text="link.name"
+            ></a>
           </li>
         </ul>
       </div>
