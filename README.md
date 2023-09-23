@@ -32,7 +32,7 @@
 - [ ] "books I love" goodreads links
 - [ ] hr styles (see ff top links 2018 post)
 - [ ] floated image styles (see wally wood post)
-- [ ] footnote support (see scrum post)
+- [x] footnote support (see scrum post)
 - [ ] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`
 - [x] make iframe embeds bump out a bit (see blend modes and expanse)
