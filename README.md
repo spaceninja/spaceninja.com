@@ -17,7 +17,6 @@
 - [x] use readable image file names
 - [x] footnote support (see scrum post)
 - [x] make sure posts without updated_date don't break
-- [ ] use lite-youtube embed
 
 ### Theming
 
