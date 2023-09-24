@@ -69,12 +69,15 @@ Lorem ipsum dolor sit amet, [test link](http://example.com) adipiscing elit. **T
 ## Tables
 
 <table>
+  <thead>
   <tr>
     <th>&nbsp;</th>
     <th>Enterprise</th>
     <th>Enterprise D</th>
     <th>Galactica</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <th>Captain</th>
     <td>James Kirk</td>
@@ -99,6 +102,7 @@ Lorem ipsum dolor sit amet, [test link](http://example.com) adipiscing elit. **T
     <td>Geordi LaForge</td>
     <td>Galen Tyrol</td>
   </tr>
+  </tbody>
 </table>
 
 ---

@@ -123,7 +123,10 @@ hr {
 }
 
 code {
+  background: var(--color-bg-kbd);
+  border-radius: 0.2em;
   color: var(--color-code);
+  padding-inline: 0.2em;
 }
 
 kbd {
