@@ -107,6 +107,16 @@ Lorem ipsum dolor sit amet, [test link](http://example.com) adipiscing elit. **T
 
 ---
 
+## Asides
+
+<aside>
+
+**Note:** The `<aside>` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+</aside>
+
+---
+
 ## Preformatted Text
 
 Including, but not limited to code. Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. For example:
