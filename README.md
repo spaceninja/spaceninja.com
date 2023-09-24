@@ -33,11 +33,10 @@
 - [x] headings with links (see ff top links 2018 post)
 - [x] headings with code (see publishing npm post)
 - [ ] "books I love" layout
-- [ ] "books I love" goodreads links
 - [x] hr styles (see ff top links 2018 post)
-- [ ] floated image styles (see wally wood post)
 - [x] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`
 - [x] make iframe embeds bump out a bit (see blend modes and expanse)
 - [ ] convert banner pic to webp
-- [ ] add proper `sizes` attribute
+- [ ] floated image styles (see wally wood post)
+- [ ] add proper `sizes` attributes
