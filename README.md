@@ -30,8 +30,8 @@
 - [x] change theme colors to rgba
 - [x] add table styles (see ghost post)
 - [x] blockquote styles
-- [ ] headings with links (see ff top links 2018 post)
-- [ ] headings with code (see publishing npm post)
+- [x] headings with links (see ff top links 2018 post)
+- [x] headings with code (see publishing npm post)
 - [ ] "books I love" layout
 - [ ] "books I love" goodreads links
 - [x] hr styles (see ff top links 2018 post)

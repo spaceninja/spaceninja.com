@@ -66,7 +66,7 @@ aside,
 a {
   color: var(--color-link);
   text-decoration-color: var(--color-link-underline);
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 0 0625em;
   text-underline-offset: 0.075em;
 
   &:visited {
@@ -76,7 +76,7 @@ a {
   &:hover,
   &:focus {
     text-decoration-color: currentcolor;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 0.125em;
     text-underline-offset: auto;
   }
 }
@@ -95,6 +95,15 @@ h6 {
   background-repeat: repeat;
   background-size: 100%;
   color: transparent;
+
+  code {
+    color: inherit;
+  }
+
+  a {
+    color: inherit;
+    text-decoration-color: var(--color-link-underline);
+  }
 }
 
 h1 {
