@@ -46,7 +46,7 @@ figure {
   @include mixins.layout-wide;
 
   pre[class*='language-'] {
-    margin-block: 0;
+    margin: 0;
   }
 
   img {
@@ -59,10 +59,15 @@ figure {
 figcaption {
   font-size: smaller;
   font-style: italic;
+  margin-top: 0.5em;
   text-align: center;
   text-wrap: balance;
 
-  p {
-    margin-block: 0.5em;
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
   }
 }
