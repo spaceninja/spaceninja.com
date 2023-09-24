@@ -16,8 +16,8 @@
       type="application/json"
       :title="metadata.title"
     />
-    <link webc:keep rel="stylesheet" href="/style.css" />
-    <link webc:if="prism" webc:keep rel="stylesheet" href="/prism.css" />
+    <link webc:keep rel="stylesheet" href="/styles/style.css" />
+    <link webc:if="prism" webc:keep rel="stylesheet" href="/styles/prism.css" />
     <link
       rel="preload"
       href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2"

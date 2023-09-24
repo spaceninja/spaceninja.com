@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
   // Additional files to watch that will trigger LiveReload updates:
   // Watch for CSS changes
   eleventyConfig.setServerOptions({
-    watch: ['dist/*.css'],
+    watch: ['dist/styles/*.css'],
   });
 
   // Official plugins
