@@ -146,6 +146,27 @@ sub {
   vertical-align: baseline;
 }
 
+blockquote {
+  footer {
+    color: var(--color-subtle);
+    font-size: smaller;
+    margin-top: -0.5em;
+
+    &::before {
+      content: '—';
+    }
+
+    a {
+      color: var(--color-subtle);
+
+      &:hover,
+      &:focus {
+        color: var(--color-fg);
+      }
+    }
+  }
+}
+
 .intro {
   font-size: 1.1em;
 }

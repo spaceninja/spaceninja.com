@@ -29,7 +29,7 @@
 - [ ] post list styles
 - [ ] change theme colors to rgba
 - [ ] add table styles (see ghost post)
-- [ ] blockquote styles
+- [x] blockquote styles
 - [ ] headings with links (see ff top links 2018 post)
 - [ ] headings with code (see publishing npm post)
 - [ ] "books I love" layout
