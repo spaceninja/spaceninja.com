@@ -2,6 +2,7 @@
 title: Styleguide
 slug: styleguide
 permalink: styleguide/
+dynamicPermalink: false
 date: 2014-02-18T18:53:23.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 prism: true

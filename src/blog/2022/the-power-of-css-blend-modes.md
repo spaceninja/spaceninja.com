@@ -18,11 +18,11 @@ feature_image: css-blend-modes/css-filters-layers-rainbow@2x.jpg
   Apple inspired Pride clock</a> by Scott Kellum (<a href="https://codepen.io/scottkellum">@scottkellum</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 [This CodePen](https://codepen.io/scottkellum/pen/gOvXodv), by [Scott Kellum](https://codepen.io/scottkellum), really caught my eye. I could see it was HTML text for the numbers, but I wasn’t sure how he created the radial line effect. When I dug into the code, I was shocked by how little CSS it took to create the effect. Here’s a layered breakdown to make it easier to visualize:
 
-{% image "css-blend-modes/css-filters-layers-rainbow@2x.jpg" "A diagram showing the layers used to create a rainbow lined effect with CSS." %}
+<img webc:is="eleventy-image" :src="imgPath('css-blend-modes/css-filters-layers-rainbow@2x.jpg')" alt="A diagram showing the layers used to create a rainbow lined effect with CSS.">
 
 The bottom-most layer is a simple repeating radial gradient, alternating between gray and white:
 
@@ -76,11 +76,11 @@ It’s elegant! Just a few lines of CSS and a simple set of layers are converted
   CSS Radial Engraving Photo Filter</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 [My first experiment](https://codepen.io/spaceninja/pen/wvymgba) was basically replicating the radial lines effect from the previous example and applying it to a photo to make a sort of radial engraving effect, similar to what you might see on a bank note or a [newspaper hedcut](https://en.wikipedia.org/wiki/Hedcut).
 
-{% image "css-blend-modes/css-filters-layers-radial@2x.jpg" "A diagram showing the layers used to create a radial engraving effect with CSS." %}
+<img webc:is="eleventy-image" :src="imgPath('css-blend-modes/css-filters-layers-radial@2x.jpg')" alt="A diagram showing the layers used to create a radial engraving effect with CSS.">
 
 The first step is exactly the same. Create a repeating radial gradient that goes behind the image:
 
@@ -131,11 +131,11 @@ But it got me thinking. Being a comic book fan, I wondered… could this same te
   CSS Halftone Filter</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 I’m pleased to say the answer is yes!
 
-{% image "css-blend-modes/css-filters-layers-halftone@2x.jpg" "A diagram showing the layers used to create a halftone effect with CSS." %}
+<img webc:is="eleventy-image" :src="imgPath('css-blend-modes/css-filters-layers-halftone@2x.jpg')" alt="A diagram showing the layers used to create a halftone effect with CSS.">
 
 My second experiment made only one change to the formula. Rather than a radial gradient to make lines in the background, I used a single gradient “dot” as a repeating background.
 

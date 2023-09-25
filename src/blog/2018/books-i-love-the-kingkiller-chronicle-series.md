@@ -19,11 +19,11 @@ I can’t remember now how I first heard of it. Likely from a book review on [io
 
 The audacity of that introduction fascinated me. Especially the cheeky tone of “You may have heard of me.” It felt like the opening scene of _Conan the Barbarian_, but with a nod and wink to the audience. I was hooked immediately.
 
-{% image "books/kingkiller1a.jpg" "" %}
+<img webc:is="eleventy-image" :src="imgPath('books/kingkiller1a.jpg')" alt="">
 
-{% image "books/kingkiller2.jpg" "" %}
+<img webc:is="eleventy-image" :src="imgPath('books/kingkiller2.jpg')" alt="">
 
-{% image "books/kingkiller1.jpg" "" %}
+<img webc:is="eleventy-image" :src="imgPath('books/kingkiller1.jpg')" alt="">
 
 On the right is the beautiful tenth anniversary edition. Look at that artwork!
 Kvothe ([pronounced like “quothe”](https://blog.patrickrothfuss.com/2008/02/ask-author-4-how-do-i-pronounce-kvothes/)) is living in hiding but has been tracked down by the Chronicler, a sort of roving biographer who has learned his secret. He convinces Kvothe to share his story, and from that point, the book is mostly his own narration. Hence the introduction.

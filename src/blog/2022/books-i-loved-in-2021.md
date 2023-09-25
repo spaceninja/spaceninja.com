@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2021.jpg
 feature_source: https://unsplash.com/photos/Skcr6X_aLjU
 feature_credit: Sara
+templateEngineOverride: webc,md
 ---
 
 [I read 30 books in 2021](https://www.goodreads.com/user_challenges/27577812), and 13 of those were reading to my youngest, John. In 2020, our habit of me reading to him at bedtime faltered a bit, as he was getting a bit older. But he was absolutely in love with _Breath of the Wild_, the open-world _Legend of Zelda_ game. And I realized that he was old enough to appreciate _the Hobbit_, and went into full sales mode, channeling the grandpa from _The Princess Bride_:
@@ -23,12 +24,7 @@ For my purposes, I read several books that I really loved:‌
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/termination-shock.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/termination-shock.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">
@@ -45,12 +41,7 @@ This book is firmly in the “airport thriller” style, but man did I love it. 
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/antimemetics-division.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/antimemetics-division.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">
@@ -71,12 +62,7 @@ This book is great fun, and I can’t recommend it strongly enough, especially i
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/fugitive-telemetry.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/fugitive-telemetry.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">
@@ -93,12 +79,7 @@ It’s a detective story starring Murderbot, with all the acerbic snark you’d 
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/hail-mary.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/hail-mary.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">
@@ -119,12 +100,7 @@ It’s also one of the best first contact stories I’ve ever read. Without givi
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/ufos.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/ufos.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">
@@ -143,12 +119,7 @@ It lays out a compelling and well-researched case that UFOs are real, they have 
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/in-plain-sight.jpg"
-  alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
-%}
+<img webc:is="eleventy-image" :src="imgPath('books/in-plain-sight.jpg')" alt="TEST" :width="media.list.widths" :sizes="media.list.sizes">
 
 </div>
 <div class="media-list__content">

@@ -17,7 +17,7 @@
 - [x] use readable image file names
 - [x] footnote support (see scrum post)
 - [x] make sure posts without updated_date don't break
-- [ ] use webc as markdown pre-rendering engine
+- [x] use webc as markdown pre-rendering engine
 
 ### Theming
 

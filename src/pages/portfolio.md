@@ -4,9 +4,6 @@ permalink: portfolio/
 date: 2014-07-07T15:45:32.000Z
 date_updated: 2023-08-16T03:22:15.000Z
 description: Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 20 years experience building scalable user interfaces.
-eleventyNavigation:
-  key: Portfolio
-  order: 1
 ---
 
 I'm a front-end architect and CSS specialist in Portland, Oregon with over 20 years experience building scalable user interfaces. My specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between my education in graphic design and my experience working alongside programmers, I bridge the gap between design and development.
@@ -19,33 +16,19 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
-{% image "feature/mandalorian-poster.jpg", "Hey Mando", 'eager' %}
+<img webc:is="eleventy-image" :src="imgPath('feature/mandalorian-poster.jpg')" alt="Hey Mando" loading="eager">
 
-{% include "partials/image.liquid"
-  src: "feature/mandalorian-poster.jpg"
-  alt: "Hey Mando"
-  formats: "webp,jpeg"
-  sizes: "50vw"
-  classList: "testing TESTING"
-%}
+<img webc:is="eleventy-image" :src="imgPath('feature/mandalorian-poster.jpg')" alt="Hey Mando" formats="webp, jpeg" sizes="50vw" class="testing TESTING">
 
-{% include "partials/image.liquid"
-  src: "superscript-subscript/example.jpg"
-  alt: "A smaller image that shouldn't upscale"
-  widths: "150,300,450,768"
-%}
+<img webc:is="eleventy-image" :src="imgPath('superscript-subscript/example.jpg')" alt="A smaller image that shouldn't upscale" width="150,300,450,768">
 
-{% include "partials/image.liquid"
-  src: "what-is-flexbox/axis-both.svg"
-  alt: "Example SVG"
-  formats: "svg"
-%}
+<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/axis-both.svg')" alt="Example SVG" formats="svg">
 
-{% image "books/ancillary-justice.jpg", "Ancillary Justice" %}
+<img webc:is="eleventy-image" :src="imgPath('books/ancillary-justice.jpg')" alt="Ancillary Justice">
 
-{% image "books/thrawn.jpg", "Thrawn" %}
+<img webc:is="eleventy-image" :src="imgPath('books/thrawn.jpg')" alt="Thrawn">
 
-{% image "portfolio/tempest-showcase.png", "Tempest CMS" %}
+<img webc:is="eleventy-image" :src="imgPath('portfolio/tempest-showcase.png')" alt="Tempest CMS">
 
 ## Tempest CMS
 
@@ -53,7 +36,7 @@ Starting in 2015, I signed on with [Say Media](https://www.saymedia.com/) to wor
 
 ---
 
-{% image "portfolio/mltshp-showcase.png" "MLTSHP" %}
+<img webc:is="eleventy-image" :src="imgPath('portfolio/mltshp-showcase.png')" alt="MLTSHP">
 
 ## MLTSHP
 
@@ -61,7 +44,7 @@ In early 2017 I joined a team that was working to save the image sharing communi
 
 ---
 
-[{% image "portfolio/fridayfrontend-browser.png" "FridayFrontEnd.com" %}](https://fridayfrontend.com/)
+[<img webc:is="eleventy-image" :src="imgPath('portfolio/fridayfrontend-browser.png')" alt="FridayFrontEnd.com">](https://fridayfrontend.com/)
 
 ## Friday Front-End
 
@@ -69,7 +52,7 @@ I started an [email newsletter](https://fridayfrontend.com/) and [twitter accoun
 
 ---
 
-[{% image "portfolio/better-job-book-cover.png" "Better Job in Tech book cover" %}](https://www.amazon.com/dp/B01M0VOE6O)
+[<img webc:is="eleventy-image" :src="imgPath('portfolio/better-job-book-cover.png')" alt="Better Job in Tech book cover">](https://www.amazon.com/dp/B01M0VOE6O)
 
 ## How to Find a Better Job in Tech
 
@@ -77,7 +60,7 @@ In 2016, I self-published an e-book about [finding a better job in the tech indu
 
 ---
 
-[{% image "portfolio/puppetlabs-showcase.png" "PuppetLabs.com" %}](http://puppetlabs.com/)
+[<img webc:is="eleventy-image" :src="imgPath('portfolio/puppetlabs-showcase.png')" alt="PuppetLabs.com">](http://puppetlabs.com/)
 
 ## PuppetLabs.com
 
@@ -85,7 +68,7 @@ In 2013 I joined the marketing team at [Puppet Labs](http://puppetlabs.com/), wi
 
 ---
 
-[{% image "portfolio/sararyan-showcase.png" "SaraRyan.com" %}](http://sararyan.com/)
+[<img webc:is="eleventy-image" :src="imgPath('portfolio/sararyan-showcase.png')" alt="SaraRyan.com">](http://sararyan.com/)
 
 ## SaraRyan.com
 
@@ -93,7 +76,7 @@ Local Portland novelist [Sara Ryan](http://sararyan.com/) contacted me in 2012 t
 
 ---
 
-[{% image "portfolio/cityeats-showcase.png" "CityEats.com" %}](http://cityeats.com/)
+[<img webc:is="eleventy-image" :src="imgPath('portfolio/cityeats-showcase.png')" alt="CityEats.com">](http://cityeats.com/)
 
 ## CityEats.com
 

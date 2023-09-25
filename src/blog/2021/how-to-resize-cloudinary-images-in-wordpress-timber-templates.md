@@ -16,13 +16,9 @@ feature_image: feature/wp-timber-cloudinary.png
 
 We recently enabled the [Cloudinary WordPress plugin](https://cloudinary.com/documentation/wordpress_integration) for a client site. It modifies the way WordPress handles media by automatically syncing your images and serving them from Cloudinary with [optimizations](https://cloudinary.com/documentation/image_optimization). For images in blog posts, it works out of the box. However, our client’s site has a lot of custom templates, almost all of which use [Timber](https://upstatement.com/timber/) filters to [resize images](https://timber.github.io/docs/guides/cookbook-images/#arbitrary-resizing-of-images) and [convert to JPG format](https://timber.github.io/docs/guides/cookbook-images/#converting-images), like so:
 
-{% raw %}
-
 ```html
 <img src="{{ post.thumbnail.src|resize(640)|tojpg }}" />
 ```
-
-{% endraw %}
 
 Unfortunately, arbitrary resizing of images like this results in the resized images being served from WordPress rather than Cloudinary. Timber has a helpful section in their docs explaining that this is a [limitation of Timber when working with a CDN](https://timber.github.io/docs/guides/cookbook-images/#limitations-when-working-with-a-cdn), because WordPress doesn’t know about the generated images.
 
@@ -46,13 +42,9 @@ function optimize_image( $url, $width, $height, $format) {
 
 This can be used the same way as the Timber filters:
 
-{% raw %}
-
 ```html
 <img src="{{ post.thumbnail.src|optimize_image(640, null, 'jpg') }}" />
 ```
-
-{% endraw %}
 
 Now we can send the image through a separate optimization function depending on whether the image is being served from Cloudinary or not.
 

@@ -19,7 +19,7 @@ Our company’s analytics shows 58% mobile traffic vs 42% desktop. Desktop traff
 
 According to a StatCounter press release, [mobile and tablet internet usage exceeded desktop](http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide) for the first time worldwide in October of 2016, but the pattern has been clear for years.
 
-[{% image "mobile-use-case/internet_usage_2009_2016_ww.png" "Chart showing steady growth of mobile and steady decline of desktop until mobile overtook desktop in October 2016" %}](http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide)
+[<img webc:is="eleventy-image" :src="imgPath('mobile-use-case/internet_usage_2009_2016_ww.png')" alt="Chart showing steady growth of mobile and steady decline of desktop until mobile overtook desktop in October 2016">](http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide)
 
 These numbers do vary a bit regionally. Currently the [US](http://gs.statcounter.com/platform-market-share/desktop-mobile/united-states-of-america) and [UK](http://gs.statcounter.com/platform-market-share/desktop-mobile/united-kingdom) show about 40% mobile usage. [Africa](http://gs.statcounter.com/platform-market-share/desktop-mobile/africa) has 60% mobile usage, and [Asia](http://gs.statcounter.com/platform-market-share/desktop-mobile/asia) is at 67%! In all cases, the share of mobile usage is still climbing.
 
@@ -29,7 +29,7 @@ And that’s just analyzing overall traffic. It gets more dramatic when you cons
 
 <figure>
 
-[{% image "mobile-use-case/download.png" "Chart showing mobile-only internet usage nearly doubling across all income brackets from 2013 to 2015" %}](https://www.ntia.doc.gov/blog/2016/evolving-technologies-change-nature-internet-use)
+[<img webc:is="eleventy-image" :src="imgPath('mobile-use-case/download.png')" alt="Chart showing mobile-only internet usage nearly doubling across all income brackets from 2013 to 2015">](https://www.ntia.doc.gov/blog/2016/evolving-technologies-change-nature-internet-use)
 
 <figcaption>
 

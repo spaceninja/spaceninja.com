@@ -30,7 +30,7 @@ Now, you’ve got three options for how to merge it: You can make a merge commit
 
 <figure>
 
-{% image "squash-your-pull-requests/github-merge-options.png" "" %}
+<img webc:is="eleventy-image" :src="imgPath('squash-your-pull-requests/github-merge-options.png')" alt="">
 
 <figcaption>
 
@@ -45,7 +45,7 @@ Making a merge commit is the default option in GitHub. When you choose this opti
 
 <figure>
 
-{% image "squash-your-pull-requests/merge.png" "" %}
+<img webc:is="eleventy-image" :src="imgPath('squash-your-pull-requests/merge.png')" alt="">
 
 <figcaption>
 
@@ -72,7 +72,7 @@ When you _rebase_ your branch, what you’re doing is changing the parent commit
 
 <figure>
 
-{% image "squash-your-pull-requests/rebase.png" "" %}
+<img webc:is="eleventy-image" :src="imgPath('squash-your-pull-requests/rebase.png')" alt="">
 
 <figcaption>
 
@@ -97,7 +97,7 @@ For our purposes — a developer merging a short-lived feature branch that no on
 
 <figure>
 
-{% image "squash-your-pull-requests/squash.png" "" %}
+<img webc:is="eleventy-image" :src="imgPath('squash-your-pull-requests/squash.png')" alt="">
 
 <figcaption>
 

@@ -28,7 +28,7 @@ The problem, as you can see in this screenshot, is that if you only load one fon
 
 <figure>
 
-{% image "font-face-faux-styles/problem.png" "Comparing the browser's faux italic and bold styles to the true fonts" %}
+<img webc:is="eleventy-image" :src="imgPath('font-face-faux-styles/problem.png')" alt="Comparing the browser's faux italic and bold styles to the true fonts">
 
 <figcaption>
 
@@ -103,7 +103,7 @@ However, doing that actually results in what you see here, where the browser sti
 
 <figure>
 
-{% image "font-face-faux-styles/worst.png" "Double-italic and bold styles" %}
+<img webc:is="eleventy-image" :src="imgPath('font-face-faux-styles/worst.png')" alt="Double-italic and bold styles">
 
 <figcaption>
 
@@ -137,7 +137,7 @@ And it seems to work perfectly! Your custom bold and italic fonts are loaded pro
 
 <figure>
 
-{% image "font-face-faux-styles/wrong.png" "Fallback font with no bold or italics" %}
+<img webc:is="eleventy-image" :src="imgPath('font-face-faux-styles/wrong.png')" alt="Fallback font with no bold or italics">
 
 <figcaption>
 
@@ -200,7 +200,7 @@ Then all you need to do is apply that single `font-family` to your target, and a
 
 <figure>
 
-{% image "font-face-faux-styles/right.png" "correct fonts, with fallback styles" %}
+<img webc:is="eleventy-image" :src="imgPath('font-face-faux-styles/right.png')" alt="correct fonts, with fallback styles">
 
 <figcaption>
 
@@ -215,7 +215,7 @@ You can see a live example of these problems and the final solution on the [demo
 
 <figure>
 
-{% image "font-face-faux-styles/font_face_comparison.png" "Comparing font-face rendering between Mac and Win XP" %}
+<img webc:is="eleventy-image" :src="imgPath('font-face-faux-styles/font_face_comparison.png')" alt="Comparing font-face rendering between Mac and Win XP">
 
 <figcaption>
 

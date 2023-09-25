@@ -40,7 +40,7 @@ The primary problem that Modular CSS was created to solve is that CSS at scale i
 
 <figure>
 
-{% image "what-is-modular-css/necolas-1.jpg" "“Replace ‘can you build this?’ with ‘can you maintain this without losing your minds?’” —Nicolas Gallagher" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/necolas-1.jpg')" alt="“Replace ‘can you build this?’ with ‘can you maintain this without losing your minds?’” —Nicolas Gallagher">
 
 <figcaption>
 
@@ -90,7 +90,7 @@ So how do we solve these problems? The answer lies in the concept of _modularity
 
 <figure>
 
-{% image "what-is-modular-css/csswizardry.jpg" "“Code which adheres to the separation of concerns can be much more confidently modified, edited, extended, and maintained because we know how far its responsibilities reach. We know that modifying layout, for example, will only ever modify layout—nothing else.” —Harry Roberts" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/csswizardry.jpg')" alt="“Code which adheres to the separation of concerns can be much more confidently modified, edited, extended, and maintained because we know how far its responsibilities reach. We know that modifying layout, for example, will only ever modify layout—nothing else.” —Harry Roberts">
 
 <figcaption>
 
@@ -105,7 +105,7 @@ Let me give you an example of the way I used to work before I learned about Modu
 
 <figure>
 
-{% image "what-is-modular-css/bookstore-comp.gif" "Illustration of a design comp for a bookstore website" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/bookstore-comp.gif')" alt="Illustration of a design comp for a bookstore website">
 
 <figcaption>
 
@@ -120,7 +120,7 @@ I was thinking of the page as a complete unit, and of the smaller pieces as belo
 
 <figure>
 
-{% image "what-is-modular-css/components.jpg" "Illustration of a design comp for a bookstore with the components highlighted" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/components.jpg')" alt="Illustration of a design comp for a bookstore with the components highlighted">
 
 <figcaption>
 
@@ -137,7 +137,7 @@ Modular CSS is bottom-up thinking. It asks you to start with the reusable buildi
 
 <figure>
 
-{% image "what-is-modular-css/legos.jpg" "Image of workers building with Lego bricks" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/legos.jpg')" alt="Image of workers building with Lego bricks">
 
 <figcaption>
 
@@ -150,13 +150,13 @@ Does that remind you of anything? It should! The Lego analogy is used by almost 
 
 One of the most famous examples of this type of block is the “media object,” defined by [Nicole Sullivan](https://twitter.com/stubbornella). She argued that this object is one of the smallest discrete pieces of content that you’re going to find on any site.
 
-{% image "what-is-modular-css/media-blocks.jpg" "An example of the media object" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/media-blocks.jpg')" alt="An example of the media object">
 
 It combines a fixed width image to one side of flexible width content. You can see this everywhere. She produced a case study, called “[The Media Object Saves Hundreds of Lines of Code](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/),” that talked about applying this pattern to large-scale sites. One of her biggest examples was Facebook:
 
 <figure>
 
-{% image "what-is-modular-css/facebook-image-block.png" "The media object highlighted in red on the facebook homepage" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/facebook-image-block.png')" alt="The media object highlighted in red on the facebook homepage">
 
 <figcaption>
 
@@ -181,7 +181,7 @@ Object-Oriented CSS, or [OOCSS](https://github.com/stubbornella/oocss/wiki), was
 
 <figure>
 
-{% image "what-is-modular-css/stubbornella.jpg" "“a CSS ‘object’ is a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site.” —Nicole Sullivan" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/stubbornella.jpg')" alt="“a CSS ‘object’ is a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site.” —Nicole Sullivan">
 
 <figcaption>
 
@@ -228,7 +228,7 @@ Here’s how [Varya Stepanova](https://twitter.com/varya_en), one of the lead fr
 
 <figure>
 
-{% image "what-is-modular-css/varya.jpg" "“BEM is a way to modularize development of web pages. By breaking your web interface into components… you can have your interface divided into independent parts, each one with its own development cycle.” —Varya Stepanova" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/varya.jpg')" alt="“BEM is a way to modularize development of web pages. By breaking your web interface into components… you can have your interface divided into independent parts, each one with its own development cycle.” —Varya Stepanova">
 
 <figcaption>
 
@@ -270,23 +270,23 @@ That looks a little complicated, so let me break it down a bit:
 
 This is getting a bit abstract, so let’s have an example:
 
-{% image "what-is-modular-css/minifig-1.png" "Example of .minifig to indicate a lego minifig" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/minifig-1.png')" alt="Example of .minifig to indicate a lego minifig">
 
 Here we have a standard Lego minifig. It’s a blue astronaut. We’ll identify it with the block class `.minifig`.
 
-{% image "what-is-modular-css/minifig-2.png" "Example of .minifig module with child elements such as .minifig__head and .minifig__legs" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/minifig-2.png')" alt="Example of .minifig module with child elements such as .minifig__head and .minifig__legs">
 
 You can see that the `.minifig` block is made up of smaller elements such as `.minifig__head` and `.minifig__legs`. Now let’s add a modifier:
 
-{% image "what-is-modular-css/minifig-3.png" "Example of .minifig--red module modifier, turning the minifig red" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/minifig-3.png')" alt="Example of .minifig--red module modifier, turning the minifig red">
 
 By adding the `.minifig--red` modifier we’ve created a red version of our standard blue astronaut.
 
-{% image "what-is-modular-css/minifig-4.png" "Example of a .minifig--yellow-new module modifier, turning the minifig yellow" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/minifig-4.png')" alt="Example of a .minifig--yellow-new module modifier, turning the minifig yellow">
 
 Alternatively, we can use the `.minifig--yellow-new` modifier to change our astronaut to the new-style yellow uniform.
 
-{% image "what-is-modular-css/minifig-5.png" "Example of a .minifig--batman module modifier making a drastic change in the appearance of the minifig" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css/minifig-5.png')" alt="Example of a .minifig--batman module modifier making a drastic change in the appearance of the minifig">
 
 You can make more dramatic changes in the same way. By using the `.minifig--batman` modifier, we’ve changed the appearance of every part of the minifig with just a single class.
 
@@ -321,7 +321,7 @@ The final framework we’re going to discuss is [SMACSS](https://smacss.com/), w
 
 <figure>
 
-{% image "what-is-modular-css//snookca.jpg" "“At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.” —Jonathan Snook" %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css//snookca.jpg')" alt="“At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.” —Jonathan Snook">
 
 <figcaption>
 
@@ -462,4 +462,4 @@ Or to put it another way, **Modular CSS is predictable, maintainable, and perfor
 
 Now we can revisit that old joke, and make a slight change:
 
-{% image "what-is-modular-css//updated-tweet.png" "Two CSS properties walk into a bar. Everything is fine, thanks to modular code and proper namespacing." %}
+<img webc:is="eleventy-image" :src="imgPath('what-is-modular-css//updated-tweet.png')" alt="Two CSS properties walk into a bar. Everything is fine, thanks to modular code and proper namespacing.">

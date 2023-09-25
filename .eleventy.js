@@ -2,7 +2,6 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
 
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginTimeToRead = require('eleventy-plugin-time-to-read');
@@ -37,14 +36,13 @@ module.exports = function (eleventyConfig) {
   // Official plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginImages);
-  eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight, {
     preAttributes: { tabindex: 0 },
   });
   eleventyConfig.addPlugin(pluginWebc, {
     components: [
-      'src/_includes/partials/*.webc',
+      'src/_includes/components/*.webc',
       'npm:@11ty/eleventy-img/*.webc',
     ],
   });
@@ -105,5 +103,6 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       output: 'dist',
     },
+    markdownTemplateEngine: 'webc',
   };
 };
