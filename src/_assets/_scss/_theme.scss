@@ -100,6 +100,7 @@ h6 {
     color: inherit;
   }
 
+  // stylelint-disable-next-line no-descending-specificity
   a {
     color: inherit;
     text-decoration-color: var(--color-link-underline);
@@ -136,6 +137,7 @@ hr {
   width: 66%;
 }
 
+// stylelint-disable-next-line no-descending-specificity
 code {
   background: var(--color-bg-kbd);
   border-radius: 0.2em;
