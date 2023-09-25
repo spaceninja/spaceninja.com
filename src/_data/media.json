@@ -1,0 +1,6 @@
+{
+  "list": {
+    "sizes": "(max-width: 48em) 250px, (max-width: 40em) 200px, (max-width: 32em) 150px, 100px",
+    "widths": "150,250,500"
+  }
+}

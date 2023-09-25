@@ -67,7 +67,7 @@ a {
   color: var(--color-link);
   text-decoration-color: var(--color-link-underline);
   text-decoration-thickness: 0 0625em;
-  text-underline-offset: 0.075em;
+  text-underline-offset: 0.0938em;
 
   &:visited {
     color: var(--color-link-visited);
@@ -103,6 +103,11 @@ h6 {
   a {
     color: inherit;
     text-decoration-color: var(--color-link-underline);
+
+    &:hover,
+    &:focus {
+      text-decoration-color: var(--color-link-underline);
+    }
   }
 }
 
