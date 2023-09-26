@@ -1,10 +1,12 @@
 ---
 title: Speaking
 permalink: speaking/
-dynamicPermalink: false
 date: 2016-09-08T00:44:26.000Z
 date_updated: 2021-05-24T20:09:41.000Z
 description: I present at conferences on topics related to CSS development and architecture.
+eleventyNavigation:
+  key: Speaking
+  order: 2
 ---
 
 I present at conferences on topics related to CSS development and architecture. If you would like me to speak at your event, and you have a [code of conduct](http://rachelnabors.com/2015/09/01/code-of-conduct/) you intend to enforce, feel free to [email me](mailto:scott@spaceninja.com).
@@ -148,10 +150,10 @@ We will be introducing some of the new elements, such as Article, Section, and V
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('scott/avatar512.png')" alt="avatar512">
+{% image "scott/avatar512.png" "avatar512" %}
 
 </figure>
 
-<img webc:is="eleventy-image" :src="imgPath('scott/IMG_2191.jpg')" alt="IMG_2191">
+{% image "scott/IMG_2191.jpg" "IMG_2191" %}
 
-<img webc:is="eleventy-image" :src="imgPath('scott/IMG_3763.jpg')" alt="IMG_3763">
+{% image "scott/IMG_3763.jpg" "IMG_3763" %}

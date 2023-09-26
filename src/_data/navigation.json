@@ -1,8 +1,0 @@
-[
-  { "url": "/blog/", "name": "Blog" },
-  { "url": "/portfolio/", "name": "Portfolio" },
-  { "url": "/speaking/", "name": "Speaking" },
-  { "url": "https://fridayfrontend.com/", "name": "Newsletter" },
-  { "url": "https://www.amazon.com/dp/B01M0VOE6O", "name": "Book" },
-  { "url": "https://veryexcitingtime.com/", "name": "Podcast" }
-]

@@ -96,12 +96,14 @@
       <nav class="app-header__nav">
         <ul class="app-header__nav-list">
           <!-- display: inline -->
-          <li webc:for="link of navigation" class="app-header__nav-item"
+          <li
+            webc:for="entry of eleventyNavigation(collections.all)"
+            class="app-header__nav-item"
             ><a
-              :href="link.url"
+              :href="entry.url"
               class="app-header__nav-link"
-              :aria-current="link.url == page.url ? 'page' : null"
-              @text="link.name"
+              :aria-current="entry.url == page.url ? 'page' : null"
+              @text="entry.title"
             ></a
           ></li>
         </ul>

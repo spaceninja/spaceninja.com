@@ -15,7 +15,7 @@ Frequently, when I see a webpage with superscript or subscript text, I see assoc
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('superscript-subscript/example.jpg')" alt="HTML Superscript and Subscript Handling">
+{% image "superscript-subscript/example.jpg" "HTML Superscript and Subscript Handling" %}
 
 </figure>
 

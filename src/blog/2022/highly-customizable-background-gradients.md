@@ -20,7 +20,7 @@ A recent project I worked on had a common design element across many pages: A co
   Highly Customizable Background Gradients</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Historically, this would have been a difficult challenge. Before browsers had good support for CSS radial gradients, you could only do this with background images. Each variation would require a new image, and the full-page versions would have suffered from performance problems or unsightly compression artifacts.
 
@@ -70,7 +70,7 @@ Let me show you how easy it is:
   Watermelon Variation</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ```css
 --gradient_bg_color: #ff426c; /* raspberry */
@@ -93,7 +93,7 @@ To make a “watermelon” variation we’ve updated the colors of all the spotl
   Royal Rainbow Variation</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ```css
 --gradient_spot1_color: #db0072; /* rose */
@@ -130,7 +130,7 @@ And for fun, here’s an interactive version. It will even show you the custom p
   Highly Customizable Background Gradient Demo</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script webc:keep async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ## Conclusion
 

@@ -14,11 +14,11 @@ Once a year, I like to look back over my reading history and write a brief recom
 
 So, in 2019 I read [25 books](https://www.goodreads.com/user_challenges/15025289). These were my favorites:
 
-<img webc:is="eleventy-image" :src="imgPath('books/thrawn.jpg')" alt="">
+{% image "books/thrawn.jpg" "" %}
 
-<img webc:is="eleventy-image" :src="imgPath('books/collapsing-empire.jpg')" alt="">
+{% image "books/collapsing-empire.jpg" "" %}
 
-<img webc:is="eleventy-image" :src="imgPath('books/tea-master-detective.jpg')" alt="">
+{% image "books/tea-master-detective.jpg" "" %}
 
 ## _Star Wars: Thrawn_, by Timothy Zahn
 
@@ -42,11 +42,11 @@ This is a reimagining of Sherlock Holmes, where Sherlock is an abrasive drug-add
 
 It’s from the author’s Xuya series, an alternate history exploring what would happen if China discovered the Americas before Europe. But aside from sharing the setting, this novella is stand-alone. I loved it, and if you enjoy new spins on Sherlock Holmes, you’ll dig it too.
 
-<img webc:is="eleventy-image" :src="imgPath('books/planetfall.jpg')" alt="">
+{% image "books/planetfall.jpg" "" %}
 
-<img webc:is="eleventy-image" :src="imgPath('books/expanse4.jpg')" alt="">
+{% image "books/expanse4.jpg" "" %}
 
-<img webc:is="eleventy-image" :src="imgPath('books/expanse5.jpg')" alt="">
+{% image "books/expanse5.jpg" "" %}
 
 ## The _Planetfall_ series, by Emma Newman
 

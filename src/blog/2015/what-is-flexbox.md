@@ -47,7 +47,7 @@ You may have heard there are three Flexbox specifications. (Which makes me think
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/there-are-4-lights.png')" alt="Picard shouting “There are four lights!”">
+{% image "what-is-flexbox/there-are-4-lights.png" "Picard shouting “There are four lights!”" %}
 
 </figure>
 
@@ -65,7 +65,7 @@ Note: Each spec used a different keyword for the `display` property, which means
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/flex-onedirection.gif')" alt="Flexbox = One Direction?">
+{% image "what-is-flexbox/flex-onedirection.gif" "Flexbox = One Direction?" %}
 
 </figure>
 
@@ -73,7 +73,11 @@ Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or col
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/flex-intro.svg')" alt="flex-intro" formats="svg">
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/flex-intro.svg"
+  alt: "flex-intro"
+  formats: "svg"
+%}
 
 <figcaption>
 
@@ -86,7 +90,11 @@ A Flexbox layout consists of a **flex container** that holds **flex items**. The
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/axis-both.svg')" alt="Flexbox main and cross axis diagram" formats="svg">
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/axis-both.svg"
+  alt: "Flexbox main and cross axis diagram"
+  formats: "svg"
+%}
 
 <figcaption>
 
@@ -129,9 +137,9 @@ That’s quite a bit of logic for a single line of CSS! You can change any of th
 
 As of August 2015, browser support is excellent! The current Flexbox spec is fully supported in all modern browsers, including mobile, IE11 and Edge.
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/browsers.png')" alt="Browser Support: Chrome 21+, Opera 12.1+, Firefox 22+, Safari 6.1+, IE 10+">
+{% image "what-is-flexbox/browsers.png" "Browser Support: Chrome 21+, Opera 12.1+, Firefox 22+, Safari 6.1+, IE 10+" %}
 
-[<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/can-i-use.png')" alt="CanIUse Support Chart showing flexbox is supported in all modern browsers">](http://caniuse.com/#feat=flexbox)
+[{% image "what-is-flexbox/can-i-use.png" "CanIUse Support Chart showing flexbox is supported in all modern browsers" %}](http://caniuse.com/#feat=flexbox)
 
 IE10 also supports Flexbox, but uses the tweener spec (`display:flexbox`).
 
@@ -139,7 +147,7 @@ IE10 also supports Flexbox, but uses the tweener spec (`display:flexbox`).
 
 <figure>
 
-<img webc:is="eleventy-image" :src="imgPath('what-is-flexbox/disaster-girl.jpg')" alt="I have some ideas">
+{% image "what-is-flexbox/disaster-girl.jpg" "I have some ideas" %}
 
 <figcaption>
 
