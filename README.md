@@ -39,5 +39,5 @@
 - [x] adjust spacing around `aside`
 - [x] make iframe embeds bump out a bit (see blend modes and expanse)
 - [ ] convert banner pic to webp
-- [ ] floated image styles (see wally wood post)
+- [x] floated image styles (see wally wood post)
 - [ ] add proper `sizes` attributes

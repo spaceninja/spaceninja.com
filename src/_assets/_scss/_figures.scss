@@ -27,6 +27,13 @@ img {
   }
 }
 
+.float-right {
+  float: right;
+  margin: 0 0 0.5em 1em;
+  max-width: 100%;
+  width: 50%;
+}
+
 iframe {
   @include mixins.layout-wide;
   @include mixins.width-wide-important;
