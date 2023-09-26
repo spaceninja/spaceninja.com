@@ -1,8 +1,0 @@
-<li class="media-list__item">
-  <div class="media-list__media">
-    <slot name="media"></slot>
-  </div>
-  <div class="media-list__content">
-    <slot></slot>
-  </div>
-</li>
