@@ -16,11 +16,30 @@ Earth is rich in resources but overpopulated and struggling with environmental c
 
 I’m fascinated by the complex dynamics described by these books, and how entirely plausible it feels. There are natural echoes of our own colonial history here in the relationship between Earth and her former colony, as well as in how they both treat the chaotic wild west of the Belt.
 
-{% image "books/expanse1.jpg" "" %}
+<div class="media-triptych">
 
-{% image "books/expanse2.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/expanse1.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
 
-{% image "books/expanse3.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/expanse2.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+{% include "partials/image.liquid"
+  src: "books/expanse3.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+</div>
 
 All the technology feels like a natural near-term evolution of our own. Nothing feels magical or mysterious. This is a setting where people’s lives depend on technology, from the top-of-the-line Martian warships to Belter rock-hoppers, held together with duct tape and chewing gum.
 
@@ -30,11 +49,30 @@ Our view into this setting is James Holden and his crew. Holden is an Earther wi
 
 Because of their complicated backgrounds, none of them exhibit the kind of nationalism or patriotism that science fiction sometimes relies on. Alex comes closest, being fiercely proud of Mars, but more in a “you can take the boy out of Texas” sense. Holden actually gets annoyed when everyone assumes his loyalties are to Earth. They’ve all found themselves in the middle of nowhere, with complicated reasons for leaving home.
 
-{% image "books/expanse4.jpg" "" %}
+<div class="media-triptych">
 
-{% image "books/expanse5.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/expanse4.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
 
-{% image "books/expanse6.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/expanse5.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+{% include "partials/image.liquid"
+  src: "books/expanse6.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+</div>
 
 Holden is always getting in over his head. His first reaction to corporate secrets or political maneuvering that puts regular people’s lives in danger is shock and outrage. He reacts with his gut, which often puts himself and his crew in danger. Whenever he tries to Captain Kirk a situation it blows up in his face and he’s forced to scramble to protect everyone.
 

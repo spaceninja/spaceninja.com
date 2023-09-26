@@ -33,7 +33,7 @@
 - [x] headings with links (see ff top links 2018 post)
 - [x] headings with code (see publishing npm post)
 - [x] "books I love" layout
-- [ ] "books series I love" layout
+- [x] "books series I love" layout
 - [x] hr styles (see ff top links 2018 post)
 - [x] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`

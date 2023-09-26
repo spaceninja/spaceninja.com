@@ -1,6 +1,10 @@
 {
   "list": {
-    "sizes": "(max-width: 48em) 250px, (max-width: 40em) 200px, (max-width: 32em) 150px, 100px",
-    "widths": "150,250,500"
+    "sizes": "(min-width: 48em) 250px, (min-width: 40em) 200px, (min-width: 32em) 150px, 100px",
+    "widths": "150,250,375,500"
+  },
+  "triptych": {
+    "sizes": "(min-width: 48em) 225px, (min-width: 42em) 200px, (min-width: 38.5em) 190px, 33vw",
+    "widths": "150,250,375,500"
   }
 }

@@ -26,11 +26,30 @@ Here’s a brief excerpt from the first chapter, when the Thiefmaker (who runs a
 
 You can probably guess that the young boy grows up to be the title character, Locke Lamora. The books alternates chapters between flashbacks to his childhood and his adventures as the head of the Gentleman Bastards, a crew of unusually gifted young thieves. The heists they pull become increasingly elaborate as they grow up. And like all good heist movies, the fun really starts when it’s clear that Locke and his team are in over their heads.
 
-{% image "books/lamora1.jpg" "" %}
+<div class="media-triptych">
 
-{% image "books/lamora2.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/lamora1.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
 
-{% image "books/lamora3.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/lamora2.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+{% include "partials/image.liquid"
+  src: "books/lamora3.jpg"
+  alt: ""
+  sizes: media.triptych.sizes
+  widths: media.triptych.widths
+%}
+
+</div>
 
 I love the setting. The world these novels describe is unlike any other fantasy setting I’ve read. Like _Bladerunner_ or _Star Wars_, it evokes the grimy, lived-in feeling of a city in a world that existed long before this story and will exist long after. Magic exists, but for reasons I won’t spoil, it’s uncommon. Instead, the fantastic elements are provided mainly by alchemy, which is widespread and stands in for science and technology.
 
