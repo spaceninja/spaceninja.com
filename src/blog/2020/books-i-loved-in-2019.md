@@ -14,11 +14,19 @@ Once a year, I like to look back over my reading history and write a brief recom
 
 So, in 2019 I read [25 books](https://www.goodreads.com/user_challenges/15025289). These were my favorites:
 
-{% image "books/thrawn.jpg" "" %}
+<ul class="media-list">
+<li class="media-list__item">
+<div class="media-list__media">
 
-{% image "books/collapsing-empire.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/thrawn.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
 
-{% image "books/tea-master-detective.jpg" "" %}
+</div>
+<div class="media-list__content">
 
 ## _Star Wars: Thrawn_, by Timothy Zahn
 
@@ -28,6 +36,21 @@ Most notably, the books introduced a new villain, Grand Admiral Thrawn, who was 
 
 This book is everything I ever wanted. It explains how blue-skinned Thrawn came to power in the notably xenophobic Empire. It explains why he would want to do so, and the struggles he overcame by outwitting everyone who stood in his way.
 
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
+
+{% include "partials/image.liquid"
+  src: "books/collapsing-empire.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+</div>
+<div class="media-list__content">
+
 ## _The Collapsing Empire_, by John Scalzi
 
 I read this on the strength of a review from Warren Ellis:
@@ -36,17 +59,41 @@ I read this on the strength of a review from Warren Ellis:
 
 I don’t think I can really add anything to that, so I’ll just say that he’s right, I did fucking love it, and I can’t wait to read the next two books in the series.
 
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
+
+{% include "partials/image.liquid"
+  src: "books/tea-master-detective.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+</div>
+<div class="media-list__content">
+
 ## _The Tea Master and the Detective_, by Aliette de Bodard
 
 This is a reimagining of Sherlock Holmes, where Sherlock is an abrasive drug-addicted scholar and Holmes is a starship with PTSD who retired from active duty to sell medicinal teas. The scholar hires the ship to brew her a special tea so she can still think while she investigates a murder in hyperspace.
 
 It’s from the author’s Xuya series, an alternate history exploring what would happen if China discovered the Americas before Europe. But aside from sharing the setting, this novella is stand-alone. I loved it, and if you enjoy new spins on Sherlock Holmes, you’ll dig it too.
 
-{% image "books/planetfall.jpg" "" %}
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
 
-{% image "books/expanse4.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/planetfall.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
 
-{% image "books/expanse5.jpg" "" %}
+</div>
+<div class="media-list__content">
 
 ## The _Planetfall_ series, by Emma Newman
 
@@ -57,6 +104,28 @@ I found the series when io9 posted an excerpt ([the whole first chapter](https:/
 > A geologist whose art has captured the imagination of a space-obsessed multibillionaire accepts a new a gig on Mars, partially as a way to escape the postpartum depression that’s been plaguing her back on Earth. But as soon as she arrives, she makes a shocking discovery—and suddenly she’s surrounded by strangers she can’t trust in a space colony that’s millions and millions of miles away from home.
 
 I can’t recommend this series strongly enough. Go read that chapter and if you dig the vibe, you’re going to have a very good time reading these books.
+
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
+
+{% include "partials/image.liquid"
+  src: "books/expanse4.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+{% include "partials/image.liquid"
+  src: "books/expanse5.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+</div>
+<div class="media-list__content">
 
 ## _The Expanse_, books 4 & 5, by James S.A. Corey
 
@@ -71,3 +140,7 @@ But… BUT! At almost the exact midpoint of the book something absolutely insane
 I can’t say anything about _Nemesis Games_, the fifth book, without spoiling it, but suffice to say they take the stakes from _Cibola Burn_ and dial them up to 11.
 
 If you’re not already reading/watching _the Expanse_, you really should start. It’s hands-down the best modern science fiction happening right now.
+
+</div>
+</li>
+</ul>

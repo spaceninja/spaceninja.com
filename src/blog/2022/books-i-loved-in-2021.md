@@ -19,7 +19,6 @@ He was into it, especially once I told him that after we read the book we could 
 For my purposes, I read several books that I really loved:‌
 
 <ul class="media-list">
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -41,7 +40,6 @@ This book is firmly in the “airport thriller” style, but man did I love it. 
 
 </div>
 </li>
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -67,7 +65,6 @@ This book is great fun, and I can’t recommend it strongly enough, especially i
 
 </div>
 </li>
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -89,7 +86,6 @@ It’s a detective story starring Murderbot, with all the acerbic snark you’d 
 
 </div>
 </li>
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -115,7 +111,6 @@ It’s also one of the best first contact stories I’ve ever read. Without givi
 
 </div>
 </li>
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -131,15 +126,14 @@ It’s also one of the best first contact stories I’ve ever read. Without givi
 
 ## [_UFOs: Generals, Pilots and Goverment Officials Go On the Record_](https://www.goodreads.com/book/show/8900669-ufos) by Leslie Kean
 
-Over the last couple of years, my interest in UFOs has grown exponentially, driven especially by the 2017 *New York Times *article exposing the [Pentagon’s secret UFO program](https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html), the 2021 Pentagon report to Congress [confirming that UFOs are real](https://www.nytimes.com/2021/06/25/us/politics/pentagon-ufo-report.html), and the 2019-20 series [_Unidentified_](https://www.imdb.com/title/tt10016814/), which follows Lou Elizondo, the former head of the Pentagon’s UFO program.
+Over the last couple of years, my interest in UFOs has grown exponentially, driven especially by the 2017 _New York Times_ article exposing the [Pentagon’s secret UFO program](https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html), the 2021 Pentagon report to Congress [confirming that UFOs are real](https://www.nytimes.com/2021/06/25/us/politics/pentagon-ufo-report.html), and the 2019-20 series [_Unidentified_](https://www.imdb.com/title/tt10016814/), which follows Lou Elizondo, the former head of the Pentagon’s UFO program.
 
-This book, by Leslie Kean, one of the writers of the 2017 New York Times article, is a strictly nuts-and-bolts book that limits itself to testimony from highly credible sources like military pilots, and high-ranking officials like generals and government officials.
+This book, by Leslie Kean, one of the writers of the 2017 _New York Times_ article, is a strictly nuts-and-bolts book that limits itself to testimony from highly credible sources like military pilots, and high-ranking officials like generals and government officials.
 
 It lays out a compelling and well-researched case that UFOs are real, they have a marked interest in our military (and especially nuclear) facilities, and no one knows who’s behind them. It neatly addresses the “only cranks and crazy people see UFOs” criticism.
 
 </div>
 </li>
-
 <li class="media-list__item">
 <div class="media-list__media">
 
@@ -163,5 +157,4 @@ But the more he dug, the more convincing evidence he found. I love this book for
 
 </div>
 </li>
-
 </ul>

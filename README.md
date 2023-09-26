@@ -17,7 +17,6 @@
 - [x] use readable image file names
 - [x] footnote support (see scrum post)
 - [x] make sure posts without updated_date don't break
-- [ ] use webc as markdown pre-rendering engine
 
 ### Theming
 
@@ -33,7 +32,8 @@
 - [x] blockquote styles
 - [x] headings with links (see ff top links 2018 post)
 - [x] headings with code (see publishing npm post)
-- [ ] "books I love" layout (convert to webc first so this can be a component)
+- [x] "books I love" layout
+- [ ] "books series I love" layout
 - [x] hr styles (see ff top links 2018 post)
 - [x] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`

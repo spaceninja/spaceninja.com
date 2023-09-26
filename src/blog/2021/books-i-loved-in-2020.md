@@ -12,11 +12,19 @@ feature_credit: Ed Robertson
 
 Once a year, I review the books I read and write a brief post recommending my favorites. 2020 was a brutal, horrible year, and I had almost no mental bandwidth for reading, but I did read three books that I absolutely loved.
 
-{% image "books/gideon.jpg" "" %}
+<ul class="media-list">
+<li class="media-list__item">
+<div class="media-list__media">
 
-{% image "books/harrow.jpg" "" %}
+{% include "partials/image.liquid"
+  src: "books/gideon.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
 
-{% image "books/murderbot-network-effect.jpg" "" %}
+</div>
+<div class="media-list__content">
 
 ## _Gideon the Ninth_, by Tamsyn Muir
 
@@ -30,6 +38,21 @@ It’s hard to describe the humor of the book, which is sarcastic and clever and
 
 The story takes a little bit to get going, but there comes a point where it switches from being about Gideon being confused, bored, and horny to a murder mystery. By the time it ends you’ll be champing at the bit to read the next book…
 
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
+
+{% include "partials/image.liquid"
+  src: "books/harrow.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+</div>
+<div class="media-list__content">
+
 ## _Harrow the Ninth_, by Tamsyn Muir
 
 There’s very little I can say about this book that doesn’t qualify as a spoiler, so I’ll keep this simple. It follows Harrow immediately after the events of _Gideon_. Yes, you’ll get some answers for some of the questions the first book raised, but exciting new questions arise which lean into the unreleased third book, _Alecto the Ninth_.
@@ -40,6 +63,21 @@ I have [a selection of highlighted quotes](https://www.goodreads.com/notes/53086
 
 > Ianthe only slurped angrily at her soup, making a sound like custard going down a flute.
 
+</div>
+</li>
+<li class="media-list__item">
+<div class="media-list__media">
+
+{% include "partials/image.liquid"
+  src: "books/murderbot-network-effect.jpg"
+  alt: ""
+  sizes: media.list.sizes
+  widths: media.list.widths
+%}
+
+</div>
+<div class="media-list__content">
+
 ## _Network Effect_, by Martha Wells
 
 [I’ve recommended the Murderbot series before](/books/2018/books-i-loved-in-2018/). This is the fifth book in the series, but the first full-length novel. You don’t have to read the first four to understand this one, but I recommend it, both because they’re delightful, and because there are lots of callbacks that you’ll appreciate more as a result.
@@ -49,3 +87,7 @@ If you haven't read any of the books before, this blurb from the back cover sums
 > You know that feeling when you're at work, and you've had enough of people, and then the boss walks in with yet another job that needs to be done right this second or the world will end, but all you want to do is go home and binge your favorite shows? And you're a sentient murder machine programmed for destruction? Congratulations, you're Murderbot.
 
 In this novel, we find Murderbot working as a security consultant for PreservationAux, the group it’s worked with in the previous stories. Things get complicated when Murderbot’s old friend ART shows up and causes a scene. As usual, Murderbot grumbles throughout the process of saving everyone when it would much rather be watching its shows. Without spoiling anything, this feels like a bigger-budget version of the story, with some really interesting things happening that feel like a natural payoff of the idea of “rogue” SecUnits and AI.
+
+</div>
+</li>
+</ul>
