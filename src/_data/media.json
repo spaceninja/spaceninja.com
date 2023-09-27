@@ -1,4 +1,8 @@
 {
+  "wide": {
+    "sizes": "(min-width: 48em) 711px, (min-width: 42em) 633px, 100vw",
+    "widths": "768,1024,1280,1600"
+  },
   "list": {
     "sizes": "(min-width: 48em) 250px, (min-width: 40em) 200px, (min-width: 32em) 150px, 100px",
     "widths": "150,250,375,500"

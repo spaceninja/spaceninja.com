@@ -1,8 +1,11 @@
+const fs = require('fs');
 const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
 const { eleventyImagePlugin } = require('@11ty/eleventy-img');
 const { imgPath } = require('./filters');
 const siteMetadata = require('../src/_data/metadata');
+let rawMedia = fs.readFileSync('src/_data/media.json');
+let media = JSON.parse(rawMedia);
 
 // Default options, shared between all Image shortcodes/functions
 const options = {
@@ -15,10 +18,10 @@ const options = {
   formats: ['webp'],
   loading: 'lazy',
   outputDir: 'images',
-  sizes: '100vw',
+  sizes: media.wide.sizes,
   svgShortCircuit: true,
   urlPath: '/images/',
-  widths: [768, 1024, 1280, 1600],
+  widths: media.wide.widths.split(','),
 };
 
 module.exports = (eleventyConfig) => {

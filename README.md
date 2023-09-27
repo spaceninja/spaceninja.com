@@ -38,6 +38,6 @@
 - [x] add background color to `code` (see smashingmag.com)
 - [x] adjust spacing around `aside`
 - [x] make iframe embeds bump out a bit (see blend modes and expanse)
-- [ ] convert banner pic to webp
+- [x] convert banner pic to webp
 - [x] floated image styles (see wally wood post)
-- [ ] add proper `sizes` attributes
+- [x] add proper `sizes` attributes
