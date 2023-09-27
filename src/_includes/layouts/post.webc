@@ -3,20 +3,25 @@ layout: layouts/base.webc
 prism: true
 ---
 
-<article>
-  <header>
-    <h1 @text="title"></h1>
-    <ul>
-      <li>
+<article class="post">
+  <header class="post__header">
+    <h1 class="post__title" @text="title"></h1>
+    <ul class="post__meta">
+      <li class="post__meta-item">
         <time
           :datetime="htmlDateString(page.date)"
           @text="readableDate(page.date)"
         >
         </time>
       </li>
-      <li @text="`${timeToRead(content)} read`"></li>
+      <li class="post__meta-item" @text="`${timeToRead(content)} read`"></li>
     </ul>
   </header>
+
+  <p class="post__excerpt">
+    <abbr title="Too Long; Didn’t Read:">TL;DR:</abbr>
+    <span webc:nokeep @text="excerpt ?? createExcerpt(content)"></p>
+  </p>
 
   <figure>
     <img
@@ -50,12 +55,12 @@ prism: true
     </p>
   </aside>
 
-  <footer>
-    <div webc:if="filterTagList(tags).length">
-      <h3>Tags</h3>
-      <ul class="list--inline">
+  <footer class="post__footer">
+    <div class="post__tags" webc:if="filterTagList(tags).length">
+      <p class="post__tags-intro">This post is filed under:</p>
+      <ul class="post__tags-list list--inline">
         <!-- display:inline -->
-        <li webc:for="(key, tag) in filterTagList(tags).sort()"
+        <li webc:for="(key, tag) in filterTagList(tags).sort()" class="post__tag"
           ><a
             webc:if="$data.collections[tag].length > 1"
             class="tag"

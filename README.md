@@ -23,8 +23,8 @@
 - [x] feature image wide layout
 - [x] post image wide layout
 - [x] figure layout
-- [ ] post header styles
-- [ ] post footer styles
+- [x] post header styles
+- [x] post footer styles
 - [ ] post navigation styles
 - [ ] post list styles
 - [x] change theme colors to rgba
@@ -41,3 +41,4 @@
 - [x] convert banner pic to webp
 - [x] floated image styles (see wally wood post)
 - [x] add proper `sizes` attributes
+- [ ] CSS cleanup
