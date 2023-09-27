@@ -20,7 +20,7 @@ prism: true
 
   <p class="post__excerpt">
     <abbr title="Too Long; Didn’t Read:">TL;DR:</abbr>
-    <span webc:nokeep @text="excerpt ?? createExcerpt(content)"></p>
+    <span webc:nokeep @text="excerpt ?? createExcerpt(content)"></span>
   </p>
 
   <figure>
@@ -60,7 +60,9 @@ prism: true
       <p class="post__tags-intro">This post is filed under:</p>
       <ul class="post__tags-list list--inline">
         <!-- display:inline -->
-        <li webc:for="(key, tag) in filterTagList(tags).sort()" class="post__tag"
+        <li
+          webc:for="(key, tag) in filterTagList(tags).sort()"
+          class="post__tag"
           ><a
             webc:if="$data.collections[tag].length > 1"
             class="tag"
