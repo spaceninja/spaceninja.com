@@ -57,7 +57,7 @@ prism: true
 
   <footer class="post__footer">
     <div class="post__tags" webc:if="filterTagList(tags).length">
-      <p class="post__tags-intro">This post is filed under:</p>
+      <p class="post__tags-intro">Filed under</p>
       <ul class="post__tags-list list--inline">
         <!-- display:inline -->
         <li
@@ -89,13 +89,14 @@ prism: true
       );
       const nextPost = getNextCollectionItem($data.collections.blog, page);
     </script>
-    <ul class="links-nextprev">
+    <ul>
       <li webc:if="previousPost">
-        Previous:
+        Previously:
         <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
       </li>
       <li webc:if="nextPost">
-        Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        Up Next:
+        <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
       </li>
     </ul>
     --->
@@ -105,20 +106,24 @@ prism: true
         {%- assign previousPost = collections.blog | getPreviousCollectionItem -%}
         {%- assign nextPost = collections.blog | getNextCollectionItem -%}
         {%- if nextPost or previousPost -%}
-      <ul class="links-nextprev">
+      <ul class="post__nav">
         {%- if previousPost -%}
-        <li>
-          Previous:
-          <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+        <li class="post__nav-item post__nav-previous">
+          <span class="post__nav-label">Previously:</span>
+          <a class="post__nav-link" href="{{ previousPost.url }}"
+            >{{ previousPost.data.title }}</a
+          >
         </li>
         {%- endif -%} {%- if nextPost %}
-        <li>
-          Next:
-          <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        <li class="post__nav-item post__nav-next">
+          <span class="post__nav-label">Up Next:</span>
+          <a class="post__nav-link" href="{{ nextPost.url }}"
+            >{{ nextPost.data.title }}</a
+          >
         </li>
         {%- endif -%}
       </ul>
-      {%- endif -%} {%- endif %}
+      {%- endif -%}{%- endif %}
     </template>
   </footer>
 </article>

@@ -25,7 +25,7 @@
 - [x] figure layout
 - [x] post header styles
 - [x] post footer styles
-- [ ] post navigation styles
+- [x] post navigation styles
 - [ ] post list styles
 - [x] change theme colors to rgba
 - [x] add table styles (see ghost post)

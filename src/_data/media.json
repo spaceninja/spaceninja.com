@@ -1,6 +1,6 @@
 {
   "wide": {
-    "sizes": "(min-width: 48em) 711px, (min-width: 42em) 633px, 100vw",
+    "sizes": "(min-width: 64em) 783px, (min-width: 48em) 711px, (min-width: 42em) 633px, 100vw",
     "widths": "768,1024,1280,1600"
   },
   "list": {
@@ -8,11 +8,11 @@
     "widths": "150,250,375,500"
   },
   "triptych": {
-    "sizes": "(min-width: 48em) 225px, (min-width: 42em) 200px, (min-width: 38.5em) 190px, 33vw",
+    "sizes": "(min-width: 64em) 248px, (min-width: 48em) 225px, (min-width: 42em) 200px, (min-width: 38.5em) 190px, 33vw",
     "widths": "150,250,375,500"
   },
   "float": {
-    "sizes": "(min-width: 48em) 320px, (min-width: 38.5em) 284px, 50vw",
+    "sizes": "(min-width: 64em) 351px, (min-width: 48em) 319px, (min-width: 38.5em) 284px, 50vw",
     "widths": "160,320,480,640"
   }
 }

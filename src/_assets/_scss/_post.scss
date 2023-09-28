@@ -36,7 +36,7 @@
 .post__tags {
   color: var(--color-subtle);
   font-size: smaller;
-  margin-block: 2em;
+  margin-block: 3em;
   text-align: center;
   text-wrap: balance;
 }
@@ -47,4 +47,32 @@
 
 .post__tags-list {
   display: inline;
+}
+
+.post__nav {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post__nav-item {
+  flex: 1;
+}
+
+.post__nav-next {
+  text-align: right;
+}
+
+.post__nav-label {
+  color: var(--color-subtle);
+  display: block;
+  font-size: smaller;
+  text-transform: uppercase;
+}
+
+.post__nav-link {
+  display: block;
+  text-wrap: balance;
 }
