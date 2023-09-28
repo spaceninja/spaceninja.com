@@ -8,6 +8,7 @@ tags:
   - programming
   - jobs
   - job hunting
+excerpt: Exactly one year ago today, I was laid off. The consequences were and still are painful. But I can’t deny that I’ve grown in ways I couldn’t imagine a year ago.
 feature_image: feature/growth.jpg
 feature_source: https://unsplash.com/photos/1n8zqoqFUGc
 feature_credit: Maarten van den Heuvel

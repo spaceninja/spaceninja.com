@@ -9,9 +9,8 @@ tags:
 excerpt: I knew CSS blend modes could create some cool effects, but even so, a CodePen I saw recently left me shocked at what they’re capable of.
 canonical: https://cloudfour.com/thinks/the-power-of-css-blend-modes/
 feature_image: css-blend-modes/css-filters-layers-rainbow@2x.jpg
+hide_feature_image: true
 ---
-
-## Apple-Inspired Pride Clock
 
 <p class="codepen" data-class="aspect-ratio--4x3"  data-default-tab="result" data-slug-hash="gOvXodv" data-user="scottkellum">
   <span>See the Pen <a href="https://codepen.io/scottkellum/pen/gOvXodv">
@@ -20,7 +19,7 @@ feature_image: css-blend-modes/css-filters-layers-rainbow@2x.jpg
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-[This CodePen](https://codepen.io/scottkellum/pen/gOvXodv), by [Scott Kellum](https://codepen.io/scottkellum), really caught my eye. I could see it was HTML text for the numbers, but I wasn’t sure how he created the radial line effect. When I dug into the code, I was shocked by how little CSS it took to create the effect. Here’s a layered breakdown to make it easier to visualize:
+This [Apple-inspired pride clock](https://codepen.io/scottkellum/pen/gOvXodv) demo, by [Scott Kellum](https://codepen.io/scottkellum), really caught my eye. I could see it was HTML text for the numbers, but I wasn’t sure how he created the radial line effect. When I dug into the code, I was shocked by how little CSS it took to create the effect. Here’s a layered breakdown to make it easier to visualize:
 
 {% image "css-blend-modes/css-filters-layers-rainbow@2x.jpg" "A diagram showing the layers used to create a rainbow lined effect with CSS." %}
 

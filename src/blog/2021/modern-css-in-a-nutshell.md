@@ -13,6 +13,7 @@ tags:
 excerpt: A friend recently shared his frustration with CSS development. I responded to him with a high-level overview of the current state of CSS. If you’re feeling a bit out of touch with modern CSS development, I hope this helps. You’d be surprised how much you can do with vanilla CSS nowadays!
 canonical: https://cloudfour.com/thinks/modern-css-in-a-nutshell/
 feature_image: feature/fallback-code.png
+hide_feature_image: true
 ---
 
 A friend recently shared his frustration with CSS development:

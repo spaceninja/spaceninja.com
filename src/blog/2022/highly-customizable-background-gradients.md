@@ -11,6 +11,7 @@ tags:
 excerpt: How to create a complex but highly customizable background gradient that can be modified easily using CSS custom properties.
 canonical: https://cloudfour.com/thinks/highly-customizable-background-gradients/
 feature_image: feature/background-gradients.jpg
+hide_feature_image: true
 ---
 
 A recent project I worked on had a common design element across many pages: A cool-looking gradient background composed of multiple color “spotlights.” The colors of the spotlights varied from page to page, as well as their placement. The gradient only covered the header on some pages, while on others it extended further down… sometimes covering the entire page!

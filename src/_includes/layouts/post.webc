@@ -25,7 +25,7 @@ prism: true
 
   <figure>
     <img
-      webc:if="feature_image"
+      webc:if="feature_image && !hide_feature_image"
       webc:is="eleventy-image"
       :src="imgPath(feature_image)"
       alt=""

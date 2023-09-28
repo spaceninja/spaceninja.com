@@ -6,6 +6,7 @@ tags:
   - web development
   - css
   - typography
+excerpt: The default superscript and subscript styles leave awkward gaps in the text, but you can easily fix the problem with just a few lines of CSS.
 feature_image: superscript-subscript/type.jpg
 feature_source: https://unsplash.com/photos/xzNXkB8oJRU
 feature_credit: Fabien Barral

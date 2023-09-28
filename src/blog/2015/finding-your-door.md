@@ -7,6 +7,7 @@ tags:
   - compromise
   - metaphor
   - work culture
+excerpt: I don’t feel like I need to love everything about my door, but at least I think I shouldn’t be frustrated every time I use it.
 feature_image: feature/green-door.jpg
 ---
 

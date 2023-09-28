@@ -6,6 +6,7 @@ tags:
   - trust
   - design
   - web development
+excerpt: Clearly defined responsibilities allow everyone to use the best tools for the job and ensure everyone’s work is held to the highest standard.
 feature_image: feature/mac-glasses.jpg
 feature_source: https://unsplash.com/photos/YoadQb46v6k
 feature_credit: Medium Rare

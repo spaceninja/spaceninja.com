@@ -9,6 +9,7 @@ tags:
 excerpt: 'Starfield has a lot of computers to interact with: Ship controls, desktop terminals, and information kiosks. And they all have accessibility problems.'
 canonical: https://cloudfour.com/thinks/starfield-accessibility/
 feature_image: starfield/starfield-kiosk-na-1.png
+hide_feature_image: true
 ---
 
 I’ve been playing a lot of *Starfield* lately, the new game from Bethesda Studios, and I really enjoy it. Flying my little spaceship around, pretending to be Naomi Nagata from *The Expanse*, and digging the NASA-punk design aesthetic is a lot of fun. But there’s one little thing that bothers me.

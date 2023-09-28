@@ -2,6 +2,7 @@
 title: What IS Flexbox?
 date: 2015-08-24T22:07:04.000Z
 date_updated: 2018-09-18T05:05:48.000Z
+excerpt: An elegant layout method for a more civilized age.
 tags:
   - layout
   - web development
@@ -9,8 +10,6 @@ tags:
   - css
 feature_image: what-is-flexbox/flexbox-cover.jpg
 ---
-
-## An elegant layout method for a more civilized age.
 
 Flexbox is a new layout mode in CSS3. The previous version of CSS defined four layout modes:
 

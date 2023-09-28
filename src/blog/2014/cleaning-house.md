@@ -6,6 +6,7 @@ tags:
   - starting over
   - writing
   - philosophy
+excerpt: I came to realize that while those 15 years of archives were meaningful to me, they were holding me back. I stagnated, and eventually quit writing altogether.
 feature_image: feature/journal.jpg
 feature_source: https://unsplash.com/photos/3ym6i13Y9LU
 feature_credit: Mike Tinnion

@@ -6,6 +6,7 @@ tags:
   - web development
   - internet explorer
   - css
+excerpt: IE has a number of limits in the way it loads CSS, which can cause your styles to not be applied if you exceed them.
 feature_image: feature/bliss.jpg
 ---
 

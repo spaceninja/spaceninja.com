@@ -6,6 +6,7 @@ tags:
   - refactoring
   - web development
   - css
+excerpt: If breaking a shorthand up makes the code more readable, that's a trade-off I'm willing to make… especially after seeing the alternatives.
 feature_image: feature/verbosity.jpg
 ---
 

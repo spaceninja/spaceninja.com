@@ -6,6 +6,7 @@ tags:
   - time
   - myths
   - programming
+excerpt: I'm in love with these lists of "Falsehoods Programmers Believe About…," so I've collected all the ones I know of here.
 feature_image: feature/falsehoods.jpg
 ---
 
