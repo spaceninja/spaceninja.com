@@ -19,8 +19,8 @@ feature_credit: Eugenio Mazzone
 {% include "partials/image.liquid"
   src: "books/binti.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -38,8 +38,8 @@ At its core, this series is about finding your place in the world. Binti is a me
 {% include "partials/image.liquid"
   src: "books/fifth-season.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -59,8 +59,8 @@ That said, the story is incredible. These books deal with a post-apocalyptic wor
 {% include "partials/image.liquid"
   src: "books/borderline.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>

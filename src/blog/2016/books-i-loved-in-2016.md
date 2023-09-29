@@ -19,8 +19,8 @@ Growing up, my dad was a voracious reader. Our house was always filled with pile
 {% include "partials/image.liquid"
   src: "books/rook.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -40,8 +40,8 @@ This book has one of the strongest opening chapters I’ve ever read. ([You can 
 {% include "partials/image.liquid"
   src: "books/annihilation.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -67,8 +67,8 @@ That said, I still hated the sequels and can’t recommend them.
 {% include "partials/image.liquid"
   src: "books/ancillary-justice.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -88,8 +88,8 @@ That was great, and I’m glad I read the book for it, but I’m happy to report
 {% include "partials/image.liquid"
   src: "books/normal.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -107,8 +107,8 @@ I’m a huge fan of Warren Ellis, and will read just about anything he writes, s
 {% include "partials/image.liquid"
   src: "books/girl-with-all-the-gifts.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -126,8 +126,8 @@ I can’t remember how this book came to my attention, but I’ve never read a s
 {% include "partials/image.liquid"
   src: "books/redshirts.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>

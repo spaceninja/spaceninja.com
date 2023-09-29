@@ -21,8 +21,8 @@ So, in 2019 I read [25 books](https://www.goodreads.com/user_challenges/15025289
 {% include "partials/image.liquid"
   src: "books/thrawn.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -44,8 +44,8 @@ This book is everything I ever wanted. It explains how blue-skinned Thrawn came 
 {% include "partials/image.liquid"
   src: "books/collapsing-empire.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -67,8 +67,8 @@ I don’t think I can really add anything to that, so I’ll just say that he’
 {% include "partials/image.liquid"
   src: "books/tea-master-detective.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -88,8 +88,8 @@ It’s from the author’s Xuya series, an alternate history exploring what woul
 {% include "partials/image.liquid"
   src: "books/planetfall.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -113,15 +113,15 @@ I can’t recommend this series strongly enough. Go read that chapter and if you
 {% include "partials/image.liquid"
   src: "books/expanse4.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 {% include "partials/image.liquid"
   src: "books/expanse5.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>

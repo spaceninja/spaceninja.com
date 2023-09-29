@@ -25,8 +25,8 @@ For my purposes, I read several books that I really loved:‌
 {% include "partials/image.liquid"
   src: "books/termination-shock.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -46,8 +46,8 @@ This book is firmly in the “airport thriller” style, but man did I love it. 
 {% include "partials/image.liquid"
   src: "books/antimemetics-division.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -71,8 +71,8 @@ This book is great fun, and I can’t recommend it strongly enough, especially i
 {% include "partials/image.liquid"
   src: "books/fugitive-telemetry.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -92,8 +92,8 @@ It’s a detective story starring Murderbot, with all the acerbic snark you’d 
 {% include "partials/image.liquid"
   src: "books/hail-mary.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -117,8 +117,8 @@ It’s also one of the best first contact stories I’ve ever read. Without givi
 {% include "partials/image.liquid"
   src: "books/ufos.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -140,8 +140,8 @@ It lays out a compelling and well-researched case that UFOs are real, they have 
 {% include "partials/image.liquid"
   src: "books/in-plain-sight.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>

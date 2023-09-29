@@ -74,6 +74,7 @@
   padding-inline: 0.25em;
   text-decoration: none;
 
+  &[aria-current='page'],
   &:hover,
   &:focus {
     background-image: var(--rainbow-gradient);

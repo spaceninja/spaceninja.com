@@ -1,26 +1,10 @@
 ---js
 {
+  title: 'Blog',
   layout: 'layouts/page.webc',
   eleventyExcludeFromCollections: true,
   og_type: 'website',
-  pagination: {
-    data: 'collections.postsByRecent',
-    size: 10,
-    alias: 'postList',
-  },
-  permalink: (data) => {
-    return data.pagination.pageNumber > 0
-      ? `blog/${data.pagination.pageNumber + 1}/`
-      : undefined;
-  },
 }
 ---
 
-<post-list :posts="postList"></post-list>
-
-<post-list-pagination
-  :total-pages="pagination.pages.length"
-  :current-page="pagination.pageNumber + 1"
-  :previous-href="pagination.href.previous"
-  :next-href="pagination.href.next"
-></post-list-pagination>
+<post-list :posts="collections.postsByRecent"></post-list>

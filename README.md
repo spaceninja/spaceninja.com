@@ -26,7 +26,7 @@
 - [x] post header styles
 - [x] post footer styles
 - [x] post navigation styles
-- [ ] post list styles
+- [x] post list styles
 - [x] change theme colors to rgba
 - [x] add table styles (see ghost post)
 - [x] blockquote styles

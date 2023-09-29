@@ -107,10 +107,14 @@ h6 {
   a {
     color: inherit;
     text-decoration-color: var(--color-link-underline);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.0938em;
 
     &:hover,
     &:focus {
       text-decoration-color: var(--color-link-underline);
+      text-decoration-thickness: 3px;
+      text-underline-offset: 0.0938em;
     }
   }
 }

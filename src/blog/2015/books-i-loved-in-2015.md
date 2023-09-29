@@ -19,8 +19,8 @@ I have a terrible memory about books I’ve read. Often, all I can tell you is t
 {% include "partials/image.liquid"
   src: "books/martian.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -38,8 +38,8 @@ This book was precision crafted to target me. I adore science fiction about earl
 {% include "partials/image.liquid"
   src: "books/seveneves.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -57,8 +57,8 @@ I adore Neal Stephenson, and I love almost everything he’s written. This book 
 {% include "partials/image.liquid"
   src: "books/readyplayerone.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>

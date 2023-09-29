@@ -19,8 +19,8 @@ feature_credit: Susan Q Yin
 {% include "partials/image.liquid"
   src: "books/river-of-teeth.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -44,8 +44,8 @@ What a great plot hook. When Annie saw me working on this post, she sneered at t
 {% include "partials/image.liquid"
   src: "books/murderbot-all-systems-red.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
@@ -63,8 +63,8 @@ Okay, I mean, come on, that series name? I was in full [shut-up-and-take-my-mone
 {% include "partials/image.liquid"
   src: "books/voidwitch.jpg"
   alt: ""
-  sizes: media.list.sizes
-  widths: media.list.widths
+  sizes: media.mediaList.sizes
+  widths: media.mediaList.widths
 %}
 
 </div>
