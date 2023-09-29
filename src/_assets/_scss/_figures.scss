@@ -1,80 +1,80 @@
+// stylelint-disable selector-no-qualifying-type
 @use 'mixins';
 
-/**
- * Figures
- */
-
-figure,
-iframe,
 img {
-  display: block;
-  margin-block: 1.5em;
-}
-
-img {
-  @include mixins.layout-wide;
-  @include mixins.max-width-wide;
   height: auto;
-
-  &[src$='.svg'] {
-    width: 100%;
-  }
-
-  // stylelint-disable-next-line selector-no-qualifying-type
-  &.align--center {
-    margin-inline: auto;
-    max-width: 100%;
-  }
-}
-
-.float-right {
-  float: right;
-  margin: 0 0 0.5em 1em;
   max-width: 100%;
-  width: 50%;
 }
 
-iframe {
-  @include mixins.layout-wide;
-  @include mixins.width-wide-important;
-}
-
-iframe:not(.aspect-ratio--native) {
-  aspect-ratio: 16 / 9;
-  height: auto;
-
-  // stylelint-disable-next-line selector-no-qualifying-type
-  &.aspect-ratio--4x3 {
-    aspect-ratio: 4 / 3;
-  }
-}
-
-figure {
-  @include mixins.layout-wide;
-
-  pre[class*='language-'] {
-    margin: 0;
+// Wide layout for figures, iframes, and images in blog posts
+article {
+  figure,
+  iframe,
+  img {
+    display: block;
+    margin-block: 1.5em;
   }
 
   img {
-    margin-block: 0;
-    margin-inline: auto;
-    max-width: 100%;
+    @include mixins.layout-wide;
+    @include mixins.max-width-wide;
+
+    &[src$='.svg'] {
+      width: 100%;
+    }
+
+    &.float-right {
+      float: right;
+      margin: 0 0 0.5em 1em;
+      max-width: 100%;
+      width: 50%;
+    }
+  }
+
+  figure {
+    @include mixins.layout-wide;
+
+    pre[class*='language-'] {
+      margin: 0;
+    }
+
+    img {
+      margin-block: 0;
+      margin-inline: auto;
+      max-width: 100%;
+    }
+  }
+
+  iframe {
+    @include mixins.layout-wide;
+    @include mixins.width-wide-important; // needed to override embed styles
+
+    &:not(.aspect-ratio--native) {
+      aspect-ratio: 16 / 9;
+      height: auto;
+
+      &.aspect-ratio--4x3 {
+        aspect-ratio: 4 / 3;
+      }
+    }
   }
 }
 
 figcaption {
+  @include mixins.remove-contained-margins;
+  color: var(--color-subtle);
   font-size: smaller;
   font-style: italic;
-  margin-top: 0.5em;
+  margin-block-start: 0.5em;
   text-align: center;
   text-wrap: balance;
 
-  > :first-child {
-    margin-top: 0;
-  }
+  a {
+    color: var(--color-subtle);
 
-  > :last-child {
-    margin-bottom: 0;
+    &:hover,
+    &:focus {
+      color: var(--color-fg);
+    }
   }
 }

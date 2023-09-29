@@ -58,7 +58,7 @@ prism: true
   <footer class="post__footer">
     <div class="post__tags" webc:if="filterTagList(tags).length">
       <p class="post__tags-intro">Filed under</p>
-      <ul class="post__tags-list list--inline">
+      <ul class="post__tags-list">
         <!-- display:inline -->
         <li
           webc:for="(key, tag) in filterTagList(tags).sort()"

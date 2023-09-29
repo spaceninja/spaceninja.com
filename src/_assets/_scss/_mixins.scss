@@ -37,3 +37,35 @@
     width: calc(100% + 4em) !important;
   }
 }
+
+@mixin image-reset() {
+  margin: 0;
+  max-width: 100%;
+}
+
+@mixin gradient-text() {
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-color: var(--color-fg, CanvasText);
+  background-image: var(--rainbow-gradient);
+  background-repeat: repeat;
+  background-size: 100%;
+  color: transparent;
+}
+
+@mixin remove-contained-margins() {
+  > :first-child {
+    margin-block-start: 0;
+  }
+
+  > :last-child {
+    margin-block-end: 0;
+  }
+}
+
+@mixin list-reset() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,13 +1,13 @@
+@use 'mixins';
+
 .post__title {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .post__meta {
+  @include mixins.list-reset;
   color: var(--color-subtle);
   font-size: smaller;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -47,6 +47,24 @@
 
 .post__tags-list {
   display: inline;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+
+  li {
+    display: inline;
+
+    &::after {
+      content: ', ';
+    }
+
+    &:last-child::before {
+      content: 'and ';
+    }
+
+    &:last-child::after {
+      content: '.';
+    }
+  }
 }
 
 .post__nav {
@@ -68,8 +86,12 @@
 .post__nav-label {
   color: var(--color-subtle);
   display: block;
-  font-size: smaller;
+  font-size: 0.9em;
   text-transform: uppercase;
+
+  @media screen and (width >= 48em) {
+    font-size: 0.7em;
+  }
 }
 
 .post__nav-link {

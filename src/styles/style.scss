@@ -1,11 +1,20 @@
-@use '../_assets/_scss/typography';
-@use '../_assets/_scss/layout';
+// global styles
+@use '../_assets/_scss/asides';
+@use '../_assets/_scss/blockquotes';
+@use '../_assets/_scss/code';
 @use '../_assets/_scss/figures';
+@use '../_assets/_scss/headings';
 @use '../_assets/_scss/tables';
+@use '../_assets/_scss/typography';
+
+// theme
 @use '../_assets/_scss/theme';
-@use '../_assets/_scss/header';
+@use '../_assets/_scss/layout';
 @use '../_assets/_scss/footer';
-@use '../_assets/_scss/post-list';
-@use '../_assets/_scss/post';
+@use '../_assets/_scss/header';
+
+// components
 @use '../_assets/_scss/media-list';
 @use '../_assets/_scss/media-triptych';
+@use '../_assets/_scss/post-list';
+@use '../_assets/_scss/post';

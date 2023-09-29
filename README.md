@@ -41,4 +41,10 @@
 - [x] convert banner pic to webp
 - [x] floated image styles (see wally wood post)
 - [x] add proper `sizes` attributes
-- [ ] CSS cleanup
+- [x] CSS cleanup
+
+### Content
+
+- [ ] Portfolio
+- [ ] Speaking
+- [ ] Homepage
