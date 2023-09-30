@@ -11,18 +11,37 @@ eleventyNavigation:
 
 I present at conferences on topics related to CSS development and architecture. If you would like me to speak at your event, and you have a [code of conduct](http://rachelnabors.com/2015/09/01/code-of-conduct/) you intend to enforce, feel free to [email me](mailto:scott@spaceninja.com).
 
-- [Past Talks](#pasttalks)
-- [Speaker Info](#speakerinfo)
+Looking for a headshot or speaker bio? You can find them [at the bottom of this page](#speaker-info)
 
 ---
 
 ## Past Talks
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ty5jtMZXbmk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DtV_2zXtuiU?si=WI9q5QJV26JHXOZK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Responsive Images the Simple Way
+
+_Cloud Four, 2023_ • [Article](https://cloudfour.com/thinks/responsive-images-the-simple-way/)
+
+The responsive images spec covers a lot of use cases, but most of the time you’ll only need one: Serving a different sized copy of the same image depending on the user’s viewport width. We call this resolution switching, and you can accomplish it using the srcset and sizes attributes. In this video, Scott will guide you through the simple way to make your images responsive by providing a list of image assets for the browser to choose from.
+
+---
+
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/HdHU3D0QgW8?si=c4RypAjyfp-Q25gn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Let's Talk About Scrum
+
+_Say Media, 2018_ • [Slides](https://noti.st/spaceninja/Q2lIog/let-s-talk-about-scrum)
+
+This talk is a 101-level introduction to Scrum, the agile methodology, especially in terms of how it works for web development. We'll cover the scrum values, rituals, and team. We'll also discuss some common pitfalls and how to work around them.
+
+---
+
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ty5jtMZXbmk?si=nB4dMeA0NolRJJC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### What is Modular CSS?
 
-_Devsigner 2016_
+_Devsigner 2016_ • [Slides](https://noti.st/spaceninja/sIdZ2I/what-is-modular-css)
 
 Modular CSS is a concept that will help you write more maintainable and readable code. It is compatible with any and all CSS preprocessors and naming conventions. You may have heard of BEM, SMACSS, or OOCSS, which are methodologies that all share the key concepts of modular CSS.
 
@@ -30,44 +49,9 @@ Modular CSS means you avoid ever writing special snowflake CSS that's only used 
 
 Essentially, if you're ever going to write CSS at scale, you owe it to yourself to understand what modular CSS is, and how it can dramatically improve the readability and maintainability of your code.
 
-This talk is aimed at intermediate level front-end developers. We won't be covering any advanced CSS, so as long as you know the basics, you should be able to follow along just fine.
-
-You will learn:
-
-1. The unlying patterns of all modular CSS methodologies
-2. How to write CSS that scales
-3. How to write CSS that is easy to understand and maintain
-4. How to write CSS that doesn't rely on context
-
-[Slides](https://www.slideshare.net/spaceninja/what-is-modular-css)
-
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HdHU3D0QgW8" frameborder="0" allowfullscreen></iframe>
-
-### Let's Talk About Scrum
-
-_Internal Presentation at Say Media, 2018_
-
-This talk is a 101-level introduction to Scrum, the agile methodology, especially in terms of how it works for web development. We'll cover the scrum values, rituals, and team. We'll also discuss some common pitfalls and how to work around them.
-
-[Slides](https://www.slideshare.net/spaceninja/lets-talk-about-scrum-113438621)
-
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RGp_5WhNV6Y" frameborder="0" allowfullscreen></iframe>
-
-### Lightning Talk: Responsive Images
-
-_Internal Presentation at Say Media, 2017_
-
-Let's talk about the `srcset` and `sizes` attributes, a progressive enhancement technique that allows the browser to choose the best image for the user's device. We'll also talk about the new `picture` element, and how it can be used for more advanced use cases like art direction or supporting new image formats.
-
-[Slides](https://www.slideshare.net/spaceninja/lightning-talk-responsive-images)
-
----
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/pTeDzeNaO7kFmv" width="595" height="485" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/R0S52M/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
 
 ### Flexbox Will Shock You!
 
@@ -83,7 +67,7 @@ This is a beginner level talk. You do not need to know anything about flexbox, b
 
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/1toiAT6VADYEZd" width="595" height="485" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/jFnyfV/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
 
 ### How to Use Sass to Make Your Site More Maintainable
 
@@ -93,7 +77,7 @@ A presentation about making your project more maintainable by using Sass, given 
 
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/483HakKSWBeHHv" width="595" height="485" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/6w5An6/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
 
 ### Tips for Front-End Teams without Tears, Heartache, or Fistfights
 
@@ -105,11 +89,11 @@ You and your teammates may not be best friends, but you can stop fighting about 
 
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/iIcXwzpFxk2F2R" width="595" height="485" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/UcMMuh/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
 
 ### Introduction to HTML5
 
-_WebVisions Portland 2011, DrupalCamp LA 2010_
+_WebVisions Portland 2011, DrupalCamp LA 2010_ • [Slides](https://www.slideshare.net/spaceninja/html5-v4)
 
 HTML5 is ready to use today, and Scott Vandehey can show you how to use it in your site. During this session, you will learn the answer to these questions:
 
@@ -119,10 +103,6 @@ HTML5 is ready to use today, and Scott Vandehey can show you how to use it in yo
 - How well supported is it?
 
 By the end, you will see that converting your site to HTML5 can offer you real benefits, and will position you to easily take advantage of new features as they become available. With its focus on graceful degradation, there’s no reason to delay. Learn how HTML5 can help you!
-
-This session is intended for beginner to intermediate level front-end developers and designers. You should have a healthy interest in markup.
-
-We will be introducing some of the new elements, such as Article, Section, and Video, but not the new APIs like drag-and-drop or geolocation.
 
 ---
 
@@ -141,19 +121,36 @@ We will be introducing some of the new elements, such as Article, Section, and V
 #### Long (150 words)
 
 > Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 20 years experience building scalable user interfaces. His specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between his education in graphic design and his experience working alongside programmers, he bridges the gap between design and development.
-
+>
 > A running theme in his career has been helping others level up, and that’s most recently manifested in the Friday Front-End and CSS Basics twitter accounts and newsletter, which he uses to share development tips and links with the front-end community every day. His first book, “How to Find a Better Job in Tech,” was published in 2016.
-
+>
 > You can learn more at spaceninja.com, and follow him on twitter at @spaceninja.
 
-### Headshots
+### Photos
+
+These are full-size assets. Feel free to download.
 
 <figure>
 
-{% image "scott/avatar512.png" "avatar512" %}
+{% include "partials/image.liquid"
+  src: "scott/avatar512.png"
+  alt: "A headshot of Scott Vandehey"
+  formats: "jpeg"
+  widths: "orig"
+%}
 
 </figure>
 
-{% image "scott/IMG_2191.jpg" "IMG_2191" %}
+{% include "partials/image.liquid"
+  src: "scott/IMG_2191.jpg"
+  alt: "Scott at his desk, looking at his laptop, deep in thought."
+  formats: "jpeg"
+  widths: "orig"
+%}
 
-{% image "scott/IMG_3763.jpg" "IMG_3763" %}
+{% include "partials/image.liquid"
+  src: "scott/IMG_3763.jpg"
+  alt: "Scott at his desk, wearing headphones and smiling."
+  formats: "jpeg"
+  widths: "orig"
+%}

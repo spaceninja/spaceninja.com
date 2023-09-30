@@ -28,6 +28,10 @@
   margin-block-end: 0.5em;
 }
 
+.post-list__media {
+  @include mixins.image-reset;
+}
+
 .post-list__date {
   color: var(--color-subtle);
   font-size: 0.9em;
