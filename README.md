@@ -45,6 +45,6 @@
 
 ### Content
 
-- [ ] Portfolio
+- [x] Portfolio
 - [x] Speaking
 - [ ] Homepage
