@@ -56,8 +56,7 @@ module.exports = function (eleventyConfig) {
 
   // Customize Markdown library settings:
   eleventyConfig.amendLibrary('md', (mdLib) => {
-    mdLib
-      .use(markdownItFootnote);
+    mdLib.use(markdownItFootnote);
     mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
       var n = Number(tokens[idx].meta.id + 1).toString();
       if (tokens[idx].meta.subId > 0) {
