@@ -1,39 +1,5 @@
 @use 'mixins';
 
-.heading {
-  position: relative;
-}
-
-.heading__permalink {
-  font-size: 1.25rem;
-  inset-block-start: 50%;
-  inset-inline-start: -0.5em;
-  opacity: 0;
-  position: absolute;
-  text-decoration: none;
-  transform: translate(-100%, -50%);
-
-  &::before {
-    content: '';
-    display: block;
-    inset: -0.25em -0.5em;
-    position: absolute;
-  }
-
-  &:focus,
-  .heading:hover & {
-    opacity: 1;
-  }
-}
-
-.heading__permalink span[aria-hidden] {
-  // stylelint-disable-next-line property-no-vendor-prefix
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-color: var(--color-subtle, CanvasText);
-  color: transparent;
-}
-
 h1,
 h2,
 h3,
