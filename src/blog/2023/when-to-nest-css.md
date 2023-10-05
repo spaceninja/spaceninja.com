@@ -42,7 +42,7 @@ a:focus {
   color: blue;
 }
 
-a[aria-current="page"] {
+a[aria-current='page'] {
   color: green;
 }
 ```
@@ -57,7 +57,7 @@ a {
     color: blue;
   }
 
-  &[aria-current="page"] {
+  &[aria-current='page'] {
     color: green;
   }
 }
