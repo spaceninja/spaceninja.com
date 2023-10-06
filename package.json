@@ -39,7 +39,7 @@
     "sass": "1.69.0",
     "stylelint": "15.10.3",
     "stylelint-config-prettier": "9.0.5",
-    "stylelint-config-spaceninja": "13.0.1"
+    "stylelint-config-spaceninja": "14.0.0"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-webc": "0.11.1"
