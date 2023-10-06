@@ -1,5 +1,5 @@
 ---
-title: 'Books I Love: The Kingkiller Chronicle Series'
+title: 'Books I Love: The Kingkiller Chronicle'
 date: 2018-10-25T15:21:26.000Z
 date_updated: 2018-10-25T17:30:16.000Z
 tags:
