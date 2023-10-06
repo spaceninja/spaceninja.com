@@ -14,7 +14,7 @@ body {
 
 main {
   margin: 0 auto;
-  margin-bottom: 2em;
+  margin-block-end: 2em;
   max-width: 60ch;
   padding: 1em;
 }
@@ -27,37 +27,4 @@ main {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-
-.heading {
-  position: relative;
-}
-
-.heading__permalink {
-  font-size: 1.25rem;
-  position: absolute;
-  left: -0.5em;
-  top: 50%;
-  transform: translate(-100%, -50%);
-  text-decoration: none;
-  opacity: 0;
-
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    inset: -0.25em -0.5em;
-  }
-
-  &:focus,
-  .heading:hover & {
-    opacity: 1;
-  }
-}
-
-.heading__permalink span[aria-hidden] {
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-color: var(--color-subtle);
-  color: transparent;
 }

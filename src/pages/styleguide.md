@@ -4,83 +4,16 @@ slug: styleguide
 permalink: styleguide/
 date: 2014-02-18T18:53:23.000Z
 date_updated: 2018-08-20T11:51:25.000Z
----
-
-You're in! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. Go ahead and edit this post to get going and learn how it all works!
-
-## Getting Started
-
-Writing in markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use _formatting_ shortcuts to style your content. For example, a list:
-
-- Item number one
-- Item number two
-  - A nested item
-- A final item
-
-or with numbers!
-
-1. Remember to buy some milk
-2. Drink the milk
-3. Tweet that I remembered to buy the milk, and drank it
-
-### Links
-
-Want to link to a source? No problem. If you paste in url, like http://ghost.org - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to [the Ghost website](http://ghost.org). Neat.
-
-### What about Images?
-
-Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:
-
-![A Cat](https://source.unsplash.com/800x450/daily?cats)
-
-Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:
-
-![A bowl of bananas]
-
-### Quoting
-
-Sometimes a link isn't enough, you want to quote someone on what they've said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now - it's definitely a word.
-
-> Wisdomous - it's definitely a word.
-
-### Working with Code
-
-Got a streak of geek? We've got you covered there, too. You can write inline `code` blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.
-
-    .awesome-thing {
-        display: block;
-        width: 100%;
-    }
-
-### Ready for a Break?
-
-Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.
-
----
-
-### Advanced Usage
-
-There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.
-
-<input type="text" placeholder="I'm an input field!" />
-
-That should be enough to get you started. Have fun - and let us know what you think :)
-
+prism: true
 ---
 
 ## Body Copy
 
 Lorem ipsum dolor sit amet, [test link](http://example.com) adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. **this is _strongly emphasized._** Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That's a citation). <u>Underline.</u> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
-<abbr title='Hyper Text Markup Language'>HTML</abbr> and <abbr title='Cascading Style Sheets'>CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY <var>filename</var>`. ~~Dinner's at 5:00.~~ <ins>Let's make that 7.</ins> This <s>text</s> has been struck. This ==text== has been marked.
+<abbr title='Hyper Text Markup Language'>HTML</abbr> and <abbr title='Cascading Style Sheets'>CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <code>COPY <var>filename</var></code> and press <kbd>return</kbd>. <del>Dinner's at 5:00.</del> <ins>Let's make that 7.</ins> This <s>text</s> has been struck. This <mark>text</mark> has been marked.
 
 <small>This footnote is made with the `small` element.</small>
-
----
-
-### Horizontal Rules
-
-We sometimes use the `hr` element to separate sections of the page, so we hide them using CSS. However, we sometimes want to use them inline to separate blocks of content, so we should turn them back on, like so.
 
 ---
 
@@ -88,9 +21,9 @@ We sometimes use the `hr` element to separate sections of the page, so we hide t
 
 # H1: The **arsonist** has _oddly shaped_ feet
 
-## H2: The human torch was denied a bank loan
+## H2: The **human torch** was _denied_ a bank loan
 
-### H3: 60% of the time, it works every time
+### H3: **60%** of the time, it works _every time_
 
 #### H4: Jackdaws love my big sphinx of quartz
 
@@ -105,19 +38,22 @@ We sometimes use the `hr` element to separate sections of the page, so we hide t
 ### Definition List
 
 <dl>
-<dt>Definition List Title</dt>
-<dd>This is a definition.</dd>
-<dd>This is an alternate definition.</dd>
-<dt>Definition</dt>
-<dd>An exact statement or description of the nature, scope, or meaning of something: <em>our definition of what constitutes poetry</em>.</dd>
+  <dt>Definition List Title</dt>
+  <dd>This is a definition.</dd>
+  <dd>This is an alternate definition.</dd>
+  <dt>Definition</dt>
+  <dd>
+    An exact statement or description of the nature, scope, or meaning of something:
+    <em>our definition of what constitutes poetry</em>.
+  </dd>
 </dl>
 
 ### Ordered List
 
 1. List Item 1
 1. List Item 2
-1. Nested List Item A
-1. Nested List Item B
+   1. Nested List Item A
+   1. Nested List Item B
 1. List Item 3
 
 ### Unordered List
@@ -133,12 +69,15 @@ We sometimes use the `hr` element to separate sections of the page, so we hide t
 ## Tables
 
 <table>
+  <thead>
   <tr>
     <th>&nbsp;</th>
     <th>Enterprise</th>
     <th>Enterprise D</th>
     <th>Galactica</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <th>Captain</th>
     <td>James Kirk</td>
@@ -163,26 +102,37 @@ We sometimes use the `hr` element to separate sections of the page, so we hide t
     <td>Geordi LaForge</td>
     <td>Galen Tyrol</td>
   </tr>
+  </tbody>
 </table>
+
+---
+
+## Asides
+
+<aside>
+
+**Note:** The `<aside>` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+</aside>
 
 ---
 
 ## Preformatted Text
 
-Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. For example:
+Including, but not limited to code. Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. For example:
 
 <pre>
 “Beware the Jabberwock, my son!
-The jaws that bite, the claws that catch!
+    The jaws that bite, the claws that catch!
 Beware the Jubjub bird, and shun
-The frumious Bandersnatch!”
+    The frumious Bandersnatch!”
 </pre>
 
 <pre>
-! " # $ % &amp; ' ( ) * + , - . /
-0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+! " # $ % & ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; < = > ?
 @ A B C D E F G H I J K L M N O
-P Q R S T U V W X Y Z [ \\\\ ] ^ _
+P Q R S T U V W X Y Z [ \ ] ^ _
 ` a b c d e f g h i j k l m n o
 p q r s t u v w x y z { | } ~
 </pre>
@@ -191,7 +141,7 @@ p q r s t u v w x y z { | } ~
 
 ### Code
 
-Code can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or within a `pre` block. Because we have more specific typographic needs for code, we'll specify Consolas and Monaco ahead of the browser-defined monospace font.
+Code can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or within a `pre` block.
 
 ```
 .container {
@@ -203,6 +153,8 @@ Code can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or wi
 
 You can also get syntax highlighting by adding `class="language-XXXX"` to your `code` element, like so:
 
+<figure>
+
 ```html
 <pre>
   <code class="language-css">
@@ -213,12 +165,12 @@ You can also get syntax highlighting by adding `class="language-XXXX"` to your `
 </pre>
 ```
 
-CSS Formatting:
+<figcaption>HTML formatting</figcaption>
+</figure>
+<figure>
 
 ```css
 pre[class*='language-']::selection,
-pre[class*='language-']::selection,
-code[class*='language-']::selection,
 code[class*='language-']::selection {
   text-shadow: none;
   background: #b3d4fc;
@@ -232,10 +184,12 @@ code[class*='language-']::selection {
 }
 ```
 
-JavaScript Formatting:
+<figcaption>CSS formatting</figcaption>
+</figure>
+<figure>
 
 ```javascript
-for (var i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
   if (i % (3 * 5) === 0) {
     console.log('FizzBuzz');
   } else if (i % 3 === 0) {
@@ -248,6 +202,9 @@ for (var i = 1; i <= 100; i++) {
 }
 ```
 
+<figcaption>JavaScript formatting</figcaption>
+</figure>
+
 And many more!
 
 ---
@@ -257,7 +214,7 @@ And many more!
 Figures are usually used to refer to images:
 
 <figure>
-  <img alt='' src='https://source.unsplash.com/800x450/daily?dogs'>
+  <img alt="" loading="lazy" width="1600" height="900" src="https://source.unsplash.com/1600x900/daily?goats">
   <figcaption>
     <h4>Figure Heading</h4>
     <p>This is a placeholder image, with supporting caption.</p>
@@ -267,9 +224,14 @@ Figures are usually used to refer to images:
 Here, a part of a poem is marked up using figure:
 
 <figure>
-  <p>&#8216;Twas brillig, and the slithy toves<br />Did gyre and gimble in the wabe;<br />All mimsy were the borogoves,<br />And the mome raths outgrabe.</p>
+  <p>
+    ‘Twas brillig, and the slithy toves<br />
+    Did gyre and gimble in the wabe;<br />
+    All mimsy were the borogoves,<br />
+    And the mome raths outgrabe.
+  </p>
   <figcaption>
-    <small><cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98</small>
+    <cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98
   </figcaption>
 </figure>
 
@@ -279,7 +241,17 @@ Here, a part of a poem is marked up using figure:
 
 Let's keep it simple. Be sure to style the citation.
 
-> Good afternoon, gentlemen. I am a _HAL 9000_ computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you'd like to hear it I can sing it for you.
-> <small><cite>[HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>, 2000: A Space Odyssey</small>
+<blockquote>
+  <p>
+    People think focus means saying yes to the thing you’ve got to focus on. But
+    that’s not what it means at all. It means saying no to the hundred other
+    good ideas that there are. You have to pick carefully. I’m actually as proud
+    of the things we haven’t done as the things I have done. Innovation is
+    saying no to 1,000 things.
+  </p>
+  <footer>
+    Steve Jobs, <cite>Apple Worldwide Developers’ Conference</cite>, 1997
+  </footer>
+</blockquote>
 
 And here's a bit of trailing text.

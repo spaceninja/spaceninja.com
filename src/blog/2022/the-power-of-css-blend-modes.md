@@ -9,18 +9,17 @@ tags:
 excerpt: I knew CSS blend modes could create some cool effects, but even so, a CodePen I saw recently left me shocked at what they’re capable of.
 canonical: https://cloudfour.com/thinks/the-power-of-css-blend-modes/
 feature_image: css-blend-modes/css-filters-layers-rainbow@2x.jpg
+hide_feature_image: true
 ---
 
-## Apple-Inspired Pride Clock
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOvXodv" data-user="scottkellum" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3"  data-default-tab="result" data-slug-hash="gOvXodv" data-user="scottkellum">
   <span>See the Pen <a href="https://codepen.io/scottkellum/pen/gOvXodv">
   Apple inspired Pride clock</a> by Scott Kellum (<a href="https://codepen.io/scottkellum">@scottkellum</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-[This CodePen](https://codepen.io/scottkellum/pen/gOvXodv), by [Scott Kellum](https://codepen.io/scottkellum), really caught my eye. I could see it was HTML text for the numbers, but I wasn’t sure how he created the radial line effect. When I dug into the code, I was shocked by how little CSS it took to create the effect. Here’s a layered breakdown to make it easier to visualize:
+This [Apple-inspired pride clock](https://codepen.io/scottkellum/pen/gOvXodv) demo, by [Scott Kellum](https://codepen.io/scottkellum), really caught my eye. I could see it was HTML text for the numbers, but I wasn’t sure how he created the radial line effect. When I dug into the code, I was shocked by how little CSS it took to create the effect. Here’s a layered breakdown to make it easier to visualize:
 
 {% image "css-blend-modes/css-filters-layers-rainbow@2x.jpg" "A diagram showing the layers used to create a rainbow lined effect with CSS." %}
 
@@ -71,7 +70,7 @@ It’s elegant! Just a few lines of CSS and a simple set of layers are converted
 
 ## Radial Engraving Filter
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvymgba" data-user="spaceninja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3" data-default-tab="result" data-slug-hash="wvymgba" data-user="spaceninja">
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/wvymgba">
   CSS Radial Engraving Photo Filter</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -126,7 +125,7 @@ But it got me thinking. Being a comic book fan, I wondered… could this same te
 
 ## Halftone Filter
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNEOXRZ" data-user="spaceninja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3"  data-default-tab="result" data-slug-hash="oNEOXRZ" data-user="spaceninja" >
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/oNEOXRZ">
   CSS Halftone Filter</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

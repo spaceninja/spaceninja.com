@@ -2,6 +2,7 @@
 title: What IS Flexbox?
 date: 2015-08-24T22:07:04.000Z
 date_updated: 2018-09-18T05:05:48.000Z
+excerpt: An elegant layout method for a more civilized age.
 tags:
   - layout
   - web development
@@ -9,8 +10,6 @@ tags:
   - css
 feature_image: what-is-flexbox/flexbox-cover.jpg
 ---
-
-#### _An elegant layout method for a more civilized age._
 
 Flexbox is a new layout mode in CSS3. The previous version of CSS defined four layout modes:
 
@@ -37,7 +36,7 @@ As I was writing this, I realized I didn’t actually know what motivated the cr
 >
 > My goal in doing Flexbox and later Grid was to replace all the crazy float/table/inline-block/etc hacks that I’d had to master as a webdev. All that crap was (a) stupid, (b) hard to remember, and (c) limited in a million annoying ways, so I wanted to make a few well-done layout modules that solved the same problems in simple, easy-to-use, and complete ways.
 >
-> <small>[Tab Atkins Jr.](http://www.xanthir.com/blog/), author of the Flexbox and Grid specs</small>
+> <footer><a href="http://www.xanthir.com/blog/">Tab Atkins Jr.</a>, author of the <cite>Flexbox</cite> and <cite>Grid</cite> specs</footer>
 
 In a nutshell: Flexbox and Grid were created explicitly to replace float and table layout hacks.
 
@@ -45,7 +44,11 @@ In a nutshell: Flexbox and Grid were created explicitly to replace float and tab
 
 You may have heard there are three Flexbox specifications. (Which makes me think of this scene from Star Trek:)
 
+<figure>
+
 {% image "what-is-flexbox/there-are-4-lights.png" "Picard shouting “There are four lights!”" %}
+
+</figure>
 
 Don’t let that scare you away. Yes, there are three versions of the spec, but only one of them really matters:
 
@@ -59,17 +62,45 @@ Note: Each spec used a different keyword for the `display` property, which means
 
 ## Flexbox Layouts Go in One Direction
 
+<figure>
+
 {% image "what-is-flexbox/flex-onedirection.gif" "Flexbox = One Direction?" %}
+
+</figure>
 
 Sorry, dumb joke. I mentioned that Flexbox lays items out in a single row or column. Let’s talk about what that means:
 
-{% image "what-is-flexbox/flex-intro.svg" "Flexbox container and item diagram" %}
-<small>Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)</small>
+<figure>
+
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/flex-intro.svg"
+  alt: "flex-intro"
+  formats: "svg"
+%}
+
+<figcaption>
+
+Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
+
+</figcaption>
+</figure>
 
 A Flexbox layout consists of a **flex container** that holds **flex items**. The flex container can be laid out horizontally or vertically. This is referred to as the **main axis**.
 
-{% image "what-is-flexbox/axis-both.svg" "Flexbox main and cross axis diagram" %}
-<small>Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)</small>
+<figure>
+
+{% include "partials/image.liquid"
+  src: "what-is-flexbox/axis-both.svg"
+  alt: "Flexbox main and cross axis diagram"
+  formats: "svg"
+%}
+
+<figcaption>
+
+Image credit: [Flexbox Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
+
+</figcaption>
+</figure>
 
 The direct children of a flex container are laid out along the main axis. These children can “flex” their sizes, growing to fill unused space in the container, or shrinking to avoid overflowing.
 
@@ -113,9 +144,16 @@ IE10 also supports Flexbox, but uses the tweener spec (`display:flexbox`).
 
 ### What About Older IE Versions?
 
+<figure>
+
 {% image "what-is-flexbox/disaster-girl.jpg" "I have some ideas" %}
 
-_I have some ideas_
+<figcaption>
+
+I have some ideas
+
+</figcaption>
+</figure>
 
 Best-case scenario? If you don’t mind the non-Flexbox browsers getting a different layout, then you don’t need to do _anything_. This is called **graceful degradation** and is certainly the easiest approach.
 

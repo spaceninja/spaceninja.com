@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
+<html :lang="metadata.language">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +16,8 @@
       type="application/json"
       :title="metadata.title"
     />
-    <link webc:keep rel="stylesheet" href="/style.css" />
-    <link webc:if="prism" webc:keep rel="stylesheet" href="/prism.css" />
+    <link webc:keep rel="stylesheet" href="/styles/style.css" />
+    <link webc:if="prism" webc:keep rel="stylesheet" href="/styles/prism.css" />
     <link
       rel="preload"
       href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2"
@@ -119,51 +119,20 @@
           @text="`© ${new Date().getFullYear()} ${metadata.author.name}`"
         ></p>
         <ul class="app-footer__social">
-          <li class="app-footer__social-item">
+          <li webc:for="link of social" class="app-footer__social-item">
             <a
               class="app-footer__social-link"
               rel="me"
-              href="https://twitter.com/spaceninja"
-              >Twitter</a
-            >
+              :href="link.url"
+              @text="link.name"
+            ></a>
           </li>
-          <li class="app-footer__social-item">
+          <li webc:for="link of feeds" class="app-footer__social-item">
             <a
               class="app-footer__social-link"
-              rel="me"
-              href="https://bsky.app/profile/spaceninja.com"
-              >Bluesky</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://mastodon.cloud/@spaceninja"
-              >Mastodon</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://github.com/spaceninja"
-              >GitHub</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a
-              class="app-footer__social-link"
-              rel="me"
-              href="https://codepen.io/spaceninja/"
-              >CodePen</a
-            >
-          </li>
-          <li class="app-footer__social-item">
-            <a class="app-footer__social-link" href="/feed/feed.xml">Feed</a>
-          </li>
-          <li class="app-footer__social-item">
-            <a class="app-footer__social-link" href="/feed/feed.json">JSON</a>
+              :href="link.url"
+              @text="link.name"
+            ></a>
           </li>
         </ul>
       </div>

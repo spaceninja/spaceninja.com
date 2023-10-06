@@ -1,24 +1,80 @@
-/**
- * Figures
- */
+// stylelint-disable selector-no-qualifying-type
+@use 'mixins';
 
 img {
   height: auto;
   max-width: 100%;
 }
 
-figure {
-  margin: 1em 0;
-
+// Wide layout for figures, iframes, and images in blog posts
+article {
+  figure,
+  iframe,
   img {
     display: block;
-    margin-inline: auto;
+    margin-block: 1.5em;
+  }
+
+  img {
+    @include mixins.layout-wide;
+    @include mixins.max-width-wide;
+
+    &[src$='.svg'] {
+      width: 100%;
+    }
+
+    &.float-right {
+      float: right;
+      margin: 0 0 0.5em 1em;
+      max-width: 100%;
+      width: 50%;
+    }
+  }
+
+  figure {
+    @include mixins.layout-wide;
+
+    pre[class*='language-'] {
+      margin: 0;
+    }
+
+    img {
+      margin-block: 0;
+      margin-inline: auto;
+      max-width: 100%;
+    }
+  }
+
+  iframe {
+    @include mixins.layout-wide;
+    @include mixins.width-wide-important; // needed to override embed styles
+
+    &:not(.aspect-ratio--native) {
+      aspect-ratio: 16 / 9;
+      height: auto;
+
+      &.aspect-ratio--4x3 {
+        aspect-ratio: 4 / 3;
+      }
+    }
   }
 }
 
 figcaption {
+  @include mixins.remove-contained-margins;
+  color: var(--color-subtle);
   font-size: smaller;
   font-style: italic;
+  margin-block-start: 0.5em;
   text-align: center;
   text-wrap: balance;
+
+  a {
+    color: var(--color-subtle);
+
+    &:hover,
+    &:focus {
+      color: var(--color-fg);
+    }
+  }
 }

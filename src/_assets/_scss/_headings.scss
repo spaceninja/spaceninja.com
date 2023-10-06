@@ -1,0 +1,110 @@
+@use 'mixins';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include mixins.gradient-text;
+  font-family: 'Bricolage Grotesque', var(--system-fonts);
+  font-weight: var(--heading-weight);
+  margin: 1em 0 1rem;
+  text-wrap: balance;
+
+  code {
+    color: inherit;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  em,
+  strong {
+    font-style: normal;
+    font-weight: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--color-link-underline, CanvasText);
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 0.0938em;
+  }
+
+  a {
+    color: inherit;
+    text-decoration-color: var(--color-link-underline, CanvasText);
+    text-decoration-thickness: 0.125rem;
+    text-underline-offset: 0.0938em;
+
+    &:hover,
+    &:focus {
+      text-decoration-color: var(--color-link-underline, CanvasText);
+      text-decoration-thickness: 0.1875rem;
+      text-underline-offset: 0.0938em;
+    }
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-image: var(--rainbow-gradient-alt);
+}
+
+h1 {
+  font-size: 3em;
+  font-stretch: 75%;
+  font-variation-settings: 'opsz' 48;
+  line-height: 0.85;
+  margin-block-start: 0;
+  padding-bottom: 0.1em; // prevent clipping from reduced line-height
+  text-align: center;
+
+  @media screen and (width >= 32em) {
+    font-size: 4em;
+    font-variation-settings: 'opsz' 64;
+  }
+
+  @media screen and (width >= 40em) {
+    font-size: 5em;
+    font-variation-settings: 'opsz' 80;
+  }
+
+  @media screen and (width >= 48em) {
+    font-size: 6em;
+    font-variation-settings: 'opsz' 96;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  font-stretch: 80%;
+  font-variation-settings: 'opsz' 32;
+  line-height: 1.1;
+
+  @media screen and (width >= 48em) {
+    font-size: 3em;
+    font-variation-settings: 'opsz' 48;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+  font-stretch: 85%;
+  font-variation-settings: 'opsz' 24;
+  line-height: 1.1;
+
+  @media screen and (width >= 48em) {
+    font-size: 2em;
+    font-variation-settings: 'opsz' 32;
+  }
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.25em;
+  font-stretch: 90%;
+  font-variation-settings: 'opsz' 20;
+  line-height: 1.2;
+}

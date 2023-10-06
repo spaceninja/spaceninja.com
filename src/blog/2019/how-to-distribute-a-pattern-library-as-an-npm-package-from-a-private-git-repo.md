@@ -39,8 +39,6 @@ However, this can be a lot more complicated if your pattern library lives in a p
    1. [Add the Heroku GitHub netrc buildpack](#addtheherokugithubnetrcbuildpack)
 1. [Conclusion](#conclusion)
 
----
-
 ## Make your pattern library an npm package
 
 To begin with, I’m going to assume the following about your pattern library:
@@ -93,8 +91,6 @@ But for npm, it’s just the opposite. No one installing your package needs the 
 
 - [Package.json “files” field](https://docs.npmjs.com/files/package.json#files)
 - [How do you use the “files” property in package.json?](https://stackoverflow.com/a/41285281)
-
----
 
 ## Distribute your npm package from Git
 
@@ -173,8 +169,6 @@ npm install --save your-name/your-repo#semver:^0.3.1
 ```
 ````
 
----
-
 ## Allow your server to access your private Git-hosted npm package
 
 We’re almost done. At this point, you’ve converted your pattern library to an npm package and made it available to install directly from your private Git repo. As long as it only needs to be installed by devs who have access to your repo, you’re golden.
@@ -226,8 +220,6 @@ heroku create --buildpack https://github.com/fs-webdev/heroku-buildpack-netrc.gi
 Once it’s added, make sure this buildpack comes before the standard Node one, or your app’s build will break because it can’t access your repo.
 
 - [Heroku buildpack: Github private repo access via ~/.netrc](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-github-netrc)
-
----
 
 ## Conclusion
 

@@ -18,7 +18,9 @@ feature_image: code-linting/linting-cover.png
 
 Similar to how Kleenex became the generic term for facial tissue and Xerox became the generic term for photocopies, Lint is a generic term that started from a specific one. The original [Lint](https://www.unix.com/man-page/FreeBSD/1/lint/) was a Unix utility to check C code for problems.
 
-> The term “lint” was derived from the name of the tiny bits of fiber and fluff shed by clothing, as the command should act like a dryer machine lint trap, detecting small errors with big effects. — [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)
+> The term “lint” was derived from the name of the tiny bits of fiber and fluff shed by clothing, as the command should act like a dryer machine lint trap, detecting small errors with big effects.
+>
+> <footer>Wikipedia: <cite><a href="https://en.wikipedia.org/wiki/Lint_(software)">Lint (software)</a></cite></footer>
 
 Today, we use the term “linters” for a class of tools that check code for common bugs and stylistic errors. Most linters are highly configurable so they can enforce the standards of your organization.
 
@@ -28,7 +30,16 @@ There are two main reasons to use a linter: To save yourself trouble by avoiding
 
 Everyone makes mistakes when they’re coding. It’s easy to use the wrong type of bracket, forget a semicolon, or misspell something. Checking your code for these types of errors is the kind of thing that computers excel at. Rather than reviewing your code line by line for common syntax errors, you can tell a computer what types of errors to look for.
 
-{% image "code-linting/robots.png" "A silly chart showing that humans excel at creative tasks while robots excel at boring tasks." %}Image credit: [Robots Must Suffer](http://slides.com/ai/linters) by [Andrey Sitnik](https://twitter.com/sitnikcode)
+<figure>
+
+{% image "code-linting/robots.png" "A silly chart showing that humans excel at creative tasks while robots excel at boring tasks." %}
+
+<figcaption>
+
+Image credit: [Robots Must Suffer](http://slides.com/ai/linters) by [Andrey Sitnik](https://twitter.com/sitnikcode)
+
+</figcaption>
+</figure>
 
 Another great use of linters is to help every member of your team write code in the same style. The inconsistency that results when one team member indents with tabs and another with spaces, or when one person sorts CSS rules by type and another alphabetically, can be very frustrating.
 

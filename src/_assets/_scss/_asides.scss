@@ -1,0 +1,12 @@
+@use 'mixins';
+
+aside,
+.aside {
+  @include mixins.remove-contained-margins;
+  @include mixins.layout-wide;
+  @include mixins.padding-wide;
+  background: var(--color-bg-alt);
+  border-radius: 0.25em;
+  margin-block: 1.5em;
+  padding-block: 1em;
+}

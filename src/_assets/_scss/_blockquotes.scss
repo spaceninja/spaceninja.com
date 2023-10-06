@@ -1,0 +1,24 @@
+blockquote {
+  border-inline-start: 0.25em solid var(--color-border, currentcolor);
+  margin-inline-start: 0;
+  padding-inline-start: 1em;
+
+  footer {
+    color: var(--color-subtle);
+    font-size: smaller;
+    margin-block-start: -0.5em;
+
+    &::before {
+      content: '—';
+    }
+
+    a {
+      color: var(--color-subtle);
+
+      &:hover,
+      &:focus {
+        color: var(--color-fg);
+      }
+    }
+  }
+}

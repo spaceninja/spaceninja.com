@@ -11,11 +11,12 @@ tags:
 excerpt: How to create a complex but highly customizable background gradient that can be modified easily using CSS custom properties.
 canonical: https://cloudfour.com/thinks/highly-customizable-background-gradients/
 feature_image: feature/background-gradients.jpg
+hide_feature_image: true
 ---
 
 A recent project I worked on had a common design element across many pages: A cool-looking gradient background composed of multiple color “spotlights.” The colors of the spotlights varied from page to page, as well as their placement. The gradient only covered the header on some pages, while on others it extended further down… sometimes covering the entire page!
 
-<p class="codepen" data-height="530" data-default-tab="result" data-slug-hash="KKRWvdO" data-user="spaceninja" style="height: 530px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3" data-default-tab="result" data-slug-hash="KKRWvdO" data-user="spaceninja">
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/KKRWvdO">
   Highly Customizable Background Gradients</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -65,7 +66,7 @@ Something I love about custom properties is that they can be easily set via CSS,
 
 Let me show you how easy it is:
 
-<p class="codepen" data-height="530" data-default-tab="result" data-slug-hash="jOxLYQX" data-user="spaceninja" style="height: 530px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3"  data-default-tab="result" data-slug-hash="jOxLYQX" data-user="spaceninja">
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/jOxLYQX">
   Watermelon Variation</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -88,7 +89,7 @@ Let me show you how easy it is:
 
 To make a “watermelon” variation we’ve updated the colors of all the spotlights as well as the background to give a more fruity style. Then we changed the size of the top left and top right spotlights and set them to the same color to make them look more like a single shadow stretching across the top of the viewport.
 
-<p class="codepen" data-height="530" data-default-tab="result" data-slug-hash="eYrEyoY" data-user="spaceninja" style="height: 530px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--4x3" data-default-tab="result" data-slug-hash="eYrEyoY" data-user="spaceninja">
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/eYrEyoY">
   Royal Rainbow Variation</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -125,7 +126,7 @@ This rainbow example goes further by adjusting the position of all four spotligh
 
 And for fun, here’s an interactive version. It will even show you the custom properties you need to override to create your version.
 
-<p class="codepen" data-height="1250" data-default-tab="result" data-slug-hash="JjvJxQB" data-user="spaceninja" style="height: 1250px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-class="aspect-ratio--native" data-height="1250" data-default-tab="result" data-slug-hash="JjvJxQB" data-user="spaceninja" style="height: 1250px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/spaceninja/pen/JjvJxQB">
   Highly Customizable Background Gradient Demo</a> by Scott Vandehey (<a href="https://codepen.io/spaceninja">@spaceninja</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

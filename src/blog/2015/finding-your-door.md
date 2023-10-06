@@ -7,8 +7,20 @@ tags:
   - compromise
   - metaphor
   - work culture
+excerpt: I don’t feel like I need to love everything about my door, but at least I think I shouldn’t be frustrated every time I use it.
 feature_image: feature/green-door.jpg
 ---
+
+<style>
+  .prose-conversation p {
+    margin: 0 0 0.25em;
+    text-indent: 2em;
+  }
+  .prose-conversation p:first-of-type {
+    text-indent: 0;
+  }
+</style>
+<div class="prose-conversation">
 
 “Hey! I heard you got a new door. How is it?”
 
@@ -45,3 +57,5 @@ feature_image: feature/green-door.jpg
 “Good luck.”
 
 “Thanks.”
+
+</div>

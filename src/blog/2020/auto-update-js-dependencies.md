@@ -54,12 +54,16 @@ If you’d like, you can add a badge to your `README` file so visitors know you�
 Copy and paste the [following code](https://github.com/renovatebot/renovate/issues/534) to the top of your `README` file, being sure to replace the user name and repo name.
 
 ```markdown
-[![Renovate Status](https://badges.renovateapi.com/github/username/your-repo-name)](https://renovatebot.com/)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 ```
 
 When you’re done, there should be a nice green badge at the top of your repo’s landing page, just like this one:
 
-[![Renovate Status](https://badges.renovateapi.com/github/cloudfour/stylelint-config-cloudfour)](https://renovatebot.com/)
+<figure>
+
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
+
+</figure>
 
 ## 4. Update Your Continuous Integration Configuration (Optional)
 

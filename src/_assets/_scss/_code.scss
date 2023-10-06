@@ -1,0 +1,24 @@
+pre,
+code {
+  font-family: var(--mono-fonts);
+}
+
+code {
+  background: var(--color-bg-kbd);
+  border-radius: 0.2em;
+  color: var(--color-code);
+  padding-inline: 0.2em;
+}
+
+kbd {
+  background: var(--color-bg-kbd, buttonface);
+  background-clip: padding-box;
+  border: 0.0625em solid var(--color-border-kbd, buttonborder);
+  border-radius: 0.25em;
+  box-shadow: 0 0.125em 0 0 var(--color-border-kbd, buttonborder);
+  display: inline-block;
+  font-family: var(--system-fonts);
+  min-width: 1.5em;
+  padding-inline: 0.25em;
+  text-align: center;
+}

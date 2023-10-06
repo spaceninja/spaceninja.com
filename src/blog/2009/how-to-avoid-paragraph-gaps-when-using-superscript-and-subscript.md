@@ -6,6 +6,7 @@ tags:
   - web development
   - css
   - typography
+excerpt: The default superscript and subscript styles leave awkward gaps in the text, but you can easily fix the problem with just a few lines of CSS.
 feature_image: superscript-subscript/type.jpg
 feature_source: https://unsplash.com/photos/xzNXkB8oJRU
 feature_credit: Fabien Barral
@@ -13,7 +14,11 @@ feature_credit: Fabien Barral
 
 Frequently, when I see a webpage with superscript or subscript text, I see associated gaps in the paragraph. This is caused because the default way browsers render super and subscript text is to add enough vertical space in the paragraph to show them. The result is ugly, but as you can see in the following screenshot, you can easily fix the problem with just a few lines of CSS.
 
+<figure>
+
 {% image "superscript-subscript/example.jpg" "HTML Superscript and Subscript Handling" %}
+
+</figure>
 
 In the first paragraph, you can see the layout gap problem, and in the second paragraph, you can see the paragraph as it should be displayed, by using the following CSS rules.
 

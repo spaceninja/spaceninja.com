@@ -13,6 +13,7 @@ tags:
 excerpt: A friend recently shared his frustration with CSS development. I responded to him with a high-level overview of the current state of CSS. If you’re feeling a bit out of touch with modern CSS development, I hope this helps. You’d be surprised how much you can do with vanilla CSS nowadays!
 canonical: https://cloudfour.com/thinks/modern-css-in-a-nutshell/
 feature_image: feature/fallback-code.png
+hide_feature_image: true
 ---
 
 A friend recently shared his frustration with CSS development:
@@ -29,11 +30,11 @@ My friend mentioned already having a handle on [CSS-in-JS](https://css-tricks.co
 
 Beyond what my friend mentioned, there are three killer features I strongly recommend learning. Getting these down will get you a _lot_ of what you need from modern CSS. In no particular order:
 
-[CSS Custom Properties](https://css-tricks.com/a-complete-guide-to-custom-properties/), aka CSS Variables: You declare a variable like `--color-brand: #ff0000;` and then you can use it elsewhere: `.brand { color: var(--color-brand); }`. Variables were the single most compelling reason to use Sass, and now they’re in vanilla CSS with fantastic browser support. Plus, because Sass variables were only evaluated once when the Sass was processed, CSS variables are actually _more_ powerful, [because they’re dynamic!](https://css-tricks.com/making-custom-properties-css-variables-dynamic/)
+[**CSS Custom Properties**](https://css-tricks.com/a-complete-guide-to-custom-properties/), aka CSS Variables: You declare a variable like `--color-brand: #ff0000;` and then you can use it elsewhere: `.brand { color: var(--color-brand); }`. Variables were the single most compelling reason to use Sass, and now they’re in vanilla CSS with fantastic browser support. Plus, because Sass variables were only evaluated once when the Sass was processed, CSS variables are actually _more_ powerful, [because they’re dynamic!](https://css-tricks.com/making-custom-properties-css-variables-dynamic/)
 
-[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): Anytime you need to handle CSS layout along a single axis (such as the items in your primary navigation, or an icon with text in a button), you should be looking to Flexbox. The old joke that it’s impossible to vertically center things in CSS was [solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/). The syntax is a bit tricky, but once you’ve used it a few times, you’ll never go back. It’s fantastic.
+[**Flexbox**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): Anytime you need to handle CSS layout along a single axis (such as the items in your primary navigation, or an icon with text in a button), you should be looking to Flexbox. The old joke that it’s impossible to vertically center things in CSS was [solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/). The syntax is a bit tricky, but once you’ve used it a few times, you’ll never go back. It’s fantastic.
 
-[CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/): Anytime you need to handle CSS layout for more than just a single line of items, you should look to CSS Grid. This is the newest kid on the block, but it already enjoys excellent browser support. Anything you would have done with a table layout back in the day, you’ll do with CSS Grid now. In some cases, it can even handle single-axis things better than Flexbox, but it’s worth having both in your toolbox. If you’re having trouble deciding which to use, [here’s some great advice from Rachel Andrew](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/).
+[**CSS Grid**](https://css-tricks.com/snippets/css/complete-guide-grid/): Anytime you need to handle CSS layout for more than just a single line of items, you should look to CSS Grid. This is the newest kid on the block, but it already enjoys excellent browser support. Anything you would have done with a table layout back in the day, you’ll do with CSS Grid now. In some cases, it can even handle single-axis things better than Flexbox, but it’s worth having both in your toolbox. If you’re having trouble deciding which to use, [here’s some great advice from Rachel Andrew](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/).
 
 If you learn those three things, you’re really capable of a **lot** with CSS.
 

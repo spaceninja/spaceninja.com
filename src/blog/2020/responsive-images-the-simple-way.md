@@ -10,6 +10,8 @@ tags:
 excerpt: 'The responsive images spec is fantastic and covers a lot of use cases, but most of the time you’ll only need one: resolution switching using the `srcset` and `sizes` attributes.'
 canonical: https://cloudfour.com/thinks/responsive-images-the-simple-way/
 feature_image: responsive-images/summary.png
+feature_credit: Harry Roberts
+feature_source: https://twitter.com/csswizardry/status/836960832789565440
 ---
 
 The responsive images spec is fantastic and covers [a lot of use cases](http://usecases.responsiveimages.org/), but in my experience, most of the time you’ll only need to understand one of them: Serving a different sized copy of the same image depending on the user’s viewport width. We call this **resolution switching**, and you can accomplish it using the `srcset` and `sizes` attributes.
@@ -200,5 +202,3 @@ There’s a lot more power available if you need to do more complicated things s
 - [`srcset` and `sizes`](https://ericportis.com/posts/2014/srcset-sizes/), by Eric Portis
 - [Don’t Rely on Default `sizes`](https://alistapart.com/blog/post/article-update-dont-rely-on-default-sizes/), by Eric Portis
 - [The Anatomy of Responsive Images](https://jakearchibald.com/2015/anatomy-of-responsive-images/), by Jake Archibald
-
-<small><strong>Note:</strong> the featured image at the top of this article is based on a <a href="https://twitter.com/csswizardry/status/836960832789565440">tweet by Harry Roberts</a>.</small>

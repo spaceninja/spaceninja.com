@@ -1,6 +1,5 @@
 ---
 # Metadata comes from _data/metadata.js
-# Do not convert to WebC — it butchers the XML prolog
 permalink: /feed/feed.json
 eleventyExcludeFromCollections: true,
 ---
@@ -26,7 +25,7 @@ eleventyExcludeFromCollections: true,
       "image": "{{ post.data.feature_image | feedImage }}",
 			"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }}{% else %}""{% endif %},
 			"date_published": "{{ post.date | dateToRfc3339 }}",
-			"date_modified": "{{ post.data.date_updated | dateToRfc3339 }}",
+			"date_modified": "{{ post.data.date_updated | default(post.date) | dateToRfc3339 }}",
       "authors": [
         {
           "name": "{{ metadata.author.name }}",

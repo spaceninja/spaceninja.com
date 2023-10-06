@@ -30,12 +30,14 @@ I struggle with this every time. We all need reminders that it’s okay to recog
 Despite the stress, getting a new job is by far the best way to dramatically improve your working life. That’s not just my opinion. [Current research](http://www.theatlantic.com/business/archive/2016/02/job-switchers-raise/460044/) into the job market makes it clear:
 
 > According to ADP’s data, full-time workers who changed jobs saw their paychecks increase an average of 4.5 percent, an improvement over the 3.9 percent average that covers all full-time workers. (In one extreme illustration of the power of switching jobs, the salary of one Alabama engineer increased by 31 percent over 4 years by changing jobs every six to 12 months.)
-> <small>Bourree Lam</small>
+>
+> <footer>Bourree Lam</footer>
 
 If you go looking, you’ll find a variety of hot takes on this subject. They range from “kids these days would rather quit than pay their dues” to “of course they would, companies are awful.” I think the truth lies somewhere in the middle. We’re witnessing an employment culture shift and many employers haven’t caught up. They’re stuck in an outdated philosophy that says “employees should be grateful for the opportunity to work here. A small annual raise should be all it takes to keep them loyal.” But when your employees know the company next door will offer much more, of course [they’re going to take it](http://money.cnn.com/2015/04/03/news/economy/jobs-wages-salary-quitting/).
 
 > “I tend to change jobs about every six to twelve months. It's the best way to increase salary,” Baxter told CNNMoney. The calculation is simple: It comes down to staying and getting a 1% raise or leaving and receiving a 10% boost, he said.
-> <small>Matt Egan</small>
+>
+> <footer>Matt Egan</footer>
 
 I’ve repeatedly heard the statistic that the average job duration in tech is 18 months. While researching this book, I couldn’t find a good source for that number, but I did find several related bits of data:
 
@@ -56,7 +58,8 @@ When I was unemployed, my parents would get irritated with me and ask why I wasn
 The more I read these articles, the more I notice a common thread. There’s an underlying narrative that “kids these days aren’t willing to do the work.” It’s all based on the idea that you can get an entry-level job at a company, put in your time, and your [loyalty will be rewarded](http://foreignpolicy.com/2013/08/29/spy-kids/) with promotions and raises.
 
 > Most Generation Y folks will stare at you blankly if you talk about loyalty to one’s employer; the old feudal arrangement ("we’ll give you a job for life and look after you as long as you look out for the Organization") is something their grandparents ranted about, but it’s about as real to them as the divine right of kings. Employers like Google or Facebook that provide good working conditions are the exception, not the rule. Employers are alien hive-mind colony intelligences that will fuck you over for the bottom line on the quarterly balance sheet. They’ll give you a laptop and tell you to hot-desk or work at home so that they can save money on office floor space and furniture. They’ll dangle the offer of a permanent job over your head but keep you on a zero-hours contract for as long as is convenient.
-> <small>Charles Stross</small>
+>
+> <footer>Charles Stross</footer>
 
 Loyalty is necessarily a two-way street. You can’t be expected to be loyal to someone who is not loyal to you. In this time of recession, we understand that a five-year stretch at a company is remarkable, and ten years is nearly unheard of. Companies make excuses why this isn’t a good year to give out raises, or why they need to do a round of layoffs right before bonuses are due.
 

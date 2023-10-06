@@ -40,7 +40,9 @@ Jenn chimed in with a few recommendations:
 - _Merlin_, which is about young Merlin meeting up with young Prince Arthur and shenanigans ensue.
 - _Locke and Key_ (another show based on a comic) about kids in a sort of haunted house, has also been fun.
 
-Steve endorsed the Spanish TV show *Money Heist, *which is on Netflix. (Please watch the subtitled version; the dubbing is dreadful.) Miniseries-length bank robbery/hostage drama about a group of robbers taking over the Royal Mint in Madrid. My friend Ben correctly identified the mastermind (El Profesore!) as Batman. Like, plans within plans, and then a bunch of frenetic genius improvisation when the backup plans go wrong.
+Steve endorsed the Spanish TV show _Money Heist_, which is on Netflix:
+
+> (Please watch the subtitled version; the dubbing is dreadful.) Miniseries-length bank robbery/hostage drama about a group of robbers taking over the Royal Mint in Madrid. My friend Ben correctly identified the mastermind (El Profesore!) as Batman. Like, plans within plans, and then a bunch of frenetic genius improvisation when the backup plans go wrong.
 
 Then someone asked about anime recommendations.
 

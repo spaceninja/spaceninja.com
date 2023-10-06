@@ -6,6 +6,7 @@ tags:
   - trust
   - design
   - web development
+excerpt: Clearly defined responsibilities allow everyone to use the best tools for the job and ensure everyone’s work is held to the highest standard.
 feature_image: feature/mac-glasses.jpg
 feature_source: https://unsplash.com/photos/YoadQb46v6k
 feature_credit: Medium Rare
@@ -15,8 +16,11 @@ It can be awkward when your designer says they want to work directly in code. Yo
 
 I saw a great tweet recently that neatly summarized some thoughts I’ve had about the blurring lines of responsibility for front-end code in our industry:
 
-<blockquote class="twitter-tweet" lang="en"><p>End goal isn&#39;t: All designers do production-ready code. (If so, yay!)&#10;&#10;End goal is: Designers understand the medium. Can do prototypes, etc.</p>&mdash; Nathan Smith (@nathansmith) <a href="https://twitter.com/nathansmith/status/557604954085789697">January 20, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> End goal isn’t: All designers do production-ready code. (If so, yay!)
+>
+> End goal is: Designers understand the medium. Can do prototypes, etc.
+>
+> <footer>Nathan Smith (@nathansmith) <a href="https://twitter.com/nathansmith/status/557604954085789697">January 20, 2015</a></footer>
 
 For you younglings who think this is obvious, let me regale you with a tale of how things were in the bad old days. Your designer would hand you a Photoshop file with 700 unlabelled layers for a site design much wider than the most common screen resolution. (“Looks great on my macbook!”) Even though you never had the opportunity to review it for technical feasibility, the comp was already approved by the client, and there’s no budget to make any changes.
 

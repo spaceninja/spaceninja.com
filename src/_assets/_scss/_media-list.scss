@@ -1,0 +1,59 @@
+@use 'mixins';
+
+.media-list {
+  @include mixins.list-reset;
+  margin-inline-start: 50%;
+  max-width: calc(60ch + 250px + 2em);
+  transform: translateX(-50%);
+  width: calc(100vw - 2em);
+}
+
+.media-list__item {
+  margin-block-start: 3em;
+
+  @media screen and (width >= 30em) {
+    display: flex;
+  }
+}
+
+.media-list__media {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 100px;
+
+  @media screen and (width >= 30em) {
+    float: none;
+    margin: 0;
+  }
+
+  @media screen and (width >= 32em) {
+    width: 150px;
+  }
+
+  @media screen and (width >= 40em) {
+    width: 200px;
+  }
+
+  @media screen and (width >= 48em) {
+    width: 250px;
+  }
+
+  img {
+    @include mixins.image-reset;
+    box-shadow: 2px 2px 1px var(--color-border);
+
+    + img {
+      margin-block-start: 1em;
+    }
+  }
+}
+
+.media-list__content {
+  @include mixins.remove-contained-margins;
+  flex: 1;
+  margin-inline-start: 1em;
+
+  @media screen and (width >= 40em) {
+    margin-inline-start: 2em;
+  }
+}

@@ -1,24 +1,25 @@
+@use 'mixins';
+
 .app-header {
-  background-image: url('/images/scott-2016-profile-header.jpg');
+  background-image: url('/images/scott-2016-profile-header.webp');
   background-position: center;
   background-size: cover;
-  margin-bottom: 1em;
+  margin-block-end: 1em;
+  position: relative;
   text-align: center;
 
   @media screen and (width >= 48em) {
-    margin-bottom: 3em;
+    margin-block-end: 3em;
   }
 }
 
+.app-header__branding {
+  position: relative;
+  z-index: 1;
+}
+
 .app-header__logo {
-  // stylelint-disable-next-line property-no-vendor-prefix
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-color: var(--color-fg);
-  background-image: var(--rainbow-gradient);
-  background-repeat: repeat;
-  background-size: 100%;
-  color: transparent;
+  color: white;
   filter: drop-shadow(0 0 5px black);
   font-family: 'Bricolage Grotesque', var(--system-fonts);
   font-size: clamp(3em, 20vw, 14em);
@@ -27,50 +28,50 @@
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 1;
-  opacity: 0.9;
+  margin-inline-end: -0.1em; // counteract letter-spacing on final letter
+  opacity: 0.8;
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+
+  &:visited,
+  &:hover,
+  &:focus {
+    color: white;
+  }
 }
 
 .app-header__nav {
-  background: var(--color-overlay);
+  background: var(--color-overlay, rgba(255 255 255 / 75%));
   font-family: 'Bricolage Grotesque', var(--system-fonts);
-  font-size: clamp(0.75em, 5vw, 4em);
+  font-size: clamp(0.75em, 4.5vw, 3.25em);
   font-stretch: 75%;
   line-height: 1;
-  padding: 0.25em 0;
+  padding-block: 0.25em;
+  position: relative;
+  z-index: 2;
 }
 
 .app-header__nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  @include mixins.list-reset;
 }
 
 .app-header__nav-item {
   display: inline;
-
-  & + & {
-    margin-left: 0.5em;
-  }
 }
 
 .app-header__nav-link {
+  @include mixins.gradient-text;
   background-attachment: fixed;
-  // stylelint-disable-next-line property-no-vendor-prefix
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-color: var(--color-fg);
+  background-color: var(--color-bg, black);
   background-image: var(--rainbow-gradient-alt);
-  background-repeat: repeat;
-  background-size: 100%;
-  color: transparent;
+  padding-inline: 0.25em;
   text-decoration: none;
 
+  &[aria-current='page'],
   &:hover,
   &:focus {
+    background-color: var(--color-bg, linktext);
     background-image: var(--rainbow-gradient);
-    text-decoration: underline;
   }
 }

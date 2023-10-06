@@ -3,24 +3,29 @@ layout: layouts/base.webc
 prism: true
 ---
 
-<article>
-  <header>
-    <h1 @text="title"></h1>
-    <ul>
-      <li>
+<article class="post">
+  <header class="post__header">
+    <h1 class="post__title" @text="title"></h1>
+    <ul class="post__meta">
+      <li class="post__meta-item">
         <time
           :datetime="htmlDateString(page.date)"
           @text="readableDate(page.date)"
         >
         </time>
       </li>
-      <li @text="`${timeToRead(content)} read`"></li>
+      <li class="post__meta-item" @text="`${timeToRead(content)} read`"></li>
     </ul>
   </header>
 
+  <p class="post__excerpt">
+    <abbr title="Too Long; Didn’t Read:">TL;DR:</abbr>
+    <span webc:nokeep @text="excerpt ?? createExcerpt(content)"></span>
+  </p>
+
   <figure>
     <img
-      webc:if="feature_image"
+      webc:if="feature_image && !hide_feature_image"
       webc:is="eleventy-image"
       :src="imgPath(feature_image)"
       alt=""
@@ -28,29 +33,36 @@ prism: true
       class="feature-image"
     />
     <figcaption webc:if="feature_credit">
-      Image credit:
-      <a
-        webc:if="feature_source"
-        :href="feature_source"
-        @text="feature_credit"
-      ></a>
-      <template webc:else @text="feature_credit" webc:nokeep></template>
+      <p>
+        Image credit:
+        <a
+          webc:if="feature_source"
+          :href="feature_source"
+          @text="feature_credit"
+        ></a>
+        <template webc:else @text="feature_credit" webc:nokeep></template>
+      </p>
     </figcaption>
   </figure>
 
   <template @raw="content" webc:nokeep></template>
 
-  <footer>
-    <div webc:if="canonical">
+  <aside webc:if="canonical">
+    <p>
       <strong>Note:</strong> This was originally posted on
       <a :href="canonical">my work blog</a>, and I'm re-posting it here for
       archival purposes.
-    </div>
-    <div webc:if="filterTagList(tags).length">
-      <h3>Tags</h3>
-      <ul class="list--inline">
+    </p>
+  </aside>
+
+  <footer class="post__footer">
+    <div class="post__tags" webc:if="filterTagList(tags).length">
+      <p class="post__tags-intro">Filed under</p>
+      <ul class="post__tags-list">
         <!-- display:inline -->
-        <li webc:for="(key, tag) in filterTagList(tags).sort()"
+        <li
+          webc:for="(key, tag) in filterTagList(tags).sort()"
+          class="post__tag"
           ><a
             webc:if="$data.collections[tag].length > 1"
             class="tag"
@@ -77,13 +89,14 @@ prism: true
       );
       const nextPost = getNextCollectionItem($data.collections.blog, page);
     </script>
-    <ul class="links-nextprev">
+    <ul>
       <li webc:if="previousPost">
-        Previous:
+        Previously:
         <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
       </li>
       <li webc:if="nextPost">
-        Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        Up Next:
+        <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
       </li>
     </ul>
     --->
@@ -93,20 +106,24 @@ prism: true
         {%- assign previousPost = collections.blog | getPreviousCollectionItem -%}
         {%- assign nextPost = collections.blog | getNextCollectionItem -%}
         {%- if nextPost or previousPost -%}
-      <ul class="links-nextprev">
+      <ul class="post__nav">
         {%- if previousPost -%}
-        <li>
-          Previous:
-          <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+        <li class="post__nav-item post__nav-previous">
+          <span class="post__nav-label">Previously:</span>
+          <a class="post__nav-link" href="{{ previousPost.url }}"
+            >{{ previousPost.data.title }}</a
+          >
         </li>
         {%- endif -%} {%- if nextPost %}
-        <li>
-          Next:
-          <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        <li class="post__nav-item post__nav-next">
+          <span class="post__nav-label">Up Next:</span>
+          <a class="post__nav-link" href="{{ nextPost.url }}"
+            >{{ nextPost.data.title }}</a
+          >
         </li>
         {%- endif -%}
       </ul>
-      {%- endif -%} {%- endif %}
+      {%- endif -%}{%- endif %}
     </template>
   </footer>
 </article>

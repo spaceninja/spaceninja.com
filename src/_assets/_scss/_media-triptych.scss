@@ -1,0 +1,15 @@
+@use 'mixins';
+
+.media-triptych {
+  @include mixins.layout-wide;
+  display: flex;
+  gap: 1em;
+  margin-block: 1.5em;
+
+  img {
+    @include mixins.image-reset;
+    box-shadow: 2px 2px 1px var(--color-border);
+    flex: 1;
+    width: 0;
+  }
+}
