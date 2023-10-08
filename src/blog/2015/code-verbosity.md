@@ -147,7 +147,7 @@ In the end, I'm not refactoring this code for my own immediate benefit. I'm refa
 
 <aside>
 
-**Update:** Thanks to [Webucator](https://www.webucator.com/) for making [a video from this post](https://www.youtube.com/embed/-Jb1VjVjUXY). You can see it and other educational videos on the [Webucator YouTube channel](https://www.youtube.com/user/WebucatorInc). They also offer [CSS training](https://www.webucator.com/webdesign/css.cfm).
+**Update:** Thanks to [Webucator](https://www.webucator.com/) for making [a video from this post](https://www.youtube.com/watch?v=-Jb1VjVjUXY). You can see it and other educational videos on the [Webucator YouTube channel](https://www.youtube.com/user/WebucatorInc). They also offer [CSS training](https://www.webucator.com/webdesign/css.cfm).
 
 <small>Disclaimer: I was not paid for this link and have no business relationship with Webucator. I have not taken their CSS training, and this link does not constitute an endorsement on my part.</small>
 
