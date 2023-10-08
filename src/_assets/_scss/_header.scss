@@ -1,77 +1,72 @@
 @use 'mixins';
 
 .app-header {
-  background-image: url('/images/scott-2016-profile-header.webp');
-  background-position: center;
-  background-size: cover;
+  border-bottom: 1px solid var(--color-border, buttonborder);
   margin-block-end: 1em;
-  position: relative;
+  padding: 1em;
   text-align: center;
+
+  a {
+    color: currentcolor;
+    text-decoration: none;
+
+    &:visited,
+    &:hover,
+    &:focus {
+      color: currentcolor;
+    }
+
+    &[aria-current='page'] {
+      font-weight: bold;
+    }
+  }
 
   @media screen and (width >= 48em) {
     margin-block-end: 3em;
   }
 }
 
+.app-header__content {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 42em;
+}
+
 .app-header__branding {
-  position: relative;
-  z-index: 1;
+  flex: none;
 }
 
 .app-header__logo {
-  color: white;
-  filter: drop-shadow(0 0 5px black);
-  font-family: 'Bricolage Grotesque', var(--system-fonts);
-  font-size: clamp(3em, 20vw, 14em);
-  font-stretch: 75%;
-  font-variation-settings: 'opsz' 96;
-  font-weight: 200;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  margin-inline-end: -0.1em; // counteract letter-spacing on final letter
-  opacity: 0.8;
-  text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap;
-
-  &:visited,
-  &:hover,
-  &:focus {
-    color: white;
-  }
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
 }
 
-.app-header__nav {
-  background: var(--color-overlay, rgba(255 255 255 / 75%));
-  font-family: 'Bricolage Grotesque', var(--system-fonts);
-  font-size: clamp(0.75em, 4.5vw, 3.25em);
-  font-stretch: 75%;
-  line-height: 1;
-  padding-block: 0.25em;
-  position: relative;
-  z-index: 2;
+.app-header__logo-img {
+  display: block;
+}
+
+.app-header__logo-type {
+  @media screen and (width < 48em) {
+    @include mixins.visually-hidden;
+  }
 }
 
 .app-header__nav-list {
   @include mixins.list-reset;
-}
+  display: grid;
+  gap: 0.25em 1em;
+  grid-template-columns: repeat(2, 1fr);
 
-.app-header__nav-item {
-  display: inline;
-}
+  @media screen and (width >= 22em) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.app-header__nav-link {
-  @include mixins.gradient-text;
-  background-attachment: fixed;
-  background-color: var(--color-bg, black);
-  background-image: var(--rainbow-gradient-alt);
-  padding-inline: 0.25em;
-  text-decoration: none;
-
-  &[aria-current='page'],
-  &:hover,
-  &:focus {
-    background-color: var(--color-bg, linktext);
-    background-image: var(--rainbow-gradient);
+  @media screen and (width >= 34em) {
+    display: flex;
   }
 }

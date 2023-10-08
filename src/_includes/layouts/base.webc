@@ -89,25 +89,37 @@
   </head>
   <body :class="body_class ?? ''">
     <a href="#app-main" class="visually-hidden">Skip to main content</a>
-    <header class="app-header">
-      <div class="app-header__branding">
-        <a href="/" class="app-header__logo" @text="metadata.title"></a>
+    <header class="app-header t-dark">
+      <div class="app-header__content">
+        <div class="app-header__branding">
+          <a href="/" class="app-header__logo">
+            <img
+              src="/images/spaceninja.svg"
+              width="36"
+              height="36"
+              class="app-header__logo-img"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="app-header__logo-type" @text="metadata.title"></span>
+          </a>
+        </div>
+        <nav class="app-header__nav">
+          <ul class="app-header__nav-list">
+            <!-- display: inline -->
+            <li
+              webc:for="entry of eleventyNavigation(collections.all)"
+              class="app-header__nav-item"
+              ><a
+                :href="entry.url"
+                class="app-header__nav-link"
+                :aria-current="entry.url == page.url ? 'page' : null"
+                @text="entry.title"
+              ></a
+            ></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="app-header__nav">
-        <ul class="app-header__nav-list">
-          <!-- display: inline -->
-          <li
-            webc:for="entry of eleventyNavigation(collections.all)"
-            class="app-header__nav-item"
-            ><a
-              :href="entry.url"
-              class="app-header__nav-link"
-              :aria-current="entry.url == page.url ? 'page' : null"
-              @text="entry.title"
-            ></a
-          ></li>
-        </ul>
-      </nav>
     </header>
     <main id="app-main" :class="main_class ?? ''">
       <div class="app-main__content" @raw="content"></div>
