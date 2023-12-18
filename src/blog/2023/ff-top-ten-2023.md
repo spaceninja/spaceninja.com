@@ -103,7 +103,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/html-web-components-cloud-four.png" "HTML Web Components Are Having a Moment" %}](https://cloudfour.com/thinks/html-web-components-are-having-a-moment/)
+[{% image "ff-top-ten-2023/html-web-components.png" "HTML Web Components Are Having a Moment" %}](https://cloudfour.com/thinks/html-web-components-are-having-a-moment/)
 
 </div>
 <div class="media-list__content">
