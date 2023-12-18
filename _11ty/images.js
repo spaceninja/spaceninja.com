@@ -66,12 +66,12 @@ module.exports = (eleventyConfig) => {
     let file = imgPath(src);
     let imageMetadata = await eleventyImage(file, {
       filenameFormat: options.filenameFormat,
-      formats: ['webp'],
+      formats: ['jpg'],
       outputDir: path.join(eleventyConfig.dir.output, options.outputDir),
       urlPath: options.urlPath,
       widths: [1600],
     });
-    return `${siteMetadata.url.slice(0, -1)}${imageMetadata.webp[0].url}`;
+    return `${siteMetadata.url.slice(0, -1)}${imageMetadata.jpeg[0].url}`;
   });
 
   // Image Component
