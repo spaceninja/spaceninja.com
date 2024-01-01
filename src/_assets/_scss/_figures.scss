@@ -46,8 +46,12 @@ article {
   }
 
   iframe {
-    @include mixins.layout-wide;
-    @include mixins.width-wide-important; // needed to override embed styles
+    width: 100%;
+
+    &:not(.is-standard-width) {
+      @include mixins.layout-wide;
+      @include mixins.width-wide-important; // needed to override embed styles
+    }
 
     &:not(.aspect-ratio--native) {
       aspect-ratio: 16 / 9;

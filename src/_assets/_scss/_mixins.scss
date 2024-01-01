@@ -6,6 +6,14 @@
   }
 }
 
+@mixin layout-standard() {
+  margin-inline: 0;
+
+  @media screen and (width >= 42em) {
+    margin-inline: 0;
+  }
+}
+
 @mixin padding-wide() {
   padding-inline: 1em;
 
