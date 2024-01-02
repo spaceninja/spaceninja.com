@@ -19,19 +19,19 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
-[{% image "portfolio/mltshp.png" "A phone displaying the MLTSHP website." %}](https://mltshp.com/)
-
-## MLTSHP
-
-In 2017 I joined a team that was working to save the image sharing community site MLKSHK. The original creator handed us the source code, and we moved it to a new name, [MLTSHP](https://mltshp.com/). Together with a designer and a developer, I worked to modernize the front-end code for the site. I overhauled the layout to be mobile friendly, created a pattern library, added a dark mode, and helped add a new payment processing workflow.
-
----
-
 [{% image "portfolio/fridayfrontend.png" "A phone displaying the Friday Front-End twitter feed." %}](https://fridayfrontend.com/)
 
 ## Friday Front-End
 
 I started an [email newsletter](https://fridayfrontend.com/) and [twitter account](https://twitter.com/fridayfrontend) in 2015 to share a curated list of CSS-oriented front-end links with my peers. I was already reading a broad selection of blogs and newsletter to stay up-to-date, and posting those to my own bookmark list. Every week, I post five links and a video to the twitter account, and then compile those links into the newsletter (sent on Friday, naturally). In 2018, I added a second twitter account, [@cssbasics](https://twitter.com/cssbasics), specifically to share links aimed at beginners.
+
+---
+
+[{% image "portfolio/mltshp.png" "A phone displaying the MLTSHP website." %}](https://mltshp.com/)
+
+## MLTSHP
+
+In 2017 I joined a team that was working to save the image sharing community site MLKSHK. The original creator handed us the source code, and we moved it to a new name, [MLTSHP](https://mltshp.com/). Together with a designer and a developer, I worked to modernize the front-end code for the site. I overhauled the layout to be mobile friendly, created a pattern library, added a dark mode, and helped add a new payment processing workflow.
 
 ---
 
