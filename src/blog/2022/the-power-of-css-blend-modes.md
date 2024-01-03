@@ -134,6 +134,12 @@ But it got me thinking. Being a comic book fan, I wondered… could this same te
 
 I’m pleased to say the answer is yes!
 
+<aside>
+
+**Update:** This halftone filter is [now available as a web component!](https://github.com/spaceninja/half-tone)
+
+</aside>
+
 {% image "css-blend-modes/css-filters-layers-halftone@2x.jpg" "A diagram showing the layers used to create a halftone effect with CSS." %}
 
 My second experiment made only one change to the formula. Rather than a radial gradient to make lines in the background, I used a single gradient “dot” as a repeating background.
