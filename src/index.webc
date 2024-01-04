@@ -1,5 +1,0 @@
----
-layout: layouts/page.webc
----
-
-<p @text="metadata.description"></p>
