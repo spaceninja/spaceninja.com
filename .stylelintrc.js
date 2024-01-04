@@ -1,7 +1,6 @@
 module.exports = {
-  extends: ['stylelint-config-spaceninja', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-spaceninja'],
   rules: {
-    'a11y/media-prefers-reduced-motion': null,
     'plugin/no-low-performance-animation-properties': [
       true,
       { ignoreProperties: ['color', 'background-color'] },
