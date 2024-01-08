@@ -4,3 +4,6 @@
 
 # Redirect from Ghost blog URLs
 /:year/:month/:date/:slug /blog/:year/:slug
+
+# Redirect old tag URLs
+/tag/:slug /tags/:slug

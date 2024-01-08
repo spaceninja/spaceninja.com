@@ -86,6 +86,7 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" :content="metadata.author.twitter" />
     <meta property="twitter:creator" :content="metadata.author.twitter" />
+    <meta webc:if="noindex" name="robots" content="noindex">
   </head>
   <body :class="body_class ?? ''">
     <a href="#app-main" class="visually-hidden">Skip to main content</a>

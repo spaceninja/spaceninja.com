@@ -80,7 +80,7 @@ I have [a selection of highlighted quotes](https://www.goodreads.com/notes/53086
 
 ## _Network Effect_, by Martha Wells
 
-[I’ve recommended the Murderbot series before](/books/2018/books-i-loved-in-2018/). This is the fifth book in the series, but the first full-length novel. You don’t have to read the first four to understand this one, but I recommend it, both because they’re delightful, and because there are lots of callbacks that you’ll appreciate more as a result.
+[I’ve recommended the Murderbot series before](/blog/2018/books-i-loved-in-2018/). This is the fifth book in the series, but the first full-length novel. You don’t have to read the first four to understand this one, but I recommend it, both because they’re delightful, and because there are lots of callbacks that you’ll appreciate more as a result.
 
 If you haven't read any of the books before, this blurb from the back cover sums them up nicely:
 
