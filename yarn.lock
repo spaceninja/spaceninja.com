@@ -311,7 +311,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@orchidjs/eleventy-plugin-ids@^0.1.1":
+"@orchidjs/eleventy-plugin-ids@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@orchidjs/eleventy-plugin-ids/-/eleventy-plugin-ids-0.1.1.tgz#311091923aa221526e39fe35206fd1b210969b98"
   integrity sha512-QXpL50TRa9bwS6gk2OHRK0qhMgrn3RdYf5ut1vX1C60vLAnsYal9Spq4u+dlI9zeOy33hFW3MgBk1qfPujXnNA==
