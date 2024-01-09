@@ -6,6 +6,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginTimeToRead = require('eleventy-plugin-time-to-read');
 const pluginWebc = require('@11ty/eleventy-plugin-webc');
+const pluginAnchors = require('@orchidjs/eleventy-plugin-ids');
 
 const pluginImages = require('./_11ty/images.js');
 const collections = require('./_11ty/collections.js');
@@ -53,6 +54,7 @@ module.exports = function (eleventyConfig) {
     speed: '238 words per minute',
     style: 'short',
   });
+  eleventyConfig.addPlugin(pluginAnchors);
 
   // Customize Markdown library settings:
   eleventyConfig.amendLibrary('md', (mdLib) => {

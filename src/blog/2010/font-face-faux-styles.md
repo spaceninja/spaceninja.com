@@ -17,7 +17,7 @@ Did you know that if you declare a custom font using `@font-face`, the browser w
 
 <aside>
 
-(If you're not interested in an explanation of the problem or the bad solution recommended by most font-embedding services, go ahead and skip down to [The Right Solution](#skip-right-solution).)
+(If you're not interested in an explanation of the problem or the bad solution recommended by most font-embedding services, go ahead and skip down to [The Right Solution](#the-right-solution).)
 
 </aside>
 

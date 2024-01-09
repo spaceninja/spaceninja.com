@@ -59,7 +59,7 @@ I switched from DNSimple to CloudFlare, and it works perfectly. Now my setup loo
 
 When I switched my blog to a [hosted Ghost Pro](https://ghost.org/pricing/) plan, I ran into some difficulty getting the proper DNS configuration. I'm not a <s>smart man</s> networking guru, so I figured there might be others who could benefit from what I learned.
 
-<small>If you're not interested in all the DNS-101 stuff in this post, you can just [skip to the solution](#alias-provider).</small>
+<small>If you're not interested in all the DNS-101 stuff in this post, you can just [skip to the solution](#use-a-dns-provider-that-supports-cname-like-functionality-at-the-root-domain).</small>
 
 ## What's so complicated?
 
@@ -265,7 +265,7 @@ For each provider, the setup is similar — you set the `ALIAS` or `ANAME` recor
 </tbody>
 </table>
 
-### There's one small catch
+### There's one small catch!!
 
 For most people, that setup should work just fine. It's a common pattern in use on many sites around the world. However, when I set that up for my domain, all of a sudden my parents couldn't send any email to me.
 

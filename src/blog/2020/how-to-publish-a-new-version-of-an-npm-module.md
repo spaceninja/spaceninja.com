@@ -24,9 +24,9 @@ So I recently spent some time reading the npm docs and familiarizing myself with
 
 In this article, I’ll cover the most common release steps, how to determine the release process for an existing project, and recommendations for project maintainers.
 
-1. [The “Standard” Release Process](#thestandardreleaseprocess)
-2. [Determining How to Release an Existing Project](#determininghowtoreleaseanexistingproject)
-3. [Recommendations for Project Maintainers](#recommendationsforprojectmaintainers)
+1. [The “Standard” Release Process](#the-standard-release-process)
+2. [Determining How to Release an Existing Project](#determining-how-to-release-an-existing-project)
+3. [Recommendations for Project Maintainers](#recommendations-for-project-maintainers)
 4. [Resources](#resources)
 
 [^1]: As an aside, until recently, I mistakenly used the words [packages and modules](https://docs.npmjs.com/about-packages-and-modules) interchangeably. A **package** is a file or directory that is described by a `package.json` file. A **module** is any file or directory (typically found in the `node_modules` directory) that can be loaded by the Node `require()` function. So the npm registry contains _packages_, many of which contain Node _modules_.

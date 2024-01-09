@@ -20,16 +20,16 @@ The logic behind displaying an image responsively is complicated. It involves de
 
 Oh, and don’t worry about browser support! Not only do these attributes have [excellent support across the board](https://caniuse.com/#search=srcset), we’ll also be providing a fallback for older browsers like IE11.
 
-1. [The `srcset` Attribute](#thesrcsetattribute)
-2. [The `sizes` Attribute](#thesizesattribute)
-3. [The `src` Attribute](#thesrcattribute)
+1. [The `srcset` Attribute](#the-srcset-attribute)
+2. [The `sizes` Attribute](#the-sizes-attribute)
+3. [The `src` Attribute](#the-src-attribute)
 4. FAQs
-   1. [How Should I Generate My Image Assets?](#howshouldigeneratemyimageassets)
-   2. [What Image Sizes Should I Provide?](#whatimagesizesshouldiprovide)
-   3. [What `sizes` Values Should I Declare?](#whatsizesvaluesshouldideclare)
-   4. [How Can I Check That I Did It Right?](#howcanicheckthatididitright)
+   1. [How Should I Generate My Image Assets?](#how-should-i-generate-my-image-assets)
+   2. [What Image Sizes Should I Provide?](#what-image-sizes-should-i-provide)
+   3. [What `sizes` Values Should I Declare?](#what-sizes-values-should-i-declare)
+   4. [How Can I Check That I Did It Right?](#how-can-i-check-that-i-did-it-right)
 5. [Conclusion](#conclusion)
-6. [Learn More](#learnmore)
+6. [Learn More](#learn-more)
 
 ## The `srcset` Attribute
 
