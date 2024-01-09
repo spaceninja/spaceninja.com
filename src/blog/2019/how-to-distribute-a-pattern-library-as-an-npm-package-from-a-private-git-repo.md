@@ -3,10 +3,10 @@ title: How to Distribute a Pattern Library as an npm Package from a Private Git 
 date: 2019-04-15T17:00:00.000Z
 date_updated: 2019-04-28T19:58:02.000Z
 tags:
-  - pattern libraries
+  - pattern-libraries
   - development
-  - web development
-  - software development
+  - web-development
+  - software-development
   - oauth
   - heroku
   - github

@@ -3,7 +3,7 @@ title: Cleaning House
 date: 2014-02-25T02:12:33.000Z
 date_updated: 2018-09-18T05:04:25.000Z
 tags:
-  - starting over
+  - starting-over
   - writing
   - philosophy
 excerpt: I came to realize that while those 15 years of archives were meaningful to me, they were holding me back. I stagnated, and eventually quit writing altogether.

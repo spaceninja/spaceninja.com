@@ -3,8 +3,8 @@ title: The Many Exciting CSS Limits of Internet Explorer
 date: 2015-03-31T22:15:00.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 tags:
-  - web development
-  - internet explorer
+  - web-development
+  - internet-explorer
   - css
 excerpt: IE has a number of limits in the way it loads CSS, which can cause your styles to not be applied if you exceed them.
 feature_image: feature/bliss.jpg

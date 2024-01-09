@@ -3,7 +3,7 @@ title: What’s the Mobile Use Case?
 date: 2017-02-21T18:43:11.000Z
 date_updated: 2018-08-20T11:51:25.000Z
 tags:
-  - web development
+  - web-development
   - analytics
   - mobile
 feature_image: mobile-use-case/phone.jpg

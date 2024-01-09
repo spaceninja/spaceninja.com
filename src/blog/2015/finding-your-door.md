@@ -3,10 +3,10 @@ title: Finding Your Door
 date: 2015-04-15T20:28:16.000Z
 date_updated: 2018-09-18T05:10:16.000Z
 tags:
-  - job hunting
+  - job-hunting
   - compromise
   - metaphor
-  - work culture
+  - work-culture
 excerpt: I don’t feel like I need to love everything about my door, but at least I think I shouldn’t be frustrated every time I use it.
 feature_image: feature/green-door.jpg
 ---

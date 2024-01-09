@@ -5,7 +5,7 @@ date_updated: 2018-09-18T05:09:55.000Z
 tags:
   - millennials
   - loyalty
-  - job hunting
+  - job-hunting
   - jobs
   - tech
 feature_image: feature/looking-for-work-sucks.jpg

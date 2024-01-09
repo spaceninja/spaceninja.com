@@ -3,7 +3,7 @@ title: How to avoid paragraph gaps when using superscript and subscript
 date: 2009-09-10T14:05:00.000Z
 date_updated: 2018-09-18T05:17:08.000Z
 tags:
-  - web development
+  - web-development
   - css
   - typography
 excerpt: The default superscript and subscript styles leave awkward gaps in the text, but you can easily fix the problem with just a few lines of CSS.

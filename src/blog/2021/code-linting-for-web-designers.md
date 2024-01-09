@@ -4,7 +4,7 @@ date: 2021-07-01T23:49:05.000Z
 date_updated: 2021-07-01T23:49:05.000Z
 tags:
   - development
-  - best practices
+  - best-practices
   - javascript
   - css
   - linting

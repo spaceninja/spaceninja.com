@@ -5,7 +5,7 @@ date_updated: 2018-09-18T05:18:59.000Z
 tags:
   - typography
   - css
-  - web development
+  - web-development
 excerpt: Did you know that if you declare a custom font, the browser will try to fake the bold and italic styles if it can't find them?
 original: http://metaltoad.com/blog/scott
 feature_image: font-face-faux-styles/type-drawer.jpg

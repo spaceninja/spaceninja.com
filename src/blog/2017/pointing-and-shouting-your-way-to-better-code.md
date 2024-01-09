@@ -4,8 +4,8 @@ date: 2017-04-01T08:00:00.000Z
 date_updated: 2018-09-18T05:11:20.000Z
 tags:
   - satire
-  - software development
-  - code review
+  - software-development
+  - code-review
   - shouting
   - efficiency
   - process

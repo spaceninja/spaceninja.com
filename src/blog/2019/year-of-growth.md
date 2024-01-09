@@ -4,10 +4,10 @@ date: 2019-08-16T23:53:45.000Z
 date_updated: 2019-08-17T00:03:54.000Z
 tags:
   - frontend
-  - web development
+  - web-development
   - programming
   - jobs
-  - job hunting
+  - job-hunting
 excerpt: Exactly one year ago today, I was laid off. The consequences were and still are painful. But I can’t deny that I’ve grown in ways I couldn’t imagine a year ago.
 feature_image: feature/growth.jpg
 feature_source: https://unsplash.com/photos/1n8zqoqFUGc

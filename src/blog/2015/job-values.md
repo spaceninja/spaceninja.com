@@ -3,11 +3,11 @@ title: What I value in a job
 date: 2015-05-04T16:02:00.000Z
 date_updated: 2018-09-18T05:10:25.000Z
 tags:
-  - job hunting
+  - job-hunting
   - jobs
-  - culture fit
+  - culture-fit
   - hiring
-  - work culture
+  - work-culture
 excerpt: The three main things I look for in a company are competitive pay, work/life balance, and an understanding of the value of specialists.
 feature_image: feature/teamwork-all-in.jpg
 feature_source: https://www.rawpixel.com/image/414125/people-stacking-hands

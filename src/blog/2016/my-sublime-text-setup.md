@@ -4,7 +4,7 @@ date: 2016-09-20T23:18:31.000Z
 date_updated: 2018-09-18T05:07:03.000Z
 tags:
   - editors
-  - sublime text
+  - sublime-text
   - howto
 excerpt: I've put a bit of work into customizing my Sublime Text setup. It's mostly based on a set of tips from Wes Bos, who literally wrote the book on becoming a Sublime Text power user.
 feature_image: feature/sublime-text.png

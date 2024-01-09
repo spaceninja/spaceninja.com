@@ -7,7 +7,7 @@ tags:
   - meetings
   - scrum
   - agile
-  - project management
+  - project-management
   - process
 excerpt: If your daily standup meeting has turned into “justify your salary” time, something’s gone wrong.
 canonical: https://cloudfour.com/thinks/whats-the-point-of-standup-meetings/
