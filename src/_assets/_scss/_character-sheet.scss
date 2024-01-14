@@ -1,0 +1,226 @@
+@use 'mixins';
+
+@mixin chararacter-sheet-border() {
+  border: var(--border-primary-width) solid var(--border-color);
+  border-radius: var(--border-primary-radius);
+  position: relative;
+
+  &::after {
+    border: var(--border-secondary-width) solid var(--border-color);
+    content: '';
+    inset: 0.25em -0.45em;
+    position: absolute;
+  }
+}
+
+@mixin label() {
+  font-size: var(--font-size-label);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@mixin handwriting() {
+  color: var(--color-handwriting);
+  font-family: var(--handwriting-fonts);
+  font-variation-settings: var(--font-variation-sloppy);
+  font-weight: 300;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  src: url('/fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2')
+    format('woff2-variations');
+}
+
+///
+/// Character Sheet
+///
+.character-sheet {
+  --handwriting-fonts: 'Shantell Sans', 'Comic Sans MS', 'Comic Sans', cursive;
+  --border-primary-width: 2px;
+  --border-secondary-width: 1px;
+  --border-color: var(--color-fg);
+  --border-primary-radius: 1em;
+  --border-stat-radius: 1.5em;
+  --font-variation-clean: 'ital' 1, 'BNCE' 0, 'INFM' 25;
+  --font-variation-sloppy: 'ital' 1, 'BNCE' 10, 'INFM' 100;
+  --font-size-label: 0.75em;
+  display: block;
+}
+
+.character-sheet__box {
+  @include chararacter-sheet-border;
+  margin: 1em;
+  padding: 1em;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: smaller;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p,
+  ul {
+    margin-top: 0;
+  }
+}
+
+.character-sheet__name {
+  h1 {
+    @include handwriting;
+    font-size: larger;
+  }
+}
+
+.character-sheet__meta {
+  ul {
+    @include mixins.list-reset;
+    display: grid;
+    gap: 0.5em;
+    grid-template-areas: 'class class class' 'race alignment age';
+  }
+
+  li {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  strong {
+    @include label;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .value {
+    @include handwriting;
+  }
+
+  .character-sheet__meta-class {
+    grid-area: class;
+  }
+
+  .character-sheet__meta-race {
+    grid-area: race;
+  }
+
+  .character-sheet__meta-alignment {
+    grid-area: alignment;
+  }
+
+  .character-sheet__meta-age {
+    grid-area: age;
+  }
+}
+
+.character-sheet__portrait {
+  padding: 0;
+  width: 250px;
+
+  half-tone {
+    border-radius: 1em;
+    margin: calc(var(--border-primary-width) * -1) !important;
+    z-index: -1;
+  }
+
+  half-tone,
+  img {
+    display: block;
+  }
+}
+
+.character-sheet__stats {
+  background: var(--color-bg-alt);
+  border: 0;
+
+  &::after {
+    display: none;
+  }
+
+  ul {
+    @include mixins.list-reset;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    line-height: 1;
+  }
+
+  li {
+    @include chararacter-sheet-border;
+    align-items: center;
+    background: var(--color-bg);
+    border-bottom-left-radius: var(--border-stat-radius);
+    border-bottom-right-radius: var(--border-stat-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.66em 1em 0;
+  }
+
+  strong {
+    @include label;
+  }
+
+  .score {
+    @include handwriting;
+    font-size: larger;
+    font-variation-settings: var(--font-variation-clean);
+  }
+
+  .modifier {
+    @include handwriting;
+    background: var(--color-bg);
+    border: var(--border-primary-width) solid var(--border-color);
+    border-radius: 50%;
+    font-size: smaller;
+    font-variation-settings: var(--font-variation-clean);
+    margin-block-end: -0.66em;
+    padding: 0.33em 0.66em;
+    position: relative;
+    text-align: center;
+    width: 3em;
+    z-index: 1;
+  }
+}
+
+.character-sheet__skills {
+  .modifier {
+    @include handwriting;
+  }
+}
+
+.character-sheet__actions {
+  .value {
+    @include handwriting;
+  }
+}
+
+.character-sheet__equipment {
+  li {
+    @include handwriting;
+  }
+}
+
+.character-sheet__languages {
+  li {
+    @include handwriting;
+  }
+}
+
+.character-sheet__background {
+  p {
+    @include handwriting;
+  }
+}

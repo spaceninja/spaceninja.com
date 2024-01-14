@@ -1,0 +1,25 @@
+///
+/// Resets
+///
+.app-header {
+  margin: 0;
+}
+
+.app-main {
+  margin: 0;
+  max-width: none;
+  padding: 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    background: none;
+    color: currentcolor;
+    font: inherit;
+    font-weight: bold;
+    text-align: start;
+  }
+}

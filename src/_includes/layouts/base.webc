@@ -122,7 +122,7 @@
         </nav>
       </div>
     </header>
-    <main id="app-main" :class="main_class ?? ''">
+    <main id="app-main" class="app-main" :class="main_class ?? ''">
       <div class="app-main__content" @raw="content"></div>
     </main>
     <footer class="app-footer">

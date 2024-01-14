@@ -1,0 +1,157 @@
+---
+layout: layouts/base.webc
+---
+
+<link rel="stylesheet" href="/styles/character-sheet.css" />
+<div class="character-sheet">
+  <div class="character-sheet__box character-sheet__name">
+    <h1 id="scott-vandehey">Scott Vandehey</h1>
+  </div>
+  <div class="character-sheet__box character-sheet__meta">
+    <ul>
+      <li class="character-sheet__meta-class">
+        <strong>Class & Level</strong>
+        <span class="value">
+          Level 24 Front-End Web Developer, Level 14 Dungeon Master
+        </span>
+      </li>
+      <li class="character-sheet__meta-race">
+        <strong>Race</strong>
+        <span class="value">Human male</span>
+      </li>
+      <li class="character-sheet__meta-alignment">
+        <strong>Alignment</strong>
+        <span class="value">Neutral Good</span>
+      </li>
+      <li class="character-sheet__meta-age">
+        <strong>Age</strong>
+        <span class="value">45</span>
+      </li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__portrait">
+    <half-tone
+      dot-size="3px"
+      photo-brightness="90%"
+      photo-contrast="70%"
+      photo-blur="1px"
+    >
+      <!-- prettier-ignore -->
+      {% include "partials/image.liquid"
+        src: "scott/beard.png"
+        alt: "A headshot of Scott Vandehey"
+        sizes: media.mediaList.sizes
+        widths: media.mediaList.widths
+      %}
+    </half-tone>
+  </div>
+  <div class="character-sheet__box character-sheet__stats">
+    <h2 class="visually-hidden">Stats</h2>
+    <ul>
+      <li>
+        <strong>Nerd</strong>
+        <span class="score">18</span>
+        <span class="modifier">+4</span>
+      </li>
+      <li>
+        <strong>Jock</strong>
+        <span class="score">11</span>
+        <span class="modifier">+0</span>
+      </li>
+      <li>
+        <strong>Goth</strong>
+        <span class="score">10</span>
+        <span class="modifier">+0</span>
+      </li>
+      <li>
+        <strong>Skid</strong>
+        <span class="score">8</span>
+        <span class="modifier">-1</span>
+      </li>
+      <li>
+        <strong>Hick</strong>
+        <span class="score">9</span>
+        <span class="modifier">-1</span>
+      </li>
+      <li>
+        <strong>Prep</strong>
+        <span class="score">8</span>
+        <span class="modifier">-1</span>
+      </li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__skills">
+    <h2 id="skills">Skills</h2>
+    <ul>
+      <li><strong>Storytelling</strong> <span class="modifier">+4</span></li>
+      <li><strong>Public speaking</strong> <span class="modifier">+2</span></li>
+      <li><strong>Writing</strong> <span class="modifier">+4</span></li>
+      <li><strong>Teaching</strong> <span class="modifier">+2</span></li>
+      <li><strong>Web standards</strong> <span class="modifier">+4</span></li>
+      <li><strong>CSS</strong> <span class="modifier">+4</span></li>
+      <li><strong>JavaScript</strong> <span class="modifier">+3</span></li>
+      <li>
+        <strong>Code refactoring</strong>
+        <span class="modifier">+2</span>
+      </li>
+      <li><strong>Scrum</strong> <span class="modifier">+1</span></li>
+      <li><strong>Baking</strong> <span class="modifier">+1</span></li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__actions">
+    <h2 id="actions">Actions</h2>
+    <ul>
+      <li>
+        <strong>Geek Out.</strong> You can talk at great length about any of
+        your preferred topics with no preparation. Any creature within earshot
+        must roll to resist becoming enthused. Creatures with a high NERD stat
+        may choose to fail this roll.
+        <ul>
+          <li>
+            <strong>Preferred topics:</strong>
+            <span class="value">UFOs, science fiction, 90's pop culture</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__equipment">
+    <h2 id="equipment">Equipment</h2>
+    <ul>
+      <li>Hoodie</li>
+      <li>Nerdy t-shirt</li>
+      <li>Noise-cancelling headphones</li>
+      <li>Macbook Pro</li>
+      <li>Lofi hiphop stream</li>
+      <li>Polyhedral dice</li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__languages">
+    <h2 id="languages">Languages</h2>
+    <ul>
+      <li>English</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+  <div class="character-sheet__box character-sheet__background">
+    <h2 id="background">Background</h2>
+    <p>
+      Scott Vandehey is a front-end architect and CSS specialist in Portland,
+      Oregon with over 20 years experience building scalable user interfaces.
+      His specialty is refactoring large code bases for maintainability and
+      performance, and helping teams define best practices and workflow around
+      CSS development. Between his education in graphic design and his
+      experience working alongside programmers, he bridges the gap between
+      design and development.
+    </p>
+    <p>
+      A running theme in his career has been helping others level up, and that’s
+      most recently manifested in the Friday Front-End and CSS Basics twitter
+      accounts and newsletter, which he uses to share development tips and links
+      with the front-end community every day. His first book, “How to Find a
+      Better Job in Tech,” was published in 2016.
+    </p>
+  </div>
+</div>
+<script type="module" src="/scripts/half-tone.js"></script>

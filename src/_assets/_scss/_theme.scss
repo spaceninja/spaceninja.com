@@ -12,6 +12,7 @@
   --color-code: rgba(202 2 129 / 94%);
   --color-bg-kbd: rgba(0 0 0 / 5%);
   --color-border-kbd: rgba(0 0 0 / 20%);
+  --color-handwriting: lch(30% 65 270deg); // basically dodgerblue but darker
 }
 
 @mixin theme-dark() {
@@ -28,6 +29,7 @@
   --color-code: rgba(202 2 129 / 94%);
   --color-bg-kbd: rgba(255 255 255 / 5%);
   --color-border-kbd: rgba(255 255 255 / 20%);
+  --color-handwriting: lch(60% 65 270deg); // basically dodgerblue
 }
 
 :root {
