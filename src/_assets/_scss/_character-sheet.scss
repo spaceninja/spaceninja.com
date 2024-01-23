@@ -49,6 +49,17 @@
   --font-variation-sloppy: 'ital' 1, 'BNCE' 10, 'INFM' 100;
   --font-size-label: 0.75em;
   display: block;
+
+  @media (width >= 640px) {
+    display: grid;
+    grid-template-areas:
+      'name name portrait'
+      'meta meta portrait'
+      'stats stats stats'
+      'skills skills equipment'
+      'actions actions languages'
+      'background background background';
+  }
 }
 
 .character-sheet__box {
@@ -79,6 +90,8 @@
 }
 
 .character-sheet__name {
+  grid-area: name;
+
   h1 {
     @include handwriting;
     font-size: larger;
@@ -86,6 +99,8 @@
 }
 
 .character-sheet__meta {
+  grid-area: meta;
+
   ul {
     @include mixins.list-reset;
     display: grid;
@@ -125,8 +140,11 @@
 }
 
 .character-sheet__portrait {
+  aspect-ratio: 1;
+  grid-area: portrait;
+  max-width: 500px;
   padding: 0;
-  width: 250px;
+  // width: 250px;
 
   half-tone {
     border-radius: 1em;
@@ -143,6 +161,7 @@
 .character-sheet__stats {
   background: var(--color-bg-alt);
   border: 0;
+  grid-area: stats;
 
   &::after {
     display: none;
@@ -152,6 +171,7 @@
     @include mixins.list-reset;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
     justify-content: space-around;
     line-height: 1;
@@ -196,30 +216,40 @@
 }
 
 .character-sheet__skills {
+  grid-area: skills;
+
   .modifier {
     @include handwriting;
   }
 }
 
 .character-sheet__actions {
+  grid-area: actions;
+
   .value {
     @include handwriting;
   }
 }
 
 .character-sheet__equipment {
+  grid-area: equipment;
+
   li {
     @include handwriting;
   }
 }
 
 .character-sheet__languages {
+  grid-area: languages;
+
   li {
     @include handwriting;
   }
 }
 
 .character-sheet__background {
+  grid-area: background;
+
   p {
     @include handwriting;
   }
