@@ -50,15 +50,56 @@
   --font-size-label: 0.75em;
   display: block;
 
-  @media (width >= 640px) {
+  @media (width >= 28em) {
     display: grid;
+    gap: 1em 1.5em;
+    grid-template-areas:
+      'name name'
+      'meta meta'
+      'stats portrait'
+      'stats skills'
+      'equipment equipment'
+      'actions actions'
+      'languages languages'
+      'background background';
+    grid-template-columns: min-content 1fr;
+    padding: 1em;
+
+    .character-sheet__box {
+      margin: 0;
+    }
+  }
+
+  @media (width >= 38.5em) {
+    grid-template-areas:
+      'name portrait'
+      'meta portrait'
+      'stats stats'
+      'skills equipment'
+      'actions languages'
+      'background background';
+    grid-template-columns: 1fr 17.5em;
+  }
+
+  @media (width >= 60em) {
     grid-template-areas:
       'name name portrait'
       'meta meta portrait'
       'stats stats stats'
-      'skills skills equipment'
-      'actions actions languages'
-      'background background background';
+      'skills actions equipment'
+      'background background languages';
+    grid-template-columns: 1fr 1fr 17.5em;
+  }
+
+  @media (width >= 80em) {
+    grid-template-areas:
+      'name name name portrait'
+      'stats meta meta portrait'
+      'stats skills actions equipment'
+      'stats background background languages';
+    grid-template-columns: min-content 1fr 1fr 17.5em;
+    margin-inline: auto;
+    max-width: 90em;
   }
 }
 
@@ -87,18 +128,27 @@
   ul {
     margin-top: 0;
   }
+
+  ul {
+    padding-left: 0.66em;
+  }
 }
 
 .character-sheet__name {
+  align-items: center;
+  display: flex;
   grid-area: name;
 
   h1 {
     @include handwriting;
-    font-size: larger;
+    font-size: 1.75em;
+    margin: auto;
   }
 }
 
 .character-sheet__meta {
+  align-items: center;
+  display: flex;
   grid-area: meta;
 
   ul {
@@ -106,6 +156,7 @@
     display: grid;
     gap: 0.5em;
     grid-template-areas: 'class class class' 'race alignment age';
+    width: 100%;
   }
 
   li {
@@ -217,18 +268,39 @@
 }
 
 .character-sheet__skills {
+  display: flex;
+  flex-direction: column;
   grid-area: skills;
+
+  ul {
+    @media (width >= 80em) {
+      margin-inline: auto;
+    }
+  }
 
   .modifier {
     @include handwriting;
+    border-bottom: 1px solid var(--color-border);
+    display: inline-block;
+    margin-left: 0.25em;
+    min-width: 2em;
+    text-align: center;
   }
 }
 
 .character-sheet__actions {
   grid-area: actions;
 
+  ul {
+    margin-inline: auto;
+    max-width: 60ch;
+  }
+
   .value {
     @include handwriting;
+    border-bottom: 1px solid var(--color-border);
+    margin-left: 0.25em;
+    padding-inline: 0.25em;
   }
 }
 
@@ -237,6 +309,11 @@
 
   li {
     @include handwriting;
+    border-bottom: 1px solid var(--color-border);
+
+    &::marker {
+      color: var(--color-fg);
+    }
   }
 }
 
@@ -245,6 +322,11 @@
 
   li {
     @include handwriting;
+    border-bottom: 1px solid var(--color-border);
+
+    &::marker {
+      color: var(--color-fg);
+    }
   }
 }
 
@@ -253,5 +335,7 @@
 
   p {
     @include handwriting;
+    margin-inline: auto;
+    max-width: 60ch;
   }
 }
