@@ -18,6 +18,12 @@ feature_credit: Yancy Min
 
 As a general rule, when merging a pull request from a feature branch with a messy commit history, you should squash your commits. There are exceptions, but in most cases, squashing results in a cleaner Git history that’s easier for the team to read.
 
+<aside>
+
+🍿 Prefer video? [Check out this post on our YouTube channel!](https://www.youtube.com/watch?v=Jvmm4BuvgPc)
+
+</aside>
+
 For context, our team uses a version of Git Flow, which means team members do their work in a feature branch. Most feature branches are short-lived, and there’s only one developer committing work to it. When the work is ready for review, they make a pull request back to the parent branch. The team will review the pull request, and once it has been approved, it gets merged, and the feature branch is deleted.
 
 The advice I give in this post may be less relevant if you don’t use feature branches like this. Long-lived feature branches with many developers committing, or branching again from the feature branch will complicate matters. As usual, there’s no one right answer about how to use Git. The best workflow is the one that works for your team.

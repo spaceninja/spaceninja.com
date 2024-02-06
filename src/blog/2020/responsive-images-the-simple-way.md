@@ -16,6 +16,12 @@ feature_source: https://twitter.com/csswizardry/status/836960832789565440
 
 The responsive images spec is fantastic and covers [a lot of use cases](http://usecases.responsiveimages.org/), but in my experience, most of the time you’ll only need to understand one of them: Serving a different sized copy of the same image depending on the user’s viewport width. We call this **resolution switching**, and you can accomplish it using the `srcset` and `sizes` attributes.
 
+<aside>
+
+🍿 Prefer video? [Check out this post on our YouTube channel!](https://www.youtube.com/watch?v=DtV_2zXtuiU)
+
+</aside>
+
 The logic behind displaying an image responsively is complicated. It involves determining how large the image will be displayed, as well as understanding whether the user is on a high-resolution display, among other things. Thankfully, the browser is better equipped than we are to handle this logic. All we need to do is give it some hints. We’ll use the `srcset` attribute to provide a list of image assets to choose from, and the `sizes` attribute to tell the browser how large the image will display at various breakpoints.
 
 Oh, and don’t worry about browser support! Not only do these attributes have [excellent support across the board](https://caniuse.com/#search=srcset), we’ll also be providing a fallback for older browsers like IE11.

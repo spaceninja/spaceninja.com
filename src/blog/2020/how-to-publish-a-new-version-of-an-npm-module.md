@@ -16,6 +16,12 @@ feature_credit: Pankaj Patel
 
 Recently, I’ve been trying to do a bit more open source work, especially in the form of maintaining [Cloud Four’s npm packages](https://www.npmjs.com/org/cloudfour). However, as someone relatively new to the Operations side of things, I found myself getting lost about how exactly to release a new version of a package.[^1]
 
+<aside>
+
+🍿 Prefer video? [Check out this post on our YouTube channel!](https://youtu.be/Vi4gcv2H9jQ)
+
+</aside>
+
 Part of the problem was that these projects were created over many years, with multiple developers involved. Because standards and best practices evolve quickly, each project’s release process was configured differently. Some used a release helper tool like [npmpub](https://www.npmjs.com/package/npmpub), others had `prepublish` scripts, and others had nothing special at all.
 
 None of this is bad, and I’m not trying to shame any other devs, but it did increase friction. Releasing a new version of any package was a little harder than it needed to be, since I had to figure out what process to use for each.
