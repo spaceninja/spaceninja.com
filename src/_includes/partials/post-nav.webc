@@ -1,0 +1,18 @@
+<ul class="post-nav" webc:if="previousPost || nextPost">
+  <li webc:if="previousPost" class="post-nav__item post-nav__previous">
+    <span class="post-nav__label">Previously:</span>
+    <a
+      class="post-nav__link"
+      :href="previousPost.page.url"
+      @text="previousPost.data.title"
+    ></a>
+  </li>
+  <li webc:if="nextPost" class="post-nav__item post-nav__next">
+    <span class="post-nav__label">Up Next:</span>
+    <a
+      class="post-nav__link"
+      :href="nextPost.page.url"
+      @text="nextPost.data.title"
+    ></a>
+  </li>
+</ul>

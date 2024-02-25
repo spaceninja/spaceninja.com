@@ -1,0 +1,31 @@
+.post-nav {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-nav__item {
+  flex: 1;
+}
+
+.post-nav__next {
+  text-align: right;
+}
+
+.post-nav__label {
+  color: var(--color-subtle);
+  display: block;
+  font-size: 0.9em;
+  text-transform: uppercase;
+
+  @media screen and (width >= 48em) {
+    font-size: 0.7em;
+  }
+}
+
+.post-nav__link {
+  display: block;
+  text-wrap: balance;
+}

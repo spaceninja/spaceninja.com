@@ -57,7 +57,7 @@
       content: ', ';
     }
 
-    &:last-child::before {
+    &:last-child:not(:first-child)::before {
       content: 'and ';
     }
 
@@ -65,36 +65,4 @@
       content: '.';
     }
   }
-}
-
-.post__nav {
-  display: flex;
-  gap: 1em;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.post__nav-item {
-  flex: 1;
-}
-
-.post__nav-next {
-  text-align: right;
-}
-
-.post__nav-label {
-  color: var(--color-subtle);
-  display: block;
-  font-size: 0.9em;
-  text-transform: uppercase;
-
-  @media screen and (width >= 48em) {
-    font-size: 0.7em;
-  }
-}
-
-.post__nav-link {
-  display: block;
-  text-wrap: balance;
 }

@@ -8,6 +8,11 @@
 			return paginationData.filter(tag => {
 				return !["blog", "all", "page", "postsByRecent"].includes(tag)
 					&& fullData.collections[tag].length > 1;
+			}).map(tag => {
+        return {
+          title: tag,
+          slug: this.slugify(tag),
+        };
 			});
 		},
     alias: 'tag',
@@ -15,16 +20,16 @@
   layout: 'layouts/page.webc',
   eleventyComputed: {
     title: (data) => {
-      return `Posts tagged “${ data.tag }”`;
+      return `Posts tagged “${ data.tag.title }”`;
     },
   },
   permalink: (data) => {
-    return `tags/${data.tag}/`;
+    return `tags/${data.tag.slug}/`;
   },
   eleventyExcludeFromCollections: true,
 }
 ---
 
-<post-list :posts="collections[ tag ].reverse()"></post-list>
+<post-list :posts="collections[ tag.title ].reverse()"></post-list>
 
 <p>See <a href="/tags/">all tags</a>.</p>

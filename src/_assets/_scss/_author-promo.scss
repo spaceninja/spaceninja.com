@@ -1,0 +1,24 @@
+.author {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+
+.author__photo {
+  flex: none;
+  margin: 0;
+  width: 100px;
+}
+
+.author__photo-media {
+  border-radius: 50%;
+}
+
+.author__bio {
+  flex: 1;
+  font-size: smaller;
+
+  p {
+    margin: 0;
+  }
+}

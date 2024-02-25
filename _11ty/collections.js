@@ -27,7 +27,7 @@ const collections = {
     const posts = collectionApi.getFilteredByTag('blog').reverse();
     const years = {};
     for (let post of posts) {
-      let key = post.date.getFullYear();
+      let key = post.page.date.getFullYear();
       years[key] ??= [];
       years[key].push(post);
     }
