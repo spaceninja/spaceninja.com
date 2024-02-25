@@ -36,6 +36,12 @@ const filters = {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   },
 
+  // Return the difference in years between two dates
+  diffInYears: (dateISO) => {
+    const date = DateTime.fromISO(dateISO);
+    return Math.floor(Math.abs(date.diffNow('years').toObject().years));
+  },
+
   // Get the first `n` elements of a collection.
   head: (array, n) => {
     if (!Array.isArray(array) || array.length === 0) {

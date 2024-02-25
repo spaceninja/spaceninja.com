@@ -12,7 +12,8 @@ layout: layouts/base.webc
       <li class="character-sheet__meta-class">
         <strong>Class & Level</strong>
         <span class="value">
-          Level 24 Front-End Web&nbsp;Developer, Level 14 Dungeon&nbsp;Master
+          Level {{ '2000-06-30' | diffInYears }} Front-End Web&nbsp;Developer,
+          Level {{ '2009-04-03' | diffInYears }} Dungeon&nbsp;Master
         </span>
       </li>
       <li class="character-sheet__meta-race">
@@ -25,7 +26,7 @@ layout: layouts/base.webc
       </li>
       <li class="character-sheet__meta-age">
         <strong>Age</strong>
-        <span class="value">45</span>
+        <span class="value">{{ '1978-06-01' | diffInYears }}</span>
       </li>
     </ul>
   </div>
