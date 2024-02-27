@@ -84,7 +84,7 @@ This is where most of the novels go play: the interaction between the Culture an
 
 _Consider Phlebas_ is told from the point of view of someone outside the Culture. _Player of Games_ is about Special Circumstances recruiting the galaxy’s best gamer to deal with a society based entirely around a phenomenally complex board game. _Surface Detail_ concerns the nature of hell(!). _Hydrogen Sonata_, written as Banks was dying, explores what it means for a civilization to sublime themselves to the next plane of existence.
 
-In fact, the secretive nature of Special Circumstances and the different points of view Banks writes from has led to speculation that some of his [other](http://www.tombell.net/?p=273)[books](https://mssv.net/2009/09/26/notes-on-iain-banks-transition/) may secretly be part of the Culture series!
+In fact, the secretive nature of Special Circumstances and the different points of view Banks writes from has led to speculation that some of his [other](http://www.tombell.net/?p=273) [books](https://mssv.net/2009/09/26/notes-on-iain-banks-transition/) may secretly be part of the Culture series!
 
 <div class="media-triptych">
 
