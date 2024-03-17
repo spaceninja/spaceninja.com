@@ -41,8 +41,9 @@ layout: layouts/base.webc
       {% include "partials/image.liquid"
         src: "scott/beard.png"
         alt: "A headshot of Scott Vandehey"
+        loading: "eager"
         sizes: media.mediaList.sizes
-        widths: media.mediaList.widths
+        widths: "(min-width: 80em) 17.5em, 100vw"
       %}
     </half-tone>
   </div>
