@@ -4,6 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title @text="title ?? metadata.title"></title>
+    <link webc:keep rel="stylesheet" href="/styles/style.css" />
+    <link webc:if="prism" webc:keep rel="stylesheet" href="/styles/prism.css" />
+    <link
+      rel="preload"
+      href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link
       rel="alternate"
       href="/feed/feed.xml"
@@ -15,15 +24,6 @@
       href="/feed/feed.json"
       type="application/json"
       :title="metadata.title"
-    />
-    <link webc:keep rel="stylesheet" href="/styles/style.css" />
-    <link webc:if="prism" webc:keep rel="stylesheet" href="/styles/prism.css" />
-    <link
-      rel="preload"
-      href="/fonts/BricolageGrotesque[opsz,wdth,wght].woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
     />
     <!-- OPEN GRAPH -->
     <meta property="og:locale" :content="metadata.language" />
