@@ -57,7 +57,7 @@ Think of it the same way we encourage the adoption of gender pronouns in profile
 
 ## Decorative images don’t need alternative text, but your image probably isn’t decorative.
 
-It’s true that purely decorative images are allowed to use an empty string for their `alt` attribute. However, as Eric Bailey points out, [your image is probably not decorative](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/). In a nutshell, the term “decorative” means the image *does not visually communicate information*, not that it is used as decoration.
+It’s true that purely decorative images are allowed to use an empty string for their `alt` attribute. However, as Eric Bailey points out, [your image is probably not decorative](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/). In a nutshell, the term “decorative” means the image _does not visually communicate information_, not that it is used as decoration.
 
 A spacer GIF is decorative. Image borders are decorative. A button that only contains an icon image is _not_ decorative. This photo of the safe that we’ll be cracking in the mansion is _not_ decorative. A company’s logo is _not_ decorative.
 
