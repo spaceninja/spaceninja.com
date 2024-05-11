@@ -25,6 +25,7 @@
       type="application/json"
       :title="metadata.title"
     />
+    <meta name="generator" :content="eleventy.generator" />
     <!-- OPEN GRAPH -->
     <meta property="og:locale" :content="metadata.language" />
     <meta property="og:type" :content="og_type ?? 'website'" />
