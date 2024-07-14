@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "start": "yarn watch",
+    "start": "npm run watch",
     "build": "run-p build:*",
     "build:content": "eleventy",
     "build:css": "sass src:dist",
@@ -40,7 +40,7 @@
     "npm-run-all2": "6.2.2",
     "prettier": "3.2.5",
     "sass": "1.77.8",
-    "sharp": "^0.33.4",
+    "sharp": "0.33.4",
     "stylelint": "16.7.0",
     "stylelint-config-spaceninja": "15.0.0"
   }
