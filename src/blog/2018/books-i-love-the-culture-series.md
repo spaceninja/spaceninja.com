@@ -20,26 +20,11 @@ While it’s true that the Culture as a whole is composed of hedonistic gender-s
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/culture1.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture1.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture2.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture2.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture3.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture3.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 
@@ -57,26 +42,11 @@ Special Circumstances, on the other hand, can be considered a sort of special fo
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/culture5.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture5.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture6.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture6.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture7.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture7.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 
@@ -88,26 +58,11 @@ In fact, the secretive nature of Special Circumstances and the different points 
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/culture8.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture8.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture9.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture9.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/culture10.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/culture10.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: 'Space Ninja',
   url: 'https://spaceninja.com/',
   language: 'en',

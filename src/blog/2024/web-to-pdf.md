@@ -154,7 +154,7 @@ Note the `.print-only` class, which as you might guess hides that element from v
 
 When this block of code is shown in the browser, we get a simple unordered list of chapter titles that are jump links to further down the document, with no page numbers.
 
-{% image "web-to-pdf/toc-browser.png", "Screenshot of the table of contents rendered in a browser with no page numbers." %}
+<img src="{{ 'web-to-pdf/toc-browser.png' | imgPath }}" alt="Screenshot of the table of contents rendered in a browser with no page numbers.">
 
 Now, we add this CSS for the print styles:
 
@@ -184,7 +184,7 @@ We insert the page number for the chapter using a clever bit of syntax that lets
 
 And then we get dot leaders and page numbers automatically added via CSS!
 
-{% image "web-to-pdf/toc-print.png", "Screenshot of the table of contents rendered in a pdf with page numbers." %}
+<img src="{{ 'web-to-pdf/toc-print.png' | imgPath }}" alt="Screenshot of the table of contents rendered in a pdf with page numbers.">
 
 - DocRaptor docs: [Page Numbers](https://docraptor.com/documentation/article/1082618-page-numbers)
 - DocRaptor docs: [Table of Contents](https://docraptor.com/documentation/tutorial/table-of-contents)

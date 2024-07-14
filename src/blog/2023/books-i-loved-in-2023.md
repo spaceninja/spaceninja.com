@@ -20,12 +20,7 @@ Until then, here are the best books I read in 2023.
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/last-one-at-the-party.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/last-one-at-the-party.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -49,12 +44,7 @@ _Content warnings: This book features a dog and a pregnancy, and I’ve added [a
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/half-built-garden.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/half-built-garden.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -70,12 +60,7 @@ It’s the best kind of hopeful queer science fiction. I loved every part of thi
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/expanse9.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/expanse9.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -93,12 +78,7 @@ I can’t really say much about it without spoiling anything, so I’ll just say
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/stolen-focus.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/stolen-focus.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">

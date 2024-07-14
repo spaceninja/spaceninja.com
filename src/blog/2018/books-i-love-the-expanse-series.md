@@ -18,26 +18,11 @@ I’m fascinated by the complex dynamics described by these books, and how entir
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/expanse1.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse1.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/expanse2.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse2.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/expanse3.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse3.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 
@@ -51,26 +36,11 @@ Because of their complicated backgrounds, none of them exhibit the kind of natio
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/expanse4.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse4.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/expanse5.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse5.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/expanse6.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/expanse6.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 

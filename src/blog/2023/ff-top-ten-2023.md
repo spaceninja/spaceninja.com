@@ -17,7 +17,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/web-component-and-somehow-also-js-101.jpeg" "Messin’ around with web components. Also—JavaScript, generally" %}](https://www.leereamsnyder.com/web-component-and-somehow-also-js-101)
+[<img src="{{ 'ff-top-ten-2023/web-component-and-somehow-also-js-101.jpeg' | imgPath }}" alt="Messin’ around with web components. Also—JavaScript, generally">](https://www.leereamsnyder.com/web-component-and-somehow-also-js-101)
 
 </div>
 <div class="media-list__content">
@@ -33,7 +33,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/hanging-punctuation.jpeg" "The `hanging-punctuation` property in CSS" %}](https://chriscoyier.net/2023/11/27/the-hanging-punctuation-property-in-css/)
+[<img src="{{ 'ff-top-ten-2023/hanging-punctuation.jpeg' | imgPath }}" alt="The `hanging-punctuation` property in CSS">](https://chriscoyier.net/2023/11/27/the-hanging-punctuation-property-in-css/)
 
 </div>
 <div class="media-list__content">
@@ -47,7 +47,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/complex-mpa-view-transitions.jpeg" "Complex MPA View Transitions" %}](https://tylergaw.com/blog/complex-mpa-view-transitions/)
+[<img src="{{ 'ff-top-ten-2023/complex-mpa-view-transitions.jpeg' | imgPath }}" alt="Complex MPA View Transitions">](https://tylergaw.com/blog/complex-mpa-view-transitions/)
 
 </div>
 <div class="media-list__content">
@@ -61,7 +61,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/here-is-why-your-design-sucks.png" "It’s 2023, here is why your web design sucks." %}](https://heather-buchel.com/blog/2023/10/why-your-web-design-sucks/)
+[<img src="{{ 'ff-top-ten-2023/here-is-why-your-design-sucks.png' | imgPath }}" alt="It’s 2023, here is why your web design sucks.">](https://heather-buchel.com/blog/2023/10/why-your-web-design-sucks/)
 
 </div>
 <div class="media-list__content">
@@ -75,7 +75,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/html-web-components-adactio.png" "HTML Web Components" %}](https://adactio.com/journal/20618)
+[<img src="{{ 'ff-top-ten-2023/html-web-components-adactio.png' | imgPath }}" alt="HTML Web Components">](https://adactio.com/journal/20618)
 
 </div>
 <div class="media-list__content">
@@ -89,7 +89,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/chrome-devtools.webp" "Elevate your CSS debugging skills with these Chrome DevTools tricks in 2024" %}](https://utilitybend.com/blog/elevate-your-css-debugging-skills-with-these-chrome-devtools-tricks-in-2024/)
+[<img src="{{ 'ff-top-ten-2023/chrome-devtools.webp' | imgPath }}" alt="Elevate your CSS debugging skills with these Chrome DevTools tricks in 2024">](https://utilitybend.com/blog/elevate-your-css-debugging-skills-with-these-chrome-devtools-tricks-in-2024/)
 
 </div>
 <div class="media-list__content">
@@ -103,7 +103,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/html-web-components.png" "HTML Web Components Are Having a Moment" %}](https://cloudfour.com/thinks/html-web-components-are-having-a-moment/)
+[<img src="{{ 'ff-top-ten-2023/html-web-components.png' | imgPath }}" alt="HTML Web Components Are Having a Moment">](https://cloudfour.com/thinks/html-web-components-are-having-a-moment/)
 
 </div>
 <div class="media-list__content">
@@ -117,7 +117,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/pokemon.png" "Pokémon Cards CSS Holographic Effect" %}](https://poke-holo.simey.me/)
+[<img src="{{ 'ff-top-ten-2023/pokemon.png' | imgPath }}" alt="Pokémon Cards CSS Holographic Effect">](https://poke-holo.simey.me/)
 
 </div>
 <div class="media-list__content">
@@ -131,7 +131,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/solved-with-has.jpeg" "Solved With :has(): Vertical Spacing in Long-Form Text" %}](https://css-tricks.com/solved-with-has-vertical-spacing-in-long-form-text/)
+[<img src="{{ 'ff-top-ten-2023/solved-with-has.jpeg' | imgPath }}" alt="Solved With :has(): Vertical Spacing in Long-Form Text">](https://css-tricks.com/solved-with-has-vertical-spacing-in-long-form-text/)
 
 </div>
 <div class="media-list__content">
@@ -145,7 +145,7 @@ In 2023, [Friday Front-End](https://fridayfrontend.com/) shared a curated list o
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/the-css-property-you-didnt-know-you-needed.png" "The CSS property you didn’t know you needed" %}](https://dev.to/francescovetere/the-css-property-you-didnt-know-you-needed-3fk0)
+[<img src="{{ 'ff-top-ten-2023/the-css-property-you-didnt-know-you-needed.png' | imgPath }}" alt="The CSS property you didn’t know you needed">](https://dev.to/francescovetere/the-css-property-you-didnt-know-you-needed-3fk0)
 
 </div>
 <div class="media-list__content">
@@ -164,7 +164,7 @@ And here's the most popular video of 2023:
 <li class="media-list__item">
 <div class="media-list__media">
 
-[{% image "ff-top-ten-2023/custom-properties.jpeg" "Using CSS custom properties like this is a waste" %}](https://www.youtube.com/watch?v=_2LwjfYc1x8)
+[<img src="{{ 'ff-top-ten-2023/custom-properties.jpeg' | imgPath }}" alt="Using CSS custom properties like this is a waste">](https://www.youtube.com/watch?v=_2LwjfYc1x8)
 
 </div>
 <div class="media-list__content">

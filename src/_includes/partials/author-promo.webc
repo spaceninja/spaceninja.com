@@ -1,12 +1,11 @@
 <aside class="author">
   <figure class="author__photo">
     <img
-      webc:is="eleventy-image"
       :src="imgPath(metadata.author.photo)"
       alt=""
       class="author__photo-media"
-      :width="media.author.widths"
-      :sizes="media.author.sizes"
+      :eleventy:width="media.author.widths"
+      :eleventy:sizes="media.author.sizes"
     />
   </figure>
   <div class="author__bio">

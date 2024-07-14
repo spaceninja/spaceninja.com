@@ -16,12 +16,7 @@ I have a terrible memory about books I’ve read. Often, all I can tell you is t
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/martian.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/martian.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -35,12 +30,7 @@ This book was precision crafted to target me. I adore science fiction about earl
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/seveneves.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/seveneves.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -54,12 +44,7 @@ I adore Neal Stephenson, and I love almost everything he’s written. This book 
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/readyplayerone.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/readyplayerone.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">

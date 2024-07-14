@@ -12,7 +12,7 @@ These side projects aren’t related to my professional work. They mostly stem f
 
 ---
 
-[{% image "projects/very-exciting-time.jpg" "Cover image for the “It’s a Very Exciting Time” podcast showing two figures gesturing excitedly at a light in the sky." %}](https://veryexcitingtime.com/)
+[![Cover image for the “It’s a Very Exciting Time” podcast showing two figures gesturing excitedly at a light in the sky.]({{ 'projects/very-exciting-time.jpg' | imgPath }})](https://veryexcitingtime.com/)
 
 ## [It’s a Very Exciting Time](https://veryexcitingtime.com/)
 

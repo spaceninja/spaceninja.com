@@ -61,7 +61,7 @@ When youâ€™re done, there should be a nice green badge at the top of your repoâ€
 
 <figure>
 
-[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
+[<img src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg" alt="Renovate" eleventy:ignore>](https://renovatebot.com)
 
 </figure>
 

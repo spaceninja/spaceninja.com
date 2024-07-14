@@ -16,7 +16,7 @@ Frequently, when I see a webpage with superscript or subscript text, I see assoc
 
 <figure>
 
-{% image "superscript-subscript/example.jpg" "HTML Superscript and Subscript Handling" %}
+<img src="{{ 'superscript-subscript/example.jpg' | imgPath }}" alt="HTML Superscript and Subscript Handling">
 
 </figure>
 

@@ -14,12 +14,7 @@ feature_image: movies/feature/everything-everywhere-all-at-once.jpg
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/bullet-train.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/bullet-train.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -39,12 +34,7 @@ Seriously. I know it’s just a dumb action movie, but it’s now one of my favo
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/everything-everywhere-all-at-once.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/everything-everywhere-all-at-once.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -60,12 +50,7 @@ Jesus, I don’t even begin to know how to talk about this movie. First, the cas
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/glass-onion.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/glass-onion.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -81,12 +66,7 @@ Listen, I just want Ryan Johnson and Daniel Craig to keep making _Knives Out_ fi
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/nope.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/nope.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -102,12 +82,7 @@ I love Jordan Peele, but I’m not a huge horror movie fan, so I haven’t watch
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/palm-springs.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/palm-springs.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -123,12 +98,7 @@ If the words “Andy Samberg meets Cristin Milioti at a wedding and is hunted by
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/the-sunlit-night.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/the-sunlit-night.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -144,12 +114,7 @@ Jenny Slate takes an apprenticeship with a cranky painter in Norway, where she m
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "movies/rrr.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'movies/rrr.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">

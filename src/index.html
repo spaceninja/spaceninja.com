@@ -37,14 +37,13 @@ layout: layouts/base.webc
       photo-contrast="70%"
       photo-blur="1px"
     >
-      <!-- prettier-ignore -->
-      {% include "partials/image.liquid"
-        src: "scott/beard.png"
-        alt: "A headshot of Scott Vandehey"
-        loading: "eager"
-        sizes: "(min-width: 80em) 17.5em, 100vw"
-        widths: media.mediaList.widths
-      %}
+      <img
+        src="{{ 'scott/beard.png' | imgPath }}"
+        alt="A headshot of Scott Vandehey"
+        loading="eager"
+        sizes="(min-width: 80em) 17.5em, 100vw"
+        eleventy:widths="{{ media.mediaList.widths }}"
+      />
     </half-tone>
   </div>
   <div class="character-sheet__box character-sheet__stats">

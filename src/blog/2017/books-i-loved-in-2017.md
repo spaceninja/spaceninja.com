@@ -16,12 +16,7 @@ feature_credit: Eugenio Mazzone
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/binti.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/binti.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -35,12 +30,7 @@ At its core, this series is about finding your place in the world. Binti is a me
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/fifth-season.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/fifth-season.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -56,12 +46,7 @@ That said, the story is incredible. These books deal with a post-apocalyptic wor
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/borderline.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/borderline.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">

@@ -41,7 +41,7 @@ Oh, and don’t worry about browser support! Not only do these attributes have [
 
 The `srcset` attribute provides the browser with a set of sources to choose from, and what size each of those sources is.
 
-{% image "responsive-images/srcset.png" "Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it contains image URLs and the widths of those images, and that the browser picks the best source from the set, including retina." %}
+<img src="{{ 'responsive-images/srcset.png' | imgPath }}" alt="Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it contains image URLs and the widths of those images, and that the browser picks the best source from the set, including retina.">
 
 It’s a comma-separated list of URLs paired with widths. Each item in the list looks like this: “`image.jpg 1000w`,” which tells the browser that the file `image.jpg` is 1000 pixels wide.
 
@@ -61,7 +61,7 @@ The `srcset` attribute is all well and good, but when the browser is reading you
 
 That’s where the `sizes` attribute comes in. It’s how we give the browser a hint about how the image will be rendered once CSS is applied.
 
-{% image "responsive-images/sizes.png" "Labeled screenshot of responsive image code example, showing the sizes attribute, pointing out that it contains media queries describing the width of the window, and the width of the image when that condition matches. The last item has no media query and is the default width when no condition matches. The browser users the first condition that matches." %}
+<img src="{{ 'responsive-images/sizes.png' | imgPath }}" alt="Labeled screenshot of responsive image code example, showing the sizes attribute, pointing out that it contains media queries describing the width of the window, and the width of the image when that condition matches. The last item has no media query and is the default width when no condition matches. The browser users the first condition that matches.">
 
 The `sizes` attribute is a comma-separated list of media conditions[^1] paired with widths. Each item in the list looks like this: “`(min-width: 1023px) 780px`,” which would tell the browser that when the viewport is 1023 pixels wide (or wider), the image will be exactly 780 pixels wide.
 
@@ -112,7 +112,7 @@ This is a great question! If you provide too many assets, you’re wasting your 
 
 If you’re dealing with a single image and can provide custom markup for that image, you can use the [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/) from Cloudinary. It will automatically examine your image and decide what the optimal set of assets is to provide the best balance between file size and resolution. Then it will not only generate the files, but it will also produce the `srcset` and `sizes` attributes for you.
 
-{% image "responsive-images/standard-array.png" "Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it includes a standard list of sizes, ranging from 320 to 2560px wide." %}
+<img src="{{ 'responsive-images/standard-array.png' | imgPath }}" alt="Labeled screenshot of responsive image code example, showing the srcset attribute, pointing out that it includes a standard list of sizes, ranging from 320 to 2560px wide.">
 
 If you’re working in a CMS or web app where you don’t know the exact image that will be displayed in a slot, then I recommend picking a standard array of image sizes. In the past, I’ve used `320w`, `640w`, `960w`, `1280w`, `1920w`, and `2560w` because they're round numbers that follow a logical progression (multiples of 320). This set covers sizes from mobile to full-bleed desktop.
 

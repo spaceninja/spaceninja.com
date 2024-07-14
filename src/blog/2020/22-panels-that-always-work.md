@@ -16,13 +16,7 @@ feature_credit: © Wallace Wood Properties
 
 According to his assistant [Dan Adkins](https://en.wikipedia.org/wiki/Dan_Adkins), at the time [Wood was paid the highest rate in the industry](http://momentofcerebus.blogspot.com/2012/07/wally-woods-22-panels-that-always-work.html). “$200 per page at _MAD Magazine_, where he was the most popular artist. When he quit MAD and went over to Marvel Comics, Marvel’s starting rate at the time was $20 per page to pencil and $15 per page to ink. Out of respect to Wally, they paid him $45 per page to pencil and ink, but not the bonus money he was looking for.”
 
-{% include "partials/image.liquid"
-  src: "wally-wood/dd5-cropped.jpg"
-  alt: "The cover for Daredevil issue 5, with a caption promoting art by Wally Wood."
-  sizes: media.float.sizes
-  widths: media.float.widths
-  classList: "float-right"
-%}
+<img src="{{ 'wally-wood/dd5-cropped.jpg' | imgPath }}" alt="The cover for Daredevil issue 5, with a caption promoting art by Wally Wood." sizes="{{ media.float.sizes }}" widths="{{ media.float.widths }}" class="float-right">
 
 Wood was so popular that on the cover of _Daredevil #5_, his first issue at Marvel, they added a large badge promoting him: “Under the brilliant artistic craftsmanship of famous illustrator Wally Wood, Daredevil reaches new heights of glory!”
 
@@ -34,7 +28,7 @@ The message was a simple one: We’re not being paid enough to spin our tires. H
 
 <figure>
 
-{% image "wally-wood/wallywood22panel1600.jpg" "" %}
+<img src="{{ 'wally-wood/wallywood22panel1600.jpg' | imgPath }}" alt="">
 
 <figcaption>
 
@@ -47,13 +41,7 @@ The “22 panels” we know today were assembled by one of Wood’s assistants, 
 
 According to an [auction listing for the panels](https://web.archive.org/web/20120111173735/http://joeljohnson.com/archives/2006/08/wally_woods_22.html), “[Hama] ran off 50 copies, and handed them out to potential pencilers. Pretty soon, other editors were sending pencilers and even some old pros down the hall to get copies from him. Eventually, he had more master copies made and gave them to other editors so they could make their own copies to pass out… Second, third, fourth, tenth and twentieth generation copies continued to be made and handed down.”
 
-{% include "partials/image.liquid"
-  src: "wally-wood/wally-wood-self-portrait-ec-comics-1953.jpg"
-  alt: "Self-portrait of Wally Wood."
-  sizes: media.float.sizes
-  widths: media.float.widths
-  classList: "float-right"
-%}
+<img src="{{ 'wally-wood/wally-wood-self-portrait-ec-comics-1953.jpg' | imgPath }}" alt="Self-portrait of Wally Wood." sizes="{{ media.float.sizes }}" widths="{{ media.float.widths }}" class="float-right">
 
 Hama later said, “I don’t believe that Woody put the examples together as a teaching aid for his assistants, but rather as a reminder to himself. He was always trying to kick himself to put less labor into the work! He had a framed motto on the wall, ‘[Never draw anything you can copy, never copy anything you can trace, never trace anything you can cut out and paste up.](https://web.archive.org/web/20120111173735/http://joeljohnson.com/archives/2006/08/wally_woods_22.html)’ He hung the sheets with the panels on the wall of his studio to constantly remind himself to stop what he called ‘noodling.’”
 

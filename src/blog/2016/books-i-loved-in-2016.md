@@ -16,12 +16,7 @@ Growing up, my dad was a voracious reader. Our house was always filled with pile
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/rook.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/rook.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -37,12 +32,7 @@ This book has one of the strongest opening chapters I’ve ever read. ([You can 
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/annihilation.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/annihilation.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -64,12 +54,7 @@ That said, I still hated the sequels and can’t recommend them.
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/ancillary-justice.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/ancillary-justice.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -85,12 +70,7 @@ That was great, and I’m glad I read the book for it, but I’m happy to report
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/normal.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/normal.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -104,12 +84,7 @@ I’m a huge fan of Warren Ellis, and will read just about anything he writes, s
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/girl-with-all-the-gifts.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/girl-with-all-the-gifts.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">
@@ -123,12 +98,7 @@ I can’t remember how this book came to my attention, but I’ve never read a s
 <li class="media-list__item">
 <div class="media-list__media">
 
-{% include "partials/image.liquid"
-  src: "books/redshirts.jpg"
-  alt: ""
-  sizes: media.mediaList.sizes
-  widths: media.mediaList.widths
-%}
+<img src="{{ 'books/redshirts.jpg' | imgPath }}" alt="" sizes="{{ media.mediaList.sizes }}" eleventy:widths="{{ media.mediaList.widths }}">
 
 </div>
 <div class="media-list__content">

@@ -132,25 +132,10 @@ These are full-size assets. Feel free to download.
 
 <figure>
 
-{% include "partials/image.liquid"
-  src: "scott/avatar512.png"
-  alt: "A headshot of Scott Vandehey"
-  formats: "jpeg"
-  widths: "orig"
-%}
+<img src="{{ 'scott/avatar512.png' | imgPath }}" alt="A headshot of Scott Vandehey" eleventy:formats="jpeg" eleventy:widths="orig">
 
 </figure>
 
-{% include "partials/image.liquid"
-  src: "scott/IMG_2191.jpg"
-  alt: "Scott at his desk, looking at his laptop, deep in thought."
-  formats: "jpeg"
-  widths: "orig"
-%}
+<img src="{{ 'scott/IMG_2191.jpg' | imgPath }}" alt="Scott at his desk, looking at his laptop, deep in thought." eleventy:formats="jpeg" eleventy:widths="orig">
 
-{% include "partials/image.liquid"
-  src: "scott/IMG_3763.jpg"
-  alt: "Scott at his desk, wearing headphones and smiling."
-  formats: "jpeg"
-  widths: "orig"
-%}
+<img src="{{ 'scott/IMG_3763.jpg' | imgPath }}" alt="Scott at his desk, wearing headphones and smiling." eleventy:formats="jpeg" eleventy:widths="orig">

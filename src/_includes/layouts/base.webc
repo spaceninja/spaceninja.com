@@ -19,12 +19,6 @@
       type="application/atom+xml"
       :title="metadata.title"
     />
-    <link
-      rel="alternate"
-      href="/feed/feed.json"
-      type="application/json"
-      :title="metadata.title"
-    />
     <meta name="generator" :content="eleventy.generator" />
     <!-- OPEN GRAPH -->
     <meta property="og:locale" :content="metadata.language" />
@@ -102,6 +96,7 @@
               class="app-header__logo-img"
               alt=""
               aria-hidden="true"
+              eleventy:ignore
             />
             <span class="app-header__logo-type" @text="metadata.title"></span>
           </a>

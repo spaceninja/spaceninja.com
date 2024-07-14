@@ -21,26 +21,11 @@ The audacity of that introduction fascinated me. Especially the cheeky tone of â
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/kingkiller1a.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/kingkiller1a.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/kingkiller2.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/kingkiller2.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/kingkiller1.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/kingkiller1.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 

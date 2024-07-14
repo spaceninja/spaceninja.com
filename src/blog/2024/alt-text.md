@@ -25,7 +25,7 @@ Keep it brief, but informative! Give the most important information and leave ou
 
 Of course, context informs your description. If I was describing the chemistry dog meme to a chemistry major, I might want to emphasize all the things the dog is doing wrong. If I was describing it to someone who works in a hazardous spill response team, I might mention that the dog is pouring one of the mystery fluids into a coffee mug. As an example, let’s consider this image from a Batman movie.
 
-{% image "alt-text/batsignal.jpg", "A frame from Christopher Nolan’s Batman movies of Commissioner Gordon standing on the rooftop preparing to light the batsignal." %}
+<img src="{{ 'alt-text/batsignal.jpg' | imgPath }}" alt="A frame from Christopher Nolan’s Batman movies of Commissioner Gordon standing on the rooftop preparing to light the batsignal.">
 
 A fan-run Batman wiki, where the audience is likely familiar with the characters, might use this as alternative text:
 

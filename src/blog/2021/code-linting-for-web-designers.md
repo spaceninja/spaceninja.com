@@ -32,7 +32,7 @@ Everyone makes mistakes when they’re coding. It’s easy to use the wrong type
 
 <figure>
 
-{% image "code-linting/robots.png" "A silly chart showing that humans excel at creative tasks while robots excel at boring tasks." %}
+<img src="{{ 'code-linting/robots.png' | imgPath }}" alt="A silly chart showing that humans excel at creative tasks while robots excel at boring tasks.">
 
 <figcaption>
 
@@ -77,7 +77,7 @@ There are several options, depending on how much control you have over your deve
 
 At the most basic level, you can install a linter into your editor. Most linters have [plugins for VS Code and other editors](https://stylelint.io/user-guide/integrations/editor). By installing the plugin, your editor will know to read your config file and will highlight lint errors directly in your editor. If you add a lint config file to your project, then anyone with the linter installed in their editor will benefit from the shared set of rules.
 
-{% image "code-linting/lint-errors.png" "Screenshot of a code editor showing lint errors." %}
+<img src="{{ 'code-linting/lint-errors.png' | imgPath }}" alt="Screenshot of a code editor showing lint errors.">
 
 The next level involves installing the linter directly in your project. Explaining how to install and configure specific linters is beyond the scope of this article. For more details, see the installation instructions for the particular linter you want to use.
 

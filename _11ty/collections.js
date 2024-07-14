@@ -35,4 +35,4 @@ const collections = {
   },
 };
 
-module.exports = collections;
+export default collections;

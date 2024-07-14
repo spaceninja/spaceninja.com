@@ -1,23 +1,23 @@
-const markdownItFootnote = require('markdown-it-footnote');
+import markdownItFootnote from 'markdown-it-footnote';
 
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const pluginNavigation = require('@11ty/eleventy-navigation');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const pluginTimeToRead = require('eleventy-plugin-time-to-read');
-const pluginWebc = require('@11ty/eleventy-plugin-webc');
-const pluginAnchors = require('@orchidjs/eleventy-plugin-ids');
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import pluginNavigation from '@11ty/eleventy-navigation';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import pluginTimeToRead from 'eleventy-plugin-time-to-read';
+import pluginWebc from '@11ty/eleventy-plugin-webc';
+import pluginAnchors from '@orchidjs/eleventy-plugin-ids';
 
-const pluginImages = require('./_11ty/images.js');
-const collections = require('./_11ty/collections.js');
-const filters = require('./_11ty/filters.js');
-const shortcodes = require('./_11ty/shortcodes.js');
+import pluginImages from './_11ty/images.js';
+import collections from './_11ty/collections.js';
+import filters from './_11ty/filters.js';
+import shortcodes from './_11ty/shortcodes.js';
 
 /**
  * Based on Eleventy Base Blog v8
  * @see https://github.com/11ty/eleventy-base-blog/tree/main
  */
-module.exports = function (eleventyConfig) {
+export default (eleventyConfig) => {
   // Copy over various static files
   // For example, `./public/css/` ends up in `_site/css/`
   eleventyConfig.addPassthroughCopy({
@@ -54,7 +54,8 @@ module.exports = function (eleventyConfig) {
     speed: '238 words per minute',
     style: 'short',
   });
-  eleventyConfig.addPlugin(pluginAnchors);
+  // TODO: fix jump links
+  // eleventyConfig.addPlugin(pluginAnchors);
 
   // Customize Markdown library settings:
   eleventyConfig.amendLibrary('md', (mdLib) => {

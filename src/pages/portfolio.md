@@ -19,7 +19,7 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
-[{% image "portfolio/fridayfrontend.png" "A phone displaying the Friday Front-End twitter feed." %}](https://fridayfrontend.com/)
+[<img src="{{ 'portfolio/fridayfrontend.png' | imgPath }}" alt="A phone displaying the Friday Front-End twitter feed.">](https://fridayfrontend.com/)
 
 ## Friday Front-End
 
@@ -27,7 +27,7 @@ I started an [email newsletter](https://fridayfrontend.com/) and [twitter accoun
 
 ---
 
-[{% image "portfolio/mltshp.png" "A phone displaying the MLTSHP website." %}](https://mltshp.com/)
+[<img src="{{ 'portfolio/mltshp.png' | imgPath }}" alt="A phone displaying the MLTSHP website.">](https://mltshp.com/)
 
 ## MLTSHP
 
@@ -35,7 +35,7 @@ In 2017 I joined a team that was working to save the image sharing community sit
 
 ---
 
-[{% image "portfolio/betterjobintech.png" "Hands holding a copy of the book “How to Find a Better Job in Tech.”" %}](https://www.amazon.com/dp/B01M0VOE6O)
+[<img src="{{ 'portfolio/betterjobintech.png' | imgPath }}" alt="Hands holding a copy of the book “How to Find a Better Job in Tech.”">](https://www.amazon.com/dp/B01M0VOE6O)
 
 ## How to Find a Better Job in Tech
 
@@ -43,7 +43,7 @@ In 2016, I self-published an e-book about [finding a better job in the tech indu
 
 ---
 
-{% image "portfolio/tempest.png", "A tablet displaying the Tempest CMS post editing interface." %}
+<img src="{{ 'portfolio/tempest.png' | imgPath }}" alt="A tablet displaying the Tempest CMS post editing interface.">
 
 ## Tempest CMS
 
@@ -51,7 +51,7 @@ Starting in 2015, I signed on with [Say Media](https://www.saymedia.com/) to wor
 
 ---
 
-{% image "portfolio/puppetlabs.png" "A tablet displaying the Puppet Labs website." %}
+<img src="{{ 'portfolio/puppetlabs.png' | imgPath }}" alt="A tablet displaying the Puppet Labs website.">
 
 ## Puppet Labs
 
@@ -59,7 +59,7 @@ In 2013 I joined the marketing team at [Puppet Labs](http://puppetlabs.com/), wi
 
 ---
 
-{% image "portfolio/sararyan.png" "A tablet displaying Sara Ryan's website." %}
+<img src="{{ 'portfolio/sararyan.png' | imgPath }}" alt="A tablet displaying Sara Ryan's website.">
 
 ## Sara Ryan
 
@@ -67,7 +67,7 @@ Local Portland novelist [Sara Ryan](http://sararyan.com/) contacted me in 2012 t
 
 ---
 
-{% image "portfolio/cityeats.png" "A tablet displaying the CityEats website." %}
+<img src="{{ 'portfolio/cityeats.png' | imgPath }}" alt="A tablet displaying the CityEats website.">
 
 ## CityEats
 

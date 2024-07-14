@@ -28,26 +28,11 @@ You can probably guess that the young boy grows up to be the title character, Lo
 
 <div class="media-triptych">
 
-{% include "partials/image.liquid"
-  src: "books/lamora1.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/lamora1.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/lamora2.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/lamora2.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
-{% include "partials/image.liquid"
-  src: "books/lamora3.jpg"
-  alt: ""
-  sizes: media.triptych.sizes
-  widths: media.triptych.widths
-%}
+<img src="{{ 'books/lamora3.jpg' | imgPath }}" alt="" sizes="{{ media.triptych.sizes }}" eleventy:widths="{{ media.triptych.widths }}">
 
 </div>
 
