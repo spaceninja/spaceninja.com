@@ -6,8 +6,8 @@ import pluginRss from '@11ty/eleventy-plugin-rss';
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import pluginTimeToRead from 'eleventy-plugin-time-to-read';
 import pluginWebc from '@11ty/eleventy-plugin-webc';
-import pluginAnchors from '@orchidjs/eleventy-plugin-ids';
 
+import pluginAnchors from './_11ty/eleventy-ids.js';
 import pluginImages from './_11ty/images.js';
 import collections from './_11ty/collections.js';
 import filters from './_11ty/filters.js';
@@ -54,8 +54,7 @@ export default (eleventyConfig) => {
     speed: '238 words per minute',
     style: 'short',
   });
-  // TODO: fix jump links
-  // eleventyConfig.addPlugin(pluginAnchors);
+  eleventyConfig.addPlugin(pluginAnchors);
 
   // Customize Markdown library settings:
   eleventyConfig.amendLibrary('md', (mdLib) => {
