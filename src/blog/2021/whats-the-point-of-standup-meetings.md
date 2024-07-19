@@ -89,5 +89,7 @@ At the end of standup, the project team should be able to confidently answer “
 - [Rules and Best Practices for the Daily Scrum / Stand-up meeting](https://scrumguru.wordpress.com/2012/01/31/rules-and-best-practices-for-the-daily-scrum-stand-up-meeting/)
 
 [^1]: Often called a “standup” meeting because everyone is supposed to stand to encourage a faster meeting. I don’t recommend enforcing this rule [because it’s ableist](https://www.panopto.com/blog/the-worst-advice-for-running-more-effective-meetings/) and not compatible with distributed teams.
+
 [^2]: Scrum uses the term “dev team” which always bugged me when I was a designer. If your team includes non-dev contributors, consider using “project team” or something similarly inclusive.
+
 [^3]: Scrum says that the only attendees of this meeting should be the project team and the scrum master. It explicitly states that if anyone else attends, such as a product owner or engineering manager, the scrum master is expected to ensure they don’t disrupt the meeting. Often, management can have a disruptive effect simply by being present. If your team feels they cannot honestly assess their progress (or lack of) with management in the room, it may be time to ask them to step out. Be prepared to have an honest conversation about finding another way to increase their visibility into the team’s work.

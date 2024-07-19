@@ -131,8 +131,13 @@ When I started down this path, I spent a long time trying to make sense of all t
 But my confusion is your gain. Hopefully, this post will save some other developers from abandoning the web for goat farming!
 
 [^1]: **What is the W3C?** [The World Wide Web Consortium](https://www.w3.org/) develops standards and guidelines for the web. It was founded in 1994 by the inventor of the web, Sir Tim Berners-Lee.
+
 [^2]: **What is a draft standard?** W3C specifications go through [several stages](https://www.w3.org/standards/types/), including: _draft standards_, which are still evolving; _candidate standards_, which are more mature and close to approval; and _standards_ (also known as _recommendations_), which have been formally reviewed and endorsed by the W3C.
+
 [^3]: **What is the WICG?** [The Web Incubator Community Group](https://wicg.io/) is a W3C community group that incubates new web platform features. It is not a standards body, but sometimes the proposals they create become standards.
+
 [^4]: **What is a proposal?** A [WICG proposal](https://github.com/WICG/proposals) is an idea for a new standard that is being discussed by the community. Once consensus is reached, the WICG may advocate for the W3C or WHATWG to adopt the proposal to become a standard.
+
 [^5]: **What is the WHATWG?** [The Web Hypertext Application Technology Working Group](https://whatwg.org/) is a web standards body founded by community members and browser makers in 2004 when they became concerned that the W3C was mismanaging the HTML standard. [In 2019, the W3C and WHATWG came to an agreement](https://www.w3.org/news/2019/w3c-and-the-whatwg-have-just-signed-an-agreement-to-collaborate-on-the-development-of-a-single-version-of-the-html-and-dom-specifications/) that the WHATWG would take over maintaining the HTML standard.
+
 [^6]: **What is a living standard?** As opposed to the W3C’s standards which are rigorously versioned and finalized, the WHATWG maintains [“living standards”](https://whatwg.org/faq#living-standard) that are continuously updated. Snapshots of the living standards are taken at regular intervals for implementers to reference.
