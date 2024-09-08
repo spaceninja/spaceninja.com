@@ -7,11 +7,13 @@ tags:
   - c25k
 excerpt: I found the official program too aggressive, so I modified it to give a more gradual increase in duration.
 feature_image: feature/running.jpg
+feature_source: https://unsplash.com/photos/a-man-running-on-the-beach-at-sunset-cpPteaD54nk
+feature_credit: Shengpengpeng Cai
 ---
 
 This year, I started running again. I ran cross-country in high school, competing in the 3K and 5K races, but that was 30 years and 100 pounds ago. When I decided I wanted to start running again, I knew I'd need a plan to gradually build up from basically inactive to running around 30 minutes.
 
-I was thrilled when I found [Couch to 5K](https://c25k.com/), which seemed ideal. It's an [eight week running program](https://c25k.com/c25k_plan/) that's designed for absolute beginners to build you up to where you could run in a 5K race on week nine.
+I was thrilled when I found [Couch to 5K](https://c25k.com/), which seemed ideal. It's an [eight week running program](https://c25k.com/c25k_plan/) that's designed for absolute beginners to build you up to where you could complete a 5K race on week nine.
 
 The program has you run three days a week, and incorporates a five-minute warm-up and cool-down walk, which is really helpful to avoid injuries. In week one, you alternate running intervals of 60 seconds with 90 seconds of walking. Even just a minute of running was a struggle, but it was achievable. In week, two, the intervals increased to 90 seconds, and by week four it had me doing three to five minute intervals. This gradual ramp-up was really helpful both in terms of training my body, but also building mental confidence.
 
