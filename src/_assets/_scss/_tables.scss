@@ -7,6 +7,11 @@ table {
   width: 100%;
 }
 
+/* stylelint-disable-next-line selector-no-qualifying-type */
+table.small {
+  font-size: 0.8em;
+}
+
 th,
 td {
   border: 1px solid var(--color-border, buttonborder);
@@ -20,4 +25,13 @@ thead {
   th {
     border-bottom-width: 2px;
   }
+}
+
+table ul {
+  margin-block: 0.66em;
+  padding-left: 1em;
+}
+
+table p {
+  margin-block: 0.66em;
 }
