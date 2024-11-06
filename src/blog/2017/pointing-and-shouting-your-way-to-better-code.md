@@ -27,7 +27,14 @@ Which brings us to software development. How many times have you sat in a meetin
 
 I'd be willing to bet mistakes still happen. Software developers are often overloaded. Open office plans are full of distractions. A developer needs to finish their own work, help review other's code, attend meetings, and help plan upcoming work. Deadlines loom, and pressure builds until even your best workers take shortcuts: pushing an urgent bugfix to master that hasn't been properly reviewed. Committing code with no tests. Approving code reviews without actually running the code.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/9LmdUz3rOQU" frameborder="0" allowfullscreen></iframe>
+<link rel="stylesheet" href="/styles/lite-yt-embed.css" />
+<script async src="/scripts/lite-yt-embed.js"></script>
+
+<lite-youtube videoid="9LmdUz3rOQU" title="Pointing and Calling Japanese Safety Standard">
+  <a href="https://youtu.be/9LmdUz3rOQU" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: Pointing and Calling Japanese Safety Standard</span>
+  </a>
+</lite-youtube>
 
 Enter the "Point and Shout" method. (We're Americans, shouting was the natural next step in the process.) Now, instead of writing code quietly and posting in the company Slack channel requesting a code review, a developer must coordinate their attention with physical and verbal confirmations to ensure they're following the process. Imagine the following:
 
@@ -41,7 +48,13 @@ Developers who work from home may initially be reluctant to follow this process.
 
 Similarly, we recommend not allowing your team to make exceptions even when working late at night. Encourage your on-call workers to step outside to avoid bothering their spouses or roommates. Then they should call the secondary on-call person and announce their steps over the phone. If the neighbors complain, I've found you can usually just blame it on a passing drunk. It'll take the pressure off you, and gives your neighbor something to complain about at the next NIMBY protest against building affordable housing.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/xpkrIu2p_iM" frameborder="0" allowfullscreen></iframe>
+The conductor of metro who to confirm safety by a splendid pointing and calling
+
+<lite-youtube videoid="xpkrIu2p_iM" title="The conductor of metro who to confirm safety by a splendid pointing and calling">
+  <a href="https://youtu.be/xpkrIu2p_iM" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: The conductor of metro who to confirm safety by a splendid pointing and calling</span>
+  </a>
+</lite-youtube>
 
 As you can see, the Point and Call method is a natural fit with software development. Just imagine how many fewer mistakes your team will make when they adopt the point-and-call process in your office! It may seem silly at first, but soon you will associate the constant shouting with dramatically reduced bug counts and no more late-night rollbacks.
 

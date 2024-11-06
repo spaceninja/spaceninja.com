@@ -125,7 +125,14 @@ Jenny Slate takes an apprenticeship with a cranky painter in Norway, where she m
 
 I can think of no better way to recommend this movie than to show you this video:
 
-<iframe class="is-standard-width" width="560" height="315" src="https://www.youtube.com/embed/SbT3fKt80k8?si=CPlW3V1pBVKwzXfy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<link rel="stylesheet" href="/styles/lite-yt-embed.css" />
+<script async src="/scripts/lite-yt-embed.js"></script>
+
+<lite-youtube class="is-standard-width" videoid="SbT3fKt80k8" title="RRR - Let's Naacho!">
+  <a href="https://youtu.be/SbT3fKt80k8" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: RRR - Let's Naacho!</span>
+  </a>
+</lite-youtube>
 
 If you liked that (And how could you not? Suspender dance!) the rest of the movie also includes tiger fights, bromance, and revenge.
 

@@ -56,4 +56,11 @@ This series manages to build a complex and fascinating story on the scaffolding 
 
 If a nine-book series seems overwhelming, consider watching the TV show. The adaptation was created by the SyFy channel, and they’ve done a phenomenal job. The actors are great, the sets are fantastic, and the world feels completely real. Plus, it gives me a good reason to share my favorite moment with you:
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/K6Ato2GhU-o" frameborder="0" allowfullscreen></iframe>
+<link rel="stylesheet" href="/styles/lite-yt-embed.css" />
+<script async src="/scripts/lite-yt-embed.js"></script>
+
+<lite-youtube videoid="K6Ato2GhU-o" title="The Expanse - Donkey Balls">
+  <a href="https://youtu.be/K6Ato2GhU-o" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: The Expanse - Donkey Balls</span>
+  </a>
+</lite-youtube>

@@ -15,9 +15,16 @@ Looking for a headshot or speaker bio? You can find them [at the bottom of this 
 
 ---
 
+<link rel="stylesheet" href="/styles/lite-yt-embed.css" />
+<script async src="/scripts/lite-yt-embed.js"></script>
+
 ## Past Talks
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DtV_2zXtuiU?si=WI9q5QJV26JHXOZK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<lite-youtube videoid="DtV_2zXtuiU" title="Responsive Images the Simple Way">
+  <a href="https://youtu.be/DtV_2zXtuiU" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: Responsive Images the Simple Way</span>
+  </a>
+</lite-youtube>
 
 ### Responsive Images the Simple Way
 
@@ -27,9 +34,13 @@ The responsive images spec covers a lot of use cases, but most of the time you�
 
 ---
 
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/HdHU3D0QgW8?si=c4RypAjyfp-Q25gn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<lite-youtube videoid="HdHU3D0QgW8" title="Let’s Talk About Scrum">
+  <a href="https://youtu.be/HdHU3D0QgW8" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: Let’s Talk About Scrum</span>
+  </a>
+</lite-youtube>
 
-### Let's Talk About Scrum
+### Let’s Talk About Scrum
 
 _Say Media, 2018_ • [Slides](https://noti.st/spaceninja/Q2lIog/let-s-talk-about-scrum)
 
@@ -37,7 +48,11 @@ This talk is a 101-level introduction to Scrum, the agile methodology, especiall
 
 ---
 
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ty5jtMZXbmk?si=nB4dMeA0NolRJJC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<lite-youtube videoid="Ty5jtMZXbmk" title="What is Modular CSS?">
+  <a href="https://youtu.be/Ty5jtMZXbmk" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play: What is Modular CSS?</span>
+  </a>
+</lite-youtube>
 
 ### What is Modular CSS?
 
@@ -51,7 +66,9 @@ Essentially, if you're ever going to write CSS at scale, you owe it to yourself 
 
 ---
 
-<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/R0S52M/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
+<script async src="https://on.notist.cloud/embed/002.js"></script>
+
+<p data-notist="spaceninja/R0S52M" data-ratio="4:3">View <a href="https://noti.st/spaceninja/R0S52M">Flexbox Will Shock You!</a> on Notist.</p>
 
 ### Flexbox Will Shock You!
 
@@ -67,7 +84,7 @@ This is a beginner level talk. You do not need to know anything about flexbox, b
 
 ---
 
-<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/jFnyfV/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
+<p data-notist="spaceninja/jFnyfV" data-ratio="4:3">View <a href="https://noti.st/spaceninja/jFnyfV">How to Use Sass to Make Your Site More Maintainable</a> on Notist.</p>
 
 ### How to Use Sass to Make Your Site More Maintainable
 
@@ -77,7 +94,7 @@ A presentation about making your project more maintainable by using Sass, given 
 
 ---
 
-<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/6w5An6/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
+<p data-notist="spaceninja/6w5An6" data-ratio="4:3">View <a href="https://noti.st/spaceninja/6w5An6">Tips for Front-End Teams without Tears, Heartache, or Fistfights</a> on Notist.</p>
 
 ### Tips for Front-End Teams without Tears, Heartache, or Fistfights
 
@@ -89,7 +106,7 @@ You and your teammates may not be best friends, but you can stop fighting about 
 
 ---
 
-<iframe loading="lazy" class="aspect-ratio--4x3" src="https://noti.st/spaceninja/UcMMuh/embed" frameborder="0" width="960" height="540" allowfullscreen="allowfullscreen"></iframe>
+<p data-notist="spaceninja/UcMMuh" data-ratio="4:3">View <a href="https://noti.st/spaceninja/UcMMuh">Introduction to HTML5</a> on Notist.</p>
 
 ### Introduction to HTML5
 

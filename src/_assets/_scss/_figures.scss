@@ -6,13 +6,22 @@ img {
   max-width: 100%;
 }
 
-// Wide layout for figures, iframes, and images in blog posts
+// Wide layout for figures, images, and youtube embeds in blog posts
 article {
+  lite-youtube,
   figure,
-  iframe,
   img {
     display: block;
     margin-block: 1.5em;
+  }
+
+  lite-youtube {
+    max-width: none;
+
+    &:not(.is-standard-width) {
+      @include mixins.layout-wide;
+      @include mixins.width-wide-important; // needed to override embed styles
+    }
   }
 
   img {
@@ -42,24 +51,6 @@ article {
       margin-block: 0;
       margin-inline: auto;
       max-width: 100%;
-    }
-  }
-
-  iframe {
-    width: 100%;
-
-    &:not(.is-standard-width) {
-      @include mixins.layout-wide;
-      @include mixins.width-wide-important; // needed to override embed styles
-    }
-
-    &:not(.aspect-ratio--native) {
-      aspect-ratio: 16 / 9;
-      height: auto;
-
-      &.aspect-ratio--4x3 {
-        aspect-ratio: 4 / 3;
-      }
     }
   }
 }
