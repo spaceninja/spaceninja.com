@@ -10,8 +10,8 @@
         alt=""
         :loading="index < 8 ? 'eager' : 'lazy'"
         class="post-list__media"
-        :eleventy:width="post.data.media.postList.widths"
-        :eleventy:sizes="post.data.media.postList.sizes"
+        :sizes="post.data.media.postList.sizes"
+        :eleventy:widths="post.data.media.postList.widths"
       />
     </a>
     <time

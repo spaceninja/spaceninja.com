@@ -4,8 +4,8 @@
       :src="imgPath(metadata.author.photo)"
       alt=""
       class="author__photo-media"
-      :eleventy:width="media.author.widths"
-      :eleventy:sizes="media.author.sizes"
+      :sizes="media.author.sizes"
+      :eleventy:widths="media.author.widths"
     />
   </figure>
   <div class="author__bio">
