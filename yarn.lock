@@ -38,7 +38,7 @@
     urlpattern-polyfill "^10.0.0"
     ws "^8.18.0"
 
-"@11ty/eleventy-fetch@^4.0.0":
+"@11ty/eleventy-fetch@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-fetch/-/eleventy-fetch-4.0.1.tgz#8431d60d2f2cbb10b8fd71ef661e71ecfe2f8ab6"
   integrity sha512-yIiLM5ziBmg86i4TlXpBdcIygJHvh/GgPJyAiFOckO9H4y9cQDM8eIcJCUQ4Mum0NEVui/OjhEut2R08xw0vlQ==
@@ -48,18 +48,19 @@
     node-fetch "^2.6.7"
     p-queue "^6.6.2"
 
-"@11ty/eleventy-img@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-4.0.2.tgz#bf6f4b9b36446d7a7bcdb3d2e05fe24460defb66"
-  integrity sha512-MSCkZRJk9rWa7nojx9HBMZJePOrm+V3XNpT091qguj61SG5UsgXbxAkoeejO3npmKIQJTyVIV/rrA6d7xZYOvw==
+"@11ty/eleventy-img@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-5.0.0.tgz#7a514b7b4282845a1c6f9e3265b185f8e6db8450"
+  integrity sha512-hJ4X5ZIRSOCooL0uXegj+nZi1abWNj22BR4PzF6e9iJg9DGYGxPrC0rg0Hy+7xzP7mzTYiOpDjZVv/NgrHNx6w==
   dependencies:
-    "@11ty/eleventy-fetch" "^4.0.0"
+    "@11ty/eleventy-fetch" "^4.0.1"
+    "@11ty/eleventy-utils" "^1.0.3"
     brotli-size "^4.0.0"
-    debug "^4.3.4"
-    entities "^4.5.0"
+    debug "^4.3.7"
+    entities "^5.0.0"
     image-size "^1.1.1"
     p-queue "^6.6.2"
-    sharp "^0.33.2"
+    sharp "^0.33.5"
 
 "@11ty/eleventy-navigation@0.3.5":
   version "0.3.5"
@@ -2666,7 +2667,7 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-sharp@^0.33.2:
+sharp@^0.33.5:
   version "0.33.5"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.33.5.tgz#13e0e4130cc309d6a9497596715240b2ec0c594e"
   integrity sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==
