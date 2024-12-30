@@ -11,7 +11,7 @@ feature_source: https://unsplash.com/photos/F2mt-nPsZW8
 feature_credit: Eyestetix Studio
 ---
 
-Every week on [Friday Front-End](https://fridayfrontend.com/), I share a curated list of five articles and one video. It's fun at the end of the year to look back and see which links got the most traction. This year, I stopped posting on Twitter, and started posting on [Bluesky](https://bsky.app/profile/fridayfrontend.com) instead. I don't have any useful analytics from either, but here are the links that got the most clicks in the [newsletter](https://fridayfrontend.curated.co/) and the [Mastodon](https://hachyderm.io/@fridayfrontend).
+Every week on [Friday Front-End](https://fridayfrontend.com/), I share a curated list of five articles and one video. It's fun at the end of the year to look back and see which links got the most traction. This year, I stopped posting on Twitter, and started posting on [Bluesky](https://bsky.app/profile/fridayfrontend.com) instead. I don't have any useful analytics from either, but here are the links that got the most clicks in the [newsletter](https://fridayfrontend.curated.co/) and [Mastodon](https://hachyderm.io/@fridayfrontend).
 
 <ul class="media-list">
 <li class="media-list__item">
