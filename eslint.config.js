@@ -6,7 +6,9 @@ export default [
   js.configs.recommended,
   eslintConfigPrettier,
   {
-    ignores: ['dist', '**/*.webc', 'public'],
+    ignores: ['dist/**/*', '**/*.webc', 'public/**/*'],
+  },
+  {
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
