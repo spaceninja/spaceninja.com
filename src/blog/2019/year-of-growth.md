@@ -14,7 +14,7 @@ feature_source: https://unsplash.com/photos/1n8zqoqFUGc
 feature_credit: Maarten van den Heuvel
 ---
 
-Exactly one year ago today, I was laid off. At the time I was working for Say Media, a small media company that was acquired by Maven, “[a relatively unknown start-up run by two notorious media fuck boys](http://bigwnews.com/sport/sports-illustrateds-media-operations-pawne).”
+Exactly one year ago today, I was laid off. At the time I was working for Say Media, a small media company that was acquired by Maven, “[a relatively unknown start-up run by two notorious media fuck boys](https://deadspin.com/sports-illustrateds-media-operations-pawned-off-to-unpr-1835588571/).”
 
 I was caught in the first round of layoffs related to the merger. Over the next year, I watched successive rounds of layoffs and departures reduce the Portland office to a single employee. The _schadenfreude_ of watching the company that ditched me falling to pieces would have been more enjoyable if I hadn’t remained unemployed for the following four months.
 
