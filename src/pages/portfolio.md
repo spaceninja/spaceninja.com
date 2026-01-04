@@ -3,13 +3,13 @@ title: Scott Vandehey’s Portfolio
 permalink: portfolio/
 date: 2014-07-07T15:45:32.000Z
 date_updated: 2023-08-16T03:22:15.000Z
-description: Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 20 years experience building scalable user interfaces.
+description: Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 25 years experience building scalable user interfaces.
 eleventyNavigation:
   key: Portfolio
   order: 1
 ---
 
-I'm a front-end architect and CSS specialist in Portland, Oregon with over 20 years of experience building scalable user interfaces. My specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between my education in graphic design and my experience working alongside programmers, I bridge the gap between design and development.
+I'm a front-end architect and CSS specialist in Portland, Oregon with over 25 years of experience building scalable user interfaces. My specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between my education in graphic design and my experience working alongside programmers, I bridge the gap between design and development.
 
 A running theme in my career has been helping others level up, and that’s most recently manifested in the [Friday Front-End](https://fridayfrontend.com/) and [CSS Basics](https://hachyderm.io/@cssbasics) newsletter and social accounts, which I use to share development tips and links with the front-end community every day. My first book, “[How to Find a Better Job in Tech](https://www.amazon.com/dp/B01M0VOE6O),” was published in 2016.
 

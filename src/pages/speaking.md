@@ -133,11 +133,11 @@ By the end, you will see that converting your site to HTML5 can offer you real b
 
 #### Medium (50 words)
 
-> Scott Vandehey is a front-end architect and CSS specialist with over 20 years of experience. He curates the Friday Front-End newsletter and social accounts, sharing front-end development tips and links every day. He is the author of “How to Find a Better Job in Tech.” Follow him at @spaceninja.
+> Scott Vandehey is a front-end architect and CSS specialist with over 25 years of experience. He curates the Friday Front-End newsletter and social accounts, sharing front-end development tips and links every day. He is the author of “How to Find a Better Job in Tech.” Follow him at @spaceninja.
 
 #### Long (150 words)
 
-> Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 20 years of experience building scalable user interfaces. His specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between his education in graphic design and his experience working alongside programmers, he bridges the gap between design and development.
+> Scott Vandehey is a front-end architect and CSS specialist in Portland, Oregon with over 25 years of experience building scalable user interfaces. His specialty is refactoring large code bases for maintainability and performance, and helping teams define best practices and workflow around CSS development. Between his education in graphic design and his experience working alongside programmers, he bridges the gap between design and development.
 >
 > A running theme in his career has been helping others level up, and that’s most recently manifested in the Friday Front-End and CSS Basics newsletter and social accounts, which he uses to share development tips and links with the front-end community every day. His first book, “How to Find a Better Job in Tech,” was published in 2016.
 >
