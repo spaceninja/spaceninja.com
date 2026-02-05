@@ -19,11 +19,11 @@ If you like what you see, here's my [linkedin](http://www.linkedin.com/in/scottv
 
 ---
 
-[<img src="{{ 'portfolio/fridayfrontend.png' | imgPath }}" alt="A phone displaying the Friday Front-End twitter feed.">](https://fridayfrontend.com/)
+[<img src="{{ 'portfolio/fridayfrontend.png' | imgPath }}" alt="A phone displaying the Friday Front-End social media feed.">](https://fridayfrontend.com/)
 
 ## Friday Front-End
 
-I started an [email newsletter](https://fridayfrontend.com/) and [twitter account](https://twitter.com/fridayfrontend) in 2015 to share a curated list of CSS-oriented front-end links with my peers. I was already reading a broad selection of blogs and newsletter to stay up-to-date, and posting those to my own bookmark list. Every week, I post five links and a video to the twitter account, and then compile those links into the newsletter (sent on Friday, naturally). In 2018, I added a second twitter account, [@cssbasics](https://twitter.com/cssbasics), specifically to share links aimed at beginners.
+I started an [email newsletter](https://fridayfrontend.com/) and [social media account](https://bsky.app/profile/fridayfrontend.com) in 2015 to share a curated list of CSS-oriented front-end links with my peers. I was already reading a broad selection of blogs and newsletter to stay up-to-date, and posting those to my own bookmark list. Every week, I post five links and a video to social media, and then compile those links into the newsletter (sent on Friday, naturally). In 2018, I added a second social media account, [@cssbasics](https://bsky.app/profile/cssbasics.fridayfrontend.com), specifically to share links aimed at beginners.
 
 ---
 

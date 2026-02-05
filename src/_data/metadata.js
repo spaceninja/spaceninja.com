@@ -13,6 +13,5 @@ export default {
     email: 'scott@spaceninja.com',
     url: 'https://spaceninja.com/about/',
     photo: 'scott/scott-memoji-beard.png',
-    twitter: '@spaceninja',
   },
 };

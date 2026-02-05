@@ -24,7 +24,6 @@
     <meta property="og:locale" :content="metadata.language" />
     <meta property="og:type" :content="og_type ?? 'website'" />
     <meta property="og:title" :content="title ?? metadata.title" />
-    <meta property="twitter:title" :content="title ?? metadata.title" />
     <link
       rel="canonical"
       :href="canonical ?? htmlBaseUrl(page.url, metadata.url)"
@@ -42,12 +41,6 @@
     />
     <meta
       property="og:description"
-      :content="og_type === 'article'
-        ? excerpt ?? createExcerpt(collections.blog.find(p => p.page.url === page.url)?.content)
-        : description ?? metadata.description"
-    />
-    <meta
-      property="twitter:description"
       :content="og_type === 'article'
         ? excerpt ?? createExcerpt(collections.blog.find(p => p.page.url === page.url)?.content)
         : description ?? metadata.description"
@@ -73,14 +66,6 @@
       property="og:image:secure_url"
       :content="feedImage(feature_image)"
     />
-    <meta
-      webc:if="feature_image"
-      property="twitter:image"
-      :content="feedImage(feature_image)"
-    />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:site" :content="metadata.author.twitter" />
-    <meta property="twitter:creator" :content="metadata.author.twitter" />
     <meta webc:if="noindex" name="robots" content="noindex" />
   </head>
   <body :class="body_class ?? ''">
