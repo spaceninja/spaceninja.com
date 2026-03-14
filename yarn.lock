@@ -2977,9 +2977,9 @@ uc.micro@^2.0.0, uc.micro@^2.1.0:
   integrity sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==
 
 undici@^7.21.0:
-  version "7.22.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.22.0.tgz#7a82590a5908e504a47d85c60b0f89ca14240e60"
-  integrity sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==
+  version "7.24.2"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.24.2.tgz#017c31f68ff12ac49aa6116b4d7b3f38c0c0d7f3"
+  integrity sha512-P9J1HWYV/ajFr8uCqk5QixwiRKmB1wOamgS0e+o2Z4A44Ej2+thFVRLG/eA7qprx88XXhnV5Bl8LHXTURpzB3Q==
 
 unicorn-magic@^0.4.0:
   version "0.4.0"
