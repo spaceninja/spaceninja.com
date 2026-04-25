@@ -10,6 +10,7 @@ tags:
 feature_image: feature/newspaper.jpg
 feature_source: https://unsplash.com/photos/_Zua2hyvTBk
 feature_credit: Roman Kraft
+excerpt: "A friend recently asked me how I keep up-to-date on what's happening in the front-end community. It's a great question. It used to be that RSS feeds were the way to go. I'd subscribe to the feeds from..."
 ---
 
 A friend recently asked me how I keep up-to-date on what's happening in the front-end community. It's a great question. It used to be that RSS feeds were the way to go. I'd subscribe to the feeds from my favorite developers, and get their updates. Sadly, many people don't post to their own blogs anymore.

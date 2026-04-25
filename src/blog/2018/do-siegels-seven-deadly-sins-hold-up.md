@@ -8,6 +8,7 @@ tags:
   - sin
   - design
 feature_image: feature/creating-killer-web-sites-header.jpg
+excerpt: 'In 1996, David Siegel’s book <i>Creating Killer Web Sites</i> was at the top of the charts on Amazon, and it quickly became the gold standard of web design books. Siegel may not have been the first to...'
 ---
 
 In 1996, David Siegel’s book <i>Creating Killer Web Sites</i> was at the top of the charts on Amazon, and it quickly became the gold standard of web design books. Siegel may not have been the first to write about spacer gifs, slicing images, and table-based layouts, but he certainly popularized the techniques.

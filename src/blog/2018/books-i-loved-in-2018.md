@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2018.jpg
 feature_source: https://unsplash.com/photos/2JIvboGLeho
 feature_credit: Susan Q Yin
+excerpt: 'I read 25 books this year. Many were good, but the following three series stood heads and tails above everything else. I devoured them all and enjoyed every word. It’s not often I find series that I’m...'
 ---
 
 [I read 25 books this year](https://www.goodreads.com/user_challenges/10213246). Many were good, but the following three series stood heads and tails above everything else. I devoured them all and enjoyed every word. It’s not often I find series that I’m happy to recommend without any caveats or “if you like this sort of thing” hedging. These are just plain fun books, and I think you’d enjoy them.

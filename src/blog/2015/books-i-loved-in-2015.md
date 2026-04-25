@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2015.jpg
 feature_source: https://unsplash.com/photos/PyUXxFrYweY
 feature_credit: Alfons Morales
+excerpt: 'I have a terrible memory about books I’ve read. Often, all I can tell you is that I’m a fan of an author or a particular book, but not any details about it, or why I liked it. In 2015 I switched to...'
 ---
 
 I have a terrible memory about books I’ve read. Often, all I can tell you is that I’m a fan of an author or a particular book, but not any details about it, or why I liked it. In 2015 I switched to reading entirely on the Kindle. One benefit of that switch is that I now have a record of what books I read and when. So I decided to start writing short reviews of my favorite books each year, mostly as a reminder to myself in the future. Here are three standouts that I read in 2015.

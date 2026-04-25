@@ -7,6 +7,7 @@ tags:
   - reviews
   - books
 feature_image: books/feature/kingkiller-cover.jpg
+excerpt: 'It’s no exaggeration to say that Patrick Rothfuss’ The Name of the Wind might be my favorite book of all time. It’s in competition with heavy hitters like Hitchhiker’s Guide, The Lord of the Rings,...'
 ---
 
 It’s no exaggeration to say that Patrick Rothfuss’ _The Name of the Wind_ might be my favorite book of all time. It’s in competition with heavy hitters like _Hitchhiker’s Guide_, _The Lord of the Rings_, and _Ringworld_. Books I come back to time and again, re-reading compulsively, like comfort food.

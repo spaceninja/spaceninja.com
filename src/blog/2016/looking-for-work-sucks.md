@@ -11,6 +11,7 @@ tags:
 feature_image: feature/looking-for-work-sucks.jpg
 feature_source: https://www.flickr.com/photos/wocintechchat/25677271842/
 feature_credit: Women of Color in Tech
+excerpt: 'Looking for work is an intensely stressful experience. It’s also insidious, because it doesn’t feel like it should be stressful. During a job hunt, I often find myself overwhelmed by the whole...'
 ---
 
 Looking for work is an intensely stressful experience. It’s also insidious, because it doesn’t feel like it should be stressful. During a job hunt, I often find myself overwhelmed by the whole process. Part of me wants to give up and go back to bed. Another part questions my self-worth. Then I feel guilty for being overwhelmed by something as simple as reading job listings and sending emails.

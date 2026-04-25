@@ -9,6 +9,7 @@ tags:
 feature_image: mobile-use-case/phone.jpg
 feature_source: https://unsplash.com/photos/0VGG7cqTwCo
 feature_credit: Rodion Kutsaiev
+excerpt: 'I recently worked on a project to dramatically improve mobile access for an app. At least twice during the proposal process, I was asked “What’s the mobile use case?” I was caught a bit flat-footed by...'
 ---
 
 I recently worked on a project to dramatically improve mobile access for an app. At least twice during the proposal process, I was asked “What’s the mobile use case?”

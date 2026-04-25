@@ -17,6 +17,7 @@ canonical: https://cloudfour.com/thinks/how-to-distribute-a-pattern-library-as-a
 feature_image: feature/npm-keyboard.jpg
 feature_source: https://unsplash.com/photos/oZMUrWFHOB4
 feature_credit: Paul Esch-Laurent
+excerpt: 'So you’ve got a pattern library: Congratulations! The next step is making it possible for other people to use those patterns. You could simply provide download links for the CSS and other assets, but...'
 ---
 
 So you’ve got a pattern library: Congratulations! The next step is making it possible for other people to use those patterns. You could simply provide download links for the CSS and other assets, but then your users can’t easily get any updates to the pattern library. Instead, you should consider making it available as an npm package.

@@ -29,9 +29,6 @@
         ><code webc:else @text="post.page.url"></code
       ></a>
     </h3>
-    <p
-      class="post-list__excerpt"
-      @text="post.data.excerpt ?? createExcerpt(post.content)"
-    ></p>
+    <p class="post-list__excerpt" @text="post.data.excerpt"></p>
   </li>
 </ol>

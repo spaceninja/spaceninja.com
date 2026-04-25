@@ -10,6 +10,7 @@ tags:
 feature_image: feature/popcorn.jpg
 feature_source: https://unsplash.com/photos/ny-lHmsHYHk
 feature_credit: Georgia Vagim
+excerpt: 'When Netflix switched from a 5-star rating scheme to a thumbs up/down model, I realized I was sitting on more than a decade of ratings, and worried they would disappear. I started rating movies on...'
 ---
 
 When Netflix switched from a 5-star rating scheme to a [thumbs up/down](https://www.theverge.com/2017/3/16/14952434/netflix-five-star-ratings-going-away-thumbs-up-down) model, I realized I was sitting on more than a decade of ratings, and worried they would disappear.

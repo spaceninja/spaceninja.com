@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2016.jpg
 feature_source: https://unsplash.com/photos/W_ZYCEUapF0
 feature_credit: Darwin Vegher
+excerpt: 'Growing up, my dad was a voracious reader. Our house was always filled with piles of dog-eared science fiction and fantasy novels. Even before I was old enough to start reading them myself, I found...'
 ---
 
 Growing up, my dad was a voracious reader. Our house was always filled with piles of dog-eared science fiction and fantasy novels. Even before I was old enough to start reading them myself, I found them fascinating. I remember vividly being on time-out once and studying the designs on the spines of his books. I don’t read nearly as much as he did, but I still try to read as much as I can. Here are some of the best books I read in 2016.

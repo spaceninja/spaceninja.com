@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2019.jpg
 feature_source: https://unsplash.com/photos/D4YrzSwyIEc
 feature_credit: Jason Leung
+excerpt: "Once a year, I like to look back over my reading history and write a brief recommendation of my favorites. Partly I do this for anyone who might trust my judgement on what to read, but mostly it's..."
 ---
 
 Once a year, I like to look back over my reading history and write a brief recommendation of my favorites. Partly I do this for anyone who might trust my judgement on what to read, but mostly it's because I have a terrible memory. I have books on my shelves that I remember reading and loving, and perhaps a bit about the story, but I couldn't tell you the major plot arc, or why anyone else should read it.

@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2021.jpg
 feature_source: https://unsplash.com/photos/Skcr6X_aLjU
 feature_credit: Sara
+excerpt: 'I read 30 books in 2021, and 13 of those were reading to my youngest, John. In 2020, our habit of me reading to him at bedtime faltered a bit, as he was getting a bit older. But he was absolutely in...'
 ---
 
 [I read 30 books in 2021](https://www.goodreads.com/user_challenges/27577812), and 13 of those were reading to my youngest, John. In 2020, our habit of me reading to him at bedtime faltered a bit, as he was getting a bit older. But he was absolutely in love with _Breath of the Wild_, the open-world _Legend of Zelda_ game. And I realized that he was old enough to appreciate _the Hobbit_, and went into full sales mode, channeling the grandpa from _The Princess Bride_:

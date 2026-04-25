@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2017.jpg
 feature_source: https://unsplash.com/photos/6ywyo2qtaZ8
 feature_credit: Eugenio Mazzone
+excerpt: 'I read 28 books in 2017. These are the ones I would happily recommend. Not a ton of new books to recommend this year, because I also was finishing reading the Harry Potter series with my daughter, and...'
 ---
 
 [I read 28 books in 2017](https://www.goodreads.com/user_challenges/8351170). These are the ones I would happily recommend. Not a ton of new books to recommend this year, because I also was finishing reading the _Harry Potter_ series with my daughter, and re-reading [_The Lies of Locke Lamora_ series](/blog/2018/books-i-love-the-gentleman-bastards-series/), which I’ve recommended elsewhere. Ironically, all three books I’m recommending here are the first of a trilogy. I know that can seem overwhelming, but I loved these books, and the series they each begin.

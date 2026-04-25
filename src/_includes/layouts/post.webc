@@ -20,7 +20,7 @@ prism: true
 
   <p class="post__excerpt">
     <abbr title="Too Long; Didn’t Read:">TL;DR:</abbr>
-    <span webc:nokeep @text="excerpt ?? createExcerpt(content)"></span>
+    <span webc:nokeep @text="excerpt"></span>
   </p>
 
   <figure>

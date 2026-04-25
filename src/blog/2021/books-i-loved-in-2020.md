@@ -8,6 +8,7 @@ tags:
 feature_image: books/feature/books-2020.jpg
 feature_source: https://unsplash.com/photos/eeSdJfLfx1A
 feature_credit: Ed Robertson
+excerpt: 'Once a year, I review the books I read and write a brief post recommending my favorites. 2020 was a brutal, horrible year, and I had almost no mental bandwidth for reading, but I did read three books...'
 ---
 
 Once a year, I review the books I read and write a brief post recommending my favorites. 2020 was a brutal, horrible year, and I had almost no mental bandwidth for reading, but I did read three books that I absolutely loved.

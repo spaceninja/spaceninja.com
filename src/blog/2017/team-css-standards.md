@@ -8,6 +8,7 @@ tags:
   - sass
   - css
 feature_image: feature/css-standards.jpg
+excerpt: '“We’re going through a major redesign of our app and every page is given to one person on the team to complete from end-to-end, including creating the HTML structure and styling, and everyone is doing...'
 ---
 
 > “We’re going through a major redesign of our app and every page is given to one person on the team to complete from end-to-end, including creating the HTML structure and styling, and everyone is doing everything their own way. Do you have tips/tricks/blog posts/books that you’d recommend for getting into creating and enforcing a SASS project/structure?”

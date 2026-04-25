@@ -13,6 +13,7 @@ tags:
 feature_image: feature/pointing-and-calling.jpg
 feature_source: https://commons.wikimedia.org/w/index.php?curid=10632684
 feature_credit: SoHome Jacaranda Lilau
+excerpt: "Time and again we turn to the Japanese for inspiration to improve process and efficiency. Toyota's lean manufacturing processes gave us the concept of kaizen (continuous improvement), as well as the..."
 ---
 
 Time and again we turn to the Japanese for inspiration to improve process and efficiency. Toyota's [lean manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing) processes gave us the concept of [_kaizen_](https://en.wikipedia.org/wiki/Kaizen) (continuous improvement), as well as the [_kanban_](https://en.wikipedia.org/wiki/Kanban) scheduling system, both of which have dramatically influenced modern software practices. It's only natural that the newest method taking Silicon Valley by storm is [_shisa kanko_](https://en.wikipedia.org/wiki/Pointing_and_calling) (pointing and calling), an occupational safety technique created by Japanese train drivers in the early 1900s.
