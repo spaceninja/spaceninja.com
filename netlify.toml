@@ -3,3 +3,13 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+[[redirects]]
+  from = "https://spaceninja.net/*"
+  to = "https://spaceninja.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.spaceninja.net/*"
+  to = "https://spaceninja.com/:splat"
+  status = 301
+  force = true
