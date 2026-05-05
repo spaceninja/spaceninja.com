@@ -24,6 +24,7 @@ CI is typically paired with another term, continuous deployment (CD), which says
 So, CI means that devs regularly merge their code into the main branch, and CD means those merges automatically trigger a deployment. That’s CI/CD workflow in a nutshell. Sounds great, right?
 
 ## How Do You Ensure Code is Safe to Deploy?
+
 You may have noticed a potential problem. If every commit is automatically deployed, then any bugs that are merged get deployed, too! By necessity, adopting a CI/CD workflow brings with it an expectation that your team should only merge code that’s safe to deploy.
 
 The best way to address this concern is to require all code be [carefully reviewed](https://cloudfour.com/thinks/how-we-do-code-reviews-at-cloud-four/). Of course, those reviews take time, so teams typically invest in tooling to run automated quality control checks, like: Does the code compile without errors? Is it formatted to match the style guide? Do the tests pass? If any check fails, the changes are blocked until the issues are addressed. When most people talk about CI, they’re referring not only to the workflow, but also the tools that run those automated checks.
@@ -31,6 +32,7 @@ The best way to address this concern is to require all code be [carefully review
 Note that automated checks are not a substitute for human review! Even if all the checks pass, there could be bugs that aren’t covered by tests or are difficult to automate, such as accessibility issues. The goal is to increase confidence by checking for obvious problems before a developer spends time reviewing it.
 
 ## Our Standard CI Setup
+
 We work on a lot of projects, and have a fairly standard setup we use to keep things consistent for devs switching between them. It all starts in `package.json`, where we define a standard set of scripts to run our tests, [linters](https://cloudfour.com/thinks/code-linting-for-web-designers/), and type checkers. Here’s an example from a Vue project:
 
 ```json
@@ -47,7 +49,7 @@ We work on a lot of projects, and have a fairly standard setup we use to keep th
     "lint:css:check": "stylelint '**/*.{css,vue}'",
     "lint:prettier": "prettier . --write",
     "lint:prettier:check": "prettier . --check",
-    "type-check": "nuxt typecheck",
+    "type-check": "nuxt typecheck"
   }
 }
 ```
@@ -56,7 +58,7 @@ What those scripts actually do might vary. In a WordPress project, the `type-che
 
 The next step is to run those scripts automatically on every pull request. The CI tool we use most often is GitHub Actions.[^1] By creating a single file in the repository, we can ensure that every time a PR is opened, GitHub automatically runs a series of actions. Here’s an example of a GitHub Actions CI script from one of our projects:
 
-[^1]:	GitHub Actions is the tool we use most often, not because it’s the best, but because it’s integrated into GitHub, where our code already lives, and is easy to configure via a single file in the repo. In the past we’ve used Jenkins, Travis CI, Circle CI, GitLab CI, and Bitbucket Pipelines. They’re all fine. Pick the one that works best for your team and your stack.
+[^1]: GitHub Actions is the tool we use most often, not because it’s the best, but because it’s integrated into GitHub, where our code already lives, and is easy to configure via a single file in the repo. In the past we’ve used Jenkins, Travis CI, Circle CI, GitLab CI, and Bitbucket Pipelines. They’re all fine. Pick the one that works best for your team and your stack.
 
 {% raw %}
 
@@ -104,6 +106,7 @@ jobs:
 This script runs every time a PR is opened, and every time code is pushed to the `main` branch. It’s set to cancel any in-progress CI task if a new one is triggered. It checks out the code, installs the dependencies, and runs our npm scripts. We have all our repos configured to require that all status checks pass before merging. If any of the steps in our CI check fail, the PR is blocked and can’t be merged until the issues are addressed.
 
 ## CI Tooling is More Valuable in the AI Age
+
 I’m a big believer in automated code checking. I can’t count the number of times it’s saved us. Imagine a senior dev who doesn’t think their tiny change warrants a full review, but is accidentally passing the wrong property type. (Perhaps, in this entirely fictional example, the dev’s name was Scott.) Or a designer who just wants to update the brand color, but unintentionally changes the CSS file from tabs to spaces. By running automated checks against every change, we’ve greatly increased our confidence. I love it.
 
 And as more developers start experimenting with AI coding agents, these CI tools are becoming even more valuable. AI is improving, but it's still mostly operating at the level of an enthusiastic junior developer. Someone who knows how to code, but lacks real-world experience, and is perhaps a touch too eager to make clever changes to critical systems.
