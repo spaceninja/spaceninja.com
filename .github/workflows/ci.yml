@@ -22,7 +22,7 @@ jobs:
           node-version: 'lts/*'
           cache: 'npm'
       - name: Install dependencies 👨🏻‍💻
-        run: yarn install --frozen-lockfile
+        run: npm ci
       - name: Run linter 👀
         run: npm run lint:check
       - name: Run build 🏗
