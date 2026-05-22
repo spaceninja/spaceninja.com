@@ -1,34 +1,34 @@
 @mixin theme-light() {
   --color-bg: #fff;
-  --color-bg-alt: rgba(0 0 0 / 5%);
+  --color-bg-alt: rgb(0 0 0 / 5%);
   --color-fg: #333;
-  --color-overlay: rgba(255 255 255 / 90%);
-  --color-subtle: rgba(0 0 0 / 50%);
-  --color-border: rgba(0 0 0 / 20%);
+  --color-overlay: rgb(255 255 255 / 90%);
+  --color-subtle: rgb(0 0 0 / 50%);
+  --color-border: rgb(0 0 0 / 20%);
   --color-link: #34d;
   --color-link-underline: #{rgba(#34d, 0.25)};
   --color-link-visited: #692dd1;
   --color-link-visited-underline: rgba(#692dd1, 0.25);
-  --color-code: rgba(202 2 129 / 94%);
-  --color-bg-kbd: rgba(0 0 0 / 5%);
-  --color-border-kbd: rgba(0 0 0 / 20%);
+  --color-code: rgb(202 2 129 / 94%);
+  --color-bg-kbd: rgb(0 0 0 / 5%);
+  --color-border-kbd: rgb(0 0 0 / 20%);
   --color-handwriting: lch(30% 65 270deg); // basically dodgerblue but darker
 }
 
 @mixin theme-dark() {
   --color-bg: #121212;
-  --color-bg-alt: rgba(255 255 255 / 5%);
+  --color-bg-alt: rgb(255 255 255 / 5%);
   --color-fg: #ccc;
-  --color-overlay: rgba(0 0 0 / 75%);
-  --color-subtle: rgba(255 255 255 / 37.5%);
-  --color-border: rgba(255 255 255 / 15%);
+  --color-overlay: rgb(0 0 0 / 75%);
+  --color-subtle: rgb(255 255 255 / 37.5%);
+  --color-border: rgb(255 255 255 / 15%);
   --color-link: #bb86fc;
   --color-link-underline: #{rgba(#bb86fc, 0.5)};
   --color-link-visited: #8f95ff;
   --color-link-visited-underline: rgba(#8f95ff, 0.5);
-  --color-code: rgba(202 2 129 / 94%);
-  --color-bg-kbd: rgba(255 255 255 / 5%);
-  --color-border-kbd: rgba(255 255 255 / 20%);
+  --color-code: rgb(202 2 129 / 94%);
+  --color-bg-kbd: rgb(255 255 255 / 5%);
+  --color-border-kbd: rgb(255 255 255 / 20%);
   --color-handwriting: lch(60% 65 270deg); // basically dodgerblue
 }
 
