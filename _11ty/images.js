@@ -1,10 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import eleventyImage from '@11ty/eleventy-img';
-import {
-  eleventyImagePlugin,
-  eleventyImageTransformPlugin,
-} from '@11ty/eleventy-img';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import { resolvedImgPath } from './filters.js';
 import siteMetadata from '../src/_data/metadata.js';
 let rawMedia = fs.readFileSync('src/_data/media.json');

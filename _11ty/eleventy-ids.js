@@ -16,6 +16,11 @@ export default function (eleventyConfig, config = {}) {
           .replace(/[&,+()$~%.'":*?!<>{}]/g, '');
 
       if (existing_ids.indexOf(id) >= 0) {
+        let suffix = 1;
+        while (existing_ids.indexOf(`${id}-${suffix}`) >= 0) {
+          suffix += 1;
+        }
+        id = `${id}-${suffix}`;
       }
 
       return id;
