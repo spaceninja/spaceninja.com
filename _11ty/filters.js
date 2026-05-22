@@ -1,5 +1,4 @@
 import path from 'path';
-import { DateTime } from 'luxon';
 
 const imageAssetsPath = path.join('_assets', '_images');
 
@@ -18,24 +17,32 @@ const filters = {
   // Given a relative image file page, return the full path
   imgPath: imgPath,
 
-  // Date formatting (human readable)
-  // @see https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-  readableDate: (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(
-      format || 'DD',
-    );
+  // Date formatting (human readable), e.g. "Aug 6, 2014"
+  readableDate: (dateObj) => {
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      timeZone: 'UTC',
+    }).format(dateObj);
   },
 
   // Date formatting (machine readable)
   // @see https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   htmlDateString: (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+    return new Date(dateObj).toISOString().slice(0, 10);
   },
 
-  // Return the difference in years between two dates
+  // Return the whole number of years between an ISO date and today
   diffInYears: (dateISO) => {
-    const date = DateTime.fromISO(dateISO);
-    return Math.floor(Math.abs(date.diffNow('years').toObject().years));
+    const [year, month, day] = dateISO.split('-').map(Number);
+    const now = new Date();
+    let years = now.getFullYear() - year;
+    const monthDiff = now.getMonth() + 1 - month;
+    if (monthDiff < 0 || (monthDiff === 0 && now.getDate() < day)) {
+      years -= 1;
+    }
+    return years;
   },
 
   // Get the first `n` elements of a collection.
