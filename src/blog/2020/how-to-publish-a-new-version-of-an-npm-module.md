@@ -58,8 +58,7 @@ Here is my understanding of the steps that are most commonly expected to be run 
 5. Publish to npm:
    1. `npm publish`
 6. Publish to Git:
-   1. `git push`
-   2. `git push --tags`
+   1. `git push --follow-tags`
 7. Create a GitHub Release (optional)
 
 ### 1. Safety Checks
@@ -144,16 +143,10 @@ The `publish` command will add the updated package to the npm registry.
 
 ### 6. Publish to Git
 
-You’ll also want to make sure your changes are promoted to the Git repo.
+You’ll also want to make sure your changes are promoted to the Git repo. To include the new tag you made, you’ll need to run the `push` command with the `--follow-tags` flag:
 
 ```shell
-git push
-```
-
-Unfortunately, the `push` command doesn’t send tags. To push the new tag you made, you’ll need to run the `push` command again with the `--tags` flag:
-
-```shell
-git push --tags
+git push --follow-tags
 ```
 
 **Note:** It can be a good idea to add these commands to a [`postpublish` script](https://docs.npmjs.com/misc/scripts), so that when someone releases code to npm, it’s automatically merged to Git at the same time.
